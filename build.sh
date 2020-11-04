@@ -60,6 +60,8 @@ rm -rf *.zip
 
 rename 's/_[^_]*$//' */
 
+find . -name '*satellites.xml*' -type f | xargs rm -f
+
 setup_git() {
   git config --global user.email "bot@openvision.tech"
   git config --global user.name "Open Vision settings bot"
