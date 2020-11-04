@@ -62,7 +62,7 @@ rename 's/_[^_]*$//' */
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
-  git config --global user.name "Open Vision bot"
+  git config --global user.name "Open Vision settings bot"
 }
 
 commit_files() {
@@ -73,7 +73,7 @@ commit_files() {
 }
 
 upload_files() {
-  git remote add upstream https://${GH_TOKEN}@github.com/persianpros/GioppyGio-settings.git > /dev/null 2>&1
+  git remote add upstream https://${GH_TOKEN}@github.com/OpenVisionE2/GioppyGio-settings.git > /dev/null 2>&1
   git push --quiet upstream master || echo "failed to push with error $?"
 }
 
