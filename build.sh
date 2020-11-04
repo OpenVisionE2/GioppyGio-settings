@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Script by Persian Prince for https://github.com/OpenVisionE2
 
 rm -rf GioppyGio*
