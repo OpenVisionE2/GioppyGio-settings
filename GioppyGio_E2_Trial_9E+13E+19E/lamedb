@@ -48,6 +48,9 @@ transponders
 005a0000:0204:001d
 	s 12466000:41940000:1:3:90:2:0:1:2:0:2:33:1:0
 /
+005a0000:0204:001d
+	s 12466000:41940000:1:4:90:2:0:1:2:0:2:35:1:0
+/
 005a0000:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:8:0
 /
@@ -145,9 +148,6 @@ transponders
 	s 12466000:41940000:1:3:90:2:0:1:2:0:2:36:1:0
 /
 005ab0b2:0202:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:35:1:0
-/
-005ab0b2:0204:001d
 	s 12466000:41940000:1:3:90:2:0:1:2:0:2:35:1:0
 /
 005ab0b2:7918:217c
@@ -289,7 +289,7 @@ transponders
 	s 12322000:27500000:0:3:130:2:0
 /
 00820000:2008:fbff
-	s 12341000:29900000:1:3:130:2:0:1:1:0:2
+	s 12341000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:206c:fbff
 	s 12360420:29900000:0:4:130:2:0:1:1:0:2
@@ -298,7 +298,7 @@ transponders
 	s 12399000:29700000:0:2:130:2:0:1:2:0:2
 /
 00820000:2198:fbff
-	s 12418000:29900000:1:3:130:2:0:1:1:0:2
+	s 12418000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:2260:fbff
 	s 12466000:29900000:1:4:130:2:0:1:1:0:2
@@ -503,6 +503,9 @@ transponders
 /
 00c00000:03fc:0001
 	s 11508000:22000000:1:4:192:2:0
+/
+00c00000:03fd:0001
+	s 11523000:22000000:0:4:192:2:0
 /
 00c00000:03fe:0001
 	s 11538000:22000000:1:4:192:2:0
@@ -858,7 +861,7 @@ p:Cosmote,c:0001e9,c:01024d,c:0301e9,c:160185,C:0000
 Star
 p:Cosmote,c:0001f3,c:010257,c:0301f3,c:16018f,C:0000
 045b:005a0000:0004:00aa:1:0:0
-Viasat History
+Viasat History HD
 p:Cosmote,c:001013,c:0113fb,c:031013,c:160c2b,C:0000
 03ec:005a0000:0005:00aa:1:0:0
 Sirina TV HD
@@ -975,8 +978,8 @@ p:Cosmote,c:0001a3,c:010207,c:0301a3,c:16013f
 FOX Greece HD
 p:Cosmote,c:0001b6,c:01021a,c:0301b6,c:160152,C:0000
 041c:005a0000:0008:00aa:25:0:0
-Pop Up HD
-p:Cosmote,c:0001c4,c:0301c4,c:040228,c:160160,C:0000
+Cosmote Cinema Oscars HD
+p:Cosmote,C:0000
 0455:005a0000:0008:00aa:25:0:0
 Cosmote Sport 5 HD
 p:Cosmote,c:00100d,c:0113f5,c:03100d,c:160c25,C:0000
@@ -1002,10 +1005,10 @@ p:Cosmote,c:001021,c:011409,c:031021,c:160c39,C:0000
 CBS Reality
 p:Cosmote,c:001023,c:01140b,c:031023,c:160c3b,C:0000
 046c:005a0000:0008:00aa:1:0:0
-Viasat Nature CEE
+Viasat Nature HD
 p:Cosmote,c:001024,c:01140c,c:031024,c:160c3c,C:0000
 046d:005a0000:0008:00aa:1:0:0
-Viasat Explore
+Viasat Explore HD
 p:Cosmote,c:001025,c:01140d,c:031025,c:160c3d,C:0000
 046e:005a0000:0008:00aa:1:0:0
 Crime & Investigation Network
@@ -1223,12 +1226,18 @@ p:,c:0003d5,c:0103d6,c:0203d8,c:0303d5,c:1603d4
 002c:005a0000:0204:001d:1:0:0
 Real Time HD Italia
 p:,c:00099e,c:01099f,c:0209a0,c:03099e,c:16099d
+002c:005a0000:0204:001d:1:0:0
+Real Time HD Italia
+p:Persidera,c:00099e,c:01099f,c:0209a0,c:03099e,c:16099d
 0032:005a0000:0204:001d:1:0:0
 DMAX Italia
 p:Persidera,c:0004b0,c:0104b1,c:0204bb,c:0304b0,c:1600fa
 006a:005a0000:0204:001d:1:0:0
 Super!
-p:,c:00022c,c:01022d,c:03022c,c:160133
+p:Persidera,c:00022c,c:01022d,c:03022c,c:160133
+00da:005a0000:0204:001d:25:0:0
+Radio Freccia
+p:Persidera,c:000320,c:010321,c:030320,c:160123
 0001:005a0000:032a:0110:2:0:0
 Servizio 1
 p:,c:010246,c:031fff,c:160065
@@ -1406,9 +1415,6 @@ p:Kabelkiosk,c:0005fb,c:0205fe,c:0305fb,c:0405fc,c:1605fa,C:0000
 00e8:005a0000:1644:009c:25:0:0
 Tele 5 HD
 p:Kabelkiosk,c:00060f,c:020612,c:03060f,c:040610,c:16060e,C:0000
-00e9:005a0000:1644:009c:25:0:0
-MTV+ HD Germany
-p:Kabelkiosk,c:000623,c:030623,c:040624,c:160622,C:0000
 00ea:005a0000:1644:009c:25:0:0
 Sport 1 HD (Germany)
 p:Kabelkiosk,c:000581,c:030581,c:040582,c:160580,C:0000
@@ -1571,9 +1577,6 @@ p:Kabelkiosk,c:000817,c:030817,c:040818,c:160816,C:0000
 01a4:005a0000:1964:009c:25:0:0
 Disney Channel HD Germany
 p:Kabelkiosk,c:00082b,c:02082e,c:03082b,c:04082c,c:16082a,C:0000
-01a5:005a0000:1964:009c:1:0:0
-MTV+ Germany
-p:Kabelkiosk,c:0006a5,c:0106a6,c:0206a8,c:0306a5,c:1606a4
 00ca:005a0000:19c8:009e:25:0:0
 M6 HD
 p:GLOBECAST,c:0007e4,c:0307e4,c:0407e5,c:161452
@@ -1583,6 +1586,9 @@ p:GLOBECAST,c:0007f8,c:0307f8,c:0407f9,c:161454
 00cd:005a0000:19c8:009e:25:0:0
 W9 Suisse HD
 p:GLOBECAST,c:000802,c:030802,c:040803,c:161455
+015f:005a0000:19c8:009e:1:0:0
+Hwazan Satellite TV
+p:ADTH,c:000db7,c:010db8,c:030db7,c:1600ff
 0160:005a0000:19c8:009e:1:0:0
 RTG International
 p:GLOBECAST,c:000dc1,c:010dc2,c:030dc1,c:160100
@@ -1907,9 +1913,6 @@ p:Joyne,c:000835,c:010836,c:030835,c:160834,C:0000
 032c:005a0000:c35a:009e:1:0:0
 VTM Kids
 p:Joyne,c:000899,c:01089a,c:030899,c:160898,C:0000
-032d:005a0000:c35a:009e:1:0:0
-CAZ2
-p:Joyne,c:0008fd,c:0108fe,c:0308fd,c:1608fc,C:0000
 032e:005a0000:c35a:009e:25:0:0
 Ziggo Voetbal HD
 p:Joyne,c:000961,c:010962,c:030961,c:160960,C:0000
@@ -2036,9 +2039,6 @@ p:Joyne,c:000bb9,c:010bba,c:030bb9,c:160bb8,C:0000
 020b:005a0000:c364:009e:1:0:0
 Penthouse Gold
 p:Joyne,c:000c81,c:010c82,c:030c81,c:160c80,C:0000
-020c:005a0000:c364:009e:1:0:0
-Penthouse Quickies
-p:Joyne,c:000ce5,c:010ce6,c:030ce5,c:160ce4,C:0000
 020d:005a0000:c364:009e:1:0:0
 24 Kitchen
 p:Joyne,c:000dad,c:010dae,c:030dad,c:160dac,C:0000
@@ -2321,15 +2321,6 @@ p:Persidera,c:000399,c:01039a,c:030399,c:160398
 0091:005ab0b2:0202:001d:25:0:0
 RDS Social TV
 p:Persidera,c:0003a3,c:0103a4,c:0303a3,c:1603a2
-002c:005ab0b2:0204:001d:1:0:0
-Real Time HD Italia
-p:Persidera,c:00099e,c:01099f,c:0209a0,c:03099e,c:16099d
-006a:005ab0b2:0204:001d:1:0:0
-Super!
-p:Persidera,c:00022c,c:01022d,c:03022c,c:160133
-00da:005ab0b2:0204:001d:25:0:0
-Radio Freccia
-p:Persidera,c:000320,c:010321,c:030320,c:160123
 03e8:00820000:005e:0055:1:0:0
 Dorama
 p:XTRA TV,c:0003ea,c:0103eb,c:0303ea,c:1603e9,C:0000
@@ -2567,6 +2558,9 @@ p:,c:0007e0,c:010bc8,c:0307e0,c:1603f8
 08b3:00820000:01f4:013e:2:0:0
 WELAT
 p:iKOMG,c:030bd3,c:160403
+08ca:00820000:01f4:013e:25:0:0
+Rudaw Pope Visit
+p:Eutelsat,c:000021,c:030021,c:160020
 0003:00820000:02bc:013e:1:0:0
 Kentron TV
 p:iKO Media Group,c:000515,c:030515,c:160107
@@ -3162,7 +3156,7 @@ p:Sky Italia,c:0000ab,c:0101a8,c:0300ab,c:1603f5,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-Gangster Collection HD
+War Collection HD
 p:Sky Italia,c:0000a6,c:0202c2,c:0300a6,c:04019d,c:1603ef,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -3236,6 +3230,9 @@ p:Nova,c:00020c,c:01020d,c:03020c,c:050001
 0150:00820000:157c:013e:25:0:0
 Nova Sports 3 HD
 p:Nova,c:000212,c:0102da,c:030212,c:160136
+0151:00820000:157c:013e:25:0:0
+Novasports Extra 2 HD
+p:Nova,c:000201,c:010294,c:030201,c:160137,C:0000
 0dbb:00820000:15e0:fbff:1:0:0
 NatGeo Wild HD
 p:Sky Italia,c:0000b5,c:0202c3,c:0300b5,c:0401ba,c:1603f6,C:0000
@@ -3243,7 +3240,7 @@ p:Sky Italia,c:0000b5,c:0202c3,c:0300b5,c:0401ba,c:1603f6,C:0000
 Sky Cinema Due HD
 p:Sky Italia,C:0000
 0fc1:00820000:15e0:fbff:1:0:0
-Fox Crime +1 Italia
+Fox Crime NCIS
 p:Sky Italia,C:0000
 1e53:00820000:15e0:fbff:25:0:0
 MTV Italia HD
@@ -3404,6 +3401,9 @@ p:Nova,c:000206,c:0102c6,c:030206,C:0000
 1bc7:00820000:17d4:013e:25:0:0
 Disney Channel Greece
 p:Nova,c:000208,c:0102da,c:030208,c:050001
+1bc8:00820000:17d4:013e:25:0:0
+Nova Sports Extra 3 HD
+p:Nova,c:000209,c:0102e4,c:030209,c:16010b,C:0000
 1bca:00820000:17d4:013e:25:0:0
 Nova Cinema 2 HD
 p:Nova,c:000211,c:01030d,c:030211,c:050001
@@ -3591,7 +3591,7 @@ p:Sky Italia,c:0000ab,c:0101a2,c:0300ab,c:160466,C:0000
 Primafila HD
 p:SkyItalia
 2c5b:00820000:19c8:fbff:1:0:0
-Cartoon Network +1
+Siamo Solo Orsi
 p:Sky Italia,c:0000aa,c:0101a0,c:0201db,c:0300aa,c:160465,C:0000
 2cc4:00820000:19c8:fbff:1:0:0
 DeA Kids
@@ -3648,7 +3648,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-Gangster Collection
+War Collection
 p:Sky Italia,c:0000a8,c:0101b0,c:0202c5,c:0300a8,c:160459,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -3684,7 +3684,7 @@ p:Sky Italia,c:0000ad,c:0101ac,c:0300ad,c:1603f5,C:0000
 History +1
 p:Sky Italia,c:0000b0,c:0101b2,c:0202c1,c:0300b0,c:1603f8,C:0000
 0fda:00820000:1af4:fbff:1:0:0
-National Geographic Archeologia
+National Geographic Italy +1
 p:Sky Italia,c:0000b3,c:0101b6,c:0202c2,c:0300b3,c:1603fb,C:0000
 1101:00820000:1af4:fbff:1:0:0
 Doctor´s Life
@@ -3720,8 +3720,8 @@ p:Sky Italia,c:0000bb,c:0101c0,c:0300bb,c:160405,C:0000
 Food Network HD Italy
 p:Sky Italia,C:0000
 3424:00820000:1af4:fbff:1:0:0
-Nat Geo Wild +1 Italia
-p:Sky Italia,c:0000a6,c:0101a8,c:0300a6,c:1603ef,C:0000
+NGW In Viaggio
+p:Sky Italia,C:0000
 37ad:00820000:1af4:fbff:25:0:0
 DMAX HD Italia
 p:Sky Italia,C:0000
@@ -4293,7 +4293,7 @@ p:Sky Italia,c:0000a1,c:010190,c:0202bd,c:0300a1,c:16044d,C:0000
 Sky Uno +1
 p:Sky Italia,c:0000ae,c:0101b0,c:0202c0,c:0300ae,c:16045e,C:0000
 2d00:00820000:206c:fbff:1:0:0
-Sky Atlantic Maratone
+Sky Atlantic +1 HD Italia
 p:Sky Italia,C:0000
 2da2:00820000:206c:fbff:25:0:0
 Premium Cinema +24 HD
@@ -5831,6 +5831,15 @@ p:M-Three satcom,c:0007a9,c:0107aa,c:0307a9
 052c:00820000:3d54:013e:25:0:0
 Paramount Channel HD Italy
 p:Sky Italia,c:0007b3,c:0107b4,c:0307b3,c:1607b2,C:0000
+052d:00820000:3d54:013e:25:0:0
+Spike Italia HD
+p:Sky Italia,c:0007bd,c:0107be,c:0307bd,c:1607bc,C:0000
+052e:00820000:3d54:013e:25:0:0
+VH-1 Italia HD
+p:Sky Italia,c:0007c7,c:0107c8,c:0307c7,c:1607c6,C:0000
+052f:00820000:3d54:013e:1:0:0
+Super!
+p:Sky Italia,c:0007d1,c:0107d2,c:0307d1,c:1607d0,C:0000
 0530:00820000:3d54:013e:1:0:0
 People TV
 p:RETE 7,c:0006cd,c:0106ce,c:0306cd,f:40
@@ -6869,6 +6878,39 @@ p:GlobeCast,c:0002c5,c:0102d9,c:0302c5
 1b64:00c00000:03fc:0001:25:0:0
 Arirang TV HD
 p:Globecast,c:0002c8,c:0102dc,c:0302c8,c:1602fa
+6eac:00c00000:03fd:0001:25:0:0
+WDR HD Köln
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:160064
+6ead:00c00000:03fd:0001:25:0:0
+WDR HD Aachen
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:16006e
+6eae:00c00000:03fd:0001:25:0:0
+WDR HD Bielefeld
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:160078
+6eaf:00c00000:03fd:0001:25:0:0
+WDR HD Bonn
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:160082
+6eb0:00c00000:03fd:0001:25:0:0
+WDR HD Dortmund
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:16008c
+6eb1:00c00000:03fd:0001:25:0:0
+WDR HD Duisburg
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:160096
+6eb2:00c00000:03fd:0001:25:0:0
+WDR HD Düsseldorf
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:1600a0
+6eb3:00c00000:03fd:0001:25:0:0
+WDR HD Essen
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:1600aa
+6eb4:00c00000:03fd:0001:25:0:0
+WDR HD Münster
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:1600b4
+6eb5:00c00000:03fd:0001:25:0:0
+WDR HD Siegen
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:1600be
+6eb6:00c00000:03fd:0001:25:0:0
+WDR HD Wuppertal
+p:ARD Digital,c:000065,c:020068,c:030065,c:040066,c:1600c8
 1af9:00c00000:03fe:0001:1:0:0
 France 24 (en Français)
 p:GLOBECAST,c:00025d,c:010271,c:021a2d,c:03025d
@@ -7052,18 +7094,33 @@ p:Movistar+ (Astra),c:0000ab,c:01007c,c:0300ab
 77bd:00c00000:040a:0001:1:0:0
 Movistar LaLiga 2
 p:Movistar+,c:0000a1,c:010054,c:031429,c:160401,C:0000
+77bf:00c00000:040a:0001:1:0:0
+Movistar Deportes 3
+p:Movistar+,c:0000a2,c:010059,c:03142a,c:16040c,C:0000
 77c1:00c00000:040a:0001:1:0:0
 Canal Hollywood
 p:Movistar+ (Astra),c:0000a6,c:010068,c:020032,c:0300a6
+77c2:00c00000:040a:0001:1:0:0
+Movistar Deportes 2
+p:Movistar+,c:0000a7,c:01006c,c:03142f,c:160409,C:0000
 77c3:00c00000:040a:0001:1:0:0
 Movistar Liga Campeones
 p:Movistar+,c:0000a5,c:010064,c:03142d,c:16040f,C:0000
+77c4:00c00000:040a:0001:1:0:0
+Movistar Liga Campeones 4
+p:Movistar+,c:0000a9,c:010074,c:031431,c:160404,C:0000
 77c6:00c00000:040a:0001:1:0:0
 Movistar Cine Doc & Roll
 p:Movistar+ (Astra),c:0000a4,c:010060,c:02002c,c:0300a4
 77c7:00c00000:040a:0001:1:0:0
 DreamWorks
 p:Movistar+,c:0000ad,c:010084,c:031435,c:160405,C:0000
+77c8:00c00000:040a:0001:1:0:0
+Movistar Deportes 4
+p:Movistar+,c:0000ae,c:010088,c:031436,c:160407,C:0000
+77c9:00c00000:040a:0001:1:0:0
+Movistar LaLiga 4
+p:Movistar+,C:0000
 77d8:00c00000:040a:0001:1:0:0
 Movistar Liga Campeones 3
 p:Movistar+,c:0000a8,c:010070,c:031430,c:16040b,C:0000
@@ -7383,8 +7440,8 @@ p:Movistar+ (Astra),c:0000aa,c:010078,c:02003e,c:0300aa
 Gol
 p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
 74a4:00c00000:041c:0001:1:0:0
-Movistar Formula1
-p:Movistar+ (Astra),c:0000a6,c:010068,c:0300a6
+DAZN F1
+p:Movistar+ (Astra),C:0000
 74a6:00c00000:041c:0001:1:0:0
 La Sexta
 p:Movistar+,c:0000ab,c:01007c,c:020041,c:031433,c:16040c,C:0000
@@ -7451,9 +7508,6 @@ p:Movistar+ (Astra),c:0000a3,c:01005c,c:0300a3
 769a:00c00000:041e:0001:1:0:0
 LaLiga TV Bar 2
 p:Movistar+,c:000fd7,c:010fd8,c:030fd7,c:160412,C:0000
-769b:00c00000:041e:0001:1:0:0
-Movistar LaLiga 4
-p:Movistar+,c:0000a4,c:010060,c:0300a4,c:160404,C:0000
 76a4:00c00000:041e:0001:1:0:0
 DAZN 1 Spain
 p:Movistar+,c:0000a2,c:010058,c:0300a2,c:160416,C:0000
@@ -7596,8 +7650,8 @@ p:ARD Digital,c:0014d3,c:0114d4,c:0214d6,c:0314d3,c:050001
 hr-fernsehen HD
 p:ARD Digital,c:0014e7,c:0114e8,c:0214ea,c:0314e7,c:050001
 7531:00c00000:0426:0001:25:0:0
-Movistar F1 HD
-p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
+DAZN F1 HD
+p:Movistar+ (Astra),C:0000
 7532:00c00000:0426:0001:25:0:0
 Movistar Deportes 1 HD
 p:Movistar+,C:0000
@@ -7893,7 +7947,7 @@ p:MTV Networks,c:000fdd,c:010fde,c:020fe0,c:030fdd
 MTV Germany
 p:MTV Networks,c:000ff1,c:010ff2,c:030ff1
 7008:00c00000:0436:0001:1:0:0
-MTV+ Germany
+Comedy Central +1 Germany
 p:MTV Networks,c:001005,c:011006,c:021008,c:031005,c:1601a4
 6d66:00c00000:0437:0001:1:0:0
 ZDF
@@ -9117,5 +9171,5 @@ p:Canal+ France,c:00051e,c:010529,c:03051e,C:0000
 Série Club HD
 p:Canal+ France,c:000582,c:030582,c:04058d,c:160578,C:0000
 end
-# 237 transponders and 2801 services.
-# Created by E-Channelizer v20.1.0.1220 on 25 feb, 2021 at 18:11 - https://www.echannelizer.com
+# 238 transponders and 2818 services.
+# Created by E-Channelizer v20.1.0.1220 on 06 mar, 2021 at 17:37 - https://www.echannelizer.com
