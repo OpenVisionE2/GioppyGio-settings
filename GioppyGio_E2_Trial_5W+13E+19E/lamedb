@@ -139,7 +139,7 @@ transponders
 	s 12341000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:206c:fbff
-	s 12360420:29900000:0:4:130:2:0:1:1:0:2
+	s 12360000:29900000:0:4:130:2:0:1:1:0:2
 /
 00820000:2134:013e
 	s 12399000:29700000:0:2:130:2:0:1:2:0:2
@@ -191,9 +191,6 @@ transponders
 /
 00820000:2d50:013e
 	s 10834000:27500000:1:3:130:2:0:1:2:0:2
-/
-00820000:2db4:013e
-	s 10853000:27000000:0:2:130:2:0:1:1:0:2
 /
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
@@ -278,6 +275,9 @@ transponders
 /
 00c00000:0007:0085
 	s 12148000:27500000:0:3:192:2:0
+/
+00c00000:0008:0085
+	s 12070000:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0009:0085
 	s 11170000:22000000:0:3:192:2:0:1:2:0:2
@@ -565,16 +565,13 @@ transponders
 	s 11179000:30000000:1:7:-50:2:0:1:2:0:2:12:16416:0
 /
 0dde0000:0001:20fa
-	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:1:50416:0
-/
-0dde0000:0001:20fa
 	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:1:50416:1
 /
 0dde0000:0002:013e
 	s 11012000:30000000:1:7:-50:2:0:1:2:0:2:2:16416:0
 /
 0dde0000:0002:20fa
-	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:2:121212:0
+	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:2:121212:1
 /
 0dde0000:0003:20fa
 	s 11456000:2400000:0:3:-50:2:0:1:1:0:2
@@ -583,22 +580,28 @@ transponders
 	s 11179000:30000000:1:7:-50:2:0:1:2:0:2:4:16416:0
 /
 0dde0000:0004:20fa
-	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:4:50416:0
+	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:4:50416:1
 /
 0dde0000:0005:013e
 	s 11179000:30000000:1:7:-50:2:0:1:2:0:2:5:16416:0
 /
 0dde0000:0006:20fa
-	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:6:50416:0
+	s 11509000:29500000:0:6:-50:2:0:1:2:0:2:6:50416:1
 /
 0dde0000:000a:20fa
-	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:1:121212:0
+	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:1:121212:1
 /
 0dde0000:00fa:00c8
 	s 11012000:30000000:1:7:-50:2:0:1:2:0:2:11:16416:0
 /
+0dde0000:0107:217c
+	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:1:8:0
+/
 0dde0000:032a:0110
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:3:8:0
+/
+0dde0000:03b6:0110
+	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:2:8:0
 /
 0dde0000:2711:0090
 	s 11480000:3215000:0:3:-50:2:0:1:2:0:2
@@ -673,19 +676,13 @@ transponders
 	s 11465000:667000:0:7:-50:2:0:1:2:0:2
 /
 0dde2d9c:0001:013e
-	s 11676000:30000000:0:2:-50:2:0:1:2:0:2:9:16416:0
-/
-0dde317d:0107:217c
-	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:1:8:0
-/
-0dde317d:03b6:0110
-	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:2:8:0
+	s 11676000:30000000:0:2:-50:2:0:1:2:0:2:8:16416:0
 /
 0ddead75:0001:013e
 	s 11637000:30000000:1:7:-50:2:0:1:2:0:2:1:16416:0
 /
 0ddeb168:0003:20fa
-	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:0
+	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
 /
 end
 services
@@ -1524,7 +1521,7 @@ p:Sky Italia,c:0000ab,c:0101a8,c:0300ab,c:1603f5,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-War Collection HD
+Crime Collection HD
 p:Sky Italia,c:0000a6,c:0202c2,c:0300a6,c:04019d,c:1603ef,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -2016,7 +2013,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-War Collection
+Crime Collection
 p:Sky Italia,c:0000a8,c:0101b0,c:0202c5,c:0300a8,c:160459,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2088,7 +2085,7 @@ p:Sky Italia,c:0000bb,c:0101c0,c:0300bb,c:160405,C:0000
 Food Network HD Italy
 p:Sky Italia,C:0000
 3424:00820000:1af4:fbff:1:0:0
-NGW In Viaggio
+Nat Geo Wild +1 Italia
 p:Sky Italia,C:0000
 37ad:00820000:1af4:fbff:25:0:0
 DMAX HD Italia
@@ -3617,6 +3614,15 @@ p:SSR/SRG,c:000214,c:010215,c:020219,c:030214,c:050001
 4334:00820000:300c:013e:25:0:0
 RTS Deux HD
 p:SSR/SRG,c:00021e,c:01021f,c:020223,c:03021e,c:050001
+4336:00820000:300c:013e:25:0:0
+SRF info HD
+p:Schweizer Radio und Fernsehen,c:00020a,c:02020f,c:03020a,c:04020b,c:160209
+4337:00820000:300c:013e:1:0:0
+RSI La 1 HD
+p:Radiotelevisione svizzera,c:000228,c:02022d,c:030228,c:040229,c:160227,C:0000
+4338:00820000:300c:013e:1:0:0
+RSI La 2 HD
+p:Radiotelevisione svizzera,c:000232,c:020237,c:030232,c:040233,c:160231,C:0000
 2136:00820000:3070:013e:1:6426:0
 Rai Movie
 p:RAI,c:0000c8,c:010320,c:0300c8,C:0000
@@ -4198,7 +4204,7 @@ RTL 102.5 Radio Doc
 p:M-Three satcom,c:0007a9,c:0107aa,c:0307a9
 052c:00820000:3d54:013e:25:0:0
 Paramount Channel HD Italy
-p:Sky Italia,c:0007b3,c:0107b4,c:0307b3,c:1607b2,C:0000
+p:Sky Italia,c:0007b3,c:0307b3,c:0407b4,c:1607b2,C:0000
 052d:00820000:3d54:013e:25:0:0
 Spike Italia HD
 p:Sky Italia,c:0007bd,c:0107be,c:0307bd,c:1607bc,C:0000
@@ -4523,27 +4529,12 @@ p:Kabelkiosk,c:0006ff,c:010700,c:020020,c:0306ff,C:0000
 0110:00c00000:0002:0085:1:0:0
 Sky Sport Bundesliga 3
 p:Kabelkiosk,c:000eff,c:010f00,c:020020,c:030eff,C:0000
-0111:00c00000:0002:0085:1:0:0
-Sky Sport 4 Germany
-p:Kabelkiosk,c:000fff,c:011000,c:020020,c:030fff,C:0000
-011a:00c00000:0002:0085:1:0:0
-Sky Sport Bundesliga 4
-p:Kabelkiosk,c:0011ff,c:011200,c:020020,c:0311ff,C:0000
-011b:00c00000:0002:0085:1:0:0
-Sky Sport 5 Germany
-p:Kabelkiosk,c:0012ff,c:011300,c:020020,c:0312ff,C:0000
 013e:00c00000:0002:0085:25:0:0
 Sky Sport 8 HD Germany
 p:Kabelkiosk,c:0018ff,c:020020,c:0318ff,c:041902,C:0000
 0140:00c00000:0002:0085:25:0:0
 Eurosport360 HD 6
 p:Kabelkiosk,c:0019ff,c:0319ff,c:041a03
-014c:00c00000:0002:0085:1:0:0
-Sky Sport Bundesliga 9
-p:Sky Deutschland,c:0012ff,c:011300,c:020020,c:0312ff,C:0000
-014d:00c00000:0002:0085:1:0:0
-Sky Sport 10 Germany
-p:Sky Deutschland,c:000aff,c:010b00,c:020020,c:030aff,C:0000
 0150:00c00000:0002:0085:1:0:0
 Sky Sport Austria 3
 p:Sky Deutschland,c:0003ff,c:010400,c:020020,c:0303ff,c:160063,C:0000
@@ -4562,6 +4553,9 @@ p:Sky Deutschland,C:0000
 0009:00c00000:0003:0085:1:0:0
 Sky Cinema Action Germany
 p:Sky Deutschland,c:0002ff,c:010300,c:0302ff,c:160062
+0011:00c00000:0003:0085:1:0:0
+Sky Sport F1 HD Germany
+p:Sky Deutschland,c:020020,c:0306ff,c:040702,c:160066,C:0000
 001c:00c00000:0003:0085:1:0:0
 Boomerang Germany
 p:Sky Deutschland,c:0004ff,c:010500,c:0304ff,c:160064,C:0000
@@ -4574,9 +4568,6 @@ p:Kabelkiosk,c:0007ff,c:010803,c:0307ff,c:160067
 00fc:00c00000:0003:0085:1:0:0
 Sky Sport Bundesliga 10
 p:Sky Deutschland
-00fd:00c00000:0003:0085:1:0:0
-Sky Sport 11
-p:Kabelkiosk,c:001bff,c:011c00,c:020020,c:031bff,C:0000
 00ff:00c00000:0003:0085:1:0:0
 Sky Sport Austria 4
 p:Sky Deutschland,c:0000ff,c:010100,c:020020,c:0300ff,c:160060,C:0000
@@ -4586,21 +4577,6 @@ p:Kabelkiosk,c:000aff,c:010b00,c:020020,c:030aff,C:0000
 0107:00c00000:0003:0085:1:0:0
 Sky Sport 3 Germany
 p:Sky Deutschland,c:000bff,c:010c00,c:020020,c:030bff,C:0000
-0124:00c00000:0003:0085:1:0:0
-Sky Bundesliga
-p:Sky Deutschland,c:0014ff,c:011500,c:020020,c:0314ff,C:0000
-0124:00c00000:0003:0085:25:0:0
-Sky Bundesliga
-p:Sky Deutschland,c:0014ff,c:011500,c:020020,c:0314ff
-0125:00c00000:0003:0085:1:0:0
-Sky Sport 6 Germany
-p:Sky Deutschland,c:000eff,c:010f00,c:020020,c:030eff,C:0000
-012e:00c00000:0003:0085:1:0:0
-Sky Sport Bundesliga 6
-p:Kabelkiosk,c:0017ff,c:011800,c:020020,c:0317ff,C:0000
-012f:00c00000:0003:0085:1:0:0
-Sky Sport 7
-p:Sky Deutschland,c:000dff,c:010e00,c:020020,c:030dff,C:0000
 0138:00c00000:0003:0085:1:0:0
 Sky Sport Bundesliga 7
 p:Kabelkiosk,c:000eff,c:010f00,c:020020,c:030eff,C:0000
@@ -4610,12 +4586,15 @@ p:Kabelkiosk,c:000fff,c:011000,c:020020,c:030fff,C:0000
 0142:00c00000:0003:0085:1:0:0
 Sky Sport Bundesliga 8
 p:Kabelkiosk,c:0011ff,c:011200,c:020020,c:0311ff,C:0000
-0143:00c00000:0003:0085:1:0:0
-Sky Sport 9
-p:Kabelkiosk,c:0012ff,c:011300,c:020020,c:0312ff,C:0000
 0145:00c00000:0003:0085:1:0:0
 Sky Sport Austria 2
 p:Sky Deutschland,c:0001ff,c:010200,c:020020,c:0301ff,c:160061,C:0000
+017d:00c00000:0003:0085:25:0:0
+Sky Sport 12 HD
+p:Sky Deutschland,c:0005ff,c:020020,c:0305ff,c:040602,c:160065,C:0000
+0182:00c00000:0003:0085:25:0:0
+Sky Sport 13 HD
+p:Sky Deutschland,c:0008ff,c:020020,c:0308ff,c:040902,c:160068,C:0000
 000a:00c00000:0004:0085:1:0:0
 Sky Cinema Premieren
 p:Sky Deutschland,c:0000ff,c:010100,c:0300ff,c:160060
@@ -4712,9 +4691,6 @@ p:Sky Deutschland,C:0000
 010e:00c00000:0006:0085:25:0:0
 Eurosport360 HD 1
 p:Kabelkiosk,c:000eff,c:010f03,c:020020,c:030eff
-014a:00c00000:0006:0085:25:0:0
-Eurosport360 HD 7
-p:Kabelkiosk,c:0014ff,c:0314ff,c:041503,C:0000
 0204:00c00000:0006:0085:1:0:0
 Sky Cinema Classics
 p:Sky Deutschland,c:0006ff,c:010700,c:0306ff,c:160066,C:0000
@@ -4769,6 +4745,9 @@ p:BetaDigital,c:000300,c:0102ff,c:030300,c:160061
 0307:00c00000:0007:0085:1:0:0
 MediaShop - Meine Einkaufswelt
 p:BetaDigital,c:0004ff,c:010500,c:0304ff
+0149:00c00000:0008:0085:1:0:0
+Sky Sport Austria 2 HD
+p:Sky Deutschland,c:0013ff,c:0313ff,c:041402,c:160073,C:0000
 0065:00c00000:0009:0085:25:0:0
 Universal HD Germany
 p:Sky Deutschland,c:0005ff,c:010603,c:0305ff,c:160065
@@ -4829,24 +4808,15 @@ p:Sky Deutschland,c:0018ff,c:020020,c:0318ff,c:041902,c:160078,C:0000
 0104:00c00000:000b:0085:25:0:0
 Eurosport 360 HD 9
 p:Kabelkiosk,c:0015ff,c:0315ff,c:041603
-0159:00c00000:000b:0085:1:0:0
-Blue Movie
-p:Kabelkiosk,c:0010ff,c:011100,c:0310ff,c:160070
-0163:00c00000:000b:0085:1:0:0
-Blue Movie 2
-p:Kabelkiosk,c:0011ff,c:011200,c:0311ff,c:160071
-016d:00c00000:000b:0085:1:0:0
-Blue Movie 3
-p:Kabelkiosk,c:0012ff,c:011300,c:0312ff,c:160072
+0187:00c00000:000b:0085:25:0:0
+Sky Sport 14 HD
+p:Sky Deutschland,c:0005ff,c:020020,c:0305ff,c:040602,c:160065,C:0000
 0192:00c00000:000b:0085:25:0:0
 Crime + Investigation Germany
 p:Sky Deutschland,C:0000
 0194:00c00000:000b:0085:25:0:0
 Cartoon Network
 p:Sky Deutschland,c:0006ff,c:010700,c:0306ff
-0201:00c00000:000b:0085:1:0:0
-Blue Movie
-p:Kabelkiosk,c:0009ff,c:01050f,c:0309ff,c:160069
 0069:00c00000:000c:0085:25:0:0
 Sky Bundesliga HD 1
 p:Kabelkiosk,c:0000ff,c:010102,c:020021,c:0300ff
@@ -5078,9 +5048,6 @@ p:GoTV,c:000c58,c:010c59,c:030c58
 3405:00c00000:03ed:0001:25:0:0
 Melodie TV
 p:-,c:000c62,c:010c63,c:030c62
-1078:00c00000:03ee:0001:25:0:0
-Rai News 24
-p:RAI,c:000208,c:0102b2,c:020257,c:030208,c:050001
 1086:00c00000:03ee:0001:31:0:0
 QVC UHD Germany
 p:MX1,c:0000ff,c:010100,c:020037,c:0300ff
@@ -5180,6 +5147,12 @@ p:GLOBECAST,c:01070a,c:03070a,c:160708
 18f3:00c00000:03f4:0001:2:0:0
 RADIO GALEGA MUSICA
 p:GLOBECAST,c:01076e,c:03076e,c:16076c
+18f4:00c00000:03f4:0001:1:0:0
+S Neu Jerusalem
+p:GLOBECAST,c:000439,c:01043a,c:030439,c:160438
+18f5:00c00000:03f4:0001:1:0:0
+Rai News 24
+p:GLOBECAST,c:000443,c:010444,c:02044c,c:030443,c:160442
 307a:00c00000:03f5:0001:31:0:0
 RTL UHD
 p:HD +
@@ -5201,6 +5174,12 @@ p:Movistar+ (Astra),c:0000a4,c:010060,c:0300a4
 74d5:00c00000:03f8:0001:1:0:0
 Movistar Liga Campeones 1
 p:Movistar+,c:0000a4,c:0300a4,c:040060,c:160408,C:0000
+74d6:00c00000:03f8:0001:25:0:0
+DAZN 4 HD Spain
+p:Movistar+,c:0000a3,c:010064,c:0300a3,c:16040a,C:0000
+74d8:00c00000:03f8:0001:25:0:0
+DAZN 3 HD Spain
+p:Movistar+,c:0000a0,c:010050,c:0300a0,c:16040c,C:0000
 ef74:00c00000:03f9:0001:25:0:0
 Sat 1 HD
 p:HD +,c:0000ff,c:010103,c:020020,c:0300ff,C:0000
@@ -5462,9 +5441,15 @@ p:Movistar+ (Astra),c:0000ab,c:01007c,c:0300ab
 77bd:00c00000:040a:0001:1:0:0
 Movistar LaLiga 2
 p:Movistar+,c:0000a1,c:010054,c:031429,c:160401,C:0000
+77be:00c00000:040a:0001:1:0:0
+DAZN 3 Spain
+p:Movistar+,c:0000a0,c:010050,c:031428,c:160403,C:0000
 77bf:00c00000:040a:0001:1:0:0
 Movistar Deportes 3
 p:Movistar+,c:0000a2,c:010059,c:03142a,c:16040c,C:0000
+77c0:00c00000:040a:0001:1:0:0
+DAZN 4 Spain
+p:Movistar+,c:0000aa,c:010078,c:031432,c:160402,C:0000
 77c1:00c00000:040a:0001:1:0:0
 Canal Hollywood
 p:Movistar+ (Astra),c:0000a6,c:010068,c:020032,c:0300a6
@@ -6095,9 +6080,6 @@ p:Canal+ France,c:0001fe,c:010209,c:0301fe,c:050001
 1f46:00c00000:042e:0001:25:0:0
 Histoire HD
 p:Canal+ France,c:000262,c:01026d,c:030262
-1f47:00c00000:042e:0001:25:0:0
-RMC Sport 4 HD
-p:Canal+ France,c:0002c6,c:0102d1,c:0302c6
 1f48:00c00000:042e:0001:25:0:0
 Nickelodeon HD France
 p:Canal+ France,c:00032a,c:010335,c:020349,c:03032a
@@ -7547,13 +7529,13 @@ p:RAI,c:01028d,c:03028d,c:160103
 0101:0dde0000:0001:20fa:25:0:0
 France 2 HD
 p:GR1 A,c:000078,c:010082,c:030078,c:16006e
-0104:0dde0000:0001:20fa:25:0:0
+0104:0dde0000:0001:20fa:1:0:0
 France 4
 p:GR1 A,c:000140,c:01014a,c:030140,c:160136
 0105:0dde0000:0001:20fa:25:0:0
 CultureBox
 p:GR1 B,c:000208,c:010212,c:030208,c:1601fe
-0106:0dde0000:0001:20fa:25:0:0
+0106:0dde0000:0001:20fa:1:0:0
 franceinfo:
 p:GR1 A,c:00026c,c:010276,c:03026c,c:160262
 0110:0dde0000:0001:20fa:25:0:0
@@ -7683,7 +7665,7 @@ p:SMR6,c:0002d0,c:0102da,c:0302d0,c:1602bc
 TF1 Séries Films
 p:MHD7,c:000078,c:010082,c:030078,c:160064
 0a02:0dde0000:000a:20fa:25:0:0
-L´Equipe 21
+L'Equipe 21
 p:MHD7,c:0000dc,c:0100e6,c:0300dc,c:1600d2
 0a03:0dde0000:000a:20fa:25:0:0
 Cherie 25
@@ -7697,12 +7679,45 @@ p:MHD7,c:000208,c:010212,c:030208,c:1601f4
 0c83:0dde0000:00fa:00c8:1:0:0
 Rai 3 TGR Piemonte
 p:RAI,c:00020c,c:010296,c:02024c,c:03020c,c:160100
+02c7:0dde0000:0107:217c:1:0:0
+La 7
+p:,c:0003ca,c:0103cb,c:0303ca,c:16006f
+02c8:0dde0000:0107:217c:1:0:0
+La 7 d
+p:,c:0003de,c:0103df,c:0303de,c:160070
+02ef:0dde0000:0107:217c:25:0:0
+La 7 HD
+p:,c:0005fa,c:0305fa,c:0405fc,c:160097
+02f0:0dde0000:0107:217c:25:0:0
+La7d HD
+p:,c:000604,c:030604,c:040606,c:160098
 0001:0dde0000:032a:0110:2:0:0
 Servizio 1
 p:,c:010246,c:031fff,c:160065
 2009:0dde0000:032a:0110:25:0:0
 Sport Italia HD
 p:,c:000596,c:010597,c:030596,c:1600c9
+1419:0dde0000:03b6:0110:1:0:0
+Sky Sport Serie A
+p:,c:0015d7,c:0115d8,c:0315d7,c:1600f5,C:0000
+141a:0dde0000:03b6:0110:1:0:0
+Sky Sport 1 Italia
+p:,c:001591,c:011592,c:031591,c:1600f6,C:0000
+141c:0dde0000:03b6:0110:1:0:0
+Premium Action
+p:,c:0001b8,c:0101b9,c:0301b8,c:1600f8,C:0000
+1439:0dde0000:03b6:0110:1:0:0
+Sky Sport 1 Italia
+p:,c:0015cd,c:0115ce,c:0315cd,c:160115,C:0000
+143a:0dde0000:03b6:0110:25:0:0
+Sky Sport 1 HD Italia
+p:,c:0015e1,c:0315e1,c:0415e2,c:160116,C:0000
+143b:0dde0000:03b6:0110:1:0:0
+Sky Sport 24
+p:,c:0015b9,c:0115ba,c:0315b9,c:160117,C:0000
+143c:0dde0000:03b6:0110:1:0:0
+Sky Uno
+p:,c:001587,c:011588,c:031587,c:160118,C:0000
 01f4:0dde0000:2711:0090:2:0:0
 Sec TDF1
 p:FM-DVB TDF RMV,c:010212,c:030212,c:1601fe
@@ -7778,9 +7793,6 @@ p:SFR,c:00146f,c:011470,c:03146f,c:16146e,C:0000
 0721:0dde0000:2904:055f:25:0:0
 RMC Sport 2 HD
 p:SFR,c:001483,c:011484,c:031483,c:161482,C:0000
-0722:0dde0000:2904:055f:25:0:0
-RMC Sport 3 HD
-p:SFR,c:00148d,c:01148e,c:03148d,c:16148c,C:0000
 0723:0dde0000:2904:055f:1:0:0
 BFM Lyon
 p:EUTELSAT,c:001497,c:011498,c:031497,c:161496,C:0000
@@ -7793,6 +7805,9 @@ p:SFR,c:0014ab,c:0114ac,c:0314ab,c:1614aa,C:0000
 0727:0dde0000:2904:055f:1:0:0
 Label TV
 p:EUTELSAT,c:0014bf,c:0114c0,c:0314bf,c:1614be
+0728:0dde0000:2904:055f:25:0:0
+RT France HD
+p:EUTELSAT,c:0014c9,c:0114ca,c:0314c9,c:1614c8
 0064:0dde0000:32d2:055f:2:0:0
 France Bleu 107.1
 p:Radio France,c:0303e9,c:1603e8
@@ -7810,7 +7825,7 @@ France Bleu Azur
 p:Radio France,c:030411,c:160410
 0069:0dde0000:32d2:055f:2:0:0
 France Bleu Basse Normandie
-p:Radio France,c:03041b,c:160069
+p:Radio France,c:03041b,c:16041a
 006a:0dde0000:32d2:055f:2:0:0
 France Bleu Bearn
 p:Radio France,c:030425,c:160424
@@ -7825,7 +7840,7 @@ France Bleu Besancon
 p:Radio France,c:030443,c:160442
 006e:0dde0000:32d2:055f:2:0:0
 France Bleu Bourgogne
-p:Radio France,c:03044d,c:16044c
+p:Radio France,c:03044d,c:16006e
 006f:0dde0000:32d2:055f:2:0:0
 France Bleu Breizh Izel
 p:Radio France,c:030457,c:160456
@@ -7876,7 +7891,7 @@ France Bleu Lorraine Nord
 p:Radio France,c:0304ed,c:1604ec
 007f:0dde0000:32d2:055f:2:0:0
 France Bleu Maine
-p:Radio France,c:0304f7,c:16007f
+p:Radio France,c:0304f7,c:1604f6
 0080:0dde0000:32d2:055f:2:0:0
 France Bleu Mayenne
 p:Radio France,c:030501,c:160500
@@ -7924,7 +7939,7 @@ France Bleu Toulouse
 p:Radio France,c:03058d,c:16058c
 008f:0dde0000:32d2:055f:2:0:0
 France Bleu Touraine
-p:Radio France,c:030597,c:16008f
+p:Radio France,c:030597,c:160596
 0090:0dde0000:32d2:055f:2:0:0
 France Bleu Vaucluse
 p:Radio France,c:0305a1,c:1605a0
@@ -7941,7 +7956,7 @@ p:,c:0105f1,c:0305f1,c:1605f0
 RCF Hautes-Alpes
 p:,c:0105fb,c:0305fb,c:1605fa
 009a:0dde0000:32d2:055f:2:0:0
-RCF Aube Haute-Marne
+RCF Orne
 p:,c:010605,c:030605,c:160604
 009b:0dde0000:32d2:055f:2:0:0
 RCF Pays d'Aude
@@ -8018,9 +8033,6 @@ p:,c:0106f5,c:0306f5,c:1606f4
 00b4:0dde0000:32d2:055f:2:0:0
 RCF Contribution
 p:,c:010709,c:030709,c:160708
-00bf:0dde0000:32d2:055f:2:0:0
-FIP Region
-p:Radio France,c:030777,c:160776
 00c1:0dde0000:32d2:055f:2:0:0
 RF Contrib
 p:Radio France,c:03078b,c:16078a
@@ -8037,7 +8049,7 @@ p:RAI,c:000202,c:01028c,c:020242,c:030202,c:160100
 TF1 Séries Films
 p:Bis,c:0007d1,c:0107d2,c:0307d1,c:1607d0,C:0000
 0bb9:0dde0000:4e84:055f:25:0:0
-L´Equipe 21
+L'Equipe 21
 p:Bis,c:0007db,c:0107dc,c:0307db,c:1607da,C:0000
 0bbb:0dde0000:4e84:055f:25:0:0
 RMC Story
@@ -8344,7 +8356,7 @@ France 5 HD
 p:Bis,c:0005d3,c:0105d4,c:0305d3,c:1605d2,C:0000
 01a4:0dde0000:4fb0:055f:25:0:0
 CultureBox
-p:,c:000961,c:010962,c:030961,c:160960,C:0000
+p:Fransat,c:000961,c:010962,c:030961,c:160960,C:0000
 01a5:0dde0000:4fb0:055f:25:0:0
 W9 HD
 p:Bis,c:00096b,c:01096c,c:03096b,c:16096a,C:0000
@@ -8514,47 +8526,8 @@ p:,c:010191,c:030191,c:160190
 ALOUETTE - DAB
 p:,c:0101f5,c:0301f5,c:1601f4
 0d4b:0dde2d9c:0001:013e:1:0:0
-Rai 3 TGR Piemonte
-p:RAI,c:000202,c:01028c,c:020242,c:030202,c:160100
-0d4b:0dde2d9c:0001:013e:1:0:0
 Rai 3 TGR Lombardia
 p:RAI,c:000202,c:01028c,c:020242,c:030202,c:160100
-0d4b:0dde2d9c:0001:013e:1:0:0
-Rai 3 TGR Veneto
-p:RAI,c:000202,c:01028c,c:020242,c:030202,c:160100
-02c7:0dde317d:0107:217c:1:0:0
-La 7
-p:,c:0003ca,c:0103cb,c:0303ca,c:16006f
-02c8:0dde317d:0107:217c:1:0:0
-La 7 d
-p:,c:0003de,c:0103df,c:0303de,c:160070
-02ef:0dde317d:0107:217c:25:0:0
-La 7 HD
-p:,c:0005fa,c:0305fa,c:0405fc,c:160097
-02f0:0dde317d:0107:217c:25:0:0
-La7d HD
-p:,c:000604,c:030604,c:040606,c:160098
-1419:0dde317d:03b6:0110:1:0:0
-Sky Sport Serie A
-p:,c:0015d7,c:0115d8,c:0315d7,c:1600f5,C:0000
-141a:0dde317d:03b6:0110:1:0:0
-Sky Sport 1 Italia
-p:,c:001591,c:011592,c:031591,c:1600f6,C:0000
-141c:0dde317d:03b6:0110:1:0:0
-Premium Action
-p:,c:0001b8,c:0101b9,c:0301b8,c:1600f8,C:0000
-1439:0dde317d:03b6:0110:1:0:0
-Sky Sport 1 Italia
-p:,c:0015cd,c:0115ce,c:0315cd,c:160115,C:0000
-143a:0dde317d:03b6:0110:25:0:0
-Sky Sport 1 HD Italia
-p:,c:0015e1,c:0315e1,c:0415e2,c:160116,C:0000
-143b:0dde317d:03b6:0110:1:0:0
-Sky Sport 24
-p:,c:0015b9,c:0115ba,c:0315b9,c:160117,C:0000
-143c:0dde317d:03b6:0110:1:0:0
-Sky Uno
-p:,c:001587,c:011588,c:031587,c:160118,C:0000
 0d49:0ddead75:0001:013e:1:0:0
 Rai 1
 p:RAI,c:000200,c:01028a,c:020240,c:030200,c:160102
@@ -8598,5 +8571,5 @@ p:CNH,c:000262,c:01026d,c:030262,c:160258,C:0000
 Canal+ HD
 p:CNH,c:00006e,c:010079,c:03006e,c:160064,C:0000
 end
-# 229 transponders and 2636 services.
-# Created by E-Channelizer v20.1.0.1220 on 06 mar, 2021 at 17:39 - https://www.echannelizer.com
+# 228 transponders and 2628 services.
+# Created by E-Channelizer v20.1.0.1220 on 15 mar, 2021 at 17:54 - https://www.echannelizer.com
