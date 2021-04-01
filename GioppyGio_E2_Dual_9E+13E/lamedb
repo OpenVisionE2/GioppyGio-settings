@@ -1,8 +1,5 @@
 eDVB services /4/
 transponders
-00000000:005f:0055
-	s 10949000:29900000:1:7:130:2:0:1:2:0:2
-/
 005a0000:0001:0064
 	s 11823000:27500000:0:3:90:2:0
 /
@@ -34,34 +31,28 @@ transponders
 	s 11804000:27500000:1:2:90:2:0:1:2:0:2
 /
 005a0000:0107:217c
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:1:8:0
+	s 12111000:31400000:1:4:90:2:0:1:2:0:2:1:8:0
 /
 005a0000:0200:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:35:1:0
-/
-005a0000:0200:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:36:1:0
+	s 12466000:41940000:1:4:90:2:0:1:2:0:2:35:1:0
 /
 005a0000:0202:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:34:1:0
+	s 12466000:41940000:1:4:90:2:0:1:2:0:2:34:1:0
 /
 005a0000:0204:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:33:1:0
-/
-005a0000:0204:001d
-	s 12466000:41940000:1:4:90:2:0:1:2:0:2:35:1:0
+	s 12466000:41940000:1:4:90:2:0:1:2:0:2:33:1:0
 /
 005a0000:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:8:0
 /
 005a0000:0384:0110
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:3:8:0
+	s 12341000:31400000:1:4:90:2:0:1:2:0:2:3:8:0
 /
 005a0000:0385:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:2:8:0
 /
 005a0000:0389:0110
-	s 12111000:31400000:1:2:90:2:0:1:2:0:2:4:8:0
+	s 12341000:31400000:1:4:90:2:0:1:2:0:2:4:8:0
 /
 005a0000:03a2:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:1:8:0
@@ -83,9 +74,6 @@ transponders
 /
 005a0000:1838:009e
 	s 11958000:27500000:1:2:90:2:0:1:2:0:2
-/
-005a0000:1900:009c
-	s 11996000:27500000:1:3:90:2:0
 /
 005a0000:1964:009c
 	s 12015000:27500000:0:2:90:2:0:1:2:0:2
@@ -115,7 +103,7 @@ transponders
 	s 12437000:27500000:0:2:90:2:0:1:2:0:2
 /
 005a0000:7918:217c
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:33:1:0
+	s 12466000:41940000:1:4:90:2:0:1:2:0:2:36:1:0
 /
 005a0000:791a:217c
 	s 12188000:31400000:1:2:90:2:0:1:2:0:2:37:262140:1
@@ -129,32 +117,17 @@ transponders
 005a0000:c40e:009e
 	s 12073000:30000000:1:3:90:2:0:1:2:0:2
 /
+005aaedc:0001:0001
+	s 11996000:27500000:1:3:90:2:0
+/
 005aafe9:0107:217c
 	s 12265000:31400000:1:3:90:2:0:1:4:0:2:1:8:0
 /
 005aafe9:791a:217c
-	s 12265000:31400000:1:3:90:2:0:1:4:0:2:2:8:0
+	s 12265000:31400000:1:3:90:2:0:1:4:0:2:1:8:0
 /
 005ab035:0107:217c
 	s 12341000:31400000:1:4:90:2:0:1:2:0:2:1:8:0
-/
-005ab035:0384:0110
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:3:8:0
-/
-005ab035:0389:0110
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:4:8:0
-/
-005ab0b2:0202:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:36:1:0
-/
-005ab0b2:0202:001d
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:35:1:0
-/
-005ab0b2:7918:217c
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:34:1:0
-/
-005ab0b2:7918:217c
-	s 12466000:41940000:1:3:90:2:0:1:2:0:2:35:1:0
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
@@ -413,11 +386,8 @@ transponders
 /
 end
 services
-064a:005a0000:0001:0064:2:0:0
-Ros * Ros
-p:Eutelsat,c:03064c,c:16064a
 0654:005a0000:0001:0064:2:0:0
-Ros * Ros Selex
+Ros  Ros Selex
 p:Eutelsat,c:030656,c:160654
 065e:005a0000:0001:0064:2:0:0
 Carrefour Iper
@@ -557,7 +527,7 @@ p:Cosmote,c:0001e9,c:01024d,c:0301e9,c:160185,C:0000
 044b:005a0000:0004:00aa:25:0:0
 Star
 p:Cosmote,c:0001f3,c:010257,c:0301f3,c:16018f,C:0000
-045b:005a0000:0004:00aa:1:0:0
+045b:005a0000:0004:00aa:25:0:0
 Viasat History HD
 p:Cosmote,c:001013,c:0113fb,c:031013,c:160c2b,C:0000
 03ec:005a0000:0005:00aa:1:0:0
@@ -676,7 +646,7 @@ FOX Greece HD
 p:Cosmote,c:0001b6,c:01021a,c:0301b6,c:160152,C:0000
 041c:005a0000:0008:00aa:25:0:0
 Cosmote Cinema Oscars HD
-p:Cosmote,C:0000
+p:Cosmote,c:0001c4,c:0301c4,c:040228,c:160160,C:0000
 0455:005a0000:0008:00aa:25:0:0
 Cosmote Sport 5 HD
 p:Cosmote,c:00100d,c:0113f5,c:03100d,c:160c25,C:0000
@@ -701,10 +671,10 @@ p:Cosmote,c:001021,c:011409,c:031021,c:160c39,C:0000
 046b:005a0000:0008:00aa:1:0:0
 CBS Reality
 p:Cosmote,c:001023,c:01140b,c:031023,c:160c3b,C:0000
-046c:005a0000:0008:00aa:1:0:0
+046c:005a0000:0008:00aa:25:0:0
 Viasat Nature HD
 p:Cosmote,c:001024,c:01140c,c:031024,c:160c3c,C:0000
-046d:005a0000:0008:00aa:1:0:0
+046d:005a0000:0008:00aa:25:0:0
 Viasat Explore HD
 p:Cosmote,c:001025,c:01140d,c:031025,c:160c3d,C:0000
 046e:005a0000:0008:00aa:1:0:0
@@ -863,15 +833,33 @@ p:,c:000604,c:030604,c:040606,c:160098
 0316:005a0000:0107:217c:1:0:0
 La 7
 p:,c:0003ca,c:0103cb,c:0303ca,c:1600be
+000d:005a0000:0200:001d:2:0:0
+R Italia SMI
+p:Persidera,c:011f45,c:0300f5,c:160209
+000e:005a0000:0200:001d:2:0:0
+R Italia SMI
+p:Persidera,c:011f45,c:0300f5,c:16020a
 001e:005a0000:0200:001d:1:0:0
 Boing Plus
 p:Persidera,c:00012d,c:01012e,c:03012d,c:16012c
+0028:005a0000:0200:001d:25:0:0
+Supertennis HD
+p:Persidera,c:000065,c:030065,c:040066,c:160064
 0032:005a0000:0200:001d:1:0:0
 Spike Italia
 p:Persidera,c:0000c9,c:0100ca,c:0300c9,c:1600c8
-0079:005a0000:0200:001d:1:0:0
-VH-1 (Video Hits One)
-p:Persidera,c:0017f4,c:0117f5,c:0317f4,c:1617fd
+003c:005a0000:0200:001d:1:0:0
+Radio Italia TV
+p:Persidera,c:0000f5,c:0100f6,c:0300f5,c:1600e0
+0078:005a0000:0200:001d:1:0:0
+VH-1 Italy
+p:Persidera,c:0017f4,c:0117f5,c:0317f4,c:1617f3
+0092:005a0000:0200:001d:1:0:0
+Frisbee
+p:Persidera,c:0005b1,c:0105b2,c:0205b4,c:0305b1,c:1605b0
+0097:005a0000:0200:001d:1:0:0
+K2 (Italy)
+p:Persidera,c:0003d5,c:0103d6,c:0203d8,c:0303d5,c:1603d4
 0032:005a0000:0202:001d:1:0:0
 Motor Trend
 p:Persidera,c:0000c9,c:0100ca,c:0200cc,c:0300c9,c:1600c8
@@ -881,6 +869,9 @@ p:Persidera,c:00012d,c:01012e,c:03012d,c:16012c
 0041:005a0000:0202:001d:1:0:0
 BOM Channel
 p:Persidera,c:000191,c:010192,c:030191,c:160190
+0046:005a0000:0202:001d:25:0:0
+Alice
+p:Persidera,c:00012d,c:01012e,c:03012d,c:160130
 004b:005a0000:0202:001d:25:0:0
 Case Design Stili
 p:Persidera,c:00012d,c:01012e,c:03012d,c:160131
@@ -896,6 +887,9 @@ p:Persidera,c:000141,c:010142,c:030141,c:160140
 0064:005a0000:0202:001d:1:0:0
 TV 2000
 p:Persidera,c:0001fe,c:010262,c:0301fe,c:160136
+0069:005a0000:0202:001d:2:0:0
+RADIO VATICANA ITALIA
+p:Persidera,c:010267,c:030267,c:16013b
 006e:005a0000:0202:001d:1:0:0
 Sfera TV
 p:Persidera,c:0001f5,c:0101f6,c:0301f5,c:1601f4
@@ -917,12 +911,24 @@ p:Persidera,c:000399,c:01039a,c:030399,c:160398
 0091:005a0000:0202:001d:25:0:0
 RDS Social TV
 p:Persidera,c:0003a3,c:0103a4,c:0303a3,c:1603a2
+0009:005a0000:0204:001d:2:0:0
+Radio Deejay
+p:Persidera,c:010202,c:030202,c:160210
+000a:005a0000:0204:001d:2:0:0
+Radio Capital
+p:Persidera,c:010208,c:030208,c:160211
+000b:005a0000:0204:001d:2:0:0
+Radio m2o
+p:Persidera,c:010204,c:030204,c:160212
 0010:005a0000:0204:001d:1:0:0
 Giallo
-p:,c:0003d5,c:0103d6,c:0203d8,c:0303d5,c:1603d4
-002c:005a0000:0204:001d:1:0:0
-Real Time HD Italia
-p:,c:00099e,c:01099f,c:0209a0,c:03099e,c:16099d
+p:Persidera,c:0003d5,c:0103d6,c:0203d8,c:0303d5,c:1603d4
+0015:005a0000:0204:001d:25:0:0
+RTL 102.5
+p:Persidera,c:000316,c:010317,c:030316,c:160122
+0016:005a0000:0204:001d:1:0:0
+HSE 24 Italia
+p:Persidera,c:00030c,c:01030d,c:03030c,c:160118
 002c:005a0000:0204:001d:1:0:0
 Real Time HD Italia
 p:Persidera,c:00099e,c:01099f,c:0209a0,c:03099e,c:16099d
@@ -935,6 +941,15 @@ p:Persidera,c:00022c,c:01022d,c:03022c,c:160133
 00da:005a0000:0204:001d:25:0:0
 Radio Freccia
 p:Persidera,c:000320,c:010321,c:030320,c:160123
+00dd:005a0000:0204:001d:2:0:0
+RTL 102.5
+p:Persidera,c:010318,c:030316,c:1601ea
+00de:005a0000:0204:001d:2:0:0
+RTL 102.5 NEWS
+p:Persidera,c:01031a,c:030316,c:16012c
+00df:005a0000:0204:001d:2:0:0
+FRECCIA
+p:Persidera,c:010322,c:030320,c:160126
 0001:005a0000:032a:0110:2:0:0
 Servizio 1
 p:,c:010246,c:031fff,c:160065
@@ -1112,6 +1127,9 @@ p:Kabelkiosk,c:0005fb,c:0205fe,c:0305fb,c:0405fc,c:1605fa,C:0000
 00e8:005a0000:1644:009c:25:0:0
 Tele 5 HD
 p:Kabelkiosk,c:00060f,c:020612,c:03060f,c:040610,c:16060e,C:0000
+00e9:005a0000:1644:009c:25:0:0
+Nick HD Germany
+p:Kabelkiosk,c:000623,c:030623,c:040624,c:160622,C:0000
 00ea:005a0000:1644:009c:25:0:0
 Sport 1 HD (Germany)
 p:Kabelkiosk,c:000581,c:030581,c:040582,c:160580,C:0000
@@ -1232,30 +1250,6 @@ p:MTVA,c:0104f3,c:0304f3,c:1606e7
 00a8:005a0000:1838:009e:2:0:0
 D192ser
 p:MTVA,c:0104f4,c:0304f4,c:1606e8
-026b:005a0000:1900:009c:1:0:0
-CCTV 4
-p:Globecast,c:000f3d,c:010f47,c:030f9f,c:160f9e
-026c:005a0000:1900:009c:1:0:0
-CCTV E
-p:Globecast,c:000fa1,c:010fab,c:031003,c:161002
-026d:005a0000:1900:009c:1:0:0
-CCTV-R
-p:Globecast,c:001005,c:01100f,c:031067,c:161066
-026e:005a0000:1900:009c:1:0:0
-CGTN-A
-p:Globecast,c:001069,c:011073,c:0310cb,c:1610ca
-026f:005a0000:1900:009c:1:0:0
-CGTN Documentary
-p:Globecast,c:0010cd,c:03112f,c:16112e
-0273:005a0000:1900:009c:1:0:0
-CBS Reality EMEA
-p:Globecast,c:00125d,c:011267,c:03125d,c:1612be,C:0000
-0276:005a0000:1900:009c:1:0:0
-Extreme Sports
-p:Globecast,c:001389,c:011393,c:031389,c:1613ea,C:0000
-0277:005a0000:1900:009c:2:0:0
-EDM FM
-p:Globecast,c:0113f7,c:0313f7,c:16144e
 0196:005a0000:1964:009c:25:0:0
 Super RTL HD
 p:Kabelkiosk,c:00069d,c:0206a0,c:03069d,c:04069e,c:16069c,C:0000
@@ -1274,6 +1268,9 @@ p:Kabelkiosk,c:000817,c:030817,c:040818,c:160816,C:0000
 01a4:005a0000:1964:009c:25:0:0
 Disney Channel HD Germany
 p:Kabelkiosk,c:00082b,c:02082e,c:03082b,c:04082c,c:16082a,C:0000
+01a5:005a0000:1964:009c:1:0:0
+Nickelodeon Germany
+p:Kabelkiosk,c:0006a5,c:0106a6,c:0206a8,c:0306a5,c:1606a4
 00ca:005a0000:19c8:009e:25:0:0
 M6 HD
 p:GLOBECAST,c:0007e4,c:0307e4,c:0407e5,c:161452
@@ -1307,9 +1304,6 @@ p:Globecast,c:000df2,c:010df3,c:030df2,c:16010e,C:0000
 0168:005a0000:19c8:009e:1:0:0
 Karusel Int
 p:GLOBECAST,c:000e10,c:010e11,c:030e10,c:160111
-0169:005a0000:19c8:009e:1:0:0
-MST International
-p:GLOBECAST,c:000e1b,c:010e1c,c:030e1b,c:160105,C:0000
 0451:005a0000:1af4:009e:1:0:0
 Disney Junior Middle-East & Africa
 p:Arqiva,c:00044d,c:01044e,c:020461,c:03044d,c:160100,C:0000
@@ -1511,6 +1505,27 @@ p:Kabelkiosk,c:000b01,c:030b01,c:040b02,c:160b00,C:0000
 4ef6:005a0000:21fc:009c:25:0:0
 Fox HD Germany
 p:Kabelkiosk,c:000d49,c:030d49,c:040d4a,c:160d48,C:0000
+0003:005a0000:7918:217c:1:0:0
+Paramount Channel Italy
+p:Persidera,c:00012d,c:01012e,c:020130,c:03012d,c:16012c
+000c:005a0000:7918:217c:2:0:0
+Radio Maria
+p:Persidera,c:010205,c:030205,c:160213
+0014:005a0000:7918:217c:1:0:0
+Nove
+p:Persidera,c:001f40,c:010089,c:02008b,c:031f40,c:161f59
+0019:005a0000:7918:217c:1:0:0
+HGTV Italy
+p:Persidera,c:001f4a,c:011f4b,c:021f55,c:031f4a,c:161f5a
+0029:005a0000:7918:217c:25:0:0
+Deejay TV
+p:Persidera,c:000191,c:010192,c:030191,c:16019a
+002d:005a0000:7918:217c:1:0:0
+Tele Moda 168
+p:Persidera,c:0001c3,c:0101c4,c:0301c3,c:1601c2
+0032:005a0000:7918:217c:1:0:0
+La 9
+p:Persidera,c:0001f5,c:0101f6,c:0301f5,c:1601f4
 0007:005a0000:791a:217c:1:0:0
 iLIKE.TV
 p:Persidera,c:001f49,c:011f4a,c:031f49,c:161f57
@@ -1610,6 +1625,9 @@ p:Joyne,c:000835,c:010836,c:030835,c:160834,C:0000
 032c:005a0000:c35a:009e:1:0:0
 VTM Kids
 p:Joyne,c:000899,c:01089a,c:030899,c:160898,C:0000
+032d:005a0000:c35a:009e:1:0:0
+VTM Gold
+p:Joyne,c:0008fd,c:0108fe,c:0308fd,c:1608fc,C:0000
 032e:005a0000:c35a:009e:25:0:0
 Ziggo Voetbal HD
 p:Joyne,c:000961,c:010962,c:030961,c:160960,C:0000
@@ -1850,9 +1868,30 @@ p:Joyne,c:011452,c:031452,c:161450
 01bd:005a0000:c40e:009e:1:0:0
 Dusk International
 p:Joyne,c:00157d,c:01157e,c:03157d,c:16157c,C:0000
-02c7:005aafe9:0107:217c:1:0:0
-La 7
-p:,c:0003ca,c:0103cb,c:0303ca,c:16006f
+026b:005aaedc:0001:0001:1:0:0
+CCTV 4
+p:Globecast,c:000f3d,c:010f47,c:030f9f,c:160f9e
+026c:005aaedc:0001:0001:1:0:0
+CCTV E
+p:Globecast,c:000fa1,c:010fab,c:031003,c:161002
+026d:005aaedc:0001:0001:1:0:0
+CCTV-R
+p:Globecast,c:001005,c:01100f,c:031067,c:161066
+026e:005aaedc:0001:0001:1:0:0
+CGTN-A
+p:Globecast,c:001069,c:011073,c:0310cb,c:1610ca
+026f:005aaedc:0001:0001:1:0:0
+CGTN Documentary
+p:Globecast,c:0010cd,c:03112f,c:16112e
+0273:005aaedc:0001:0001:1:0:0
+CBS Reality EMEA
+p:Globecast,c:00125d,c:011267,c:03125d,c:1612be,C:0000
+0276:005aaedc:0001:0001:1:0:0
+Extreme Sports
+p:Globecast,c:001389,c:011393,c:031389,c:1613ea,C:0000
+0277:005aaedc:0001:0001:2:0:0
+EDM FM
+p:Globecast,c:0113f7,c:0313f7,c:16144e
 02c8:005aafe9:0107:217c:1:0:0
 La 7 d
 p:,c:0003de,c:0103df,c:0303de,c:160070
@@ -1862,12 +1901,24 @@ p:,c:0005fa,c:0305fa,c:0405fc,c:160097
 02f0:005aafe9:0107:217c:25:0:0
 La7d HD
 p:,c:000604,c:030604,c:040606,c:160098
+0316:005aafe9:0107:217c:1:0:0
+La 7
+p:,c:0003ca,c:0103cb,c:0303ca,c:16006f
+0007:005aafe9:791a:217c:1:0:0
+iLIKE.TV
+p:Persidera,c:001f44,c:010203,c:031f44,c:161f57
 0007:005aafe9:791a:217c:1:0:0
 iLIKE.TV
 p:Persidera,c:001f44,c:010203,c:031f44,c:161f57
 0008:005aafe9:791a:217c:1:0:0
 Canale 162
 p:Persidera,c:001f49,c:011f4a,c:031f49,c:161f59
+0008:005aafe9:791a:217c:1:0:0
+Canale 162
+p:Persidera,c:001f49,c:011f4a,c:031f49,c:161f59
+000f:005aafe9:791a:217c:1:0:0
+Juwelo TV Italia
+p:Persidera,c:0000ea,c:0100eb,c:0300ea,c:1600e9
 000f:005aafe9:791a:217c:1:0:0
 Juwelo TV Italia
 p:Persidera,c:0000ea,c:0100eb,c:0300ea,c:1600e9
@@ -1877,57 +1928,111 @@ p:Persidera,c:0000e7,c:0100e8,c:0300e7,c:1600e6
 001e:005aafe9:791a:217c:1:0:0
 HSE24 Donna
 p:Persidera,c:000137,c:01019b,c:030137,c:16033f
+001e:005aafe9:791a:217c:1:0:0
+HSE24 Donna
+p:Persidera,c:000137,c:01019b,c:030137,c:16033f
+001f:005aafe9:791a:217c:1:0:0
+Rete Italia
+p:Persidera,c:00012d,c:010191,c:03012d,c:160335
 001f:005aafe9:791a:217c:1:0:0
 Rete Italia
 p:Persidera,c:00012d,c:010191,c:03012d,c:160335
 0020:005aafe9:791a:217c:1:0:0
 La 4 Italia
 p:Persidera,c:00012e,c:010192,c:03012e,c:160336
+0020:005aafe9:791a:217c:1:0:0
+La 4 Italia
+p:Persidera,c:00012e,c:010192,c:03012e,c:160336
+0021:005aafe9:791a:217c:1:0:0
+Gold TV Italia
+p:Persidera,c:00012f,c:010193,c:03012f,c:160337
 0021:005aafe9:791a:217c:1:0:0
 Gold TV Italia
 p:Persidera,c:00012f,c:010193,c:03012f,c:160337
 0022:005aafe9:791a:217c:1:0:0
 Linea GEM
 p:Persidera,c:000130,c:010194,c:030130,c:160338
+0022:005aafe9:791a:217c:1:0:0
+Linea GEM
+p:Persidera,c:000130,c:010194,c:030130,c:160338
+0023:005aafe9:791a:217c:1:0:0
+Linea Italia
+p:Persidera,c:000131,c:010195,c:030131,c:160339
 0023:005aafe9:791a:217c:1:0:0
 Linea Italia
 p:Persidera,c:000131,c:010195,c:030131,c:160339
 0024:005aafe9:791a:217c:1:0:0
 Orler TV
 p:Persidera,c:000132,c:010196,c:030132,c:16033a
+0024:005aafe9:791a:217c:1:0:0
+Orler TV
+p:Persidera,c:000132,c:010196,c:030132,c:16033a
+0025:005aafe9:791a:217c:1:0:0
+Air Italia
+p:Persidera,c:000133,c:010197,c:030133,c:16033b
 0025:005aafe9:791a:217c:1:0:0
 Air Italia
 p:Persidera,c:000133,c:010197,c:030133,c:16033b
 0026:005aafe9:791a:217c:1:0:0
 HSE24 Beauty
 p:Persidera,c:000138,c:01019c,c:030138,c:16033c
+0026:005aafe9:791a:217c:1:0:0
+HSE24 Beauty
+p:Persidera,c:000138,c:01019c,c:030138,c:16033c
+0027:005aafe9:791a:217c:1:0:0
+Donna Sport TV
+p:Persidera,c:000136,c:01019a,c:030136,c:16033e
 0027:005aafe9:791a:217c:1:0:0
 Donna Sport TV
 p:Persidera,c:000136,c:01019a,c:030136,c:16033e
 002d:005aafe9:791a:217c:1:0:0
 Canale 165
 p:Persidera,c:00013b,c:01019f,c:03013b,c:160343
+002d:005aafe9:791a:217c:1:0:0
+Canale 165
+p:Persidera,c:00013b,c:01019f,c:03013b,c:160343
 002e:005aafe9:791a:217c:1:0:0
-RCT - Rainbow Channel TV
+Rainbow TV
 p:Persidera,c:00013c,c:0101a0,c:03013c,c:160344
+002f:005aafe9:791a:217c:1:0:0
+GO-TV
+p:Persidera,c:00013d,c:0101a1,c:03013d,c:160345
 002f:005aafe9:791a:217c:1:0:0
 GO-TV
 p:Persidera,c:00013d,c:0101a1,c:03013d,c:160345
 005f:005aafe9:791a:217c:1:0:0
 Fire TV Italy
 p:Persidera,c:000134,c:010198,c:030134,c:160334
+005f:005aafe9:791a:217c:1:0:0
+Fire TV Italy
+p:Persidera,c:000134,c:010198,c:030134,c:160334
+0060:005aafe9:791a:217c:1:0:0
+Canale 61
+p:Persidera,c:000135,c:010199,c:030135,c:16033d
 0060:005aafe9:791a:217c:1:0:0
 Canale 61
 p:Persidera,c:000135,c:010199,c:030135,c:16033d
 0061:005aafe9:791a:217c:1:0:0
 Mondo Calcio
 p:Persidera,c:000139,c:01019d,c:030139,c:160341
+0061:005aafe9:791a:217c:1:0:0
+Mondo Calcio
+p:Persidera,c:000139,c:01019d,c:030139,c:160341
+0062:005aafe9:791a:217c:1:0:0
+Canale 232
+p:Persidera,c:00013a,c:01019e,c:03013a,c:160342
 0062:005aafe9:791a:217c:1:0:0
 Canale 232
 p:Persidera,c:00013a,c:01019e,c:03013a,c:160342
 006f:005aafe9:791a:217c:1:0:0
 Italia Channel
 p:Persidera,c:0000e2,c:0100f6,c:0300e2,c:160141
+006f:005aafe9:791a:217c:1:0:0
+Italia Channel
+p:Persidera,c:0000e2,c:0100f6,c:0300e2,c:160141
+0070:005aafe9:791a:217c:1:0:0
+Pianeta TV
+p:Persidera,c:0000e2,c:0100f6,c:0300e2,c:160142
 0070:005aafe9:791a:217c:1:0:0
 Pianeta TV
 p:Persidera,c:0000e2,c:0100f6,c:0300e2,c:160142
@@ -1943,81 +2048,6 @@ p:,c:0005fa,c:0305fa,c:0405fc,c:160097
 02f0:005ab035:0107:217c:25:0:0
 La7d HD
 p:,c:000604,c:030604,c:040606,c:160098
-1b8b:005ab035:0384:0110:1:0:0
-Radio 105
-p:,c:0004b0,c:0104b1,c:0304b0,c:1600fb
-1b8c:005ab035:0384:0110:1:0:0
-R101 TV
-p:,c:0004a6,c:0104a7,c:0304a6,c:1600fc
-1b8d:005ab035:0384:0110:1:0:0
-Virgin Radio
-p:,c:000370,c:010371,c:030370,c:1600fd
-1bbe:005ab035:0384:0110:2:0:0
-Radio R101
-p:,c:0103c2,c:0303c2,c:1600ca
-1bbf:005ab035:0384:0110:2:0:0
-RADIO 105
-p:,c:0103c1,c:0303c1,c:1600cb
-1bc0:005ab035:0384:0110:2:0:0
-VIRGIN RADIO
-p:,c:0103c5,c:0303c5,c:1600cc
-1bc1:005ab035:0384:0110:2:0:0
-Radio Monte Carlo
-p:,c:0103c3,c:0303c3,c:1600cd
-1bd2:005ab035:0384:0110:1:0:0
-Premium Cinema
-p:,c:000280,c:010281,c:030280,c:1600de,C:0000
-1bd3:005ab035:0384:0110:1:0:0
-Premium Cinema 2
-p:,c:0001cc,c:0101cd,c:0301cc,c:1600df,C:0000
-1c0c:005ab035:0384:0110:1:0:0
-TV 243
-p:,c:000bea,c:030bea,c:160118
-1c0d:005ab035:0384:0110:1:0:0
-Donna Shopping
-p:,c:000c4e,c:030c4e,c:160119
-1c16:005ab035:0384:0110:1:0:0
-TV 153
-p:,c:000e6a,c:030e6a,c:160122
-1c17:005ab035:0384:0110:1:0:0
-Sport Italia
-p:,c:00069a,c:01069b,c:03069a,c:160123
-1c18:005ab035:0384:0110:1:0:0
-Tele Padre Pio
-p:,c:00028a,c:01028b,c:03028a,c:160124
-0091:005ab035:0389:0110:1:0:0
-Boing
-p:,c:000690,c:010691,c:030690,c:1600f5
-0093:005ab035:0389:0110:1:0:0
-Cartoonito Italy
-p:,c:00071c,c:01071d,c:03071c,c:1600f7
-07e3:005ab035:0389:0110:1:0:0
-20 Mediaset
-p:,c:00026c,c:01026d,c:03026c,c:1600db
-0849:005ab035:0389:0110:1:0:0
-TOPcrime
-p:,c:0006ea,c:0106eb,c:0206f3,c:0306ea,c:1600dd
-084a:005ab035:0389:0110:1:0:0
-Focus
-p:,c:0006f4,c:0106f5,c:0306f4,c:1600de
-084b:005ab035:0389:0110:1:0:0
-Cine34
-p:,c:0006e0,c:0106e1,c:0306e0,c:1600df
-0864:005ab035:0389:0110:1:0:0
-Food Network Italia
-p:,c:000406,c:010407,c:030406,c:1600f8
-0865:005ab035:0389:0110:1:0:0
-QVC Italia
-p:,c:000064,c:010065,c:030064,c:1600f9
-0032:005ab0b2:0202:001d:1:0:0
-La 9
-p:Persidera,c:0001f5,c:0101f6,c:0301f5,c:1601f4
-008c:005ab0b2:0202:001d:1:0:0
-Mediatext.it
-p:Persidera,c:000399,c:01039a,c:030399,c:160398
-0091:005ab0b2:0202:001d:25:0:0
-RDS Social TV
-p:Persidera,c:0003a3,c:0103a4,c:0303a3,c:1603a2
 03e8:00820000:005e:0055:1:0:0
 Dorama
 p:XTRA TV,c:0003ea,c:0103eb,c:0303ea,c:1603e9,C:0000
@@ -2255,9 +2285,6 @@ p:,c:0007e0,c:010bc8,c:0307e0,c:1603f8
 08b3:00820000:01f4:013e:2:0:0
 WELAT
 p:iKOMG,c:030bd3,c:160403
-08ca:00820000:01f4:013e:25:0:0
-Rudaw Pope Visit
-p:Eutelsat,c:000021,c:030021,c:160020
 0003:00820000:02bc:013e:1:0:0
 Kentron TV
 p:iKO Media Group,c:000515,c:030515,c:160107
@@ -2285,6 +2312,9 @@ p:,c:000a8d,c:01698c,c:036982,c:160115
 0011:00820000:02bc:013e:25:0:0
 Hot Bird 4k Test
 p:,c:000a8d,c:010a8e,c:030a8d,c:160115
+03e9:00820000:02bc:013e:25:0:0
+Vatican Channel HD
+p:GLOBECAST ITALY,c:00044d,c:01044e,c:03044d,c:160105
 01f5:00820000:0384:013e:25:0:0
 Iran International HD
 p:ABS,c:001393,c:011394,c:031393
@@ -2660,12 +2690,6 @@ p:Sky Italia,c:001884,c:01187f,c:021881,c:031884,c:16012c,C:0000
 0e2c:00820000:0708:00c8:1:0:0
 TG Norba 24
 p:M-Three satcom,c:001888,c:011889,c:031888
-0e2d:00820000:0708:00c8:25:0:0
-Horse TV HD
-p:M-Three satcom,c:001892,c:011893,c:031892,c:160e2d,C:0000
-0e2e:00820000:0708:00c8:1:0:0
-Class TV Moda
-p:M-Three Satcom,c:0018a1,c:0118a2,c:0318a1,c:160e2e
 0e34:00820000:0708:00c8:2:0:0
 R-BuonConsiglio
 p:M-Three satcom,c:010db6,c:030db6,c:160db5
@@ -2756,6 +2780,15 @@ p:GLOBECAST,c:030641,c:160090
 3359:00820000:1388:013e:2:0:0
 RFI Test
 p:GLOBECAST,c:030648,c:160091
+012d:00820000:13ef:013e:25:0:0
+Abu Dhabi Sport 3 HD
+p:,c:000bc4,c:010bc5,c:030bc4,c:160bc3,C:0000
+012e:00820000:13ef:013e:25:0:0
+Abu Dhabi Sport 4 HD
+p:,c:000bce,c:010bcf,c:030bce,c:160bcd,C:0000
+0130:00820000:13ef:013e:25:0:0
+Alaan TV HD
+p:,c:000be7,c:010be8,c:030be7,c:160be6
 2520:00820000:13ef:013e:25:0:0
 Sharjah HD
 p:,c:0010f5,c:0110f6,c:0310f5
@@ -2853,7 +2886,7 @@ p:Sky Italia,c:0000ab,c:0101a8,c:0300ab,c:1603f5,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-Crime Collection HD
+Jason Bourne Collection HD
 p:Sky Italia,c:0000a6,c:0202c2,c:0300a6,c:04019d,c:1603ef,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -2946,7 +2979,7 @@ p:Sky Italia,c:0000a3,c:010198,c:0300a3,c:050001
 Sky Sport NBA HD
 p:Sky Italia,c:0000a0,c:0300a0,c:040190,c:1603e9,C:0000
 1e58:00820000:15e0:fbff:25:0:0
-Sky Sport America's Cup HD
+Sky Sport Collection HD
 p:Sky Italia,C:0000
 1e5b:00820000:15e0:fbff:25:0:0
 Primafila 1 HD
@@ -3288,7 +3321,7 @@ p:Sky Italia,c:0000ab,c:0101a2,c:0300ab,c:160466,C:0000
 Primafila HD
 p:SkyItalia
 2c5b:00820000:19c8:fbff:1:0:0
-Siamo Solo Orsi
+Cartoon Network +1
 p:Sky Italia,c:0000aa,c:0101a0,c:0201db,c:0300aa,c:160465,C:0000
 2cc4:00820000:19c8:fbff:1:0:0
 DeA Kids
@@ -3345,7 +3378,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-Crime Collection
+Jason Bourne Collection
 p:Sky Italia,c:0000a8,c:0101b0,c:0202c5,c:0300a8,c:160459,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -3354,7 +3387,7 @@ p:Sky Italia,c:0000ad,c:0101c0,c:0202ca,c:0300ad,c:160450,C:0000
 Sky Cinema Drama
 p:Sky Italia,c:0000ac,c:0101bd,c:0202c9,c:0300ac,c:160461,C:0000
 2dd2:00820000:1a2c:fbff:1:0:0
-Sky Sport America's Cup
+Sky Sport Collection
 p:Sky Italia,C:0000
 2dd4:00820000:1a2c:fbff:1:0:0
 Sky Cinema Due +24
@@ -3378,7 +3411,7 @@ p:Sky Italia,c:0000a1,c:0202bd,c:0300a1,c:040190,c:16044d,C:0000
 DeA Kids +1
 p:Sky Italia,c:0000ad,c:0101ac,c:0300ad,c:1603f5,C:0000
 0fd9:00820000:1af4:fbff:1:0:0
-History +1
+History Channel Italia +1
 p:Sky Italia,c:0000b0,c:0101b2,c:0202c1,c:0300b0,c:1603f8,C:0000
 0fda:00820000:1af4:fbff:1:0:0
 National Geographic Italy +1
@@ -3404,9 +3437,6 @@ p:Sky Italia,c:0000a1,c:010194,c:0202be,c:0300a1,c:1603eb,C:0000
 2c9a:00820000:1af4:fbff:1:0:0
 Frisbee
 p:Sky Italia
-2ca1:00820000:1af4:fbff:25:0:0
-Horse TV HD
-p:Sky Italia,c:0000b5,c:0101ba,c:0300b5,c:1603ff,C:0000
 2cca:00820000:1af4:fbff:1:0:0
 K2 (Italy)
 p:Sky Italia
@@ -3764,9 +3794,6 @@ p:Cyfrowy Polsat,c:0001f7,c:01025b,c:0301f7,c:050001
 1cb9:00820000:1ce8:0071:1:0:0
 MTV 90s
 p:Cyfrowy Polsat,c:0001f7,c:01025b,c:0301f7,c:16003f,C:0000
-1cba:00820000:1ce8:0071:1:0:0
-ATM Rozrywka TV
-p:Cyfrowy Polsat,c:0001f8,c:01025c,c:02006d,c:0301f8
 1cbb:00820000:1ce8:0071:1:0:0
 Vivid Touch
 p:Cyfrowy Polsat,c:0001f9,c:01025d,c:0301f9,c:16004b,C:0000
@@ -4274,6 +4301,9 @@ p:EUTELSAT,c:00178f,c:011790,c:03178f,c:16025b
 0645:00820000:2454:013e:25:0:0
 Al Alam TV HD
 p:EUTELSAT,c:0017a3,c:0117a4,c:0317ab,c:16025d
+0646:00820000:2454:013e:1:0:0
+MS Motor TV
+p:EUTELSAT,c:0017ad,c:0117ae,c:0317b5,c:16025e
 064c:00820000:2454:013e:25:0:0
 CNC World
 p:EUTELSAT,c:0017e9,c:0117ea,c:0317e9,c:160264
@@ -4295,6 +4325,9 @@ p:EUTELSAT
 0652:00820000:2454:013e:25:0:0
 RT Arabic HD
 p:EUTELSAT,c:001825,c:031825,c:041826,c:16026a
+0653:00820000:2454:013e:1:0:0
+Pop Economy
+p:EUTELSAT,c:00182f,c:03182f,c:16026b
 200c:00820000:24b8:013e:1:7739:0
 BBC World News
 p:GlobeCast,c:0000a3,c:01005c,c:0300a3
@@ -4934,6 +4967,9 @@ p:,c:000579,c:030579,c:160578
 422d:00820000:2f44:013e:1:0:0
 Class TV Moda
 p:M-Three Satcom,c:000583,c:010584,c:030583,c:160582
+422e:00820000:2f44:013e:1:0:0
+Horse TV HD
+p:Sky Italia,c:00058d,c:01058e,c:03058d,c:16058c,C:0000
 4331:00820000:300c:013e:25:0:0
 SRF 1 HD
 p:SSR/SRG,c:0001f6,c:0101f7,c:0201fb,c:0301f6,c:050001
@@ -5832,5 +5868,5 @@ p:,c:030c32,c:1614af
 VOA Urdu Radio ch310
 p:,c:0313a8,c:1614be
 end
-# 137 transponders and 1806 services.
-# Created by E-Channelizer v20.1.0.1220 on 15 mar, 2021 at 17:52 - https://www.echannelizer.com
+# 128 transponders and 1827 services.
+# Created by E-Channelizer v20.1.0.1220 on 25 mar, 2021 at 10:22 - https://www.echannelizer.com
