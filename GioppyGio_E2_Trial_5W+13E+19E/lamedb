@@ -4,7 +4,7 @@ transponders
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
 /
 00820000:005f:0055
-	s 12437000:29900000:0:7:130:2:0:1:2:0:2
+	s 10949000:29900000:1:7:130:2:0:1:2:0:2
 /
 00820000:00c8:013e
 	s 11240000:27500000:1:3:130:2:0
@@ -256,9 +256,6 @@ transponders
 	s 12225000:27500000:1:3:130:2:0
 /
 00c00000:0002:0085
-	s 11758000:27500000:0:9:192:2:0:1:1:0:2
-/
-00c00000:0002:0085
 	s 11758500:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0003:0085
@@ -269,9 +266,6 @@ transponders
 /
 00c00000:0005:0085
 	s 12460000:27500000:0:3:192:2:0
-/
-00c00000:0006:0085
-	s 11914000:27500000:0:9:192:2:0:1:1:0:2
 /
 00c00000:0006:0085
 	s 11914500:27500000:0:9:192:2:0:1:1:0:2
@@ -355,7 +349,7 @@ transponders
 	s 11508000:22000000:1:4:192:2:0
 /
 00c00000:03fd:0001
-	s 11523000:22000000:0:4:192:2:0
+	s 11523000:22000000:0:2:192:2:0:1:2:0:2
 /
 00c00000:03fe:0001
 	s 11538000:22000000:1:4:192:2:0
@@ -380,9 +374,6 @@ transponders
 /
 00c00000:0407:0001
 	s 11670000:22000000:0:2:192:2:0:1:2:0:2
-/
-00c00000:0408:0001
-	s 11685000:22000000:1:4:192:2:0
 /
 00c00000:0409:0001
 	s 10964000:22000000:0:2:192:2:0:1:2:0:2
@@ -681,6 +672,15 @@ transponders
 0ddeb168:0003:20fa
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
 /
+0ddeb1bd:0001:20fa
+	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:1:50416:1
+/
+0ddeb1bd:0004:20fa
+	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:4:50416:1
+/
+0ddeb1bd:0006:20fa
+	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:6:50416:1
+/
 end
 services
 03e8:00820000:005e:0055:1:0:0
@@ -752,11 +752,20 @@ p:XTRA TV,c:0007d2,c:0107d3,c:0307d2,c:1607d1,C:0000
 0820:00820000:005f:0055:25:0:0
 Setanta Sports+ HD
 p:XTRA TV,c:000822,c:010823,c:030822,c:160821,C:0000
+0820:00820000:005f:0055:1:0:0
+Setanta Sports+ HD
+p:XTRA TV,c:000822,c:010823,c:030822,c:160821,C:0000
 0848:00820000:005f:0055:25:0:0
 ViP Premiere
 p:XTRA TV,c:00084a,c:01084b,c:03084a,c:160849,C:0000
+0848:00820000:005f:0055:1:0:0
+ViP Premiere HD
+p:XTRA TV,c:00084a,c:01084b,c:03084a,c:160849,C:0000
 085c:00820000:005f:0055:25:0:0
 ViP Megahit
+p:XTRA TV,c:00085e,c:01085f,c:03085e,c:16085d,C:0000
+085c:00820000:005f:0055:1:0:0
+ViP Megahit HD
 p:XTRA TV,c:00085e,c:01085f,c:03085e,c:16085d,C:0000
 08d4:00820000:005f:0055:25:0:0
 NIKI Junior HD
@@ -787,7 +796,7 @@ Discovery Channel Eastern Europe
 p:XTRA TV,c:00098a,c:01098b,c:03098a,c:160989,C:0000
 099c:00820000:005f:0055:1:0:0
 Animal Planet Eastern Europe
-p:XTRA TV,c:00099e,c:01099f,c:03099e,c:16099d,C:0000
+p:XTRA TV,c:00099e,c:01099f,c:03099e,c:16099d,C:0000,f:8
 09b0:00820000:005f:0055:1:0:0
 TLC Russia
 p:XTRA TV,c:0009b2,c:0109b3,c:0309b2,c:1609b1,C:0000
@@ -1229,21 +1238,9 @@ p:Radiotelevisione svizzera,c:0100de,c:0300de,c:1601ce
 36d1:00820000:06a4:013e:2:0:0
 Rete Tre
 p:Radiotelevisione svizzera,c:0100df,c:0300df,c:1601cf
-36d2:00820000:06a4:013e:2:0:0
-Swiss Classic
-p:Swiss Satellite Radio,c:0100e0,c:0300e0,c:1601d0
-36d3:00820000:06a4:013e:2:0:0
-Swiss Pop
-p:Swiss Satellite Radio,c:0100e1,c:0300e1,c:1601d1
-36d4:00820000:06a4:013e:2:0:0
-Swiss Jazz
-p:Swiss Satellite Radio,c:0100e2,c:0300e2,c:1601d2
 36d5:00820000:06a4:013e:2:0:0
 SRF 4 News
 p:Schweizer Radio und Fernsehen,c:0100e3,c:0300e3,c:1601d3
-36d7:00820000:06a4:013e:2:0:0
-Swiss Classique
-p:Swiss Satellite Radio,c:0100e5,c:0300e5,c:1601d5
 36d8:00820000:06a4:013e:2:0:0
 SRF 1 AG SO
 p:Schweizer Radio und Fernsehen,c:0100e6,c:0300e6,c:1601d6
@@ -1265,9 +1262,6 @@ p:Schweizer Radio und Fernsehen,c:0100eb,c:0300eb,c:1601db
 36de:00820000:06a4:013e:2:0:0
 SRF 1 GR
 p:Schweizer Radio und Fernsehen,c:0100ec,c:0300ec,c:1601dc
-36df:00820000:06a4:013e:2:0:0
-Swiss Classica
-p:Swiss Satellite Radio,c:0100ed,c:0300ed,c:1601dd
 36e3:00820000:06a4:013e:25:0:0
 RSI La 1 HD
 p:SSR/SRG,c:000228,c:010229,c:02022d,c:030228,c:050001,C:0000
@@ -1277,21 +1271,9 @@ p:SSR/SRG,c:000232,c:010233,c:020237,c:030232,c:050001,C:0000
 36e5:00820000:06a4:013e:25:0:0
 SRF info HD
 p:SSR/SRG,c:00020a,c:01020b,c:02020f,c:03020a,c:050001
-0e25:00820000:0708:00c8:1:0:0
-Super!
-p:Sky Italia,c:001842,c:011843,c:031842,c:160118,C:0000
 0e26:00820000:0708:00c8:1:0:0
 Simaye Azadi Iran National TV
 p:M-Three Satcom,c:00184c,c:01184d,c:03184c,c:160e26
-0e28:00820000:0708:00c8:1:0:0
-Spike Italia
-p:TivùSat,c:001860,c:011861,c:031860,C:0000
-0e29:00820000:0708:00c8:1:0:0
-VH-1 Italy
-p:TivùSat,c:00186a,c:01186b,c:03186a
-0e2b:00820000:0708:00c8:1:0:0
-Paramount Channel Italy PROV.
-p:Sky Italia,c:001884,c:01187f,c:021881,c:031884,c:16012c,C:0000
 0e2c:00820000:0708:00c8:1:0:0
 TG Norba 24
 p:M-Three satcom,c:001888,c:011889,c:031888
@@ -1485,7 +1467,7 @@ p:Sky Italia,c:0000ab,c:0101a8,c:0300ab,c:1603f5,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-Made in Italy Collection HD
+Sport Movies Collection HD
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -1503,7 +1485,7 @@ p:Sky Italia,c:0000aa,c:0202c7,c:0300aa,c:0401a5,c:1603f4,C:0000
 Cartoon Network HD Italy
 p:Sky Italia,c:0000a8,c:0101a1,c:0202c5,c:0300a8,c:1603f1
 37ba:00820000:14b4:fbff:1:0:0
-Sky Uno +1 HD
+Vacanze italiane  HD
 p:Sky Italia,C:0000
 012d:00820000:157c:013e:25:0:0
 Macedonia TV
@@ -1553,6 +1535,9 @@ p:Nova,c:00020b,c:0102f8,c:03020b,c:050001
 0147:00820000:157c:013e:25:0:0
 Nova Cinema 4 HD
 p:Nova,c:00021c,c:01030c,c:03021c,c:050001
+0149:00820000:157c:013e:1:0:0
+Smile TV (Greece)
+p:Nova,c:000200,c:01028a,c:030200,c:160049,C:0000
 014a:00820000:157c:013e:25:0:0
 MTV Hits
 p:Nova,c:00020c,c:01020d,c:03020c,c:050001
@@ -1586,6 +1571,9 @@ p:SkyItalia,C:0000
 1e5c:00820000:15e0:fbff:25:0:0
 Sky Calcio 8 HD
 p:Sky Italia,c:0000a6,c:0300a6,c:04019c,c:1603ef,C:0000
+1e62:00820000:15e0:fbff:1:0:0
+DAZN 1+
+p:Sky Italia,C:0000
 38bf:00820000:15e0:fbff:1:0:0
 Primafila 23
 p:SkyItalia,C:0000
@@ -1980,7 +1968,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-Made in Italy Collection
+Sport Movies Collection
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2049,7 +2037,7 @@ p:Sky Italia,c:0000bb,c:0101c0,c:0300bb,c:160405,C:0000
 Food Network HD Italy
 p:Sky Italia,C:0000
 3424:00820000:1af4:fbff:1:0:0
-NGW I Predatori
+Nat Geo Wild +1 Italia
 p:Sky Italia,C:0000
 37ad:00820000:1af4:fbff:25:0:0
 DMAX HD Italia
@@ -2061,7 +2049,7 @@ p:Sky Italia,c:0000af,c:0101b0,c:0300af,c:1603f7,C:0000
 Nickelodeon +1 Italia
 p:SkyItalia,C:0000
 38c5:00820000:1af4:fbff:1:0:0
-Comedy Central +1 Italia
+6 Best Friends
 p:Sky Italia,c:0000a2,c:010196,c:0300a2,c:1603ed,C:0000
 3be3:00820000:1af4:fbff:1:0:0
 Torino Channel
@@ -2613,10 +2601,10 @@ p:Sky Italia,c:0000a4,c:01019c,c:0202bf,c:0300a4,c:160450,C:0000
 Sky Cinema Family HD
 p:Sky Italia,c:0000a1,c:010190,c:0202bd,c:0300a1,c:16044d,C:0000
 2a97:00820000:206c:fbff:1:0:0
-Sky Uno +1
+Vacanze italiane
 p:Sky Italia,c:0000ae,c:0101b0,c:0202c0,c:0300ae,c:16045e,C:0000
 2d00:00820000:206c:fbff:1:0:0
-Sky Atlantic Maratone HD
+Sky Atlantic +1 HD Italia
 p:Sky Italia,C:0000
 2da2:00820000:206c:fbff:25:0:0
 Premium Cinema +24 HD
@@ -2810,6 +2798,9 @@ p:STN Ltd,c:000407,c:010408,c:031ffe
 232c:00820000:2328:013e:1:7688:0
 Med Music
 p:STN Ltd,c:000411,c:010412,c:031ffe
+232d:00820000:2328:013e:1:0:0
+Zaytouna Radio & TV
+p:STN,c:00041b,c:03041b,c:160389
 232e:00820000:2328:013e:25:0:0
 Al Araby TV HD
 p:
@@ -2834,6 +2825,9 @@ p:STN,c:00046b,c:01046c,c:03046b,c:160391
 2336:00820000:2328:013e:1:0:0
 Paci Contemporary Channel
 p:STN,c:000475,c:010476,c:030475,c:160392
+2337:00820000:2328:013e:1:0:0
+NTN - Nuova TV Nazionale
+p:STN,c:00047f,c:010480,c:03047f,c:160393
 2338:00820000:2328:013e:1:0:0
 Somaliland National TV
 p:,c:000489,c:031ffe
@@ -3599,6 +3593,21 @@ p:Radiotelevisione svizzera,c:000228,c:02022d,c:030228,c:040229,c:160227,C:0000
 4338:00820000:300c:013e:1:0:0
 RSI La 2 HD
 p:Radiotelevisione svizzera,c:000232,c:020237,c:030232,c:040233,c:160231,C:0000
+4352:00820000:300c:013e:2:0:0
+Swiss Classic
+p:Swiss Satellite Radio,c:0100e0,c:0300e0,c:1601d0
+4353:00820000:300c:013e:2:0:0
+Swiss Pop
+p:Swiss Satellite Radio,c:0100e1,c:0300e1,c:1601d1
+4354:00820000:300c:013e:2:0:0
+Swiss Jazz
+p:Swiss Satellite Radio,c:0100e2,c:0300e2,c:1601d2
+4357:00820000:300c:013e:2:0:0
+Swiss Classique
+p:Swiss Satellite Radio,c:0100e5,c:0300e5,c:1601d5
+435f:00820000:300c:013e:2:0:0
+Swiss Classica
+p:Swiss Satellite Radio,c:0100ed,c:0300ed,c:1601dd
 2136:00820000:3070:013e:1:6426:0
 Rai Movie
 p:RAI,c:0000c8,c:010320,c:0300c8,C:0000
@@ -4013,6 +4022,9 @@ p:Harmonic,c:000565,c:030565,c:160569
 1362:00820000:33f4:013e:1:0:0
 Canale Italia 84
 p:Telespazio,c:00056f,c:03056f,c:160573
+1365:00820000:33f4:013e:2:0:0
+Radio Dimensione Stereo
+p:Telespazio,c:0109d6,c:0309d6,c:160206
 136a:00820000:33f4:013e:1:0:0
 TeleCampione
 p:Telespazio,c:0004c5,c:0104c6,c:0304c5
@@ -4547,6 +4559,12 @@ p:Kabelkiosk,c:000aff,c:010b00,c:020020,c:030aff,C:0000
 0107:00c00000:0003:0085:1:0:0
 Sky Sport 3 Germany
 p:Sky Deutschland,c:000bff,c:010c00,c:020020,c:030bff,C:0000
+0111:00c00000:0003:0085:1:0:0
+Sky Sport 4 Germany
+p:Sky Deutschland,c:0015ff,c:011600,c:020020,c:0315ff,c:160075,C:0000
+011b:00c00000:0003:0085:1:0:0
+Sky Sport 5 Germany
+p:Sky Deutschland,c:0018ff,c:011900,c:020020,c:0318ff,c:160078,C:0000
 0138:00c00000:0003:0085:1:0:0
 Sky Sport Bundesliga 7
 p:Kabelkiosk,c:000eff,c:010f00,c:020020,c:030eff,C:0000
@@ -4715,6 +4733,12 @@ p:BetaDigital,c:000300,c:0102ff,c:030300,c:160061
 0307:00c00000:0007:0085:1:0:0
 MediaShop - Meine Einkaufswelt
 p:BetaDigital,c:0004ff,c:010500,c:0304ff
+0124:00c00000:0008:0085:1:0:0
+Sky Sport Bundesliga 5 HD
+p:Sky Deutschland,c:0005ff,c:010600,c:020020,c:0305ff,c:160065,C:0000
+0147:00c00000:0008:0085:1:0:0
+Sky Sport Bundesliga 8 HD
+p:Sky Deutschland,c:0010ff,c:020020,c:0310ff,c:041102,c:160070,C:0000
 0149:00c00000:0008:0085:1:0:0
 Sky Sport Austria 2 HD
 p:Sky Deutschland,c:0013ff,c:0313ff,c:041402,c:160073,C:0000
@@ -4824,7 +4848,7 @@ p:Kabelkiosk,c:0006ff,c:010700,c:0306ff
 Sky Atlantic HD Germany
 p:Kabelkiosk,c:0004ff,c:010503,c:020020,c:0304ff
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema DC Helden HD
+Sky Cinema Special HD
 p:Sky Deutschland,C:0000
 0070:00c00000:000d:0085:25:0:0
 National Geographic HD Germany
@@ -4868,6 +4892,9 @@ p:Sky Deutschland,c:0004ff,c:010503,c:0304ff
 0091:00c00000:0010:0085:25:0:0
 Sky Arts HD Germany
 p:Sky Deutschland,c:0002ff,c:010303,c:0302ff
+0151:00c00000:0010:0085:1:0:0
+Sky Sport Bundesliga 9 HD
+p:Sky Deutschland,c:0009ff,c:020020,c:0309ff,c:040a02,c:160069,C:0000
 0152:00c00000:0010:0085:1:0:0
 Sky Sport 10 HD Germany
 p:Sky Deutschland,c:000dff,c:020020,c:030dff,c:040e02,c:16006d,C:0000
@@ -4911,7 +4938,7 @@ p:BetaDigital,c:000bff,c:010c00,c:020025,c:030bff
 Astro TV
 p:BetaDigital,c:0009ff,c:010a00,c:0309ff
 0381:00c00000:0021:0085:1:0:0
-Equi8
+Genius Trend
 p:BetaDigital,c:0002ff,c:010300,c:0302ff
 0382:00c00000:0021:0085:1:0:0
 MediaShop - Meine Einkaufswelt
@@ -5384,18 +5411,6 @@ p:Austriasat,c:000dff,c:010e00,c:030dff
 14c2:00c00000:0407:0001:1:0:0
 Kabel Eins Classics
 p:Austriasat,c:000eff,c:010f00,c:030eff
-75f9:00c00000:0408:0001:1:0:0
-Paramount Channel Spain
-p:Movistar+ (Astra),c:0000a1,c:010054,c:0300a1
-75fe:00c00000:0408:0001:1:0:0
-Neox
-p:Movistar+ (Astra),c:0000a8,c:010070,c:0300a8
-7602:00c00000:0408:0001:1:0:0
-Classica
-p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
-7607:00c00000:0408:0001:1:0:0
-Disney+ Spain
-p:Movistar+,c:0000a2,c:010058,c:0300a2,c:16040d,C:0000
 2774:00c00000:0409:0001:25:0:0
 TLC HD
 p:HD +,c:0000ff,c:010103,c:020020,c:0300ff
@@ -6017,6 +6032,9 @@ p:SES ASTRA,c:00020d,c:01007a,c:020028,c:03020d,c:160844
 1646:00c00000:042c:0001:2:0:0
 VRT Radio 1
 p:SES ASTRA,c:010065,c:030065,c:160064
+164f:00c00000:042c:0001:25:0:0
+Asteroid Day
+p:Harmonic,c:000031,c:030031,c:160016
 1f41:00c00000:042e:0001:25:0:0
 BET HD France
 p:Canal+ France,c:00006e,c:010079,c:03006e
@@ -7484,9 +7502,6 @@ p:GR1 A,c:000078,c:010082,c:030078,c:16006e
 0104:0dde0000:0001:20fa:1:0:0
 France 4
 p:GR1 A,c:000140,c:01014a,c:030140,c:160136
-0105:0dde0000:0001:20fa:25:0:0
-CultureBox
-p:GR1 B,c:000208,c:010212,c:030208,c:1601fe
 0106:0dde0000:0001:20fa:1:0:0
 franceinfo:
 p:GR1 A,c:00026c,c:010276,c:03026c,c:160262
@@ -8283,7 +8298,7 @@ p:Bis,c:000295,c:010296,c:030295,c:160294,C:0000
 LCI HD
 p:Bis,c:00029f,c:0102a0,c:03029f,c:16029e,C:0000
 0139:0dde0000:4f4c:055f:1:0:0
-FRANSAT UHD
+France TV Sport 4K UHD
 p:EUTELSAT,c:0002db,c:0102dc,c:0302db,c:1602da,C:0000
 0142:0dde0000:4f4c:055f:25:0:0
 Fransat Info HD
@@ -8303,9 +8318,6 @@ p:Bis,c:0005bf,c:0105c0,c:0305bf,c:1605be,C:0000
 01a3:0dde0000:4fb0:055f:25:0:0
 France 5 HD
 p:Bis,c:0005d3,c:0105d4,c:0305d3,c:1605d2,C:0000
-01a4:0dde0000:4fb0:055f:25:0:0
-CultureBox
-p:Fransat,c:000961,c:010962,c:030961,c:160960,C:0000
 01a5:0dde0000:4fb0:055f:25:0:0
 W9 HD
 p:Bis,c:00096b,c:01096c,c:03096b,c:16096a,C:0000
@@ -8519,6 +8531,48 @@ p:CNH,c:000262,c:01026d,c:030262,c:160258,C:0000
 030a:0ddeb168:0003:20fa:25:0:0
 Canal+ HD
 p:CNH,c:00006e,c:010079,c:03006e,c:160064,C:0000
+0101:0ddeb1bd:0001:20fa:25:0:0
+France 2 HD
+p:GR1 A,c:000078,c:010082,c:030078,c:16006e
+0104:0ddeb1bd:0001:20fa:25:0:0
+France 4 HD
+p:GR1 A,c:000140,c:01014a,c:030140,c:160136
+0106:0ddeb1bd:0001:20fa:25:0:0
+Franceinfo: HD
+p:GR1 A,c:00026c,c:010276,c:03026c,c:160262
+0110:0ddeb1bd:0001:20fa:25:0:0
+France 3 Sat HD
+p:GR1,c:0000dc,c:0100e6,c:0300dc,c:1600d2
+0401:0ddeb1bd:0004:20fa:25:0:0
+M6 HD
+p:Multi4,c:000078,c:010082,c:030078,c:160064
+0402:0ddeb1bd:0004:20fa:25:0:0
+W9 HD
+p:Multi4,c:0000dc,c:0100e6,c:0300dc,c:1600c8
+0407:0ddeb1bd:0004:20fa:25:0:0
+Arte HD
+p:Multi4,c:000140,c:01014a,c:030140,c:16012c
+0415:0ddeb1bd:0004:20fa:25:0:0
+France 5 HD
+p:Multi4,c:0001a4,c:0101ae,c:0301a4,c:160190
+0416:0ddeb1bd:0004:20fa:25:0:0
+6ter
+p:Multi4,c:000208,c:010212,c:030208,c:1601f4
+0601:0ddeb1bd:0006:20fa:25:0:0
+TF 1
+p:SMR6,c:000078,c:010082,c:030078,c:160064
+0602:0ddeb1bd:0006:20fa:25:0:0
+NRJ 12
+p:SMR6,c:0000dc,c:0100e6,c:0300dc,c:1600c8
+0606:0ddeb1bd:0006:20fa:25:0:0
+TMC HD
+p:SMR6,c:00026c,c:010276,c:03026c,c:160258
+0608:0ddeb1bd:0006:20fa:25:0:0
+TFX
+p:SMR6,c:000208,c:010212,c:030208,c:1601f4
+0609:0ddeb1bd:0006:20fa:25:0:0
+LCP HD
+p:SMR6,c:0002d0,c:0102da,c:0302d0,c:1602bc
 end
-# 227 transponders and 2612 services.
-# Created by E-Channelizer v20.1.0.1220 on 08 mag, 2021 at 21:35 - https://www.echannelizer.com
+# 227 transponders and 2630 services.
+# Created by E-Channelizer v20.1.0.1220 on 30 mag, 2021 at 20:22 - https://www.echannelizer.com
