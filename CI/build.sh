@@ -61,6 +61,7 @@ rm -rf *.zip
 rename 's/_[^_]*$//' */
 
 find . -name '*satellites.xml*' -type f | xargs rm -f
+find . -name '*.url*' -type f | xargs rm -f
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
@@ -71,11 +72,13 @@ commit_files() {
   git checkout master
   git add -u
   git add *
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit --message "Fetch latest GioppyGio settings."
+  ./CI/chmod.sh
+  ./CI/dos2unix.sh
 }
 
 upload_files() {
-  git remote add upstream https://${GH_TOKEN}@github.com/OpenVisionE2/GioppyGio-settings.git > /dev/null 2>&1
+  git remote add upstream https://${GITHUB_TOKEN}@github.com/OpenVisionE2/GioppyGio-settings.git > /dev/null 2>&1
   git push --quiet upstream master || echo "failed to push with error $?"
 }
 
