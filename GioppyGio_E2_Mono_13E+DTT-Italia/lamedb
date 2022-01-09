@@ -1,13 +1,7 @@
 eDVB services /4/
 transponders
-eeee0000:0001:013e
-	t 205500000:1:5:5:3:2:4:4:2:0
-/
 eeee0000:0001:217c
 	t 514000000:0:6:6:2:1:0:0:2:0
-/
-eeee0000:0002:013e
-	t 546000000:0:5:5:3:2:4:4:2:0
 /
 eeee0000:0002:217c
 	t 626000000:0:6:6:2:1:0:0:2:0
@@ -16,9 +10,6 @@ eeee0000:0008:1000
 	t 786000000:0:6:6:2:1:0:0:2:0
 /
 eeee0000:0039:217c
-	t 762000000:0:5:5:3:2:4:4:2:0
-/
-eeee0000:00c8:00c8
 	t 762000000:0:5:5:3:2:4:4:2:0
 /
 eeee0000:0107:217c
@@ -347,15 +338,6 @@ eeee0000:8800:013e
 /
 end
 services
-0d4c:eeee0000:0001:013e:2:196:0
-Rai Radio1
-p:Rai
-0d4d:eeee0000:0001:013e:2:197:0
-Rai Radio2
-p:Rai
-0d4e:eeee0000:0001:013e:2:198:0
-Rai Radio3
-p:Rai
 03e9:eeee0000:0001:217c:25:0:0
 Rai Sport + HD
 p:Rai
@@ -376,15 +358,6 @@ Rai Premium
 p:Rai
 03ef:eeee0000:0001:217c:22:0:0
 Rai 4
-p:Rai
-217a:eeee0000:0002:013e:2:192:0
-Rai Radio Classica
-p:Rai
-217c:eeee0000:0002:013e:2:194:0
-Rai GrParlamento
-p:Rai
-217d:eeee0000:0002:013e:2:195:0
-Rai Isoradio
 p:Rai
 041b:eeee0000:0002:217c:25:0:0
 Rai 3 HD
@@ -407,18 +380,18 @@ p:Rai
 000b:eeee0000:0008:1000:1:0:0
 Euronews Puglia
 p:Teledehon
+000a:eeee0000:0039:217c:2:297:0
+Radio Capri
+p:BeS
+000b:eeee0000:0039:217c:2:298:0
+RADIO CAPRI
+p:BeS
 00dd:eeee0000:0039:217c:1:0:0
 ALICE
-p:BeS
-00de:eeee0000:0039:217c:1:0:0
-MARCOPOLO
 p:BeS
 1c1f:eeee0000:0039:217c:1:0:0
 BFC
 p:BeS
-000a:eeee0000:00c8:00c8:2:206:0
-Radio Capri
-p:Telecapri
 02c8:eeee0000:0107:217c:1:141:0
 LA7d
 p:
@@ -434,6 +407,12 @@ p:
 0321:eeee0000:0107:217c:25:0:0
 DAZN Channel
 p:,f:40
+000d:eeee0000:0200:001d:2:290:0
+R Italia SMI
+p:Persidera
+000e:eeee0000:0200:001d:2:291:0
+R Italia SMI
+p:Persidera
 001e:eeee0000:0200:001d:22:0:0
 Boing Plus
 p:Persidera
@@ -467,8 +446,20 @@ p:Persidera
 0064:eeee0000:0202:001d:1:172:0
 TV2000
 p:Persidera
+0069:eeee0000:0202:001d:2:293:0
+RADIO VATICANA ITALIA
+p:Persidera
 0087:eeee0000:0202:001d:1:65:0
 Byoblu
+p:Persidera
+0009:eeee0000:0204:001d:2:287:0
+Radio Deejay
+p:Persidera
+000a:eeee0000:0204:001d:2:288:0
+Radio Capital
+p:Persidera
+000b:eeee0000:0204:001d:2:289:0
+Radio m2o
 p:Persidera
 0010:eeee0000:0204:001d:1:0:0
 GIALLO
@@ -497,17 +488,35 @@ p:Persidera
 00dc:eeee0000:0204:001d:1:0:0
 RADIOFRECCIA HD
 p:Persidera
-00dd:eeee0000:0204:001d:2:205:0
+00dd:eeee0000:0204:001d:2:294:0
 RTL 102.5
 p:Persidera
 00de:eeee0000:0204:001d:1:83:0
 ZETA ITALIANA
+p:Persidera
+00de:eeee0000:0204:001d:2:295:0
+RTL 102.5 NEWS
+p:Persidera
+00df:eeee0000:0204:001d:2:296:0
+FRECCIA
 p:Persidera
 1b8e:eeee0000:0384:0110:22:0:0
 Mediaset Italia Due
 p:Mediaset
 1b8f:eeee0000:0384:0110:22:0:0
 Mediaset Italia Due
+p:Mediaset
+1bbe:eeee0000:0384:0110:2:283:0
+Radio R101
+p:Mediaset
+1bbf:eeee0000:0384:0110:2:284:0
+RADIO 105
+p:Mediaset
+1bc0:eeee0000:0384:0110:2:285:0
+VIRGIN RADIO
+p:Mediaset
+1bc1:eeee0000:0384:0110:2:286:0
+Radio Monte Carlo
 p:Mediaset
 1bd2:eeee0000:0384:0110:1:0:0
 Premium Cinema 1
@@ -524,12 +533,6 @@ p:
 1c18:eeee0000:0384:0110:1:114:0
 PADRE PIO TV
 p:Bouquet Vari,c:00028a,c:01028b,c:03028a
-007f:eeee0000:0385:0110:1:0:0
-Premium Online
-p:
-0080:eeee0000:0385:0110:1:0:0
-Premium Play
-p:
 008c:eeee0000:0385:0110:1:0:0
 Sky Atlantic
 p:
@@ -605,9 +608,6 @@ p:Mediaset,c:0005e6,c:0305e6,c:0405e7,f:1
 0c30:eeee0000:03a2:0110:25:0:0
 20 Mediaset HD
 p:Mediaset
-0c4a:eeee0000:03a2:0110:1:0:0
-Investigation Discovery -Premium
-p:
 0fa4:eeee0000:03ac:0110:1:0:0
 Rete4
 p:
@@ -631,9 +631,6 @@ Iris
 p:
 1012:eeee0000:03ac:0110:22:0:0
 TGCOM24
-p:
-1067:eeee0000:03ac:0110:1:0:0
-Infinity
 p:
 1068:eeee0000:03ac:0110:1:48:0
 Test HEVC Main10
@@ -668,16 +665,25 @@ p:Sky Italia,c:001587,c:011588,c:031587
 0065:eeee0000:27fb:0148:1:195:0
 ZETA TV
 p:STUDIO1
+000f:eeee0000:47d0:217c:2:299:0
+RPL - LA TUA RADIO
+p:Canale Italia
 001c:eeee0000:47d0:217c:1:96:0
 FRANCE 24
+p:Canale Italia
+0021:eeee0000:47d0:217c:2:300:0
+RADIO CANALE ITALIA
+p:Canale Italia
+0022:eeee0000:47d0:217c:2:301:0
+VOLAMI NEL CUORE
 p:Canale Italia
 0d4c:eeee0000:4800:013e:2:189:0
 Rai Radio1
 p:Rai
-0d4d:eeee0000:4800:013e:2:190:0
+0d4d:eeee0000:4800:013e:2:281:0
 Rai Radio2
 p:Rai
-0d4e:eeee0000:4800:013e:2:191:0
+0d4e:eeee0000:4800:013e:2:282:0
 Rai Radio3
 p:Rai
 0d52:eeee0000:4800:013e:31:143:0
@@ -698,7 +704,7 @@ p:Persidera
 0003:eeee0000:7918:217c:1:0:0
 Paramount Channel
 p:Persidera
-000c:eeee0000:7918:217c:2:202:0
+000c:eeee0000:7918:217c:2:292:0
 Radio Maria
 p:Persidera
 0019:eeee0000:7918:217c:1:0:0
@@ -944,12 +950,6 @@ p:XTRA TV,c:00099e,c:01099f,c:03099e,c:16099d,C:0000
 09b0:00820000:0060:0055:1:0:0
 TLC Russia
 p:XTRA TV,c:0009b2,c:0109b3,c:0309b2,c:1609b1,C:0000
-3650:00820000:00c8:013e:1:0:0
-Algérie 4
-p:TDA,c:0003ec,c:0107d4,c:0303ec,c:160388
-3651:00820000:00c8:013e:1:0:0
-Algérie 5
-p:TDA,c:0003ed,c:0107d5,c:0303ed,c:160389
 366a:00820000:00c8:013e:1:0:0
 Novy Mir
 p:Harmonic,c:000200,c:011010,c:030200
@@ -1277,6 +1277,9 @@ p:iKO Media Group,c:000065,c:010066,c:030065,c:160064
 0002:00820000:0578:013f:25:0:0
 Dieu TV
 p:iKO Media Group,c:0000c9,c:0100ca,c:0300c9,c:1600c8
+0003:00820000:0578:013f:25:0:0
+Holy God
+p:iKO Media Group,c:00012d,c:01012e,c:03012d,c:16012c
 13ee:00820000:05dc:013e:1:0:0
 Canal+ Sport 2 HD
 p:Platforma Canal+,c:0000a1,c:010054,c:0300a1,c:050001
@@ -1838,9 +1841,6 @@ p:SkyItalia
 2517:00820000:170c:fbff:25:0:0
 Race Control HD Fake
 p:Sky Italia,c:0000ac,c:0101bd,c:0300ac,c:050001
-0002:00820000:1770:0110:1:7074:0
-Canale 5
-p:Mediaset,c:00064a,c:01064b,c:020653,c:03064a
 003a:00820000:1770:0110:25:0:0
 Canale 239
 p:,c:000259,c:01025a,c:030259,c:160102
@@ -2034,8 +2034,8 @@ p:Sky Italia,c:0000b0,c:0101cb,c:0300b0,c:160460,C:0000
 Class CNBC
 p:Sky Italia,c:0000a3,c:010196,c:0300a3,c:160462,C:0000
 0fbd:00820000:19c8:fbff:1:0:0
-Fox +1 Italia
-p:Sky Italia,c:0000b5,c:0101b5,c:0201e0,c:0300b5,c:1603e9,C:0000
+Fox Simpson
+p:Sky Italia,C:0000
 1fac:00820000:19c8:fbff:1:0:0
 Sky News International
 p:Sky Italia,c:0000b9,c:0101bd,c:0300b9,c:1603ed,C:0000
@@ -2157,8 +2157,8 @@ p:Sky Italia,c:0000a6,c:0101a8,c:0202c3,c:0300a6,c:160457,C:0000
 Boomerang Italia
 p:Sky Italia,c:0000bb,c:0101e7,c:0202d0,c:0300bb,c:160471,C:0000
 0fbf:00820000:1af4:fbff:1:0:0
-DeA Kids +1
-p:Sky Italia,c:0000ad,c:0101ac,c:0300ad,c:1603f5,C:0000
+Masha e Orso
+p:Sky Italia,C:0000
 0fd9:00820000:1af4:fbff:1:0:0
 History Channel Italia +1
 p:Sky Italia,c:0000b0,c:0101b2,c:0202c1,c:0300b0,c:1603f8,C:0000
@@ -4770,5 +4770,5 @@ p:,c:030c32,c:1614af
 VOA Urdu Radio ch310
 p:,c:0313a8,c:1614be
 end
-# 115 transponders and 1474 services.
-# Created by E-Channelizer v22.0.0.1106 on 22 dic, 2021 at 12:05 - https://www.echannelizer.com
+# 112 transponders and 1477 services.
+# Created by E-Channelizer v22.0.0.1106 on 04 gen, 2022 at 18:16 - https://www.echannelizer.com

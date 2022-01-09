@@ -33,6 +33,9 @@ transponders
 005a0000:0065:0012
 	s 11804000:27500000:1:2:90:2:0:1:2:0:2
 /
+005a0000:006f:0110
+	s 12265000:31400000:1:3:90:2:0:1:4:0:2:111:8:0
+/
 005a0000:0107:217c
 	s 12111000:31400000:1:2:90:2:0:1:4:0:2:1:8:0
 /
@@ -129,20 +132,8 @@ transponders
 005aaf75:032a:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:3:8:0
 /
-005ab035:0107:217c
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:101:8:0
-/
-005ab035:0384:0110
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:103:8:0
-/
-005ab035:0389:0110
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:104:8:0
-/
-005ab035:a801:217c
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:11:8:0
-/
 005ab05c:a801:217c
-	s 12380000:31400000:1:4:90:2:0:1:4:0:2:101:8:0
+	s 12380000:31400000:1:4:90:2:0:1:4:0:2:23:8:0
 /
 005ab082:a801:217c
 	s 12418000:31400000:1:3:90:2:0:1:4:0:2:13:8:0
@@ -660,9 +651,6 @@ transponders
 00c00000:0443:0001
 	s 12226000:27500000:0:3:192:2:0
 /
-00c00000:0444:0001
-	s 12246000:29700000:1:2:192:2:0:1:2:0:2
-/
 00c00000:0445:0001
 	s 12265000:27500000:0:3:192:2:0
 /
@@ -714,9 +702,6 @@ transponders
 00c0313b:0457:0001
 	s 12603000:22000000:0:4:192:2:0
 /
-00c0afd6:0444:0001
-	s 12246000:29700000:1:2:192:2:0:1:2:0:2
-/
 00c0b0ea:0451:0035
 	s 12522000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -734,33 +719,9 @@ p:Eutelsat,c:030660,c:16065e
 0668:005a0000:0001:0064:2:0:0
 Carrefour Market
 p:Eutelsat,c:03066a,c:160668
-067c:005a0000:0001:0064:2:0:0
-TVT Radio 1 (Radio Lome)
-p:,c:01067e,c:031fff,c:16067c
-0686:005a0000:0001:0064:2:0:0
-TVT Radio 2 (Radio Kara)
-p:,c:010688,c:031fff,c:160686
 06a4:005a0000:0001:0064:2:0:0
 Radio CHINA FM
 p:,c:0306a5,c:1606a4
-0712:005a0000:0001:0064:1:0:0
-Sisal TV
-p:,c:000713,c:010714,c:030713,c:160712,C:0000
-071c:005a0000:0001:0064:1:0:0
-Sisal TV
-p:Eutelsat,c:00071d,c:01071e,c:03071d,c:16071c,C:0000
-0726:005a0000:0001:0064:1:0:0
-Sisal TV
-p:Eutelsat,c:000727,c:010728,c:030727,c:160726,C:0000
-0730:005a0000:0001:0064:1:0:0
-Sisal TV
-p:Eutelsat,c:000731,c:010732,c:030731,c:160730,C:0000
-073a:005a0000:0001:0064:25:0:0
-Sisal TV
-p:Eutelsat,c:00073b,c:01073c,c:03073b,c:16073a,C:0000
-0744:005a0000:0001:0064:1:0:0
-NLM TV
-p:,c:000745,c:030745,c:160744
 074e:005a0000:0001:0064:25:0:0
 Italy Service 3
 p:,c:00074f,c:010750,c:03074f,c:16074e
@@ -770,18 +731,12 @@ p:,c:000763,c:010764,c:030763,c:160762
 03f5:005a0000:0001:00aa:25:0:0
 iConcert
 p:Cosmote,c:00019d,c:010201,c:03019d,c:160139,C:0000
-03fd:005a0000:0001:00aa:1:0:0
-Kriti TV Satelite
-p:Cosmote,c:0001a5,c:010209,c:0301a5,c:160141,C:0000
 0407:005a0000:0001:00aa:25:0:0
 Luxe TV
 p:Cosmote,c:0001af,c:010213,c:0301af,c:16014b,C:0000
 041d:005a0000:0001:00aa:1:0:0
 C-Music
 p:Cosmote,c:0001c5,c:010229,c:0301c5,c:160161,C:0000
-0437:005a0000:0001:00aa:1:0:0
-Star Central Greece
-p:Cosmote,c:0001df,c:010243,c:0301df,c:16017b,C:0000
 043b:005a0000:0001:00aa:1:0:0
 France 24 (en Français)
 p:Cosmote,c:0001e3,c:010247,c:0301e3,c:16017f,C:0000
@@ -812,15 +767,9 @@ p:Visat,c:001020,c:011021,c:031020,c:160120,C:0000
 0003:005a0000:0001:04d2:1:0:0
 TeleHit
 p:Visat,c:001030,c:011031,c:031030,c:160130,C:0000
-0004:005a0000:0001:04d2:1:0:0
-De Pelicula
-p:Visat,c:001040,c:011041,c:031040,c:160140,C:0000
 0005:005a0000:0001:04d2:1:0:0
 Canal de las Estrellas
 p:Visat,c:001050,c:011051,c:031050,c:160150,C:0000
-0006:005a0000:0001:04d2:1:0:0
-Telenovelas
-p:Visat,c:001060,c:011061,c:031060,c:160160,C:0000
 03eb:005a0000:0002:00aa:25:0:0
 Cosmote Sport 6 HD
 p:Cosmote,c:000193,c:0101f7,c:030193,c:16012f,C:0000
@@ -830,24 +779,15 @@ p:OTE,c:000195,c:0101f9,c:030195,c:160131
 03f4:005a0000:0002:00aa:1:0:0
 4E Hellas Orthodox
 p:OTE,c:00019c,c:010200,c:03019c,c:160138
-0406:005a0000:0002:00aa:25:0:0
-ANT 1
-p:Cosmote,c:0001ae,c:010212,c:0301ae,c:16014a,C:0000
 040f:005a0000:0002:00aa:25:0:0
 Cosmote Sport 4 HD
 p:Cosmote,c:0001b7,c:01021b,c:0301b7,c:160153,C:0000
-0415:005a0000:0002:00aa:25:0:0
-One Channel HD
-p:Cosmote,c:0001bd,c:010221,c:0301bd,c:160159,C:0000
 041a:005a0000:0002:00aa:25:0:0
 NatGeo Wild HD
 p:Cosmote,c:0001c2,c:010226,c:0301c2,c:16015e,C:0000
 0426:005a0000:0002:00aa:25:0:0
 Fashion TV
 p:Cosmote,c:0001ce,c:010232,c:0301ce,c:16016a,C:0000
-042d:005a0000:0002:00aa:1:0:0
-Ant1 Europe
-p:Arabesque,c:0001d5,c:0301d5,c:160171,C:0000
 0430:005a0000:0002:00aa:1:0:0
 Baby TV
 p:Cosmote,c:0001d8,c:01023c,c:0301d8,c:160174,C:0000
@@ -857,24 +797,12 @@ p:Cosmote,c:0001e0,c:010244,c:0301e0,c:16017c,C:0000
 0443:005a0000:0002:00aa:25:0:0
 Cosmote Sport 7 HD
 p:Cosmote,c:0001eb,c:01024f,c:0301eb,c:160187,C:0000
-044a:005a0000:0002:00aa:25:0:0
-Macedonia TV HD
-p:Cosmote,c:0001f2,c:0301f2,c:040256,c:16018e,C:0000
 0401:005a0000:0004:00aa:25:0:0
 Motorvision HD
 p:Cosmote,c:0001a9,c:01020d,c:0301a9,c:160145,C:0000
 0408:005a0000:0004:00aa:25:0:0
 History HD Europe
 p:Cosmote,c:0001b0,c:010214,c:0301b0,c:16014c,C:0000
-040c:005a0000:0004:00aa:1:0:0
-Smile TV (Greece)
-p:Cosmote,c:0001b4,c:010218,c:0301b4,c:160150,C:0000
-0413:005a0000:0004:00aa:25:0:0
-Alpha TV Greece
-p:Cosmote,c:0001bb,c:01021f,c:0301bb,c:160157,C:0000
-0416:005a0000:0004:00aa:25:0:0
-COSMOTE Series HD
-p:Cosmote,c:0001be,c:0301be,c:040222,c:16015a,C:0000
 041b:005a0000:0004:00aa:1:0:0
 MTV 00s
 p:Cosmote,c:0001c3,c:010227,c:0301c3,c:16015f,C:0000
@@ -884,9 +812,6 @@ p:Cosmote,c:0001d6,c:01023a,c:0301d6,c:160172,C:0000
 042f:005a0000:0004:00aa:25:0:0
 Cosmote Sport Highlights HD
 p:Cosmote,c:0001d7,c:01023b,c:0301d7,c:160173,C:0000
-0441:005a0000:0004:00aa:25:0:0
-Skai
-p:Cosmote,c:0001e9,c:01024d,c:0301e9,c:160185,C:0000
 044b:005a0000:0004:00aa:25:0:0
 Star
 p:Cosmote,c:0001f3,c:010257,c:0301f3,c:16018f,C:0000
@@ -896,27 +821,12 @@ p:Cosmote,c:001013,c:0113fb,c:031013,c:160c2b,C:0000
 03ec:005a0000:0005:00aa:1:0:0
 Sirina TV HD
 p:Cosmote,c:000194,c:0101f8,c:030194,c:160130,C:0000
-03ef:005a0000:0005:00aa:1:0:0
-E TV
-p:Cosmote,c:000197,c:0101fb,c:030197,c:160133,C:0000
-03f0:005a0000:0005:00aa:25:0:0
-Cosmote Cinema 1 HD
-p:Cosmote,c:000198,c:030198,c:0401fc,c:160134,C:0000
-0402:005a0000:0005:00aa:25:0:0
-ERT 1 HD
-p:Cosmote,c:0001aa,c:01020e,c:0301aa,c:160146,C:0000
-0405:005a0000:0005:00aa:25:0:0
-Open Beyond TV
-p:Cosmote,c:0001ad,c:010211,c:0301ad,c:160149,C:0000
 0411:005a0000:0005:00aa:25:0:0
 Hustler HD
 p:Cosmote,c:0001b9,c:01021d,c:0301b9,c:160155,C:0000
 0425:005a0000:0005:00aa:1:0:0
 Penthouse Gold
 p:Cosmote,c:0001cd,c:010231,c:0301cd,c:160169,C:0000
-0436:005a0000:0005:00aa:1:0:0
-ENA Channel
-p:Cosmote,c:0001de,c:010242,c:0301de,c:16017a,C:0000
 0442:005a0000:0005:00aa:1:0:0
 Blue Hustler
 p:Cosmote,c:0001ea,c:01024e,c:0301ea,c:160186,C:0000
@@ -929,18 +839,12 @@ p:Cosmote,c:00100e,c:0113f6,c:03100e,c:160c26,C:0000
 03f7:005a0000:0006:00aa:1:0:0
 Cosmote Sport 2 HD
 p:Cosmote,c:00019f,c:010203,c:03019f,c:16013b,C:0000
-0400:005a0000:0006:00aa:25:0:0
-Mega HD
-p:Cosmote,c:0001a8,c:01020c,c:0301a8,c:160144,C:0000
 0403:005a0000:0006:00aa:1:0:0
 Disney Junior Middle-East & Africa
 p:Cosmote,c:0001ab,c:01020f,c:0301ab,c:160147,C:0000
 0404:005a0000:0006:00aa:25:0:0
 Cosmote Sport 3 HD
 p:Cosmote,c:0001ac,c:010210,c:0301ac,c:160148,C:0000
-0417:005a0000:0006:00aa:1:0:0
-COSMOTE Series Marathon HD
-p:Cosmote,c:0001bf,c:0301bf,c:040223,c:16015b,C:0000
 0418:005a0000:0006:00aa:1:0:0
 Body In Balance
 p:Cosmote,c:0001c0,c:010224,c:0301c0,c:16015c,C:0000
@@ -959,15 +863,9 @@ p:Cosmote,c:0001e2,c:010246,c:0301e2,c:16017e,C:0000
 0445:005a0000:0006:00aa:25:0:0
 Nickelodeon HD
 p:Cosmote,c:0001ed,c:010251,c:0301ed,c:160189,C:0000
-0446:005a0000:0006:00aa:1:0:0
-Cosmote Cinema 3
-p:Cosmote,c:0001ee,c:010252,c:0301ee,c:16018a,C:0000
 044d:005a0000:0006:00aa:25:0:0
 Cosmote Sport 8 HD
 p:Cosmote,c:001005,c:0113ed,c:031005,c:160c1d,C:0000
-0450:005a0000:0006:00aa:1:0:0
-Egean TV
-p:Cosmote,c:001008,c:0113f0,c:031008,c:160c20,C:0000
 0427:005a0000:0007:00aa:25:0:0
 MAD Viral HD
 p:Cosmote,c:0001cf,c:010233,c:0301cf,c:16016b,C:0000
@@ -1007,18 +905,9 @@ p:Cosmote,c:0001a3,c:010207,c:0301a3,c:16013f
 040e:005a0000:0008:00aa:25:0:0
 FOX Greece HD
 p:Cosmote,c:0001b6,c:01021a,c:0301b6,c:160152,C:0000
-041c:005a0000:0008:00aa:25:0:0
-COSMOTE Cinema Marvel HD
-p:Cosmote,C:0000
 0455:005a0000:0008:00aa:25:0:0
 Cosmote Sport 5 HD
 p:Cosmote,c:00100d,c:0113f5,c:03100d,c:160c25,C:0000
-0463:005a0000:0008:00aa:1:0:0
-NEA TV
-p:Cosmote,c:00101b,c:011403,c:03101b,c:160c33,C:0000
-0464:005a0000:0008:00aa:1:0:0
-Action 24
-p:Cosmote,c:00101c,c:011404,c:03101c,c:160c34,C:0000
 0465:005a0000:0008:00aa:1:0:0
 Euronews English
 p:Cosmote,c:00101d,c:011405,c:03101d,c:160c35,C:0000
@@ -1043,39 +932,18 @@ p:Cosmote,c:001025,c:01140d,c:031025,c:160c3d,C:0000
 046e:005a0000:0008:00aa:1:0:0
 Crime & Investigation Network
 p:Cosmote,c:001026,c:01140e,c:031026,c:160c3e,C:0000
-03f8:005a0000:0009:00aa:1:0:0
-Village Cinema HD
-p:Cosmote,c:0001a0,c:010204,c:0301a0,c:16013c,C:0000
 03f9:005a0000:0009:00aa:1:0:0
 Vergina TV
 p:Cosmote,c:0001a1,c:010205,c:0301a1,c:16013d,C:0000
 0410:005a0000:0009:00aa:1:0:0
 CNN International Europe
 p:Cosmote,c:0001b8,c:01021c,c:0301b8,c:160154,C:0000
-0414:005a0000:0009:00aa:25:0:0
-TCM HD Greece
-p:Cosmote,c:0001bc,c:010220,c:0301bc,c:160158,C:0000
-0451:005a0000:0009:00aa:25:0:0
-ERT 3 HD
-p:Cosmote,c:001009,c:0113f1,c:031009,c:160c21,C:0000
 0453:005a0000:0009:00aa:25:0:0
 National Geographic HD Greece
 p:Cosmote,c:00100b,c:0113f3,c:03100b,c:160c23,C:0000
-0458:005a0000:0009:00aa:25:0:0
-ERT 2 HD
-p:Cosmote,c:001010,c:0113f8,c:031010,c:160c28,C:0000
-0460:005a0000:0009:00aa:25:0:0
-Cosmote Cinema 2 HD
-p:Cosmote,c:001018,c:031018,c:041400,c:160c30,C:0000
 0461:005a0000:0009:00aa:25:0:0
 Fox Life Greece HD
 p:Cosmote,c:001019,c:011401,c:031019,c:160c31,C:0000
-0470:005a0000:0009:00aa:1:0:0
-ERT World
-p:Cosmote,c:001028,c:011410,c:021be0,c:031028,c:160c40
-0066:005a0000:0065:0012:25:0:0
-AFN Prime Atlantic Benelux
-p:,c:0004f1,c:0104c9,c:0304f1,c:1613ee,C:0000
 0067:005a0000:0065:0012:25:0:0
 AFN News
 p:,c:00061d,c:0105f5,c:03061d,c:1613ef,C:0000
@@ -1085,18 +953,9 @@ p:,c:00048d,c:010465,c:03048d,c:1613f0,C:0000
 0069:005a0000:0065:0012:25:0:0
 AFN Prime Pacific
 p:,c:0005b9,c:010591,c:0305b9,c:1613f1,C:0000
-006a:005a0000:0065:0012:25:0:0
-AFN Spectrum
-p:,c:000555,c:01052d,c:030555,c:1613f2,C:0000
 006b:005a0000:0065:0012:25:0:0
 AFN Sports 2
 p:,c:000681,c:010659,c:030681,c:1613f3,C:0000
-006c:005a0000:0065:0012:25:0:0
-AFN Family
-p:,c:0007ad,c:010785,c:0307ad,c:1613f4,C:0000
-006d:005a0000:0065:0012:25:0:0
-AFN Movie Channel
-p:,c:000429,c:010401,c:030429,c:1613f5,C:0000
 0078:005a0000:0065:0012:2:0:0
 AFN Atlantic
 p:,c:0306c9,c:161400,C:0000
@@ -1181,6 +1040,9 @@ p:,c:0307b9,c:16141b,C:0000
 0094:005a0000:0065:0012:2:0:0
 Sembach Afternoon Radio
 p:,c:030794,c:16141c,C:0000
+138b:005a0000:006f:0110:2:0:0
+Servizio 3
+p:,c:01023c,c:031fff,c:160067,C:0000
 02c8:005a0000:0107:217c:1:0:0
 La 7 d
 p:,c:0003de,c:0103df,c:0303de,c:160070
@@ -1190,12 +1052,27 @@ p:,c:0005fa,c:0305fa,c:0405fc,c:160097
 02f0:005a0000:0107:217c:25:0:0
 La7d HD
 p:,c:000604,c:030604,c:040606,c:160098
-02f9:005a0000:0107:217c:1:0:0
-La7 test 3D
-p:,c:0001c2,c:0101c3,c:0301c2,c:1600a1
 0321:005a0000:0107:217c:25:0:0
 DAZN 1 HD
 p:,c:0005be,c:0105bf,c:0305be,c:1600c9,C:0000
+0bbb:005a0000:0107:217c:1:0:0
+Arte Italia 125
+p:Canale Italia,c:000bd7,c:010bd8,c:030bd7,c:16012f
+0bbd:005a0000:0107:217c:1:0:0
+Italia 127
+p:Canale Italia,c:000beb,c:010bec,c:030beb,c:160131
+0c1d:005a0000:0107:217c:1:0:0
+Italia 121
+p:Canale Italia,c:000bc3,c:010bc4,c:030bc3,c:160137
+0c1e:005a0000:0107:217c:1:0:0
+Arte Italia Canale 124
+p:Canale Italia,c:000bcd,c:010bce,c:030bcd,c:160138
+0c20:005a0000:0107:217c:1:0:0
+Italia 126
+p:Canale Italia,c:000be1,c:010be2,c:030be1,c:16013a
+0c22:005a0000:0107:217c:1:0:0
+Italia 135
+p:Canale Italia,c:000bf5,c:010bf6,c:030bf5,c:16013c
 000d:005a0000:0200:001d:2:0:0
 R Italia SMI
 p:Persidera,c:011f45,c:0300f5,c:160209
@@ -1225,7 +1102,7 @@ VH-1 Italy
 p:Persidera,c:0017f4,c:0117f5,c:0317f4,c:1617f3
 0092:005a0000:0200:001d:1:0:0
 Frisbee
-p:Persidera,c:0005b1,c:0105b2,c:0205b4,c:0305b1,c:1605b0
+p:Persidera,c:0005b1,c:0105b2,c:0305b1,c:1605b0
 0001:005a0000:0202:001d:1:0:0
 Gold TV Italia
 p:Persidera,c:00006f,c:010070,c:03006f,c:16006e
@@ -1250,6 +1127,27 @@ p:Persidera,c:0000ab,c:0100ac,c:0300ab,c:1600aa
 0008:005a0000:0202:001d:1:0:0
 Radio Radio TV
 p:Persidera,c:0000b5,c:0100b6,c:0300b5,c:1600b4
+000e:005a0000:0202:001d:1:0:0
+Canale 162
+p:Persidera,c:0000f1,c:0100f2,c:0300f1,c:1600f0
+000f:005a0000:0202:001d:1:0:0
+Canale 163
+p:Persidera,c:0000fb,c:0100fc,c:0300fb,c:1600fa
+0010:005a0000:0202:001d:1:0:0
+Canale 165
+p:Persidera,c:000105,c:010106,c:030105,c:160104
+0011:005a0000:0202:001d:1:0:0
+iLIKE.TV
+p:Persidera,c:0000f1,c:0100f2,c:0300f1,c:16010e
+0012:005a0000:0202:001d:1:0:0
+Canale 232
+p:Persidera,c:0000fb,c:0100fc,c:0300fb,c:160118
+0013:005a0000:0202:001d:1:0:0
+Canale 235
+p:Persidera,c:000123,c:010124,c:030123,c:160122
+0015:005a0000:0202:001d:1:0:0
+Canale 263
+p:Persidera,c:000155,c:010156,c:030155,c:160154
 003c:005a0000:0202:001d:25:0:0
 Alma TV - Alice & Marcopolo
 p:Persidera,c:00012d,c:01012e,c:03012d,c:16012c
@@ -1266,7 +1164,7 @@ p:Persidera,c:0001fe,c:010262,c:0301fe,c:160136
 RADIO VATICANA ITALIA
 p:Persidera,c:010267,c:030267,c:16013b
 006e:005a0000:0202:001d:1:0:0
-Sfera TV
+TCI
 p:Persidera,c:0001f5,c:0101f6,c:0301f5,c:1601f4
 0073:005a0000:0202:001d:25:0:0
 Cusano Italia TV
@@ -1277,24 +1175,24 @@ p:Persidera,c:0002bd,c:0102be,c:0302bd,c:1602bc
 007d:005a0000:0202:001d:1:0:0
 Parole di Vita
 p:Persidera,c:000321,c:010322,c:030321,c:160320
-0082:005a0000:0202:001d:25:0:0
-Radio Zeta
-p:Persidera,c:000385,c:010386,c:030385,c:160384
 0087:005a0000:0202:001d:1:0:0
 Byoblu
 p:Persidera,c:000213,c:010214,c:030213,c:160212
+008b:005a0000:0202:001d:1:0:0
+Italia Channel
+p:Persidera,c:000399,c:01039a,c:030399,c:160393
 008c:005a0000:0202:001d:1:0:0
 Mediatext.it
 p:Persidera,c:000141,c:030141,c:160398
+008d:005a0000:0202:001d:1:0:0
+Pianeta TV
+p:Persidera,c:000399,c:01039a,c:030399,c:16039d
 0091:005a0000:0202:001d:25:0:0
 RDS Social TV
 p:Persidera,c:0003a3,c:0103a4,c:0303a3,c:1603a2
 0092:005a0000:0202:001d:25:0:0
 RDS Social TV
 p:Persidera,c:0003a3,c:0103a4,c:0303a3,c:1603a7
-0096:005a0000:0202:001d:25:0:0
-RTL 102.5 News
-p:Persidera,c:0003ad,c:0103ae,c:0303ad,c:1603ac
 0009:005a0000:0204:001d:2:0:0
 Radio Deejay
 p:Persidera,c:010202,c:030202,c:160210
@@ -1330,7 +1228,7 @@ RTL 102.5 News
 p:Persidera,c:0003ad,c:0103ae,c:0303ad,c:1603ac
 00d2:005a0000:0204:001d:1:0:0
 Juwelo TV Italia
-p:Persidera,c:000137,c:010138,c:030137,c:160136
+p:Persidera,c:00019b,c:01019c,c:03019b,c:16019a
 00da:005a0000:0204:001d:25:0:0
 Radio Freccia
 p:Persidera,c:000320,c:010321,c:030320,c:160123
@@ -1343,9 +1241,6 @@ p:Persidera,c:01031a,c:030316,c:16012c
 00df:005a0000:0204:001d:2:0:0
 FRECCIA
 p:Persidera,c:010322,c:030320,c:160126
-0001:005a0000:032a:0110:2:0:0
-Servizio 1
-p:,c:010246,c:031fff,c:160065
 2009:005a0000:032a:0110:25:0:0
 Sport Italia HD
 p:,c:000596,c:010597,c:030596,c:1600c9
@@ -1376,12 +1271,6 @@ p:,c:0103c5,c:0303c5,c:1600cc
 1bc1:005a0000:0384:0110:2:0:0
 Radio Monte Carlo
 p:,c:0103c3,c:0303c3,c:1600cd
-1bd2:005a0000:0384:0110:1:0:0
-Premium Cinema
-p:,c:000280,c:010281,c:030280,c:1600de,C:0000
-1bd3:005a0000:0384:0110:1:0:0
-Premium Cinema 2
-p:,c:0001cc,c:0101cd,c:0301cc,c:1600df,C:0000
 1c0c:005a0000:0384:0110:1:0:0
 TV 243
 p:,c:000bea,c:030bea,c:160118
@@ -1406,9 +1295,6 @@ p:,c:00028a,c:01028b,c:03028a,c:160124
 008c:005a0000:0385:0110:1:0:0
 Sky Atlantic Italia
 p:,c:0015b9,c:0115ba,c:0215bc,c:0315b9,c:1600f0,C:0000
-008d:005a0000:0385:0110:1:0:0
-Fox Italia
-p:,c:0015a5,c:0115a6,c:0215a8,c:0315a5,c:1600f1,C:0000
 0091:005a0000:0385:0110:1:0:0
 Cielo
 p:,c:0000a0,c:01019a,c:0202bd,c:0300a0,c:1603e9
@@ -1418,27 +1304,12 @@ p:,c:0000a1,c:01019c,c:0300a1,c:1603ea
 0095:005a0000:0385:0110:1:0:0
 TV8 (Italy)
 p:,c:0000a2,c:01019e,c:0300a2,c:1603ed
-00ac:005a0000:0385:0110:1:0:0
-Premium Stories
-p:,c:000186,c:010187,c:030186,c:160110,C:0000
-00ad:005a0000:0385:0110:1:0:0
-Premium Crime
-p:,c:000276,c:010277,c:030276,c:160111,C:0000
-00c1:005a0000:0385:0110:1:0:0
-Sky Sport Calcio HD
-p:,c:001573,c:031573,c:160125
-00c5:005a0000:0385:0110:1:0:0
-Premium Cinema 3
-p:,c:000190,c:010191,c:030190,c:160129,C:0000
 0091:005a0000:0389:0110:1:0:0
 Boing
 p:,c:000690,c:010691,c:030690,c:1600f5
 0093:005a0000:0389:0110:1:0:0
 Cartoonito Italy
 p:,c:00071c,c:01071d,c:03071c,c:1600f7
-07e3:005a0000:0389:0110:1:0:0
-20 Mediaset
-p:,c:00026c,c:01026d,c:03026c,c:1600db
 0864:005a0000:0389:0110:1:0:0
 Food Network Italia
 p:,c:000406,c:010407,c:030406,c:1600f8
@@ -1456,7 +1327,7 @@ Cine34
 p:,c:0006e0,c:0106e1,c:0306e0,c:1600fc
 0021:005a0000:03a2:0110:2:0:0
 Servizio 33
-p:,c:010246,c:031fff,c:160067,C:0000
+p:,c:010246,c:031fff,c:160067
 0bbd:005a0000:03a2:0110:25:0:0
 Canale 5 HD
 p:,c:0005dc,c:02022f,c:0305dc,c:0405de,c:1600d7
@@ -1508,9 +1379,6 @@ p:Kabelkiosk,c:0007ef,c:0307ef,c:0407f0,c:1607ee,C:0000
 00cb:005a0000:14b4:009c:25:0:0
 Welt HD
 p:Kabelkiosk,c:000803,c:020806,c:030803,c:040804,c:1607f3,C:0000
-00cc:005a0000:14b4:009c:1:0:0
-RTL Plus HD Germany
-p:Kabelkiosk,c:000821,c:020824,c:030821,c:040822,c:160820,C:0000
 00cc:005a0000:14b4:009c:25:0:0
 RTLup HD
 p:Kabelkiosk,c:000821,c:020824,c:030821,c:040822,c:160820,C:0000
@@ -1520,15 +1388,9 @@ p:Kabelkiosk,c:000835,c:030835,c:040836,c:160834,C:0000
 00ce:005a0000:14b4:009c:25:0:0
 Toggo Plus HD
 p:Kabelkiosk,c:00085d,c:03085d,c:04085e,c:16085c,C:0000
-00cf:005a0000:14b4:009c:25:0:0
-VOXup HD
-p:Kabelkiosk,c:000867,c:020869,c:030867,c:040868,c:160866,C:0000
 00d8:005a0000:14b4:009c:1:0:0
 Comedy Central Germany
 p:BASIS 1,c:0008a1,c:0108a2,c:0208b8,c:0308a1,c:1608a0
-00e6:005a0000:1644:009c:25:0:0
-Kabel 1 HD
-p:Kabelkiosk,c:0005e7,c:0205ea,c:0305e7,c:0405e8,c:1605e6,C:0000
 00e7:005a0000:1644:009c:25:0:0
 DMAX HD
 p:Kabelkiosk,c:0005fb,c:0205fe,c:0305fb,c:0405fc,c:1605fa,C:0000
@@ -1553,27 +1415,15 @@ p:,c:000264,c:010278,c:030264,c:1600b5,C:0000
 000f:005a0000:170c:009e:25:0:0
 Trace Urban International HD
 p:TRACE,c:0002c7,c:0102db,c:0302c7,c:1600b6,C:0000
-0014:005a0000:170c:009e:25:0:0
-TVT International
-p:TVT,c:000065,c:010066,c:030042,c:160064
 0015:005a0000:170c:009e:2:0:0
 TVT Radio 1 (Radio Lome)
-p:TVT,c:01006f,c:031fff,c:16006e
+p:TVT,c:01006f,c:030077,c:16006e
 0016:005a0000:170c:009e:2:0:0
 TVT Radio 2 (Radio Kara)
-p:TVT,c:010079,c:031fff,c:160078
-0017:005a0000:170c:009e:1:0:0
-RTB
-p:,c:000021,c:010022,c:030021,c:160020
+p:TVT,c:010079,c:030081,c:160078
 0018:005a0000:170c:009e:2:0:0
 RTB Radio
 p:SBT,c:010023,c:030031,c:160030
-0019:005a0000:170c:009e:1:0:0
-RTI La Première
-p:,c:000097,c:010098,c:030097,c:160096
-0065:005a0000:170c:009e:25:0:0
-TFM Senegal
-p:,c:0003f3,c:0103f4,c:0303f3,c:1603f2
 0066:005a0000:170c:009e:2:0:0
 RFM Senegal
 p:,c:0103fe,c:031fff,c:1603fc
@@ -1589,36 +1439,15 @@ p:encoder,c:00046b,c:01046c,c:03046b,c:16046a
 0072:005a0000:170c:009e:25:0:0
 Better 4
 p:encoder,c:000475,c:010476,c:030475,c:160474
-0073:005a0000:170c:009e:1:0:0
-RAI Africa
-p:RAI,c:00047f,c:010480,c:03047f,c:16047e,C:0000
-0074:005a0000:170c:009e:1:0:0
-ORTB
-p:,c:000489,c:01048a,c:030489,c:160488
 00e9:005a0000:170c:009e:25:0:0
 EBS - Europe by Satellite
 p:,c:0000c8,c:0100c9,c:0300c8,c:1600e9
 01b1:005a0000:170c:009e:25:0:0
 EBS - Europe by Satellite
 p:,c:000190,c:010191,c:030190,c:1601b1
-0069:005a0000:1838:009e:25:0:0
-Duna World HD
-p:MTVA,c:000451,c:0205dd,c:030451,c:0404b5,c:1606a9,C:0000
-006f:005a0000:1838:009e:25:0:0
-M1 HD
-p:MTVA,c:00044d,c:0205dd,c:03044d,c:0404b1,c:1606af
-0070:005a0000:1838:009e:25:0:0
-M2 HD
-p:MTVA,c:00044e,c:0205e6,c:03044e,c:0404b2,c:1606b0
-0071:005a0000:1838:009e:25:0:0
-Duna 1 HD
-p:MTVA,c:00044f,c:0205dd,c:03044f,c:0404b3,c:1606b1
 0072:005a0000:1838:009e:25:0:0
 M4 Sport HD
 p:MTVA,c:000450,c:0205dd,c:030450,c:0404b4,c:1606b2
-0074:005a0000:1838:009e:25:0:0
-M5 HD
-p:MTVA,c:000452,c:0205e6,c:030452,c:0404b6,c:1606b4
 0097:005a0000:1838:009e:2:0:0
 Kossuth Radio (AAC)
 p:MTVA,c:0104e3,c:0304e3,c:1606d7
@@ -1661,42 +1490,36 @@ p:MTVA,c:0104f3,c:0304f3,c:1606e7
 00a8:005a0000:1838:009e:2:0:0
 D192ser
 p:MTVA,c:0104f4,c:0304f4,c:1606e8
-0c21:005a0000:18e1:217c:25:0:0
-Canale 5 HD
-p:EIT,c:000421,c:030421,c:040485,c:1600cd
-0c22:005a0000:18e1:217c:25:0:0
-Italia 1 HD
-p:EIT,c:000423,c:030423,c:040487,c:1600ce
+0709:005a0000:18e1:217c:1:0:0
+Rete Sette
+p:In Aria!,c:0005dc,c:0105dd,c:0305dc,c:1600c9
+070a:005a0000:18e1:217c:1:0:0
+TV Vallée
+p:In Aria!,c:0005e6,c:0105e7,c:0305e6,c:1600ca
+0713:005a0000:18e1:217c:25:0:0
+France 2 HD
+p:,c:000640,c:010641,c:030640,c:160024
+0714:005a0000:18e1:217c:25:0:0
+RTS Un HD
+p:,c:00064a,c:03064a,c:160042
+0715:005a0000:18e1:217c:25:0:0
+TV5 Monde Europe HD
+p:,c:000654,c:010655,c:030654,c:160029
 0196:005a0000:1964:009c:25:0:0
 Super RTL HD
 p:Kabelkiosk,c:00069d,c:0206a0,c:03069d,c:04069e,c:16069c,C:0000
-01a0:005a0000:1964:009c:1:0:0
-Sixx HD
-p:Kabelkiosk,c:0007e1,c:0207e3,c:0307e1,c:0407e2,c:1607e0,C:0000
 01a1:005a0000:1964:009c:25:0:0
 RTL 2 HD
 p:Kabelkiosk,c:0007eb,c:0207ed,c:0307eb,c:0407ec,c:1607ea,C:0000
 01a2:005a0000:1964:009c:25:0:0
 Deluxe Music HD
 p:Kabelkiosk,c:000803,c:030803,c:040804,c:160802,C:0000
-01a3:005a0000:1964:009c:25:0:0
-Comedy Central HD Germany
-p:Kabelkiosk,c:000817,c:030817,c:040818,c:160816,C:0000
 01a4:005a0000:1964:009c:25:0:0
 Disney Channel HD Germany
 p:Kabelkiosk,c:00082b,c:02082e,c:03082b,c:04082c,c:16082a,C:0000
 01a5:005a0000:1964:009c:1:0:0
-Nickelodeon Germany
-p:Kabelkiosk,c:0006a5,c:0106a6,c:0206a8,c:0306a5,c:1606a4
-00ca:005a0000:19c8:009e:25:0:0
-M6 HD
-p:GLOBECAST,c:0007e4,c:0208ac,c:0307e4,c:0407e5,c:161452
-00cc:005a0000:19c8:009e:25:0:0
-6ter
-p:GLOBECAST,c:0007f8,c:020988,c:0307f8,c:0407f9,c:161454
-00cd:005a0000:19c8:009e:25:0:0
-W9 Suisse HD
-p:GLOBECAST,c:000802,c:0209f6,c:030802,c:040803,c:161455
+Comedy Central +1 Germany
+p:BASIS 1,c:0006a5,c:0106a6,c:0306a5,c:1606a4
 00ce:005a0000:19c8:009e:25:0:0
 MCM Top
 p:GLOBECAST,c:00080c,c:01080d,c:020a64,c:03080c,c:161456,C:0000
@@ -1706,39 +1529,18 @@ p:ADTH,c:000db7,c:010db8,c:030db7,c:1600ff
 0160:005a0000:19c8:009e:1:0:0
 RTG International
 p:GLOBECAST,c:000dc1,c:010dc2,c:030dc1,c:160100
-0161:005a0000:19c8:009e:1:0:0
-PCNE - Phoenix Chinese News & Entertainment
-p:GLOBECAST,c:000dcb,c:010dcc,c:030dcb,c:160101
-0162:005a0000:19c8:009e:1:0:0
-ORTM
-p:GLOBECAST,c:000dd5,c:010dd6,c:031ffe,c:160102
-0163:005a0000:19c8:009e:1:0:0
-Télé Sahel
-p:GLOBECAST,c:000ddf,c:010de0,c:030ddf,c:160103
 0164:005a0000:19c8:009e:2:0:0
 La Voix Du Sahel
 p:GLOBECAST,c:010de9,c:030dea,c:160104
-0165:005a0000:19c8:009e:1:0:0
-BBC Entertainment Europe
-p:Globecast,c:000df2,c:010df3,c:030df2,c:16010e,C:0000
 0168:005a0000:19c8:009e:1:0:0
 Karusel Int
 p:GLOBECAST,c:000e10,c:010e11,c:030e10,c:160111
 0456:005a0000:1af4:009e:25:0:0
 Luxe TV
-p:Arqiva,c:0004b1,c:0104b2,c:0304b1,c:160101,C:0000
-0460:005a0000:1af4:009e:1:0:0
-NTD TV (New Tang Dynasty TV)
-p:ARQIVA,c:000579,c:01057a,c:030579,c:160105
-046a:005a0000:1af4:009e:1:0:0
-PTV Global
-p:Arqiva,c:000641,c:010642,c:030641,c:160106
+p:Arqiva,c:0004b1,c:0104b2,c:0304b1,c:160101
 046f:005a0000:1af4:009e:1:0:0
 Diva Universal Romania
 p:Arqiva,c:0006a5,c:0106a6,c:0306a5,c:160107,C:0000
-0474:005a0000:1af4:009e:1:0:0
-Diva Balkans
-p:Arqiva,c:000709,c:01070a,c:030709,c:160108,C:0000
 0479:005a0000:1af4:009e:25:0:0
 E! HD
 p:Arqiva,c:00076d,c:020781,c:03076d,c:04076e,c:160109,C:0000
@@ -1751,51 +1553,21 @@ p:ARQIVA,c:031131,c:16010c
 04b5:005a0000:1af4:009e:2:0:0
 Absolute Radio
 p:Arqiva,c:0304bf,c:160115
-09c4:005a0000:1bbc:009c:1:0:0
-Euro Star
-p:Kabelkiosk,c:0009c5,c:0109c6,c:0309c5,c:160027,C:0000
-09f6:005a0000:1bbc:009c:1:0:0
-RTR Planeta
-p:Kabelkiosk,c:0009f7,c:0109f8,c:0309f7,c:160026,C:0000
 0aa0:005a0000:1bbc:009c:1:0:0
 Euronews French
 p:Kabelkiosk,c:000298,c:010292,c:030298,c:1600ad,C:0000
-0aaa:005a0000:1bbc:009c:25:0:0
-Kabel Eins Classics HD
-p:Kabelkiosk,c:000aab,c:010aac,c:030aab,c:1600be,C:0000
 0abe:005a0000:1bbc:009c:1:0:0
 Marco Polo TV Germany
 p:Kabelkiosk,c:000abf,c:010ac0,c:030abf,c:160071,C:0000
-0b22:005a0000:1bbc:009c:1:0:0
-TNT (Russia)
-p:Kabelkiosk,c:000b23,c:010b24,c:030b23,c:160084,C:0000
 0b54:005a0000:1bbc:009c:1:0:0
 Pro7 Fun HD
 p:Kabelkiosk,c:000b55,c:010b56,c:030b55,c:1600a0,C:0000
-0b86:005a0000:1bbc:009c:1:0:0
-Kinowelt TV
-p:Kabelkiosk,c:000b87,c:010b88,c:030b87,c:16005d,C:0000
 0bb8:005a0000:1bbc:009c:1:0:0
 Bon Gusto
 p:Kabelkiosk,c:000bb9,c:010bba,c:030bb9,c:160029,C:0000
-0bea:005a0000:1bbc:009c:1:0:0
-Heimatkanal
-p:Kabelkiosk,c:000beb,c:010bec,c:030beb,c:160072,C:0000
 0faa:005a0000:1bbc:009c:25:0:0
 Sony Entertainment TV HD Germany
 p:Kabelkiosk,c:000fab,c:030fab,c:040fac,c:1600b5,C:0000
-012d:005a0000:1edc:009c:25:0:0
-RTL HD
-p:Kabelkiosk,c:000a01,c:020a18,c:030a01,c:040a02,c:160a00,C:0000
-012e:005a0000:1edc:009c:25:0:0
-Vox HD
-p:Kabelkiosk,c:000a21,c:020a38,c:030a21,c:040a22,c:160a20,C:0000
-012f:005a0000:1edc:009c:25:0:0
-Sat 1 HD
-p:Kabelkiosk,c:000a41,c:020a58,c:030a41,c:040a42,c:160a40,C:0000
-0130:005a0000:1edc:009c:25:0:0
-Prosieben HD
-p:Kabelkiosk,c:000a81,c:020a98,c:030a81,c:040a82,c:160a80,C:0000
 0132:005a0000:1edc:009c:25:0:0
 RTL Nitro HD
 p:Kabelkiosk,c:000abf,c:020ac2,c:030abf,c:040ac0,c:160abe,C:0000
@@ -1805,45 +1577,15 @@ p:Kabelkiosk,c:000ad3,c:020ad6,c:030ad3,c:040ad4,c:160ad2,C:0000
 0134:005a0000:1edc:009c:1:0:0
 VOXup
 p:Kabelkiosk,c:000af1,c:010af2,c:020af3,c:030af1,c:160af0
-041a:005a0000:1fa4:009c:1:0:0
-Show Türk
-p:Kabelkiosk,c:00041b,c:01041c,c:03041b,c:160037,C:0000
 044c:005a0000:1fa4:009c:1:0:0
 CNN Türk
 p:Kabelkiosk,c:00044d,c:01044e,c:03044d,c:160038,C:0000
-047e:005a0000:1fa4:009c:1:0:0
-Kanal 7 Avrupa
-p:Kabelkiosk,c:00047f,c:010480,c:03047f,c:16004f,C:0000
-04b0:005a0000:1fa4:009c:1:0:0
-Euro D
-p:Kabelkiosk,c:0004b1,c:0104b2,c:0304b1,c:160034,C:0000
-04e2:005a0000:1fa4:009c:1:0:0
-TV 8 Turkey
-p:Kabelkiosk,c:0004e3,c:0104e4,c:0304e3,c:16004d,C:0000
-0514:005a0000:1fa4:009c:1:0:0
-Rai 1
-p:Kabelkiosk,c:000515,c:010516,c:020517,c:030515,c:16004c,C:0000
-0546:005a0000:1fa4:009c:1:0:0
-ATV Avrupa
-p:Kabelkiosk,c:000547,c:010548,c:030547,c:16004b,C:0000
-0578:005a0000:1fa4:009c:1:0:0
-Rai 3
-p:Kabelkiosk,c:000579,c:01057a,c:02057b,c:030579,c:16004a,C:0000
 05aa:005a0000:1fa4:009c:1:0:0
 TgCom24
 p:Kabelkiosk,c:0005ab,c:0105ac,c:0305ab,c:16004e,C:0000
-05dc:005a0000:1fa4:009c:1:0:0
-TVP Polonia
-p:Kabelkiosk,c:0005dd,c:0105de,c:0205df,c:0305dd,c:160049,C:0000
-060e:005a0000:1fa4:009c:1:0:0
-TRT Türk
-p:Kabelkiosk,c:00060f,c:010610,c:020611,c:03060f,c:160022,C:0000
 0640:005a0000:1fa4:009c:1:0:0
 Deutsches Wetterfernsehen
 p:Kabelkiosk,c:000641,c:010642,c:030641,c:160050,C:0000
-0672:005a0000:1fa4:009c:25:0:0
-RTL Crime HD
-p:Kabelkiosk,c:00064b,c:03064b,c:04064c,c:160051,C:0000
 06a4:005a0000:1fa4:009c:1:0:0
 MTV Live HD
 p:Kabelkiosk,c:0006a5,c:0306a5,c:0406a6,c:160052,C:0000
@@ -1859,9 +1601,6 @@ p:Kabelkiosk,c:000493,c:010494,c:030493,c:1607e1,C:0000
 026a:005a0000:206c:009c:25:0:0
 Crime + Investigation HD Germany
 p:Kabelkiosk,c:00049d,c:03049d,c:04049e,c:1607e2,C:0000
-026c:005a0000:206c:009c:25:0:0
-13th Street HD
-p:Kabelkiosk,c:0004b1,c:0304b1,c:0404b2,c:1607e4,C:0000
 026d:005a0000:206c:009c:25:0:0
 SyFy HD Deutschland
 p:Kabelkiosk,c:0004bb,c:0304bb,c:0404bc,c:1607e5,C:0000
@@ -1871,15 +1610,9 @@ p:Kabelkiosk,c:0004c5,c:0304c5,c:0404c6,c:1607e6,C:0000
 026f:005a0000:206c:009c:1:0:0
 Sport1 US HD
 p:Kabelkiosk,c:0004cf,c:0104d0,c:0304cf,c:1607e7,C:0000
-01f5:005a0000:2134:009c:1:0:0
-Mediaset Italia
-p:Kabelkiosk,c:0005e7,c:0105e8,c:0305e7,c:1605dd,C:0000
 01f6:005a0000:2134:009c:1:0:0
 Playboy TV
 p:Kabelkiosk,c:0005f1,c:0105f2,c:0305f1,c:1605de,C:0000
-01f7:005a0000:2134:009c:1:0:0
-TVN International Europe
-p:Kabelkiosk,c:0005fb,c:0105fc,c:0205fd,c:0305fb,c:1605df,C:0000
 01f8:005a0000:2134:009c:1:0:0
 Auto Motor Sport
 p:Kabelkiosk,c:000605,c:010606,c:030605,c:1605e0,C:0000
@@ -1892,27 +1625,9 @@ p:Kabelkiosk,c:000623,c:010624,c:030623,c:1605e3,C:0000
 01fd:005a0000:2134:009c:25:0:0
 Mezzo Live HD
 p:Kabelkiosk,c:000637,c:010638,c:030637,c:1605e5,C:0000
-01fe:005a0000:2134:009c:1:0:0
-RTVD OstWest
-p:Kabelkiosk,c:000641,c:010642,c:030641,c:160640,C:0000
-01ff:005a0000:2134:009c:1:0:0
-Kinomir
-p:Kabelkiosk,c:00064b,c:01064c,c:03064b,c:16064a,C:0000
-0200:005a0000:2134:009c:1:0:0
-TeleBom/TeleDom
-p:Kabelkiosk,c:000655,c:010656,c:030655,c:160654,C:0000
 0202:005a0000:2134:009c:25:0:0
 La Chaîne du Père Noel
 p:M7,c:000669,c:01066a,c:030669,c:160668,C:0000
-0204:005a0000:2134:009c:1:0:0
-Dusk International
-p:Kabelkiosk,c:00067d,c:01067e,c:03067d,c:16067c,C:0000
-4eea:005a0000:21fc:009c:1:0:0
-Romance TV
-p:Kabelkiosk,c:000201,c:010202,c:030201,c:160200,C:0000
-4eeb:005a0000:21fc:009c:25:0:0
-Sony AXN HD
-p:Kabelkiosk,c:000401,c:030401,c:040402,c:160400,C:0000
 4eed:005a0000:21fc:009c:1:0:0
 E! Germany
 p:Kabelkiosk,c:000501,c:010502,c:030501,c:160500,C:0000
@@ -1928,9 +1643,6 @@ p:Kabelkiosk,c:000801,c:030801,c:040802,c:160800,C:0000
 4ef1:005a0000:21fc:009c:1:0:0
 RTL Living
 p:Kabelkiosk,c:00092f,c:010930,c:03092f,c:16092e,C:0000
-4ef2:005a0000:21fc:009c:1:0:0
-Gute Laune TV
-p:Kabelkiosk,c:000a01,c:010a02,c:030a01,c:160a00,C:0000
 4ef3:005a0000:21fc:009c:25:0:0
 National Geographic HD Germany
 p:Kabelkiosk,c:000b01,c:030b01,c:040b02,c:160b00,C:0000
@@ -1961,6 +1673,9 @@ p:Persidera,c:0001f5,c:0101f6,c:0301f5,c:1601f4
 003c:005a0000:7918:217c:25:0:0
 Canale 239
 p:Persidera,c:000259,c:01025a,c:030259,c:160258
+0046:005a0000:7918:217c:1:0:0
+Italia 53
+p:Persidera,c:0002bd,c:0102be,c:0302bd,c:1602bc
 0007:005a0000:791a:217c:1:0:0
 iLIKE.TV
 p:Persidera,c:001f49,c:011f4a,c:031f49,c:161f57
@@ -2035,7 +1750,7 @@ Pianeta TV
 p:Persidera,c:0000e2,c:0100f6,c:0300e2,c:160142
 26ad:005a0000:a801:217c:1:0:0
 Videolina
-p:Service Provider,c:00038e,c:01038f,c:03038e,c:1600c9
+p:Service Provider,c:000426,c:010605,c:030426,c:1600c9
 26ae:005a0000:a801:217c:1:0:0
 Videolina 2
 p:Service Provider,c:000502,c:010602,c:030502,c:1600ca
@@ -2045,6 +1760,9 @@ p:Service Provider,c:000503,c:010603,c:030503,c:1600cb
 26b0:005a0000:a801:217c:1:0:0
 Tele Costa Smeralda
 p:Service Provider,c:000505,c:010606,c:030505,c:1600cc
+26b1:005a0000:a801:217c:1:0:0
+Olbia TV Notizie
+p:Media-Live,c:0003b6,c:0103b7,c:0303b6,c:1600cd
 26b2:005a0000:a801:217c:1:0:0
 TTSTV
 p:In Aria!,c:0003c0,c:0103c1,c:0303c0,c:1600ce
@@ -2067,59 +1785,14 @@ p:Media-Live,c:0003f2,c:0103f3,c:0303f2,c:1600d3
 Radio Televizione Sarda
 p:RTS,c:0003fc,c:0103fd,c:0303fc,c:1600d4
 26b9:005a0000:a801:217c:1:0:0
-Canale Italia 83
-p:Canale Italia,c:000406,c:030406,c:1600d5
+Canale Italia
+p:Canale Italia,c:000406,c:010407,c:030406,c:1600d5
 26ba:005a0000:a801:217c:1:0:0
-Canale Italia 84
-p:Canale Italia,c:000410,c:030410,c:1600d6
-0331:005a0000:c35a:009e:2:0:0
-VRT Radio 1
-p:Joyne,c:010a8e,c:030a8e,c:160a8c
-0332:005a0000:c35a:009e:2:0:0
-VRT Radio 2
-p:Joyne,c:010af2,c:030af2,c:160af0
-0333:005a0000:c35a:009e:2:0:0
-VRT NWS
-p:Joyne,c:010b56,c:030b56,c:160b54
-0334:005a0000:c35a:009e:2:0:0
-MNM
-p:Joyne,c:010bba,c:030bba,c:160bb8
-0335:005a0000:c35a:009e:2:0:0
-MNM Hits
-p:Joyne,c:010c1e,c:030c1e,c:160c1c
-0336:005a0000:c35a:009e:2:0:0
-Studio Brussel
-p:Joyne,c:010c82,c:030c82,c:160c80
-0337:005a0000:c35a:009e:2:0:0
-Klara
-p:Joyne,c:010ce6,c:030ce6,c:160ce4
-0338:005a0000:c35a:009e:2:0:0
-Klara Continuo
-p:Joyne,c:010d4a,c:030d4a,c:160d48
-0339:005a0000:c35a:009e:2:0:0
-Sporza
-p:Joyne,c:010dae,c:030dae,c:160dac
-033a:005a0000:c35a:009e:2:0:0
-Q Music
-p:Joyne,c:010e12,c:030e12,c:160e10
-033b:005a0000:c35a:009e:2:0:0
-Joe
-p:Joyne,c:010e76,c:030e76,c:160e74
-033c:005a0000:c35a:009e:2:0:0
-Nostalgie
-p:Joyne,c:010eda,c:030eda,c:160ed8
-033d:005a0000:c35a:009e:2:0:0
-Radio Continu
-p:Joyne,c:010f3e,c:030f3e,c:160f3c
-033e:005a0000:c35a:009e:2:0:0
-Groot nieuws Radio
-p:Joyne,c:010fa2,c:030fa2,c:160fa0
-035d:005a0000:c35a:009e:25:0:0
-RT auf Deutsch
-p:iKO Media Group,c:001bbd,c:011bbe,c:031bbd,c:161bbc
-035e:005a0000:c35a:009e:1:0:0
+Canale Italia Sardegna
+p:Canale Italia,c:000410,c:010411,c:030410,c:1600d6
+035e:005a0000:c35a:009e:25:0:0
 Eurobet 11
-p:A1 Broadcasting,c:001c21,c:011c22,c:031c21,c:161c20,C:0000
+p:A1 Broadcasting,c:001c21,c:011c22,c:031c21,c:161c20
 035f:005a0000:c35a:009e:1:0:0
 Eurobet 12
 p:A1 Broadcasting,c:001c85,c:011c86,c:031c85,c:161c84,C:0000
@@ -2135,48 +1808,45 @@ p:A1 Broadcasting,c:011db2,c:031db2,c:161db0
 0363:005a0000:c35a:009e:25:0:0
 Museum HD Internatiinal
 p:A1 Broadcasting,c:001e15,c:011e16,c:031e15,c:161e14,C:0000
-0364:005a0000:c35a:009e:1:0:0
-TIN - The Israeli Network
-p:A1 Broadcasting,c:001e79,c:011e7a,c:031e79,c:161e78
 0365:005a0000:c35a:009e:25:0:0
 MyZen.tv
 p:A1 Broadcasting,c:001edd,c:011ede,c:031edd,c:161edc,C:0000
 1388:005a0000:c3aa:009e:25:0:0
 Travel Channel EMEA HD
-p:Harmonic,c:001393,c:01139d,c:0213b9,c:031393,c:160020,C:0000
+p:Discovery,c:001393,c:01139d,c:0213b9,c:031393,c:161391,C:0000
 13ec:005a0000:c3aa:009e:25:0:0
 HGTV
 p:Discovery,c:0013f7,c:011401,c:0313f7,c:1613f5,C:0000
 1450:005a0000:c3aa:009e:25:0:0
 TLC Balkans HD
-p:Harmonic,c:00145b,c:011465,c:03145b,c:160022,C:0000
+p:Discovery,c:00145b,c:011465,c:03145b,c:161459,C:0000
 14b4:005a0000:c3aa:009e:25:0:0
 Discovery Channel Central Europe HD
-p:Harmonic,c:0014bf,c:0114c9,c:0214e5,c:0314bf,c:160027,C:0000
+p:Discovery,c:0014bf,c:0114c9,c:0214e5,c:0314bf,c:1614bd,C:0000
 1518:005a0000:c3aa:009e:25:0:0
 Animal Planet HD
-p:Harmonic,c:001523,c:01152d,c:021549,c:031523,c:160028,C:0000
+p:Discovery,c:001523,c:01152d,c:021549,c:031523,c:161521,C:0000
 157c:005a0000:c3aa:009e:25:0:0
 ID Xtra Europe HD
-p:Harmonic,c:001587,c:011591,c:0215ad,c:031587,c:160024,C:0000
+p:Discovery,c:001587,c:011591,c:0215ad,c:031587,c:161585,C:0000
 15e0:005a0000:c3aa:009e:25:0:0
 Discovery Turbo Xtra HD
-p:Harmonic,c:0015eb,c:0115f5,c:0315eb,c:160026,C:0000
+p:Discovery,c:0015eb,c:0115f5,c:0315eb,c:1615e9,C:0000
 1644:005a0000:c3aa:009e:25:0:0
 Discovery Science Europe HD
-p:Harmonic,c:00164f,c:011659,c:021675,c:03164f,c:160023,C:0000
+p:Discovery,c:00164f,c:011659,c:021675,c:03164f,c:16164d,C:0000
 16a8:005a0000:c3aa:009e:25:0:0
 TLC HD
-p:Harmonic,c:0016b3,c:0116bd,c:0216d9,c:0316b3,c:160021,C:0000
+p:Discovery,c:0016b3,c:0116bd,c:0216d9,c:0316b3,c:1616b1,C:0000
 17d4:005a0000:c3be:009e:1:0:0
 TLC Hungary
-p:Harmonic,c:0017df,c:0117e9,c:0317df,c:160020,C:0000
+p:Discovery,c:0017df,c:0117e9,c:0317df,c:1617dd,C:0000
 1838:005a0000:c3be:009e:25:0:0
 Discovery Channel Hungary HD
-p:Harmonic,c:001843,c:01184d,c:021869,c:031843,c:160023,C:0000
+p:Discovery,c:001843,c:01184d,c:021869,c:031843,c:161841,C:0000
 189c:005a0000:c3be:009e:25:0:0
 Discovery Channel HD Turkey
-p:Harmonic,c:0018a7,c:0118b1,c:0318a7,c:160022,C:0000
+p:Discovery,c:0018a7,c:0118b1,c:0318a7,c:1618a5,C:0000
 1900:005a0000:c3be:009e:25:0:0
 Discovery Science HD Turkey
 p:Discovery,c:00190b,c:011915,c:03190b,c:161909,C:0000
@@ -2189,18 +1859,6 @@ p:Eurosport,c:0019d3,c:0119dd,c:0319d3,c:1619d1,C:0000
 1a2c:005a0000:c3be:009e:25:0:0
 Eurosport 5 HD
 p:Eurosport,c:001a37,c:01401a,c:031a37,c:161a35,C:0000
-026b:005aaedc:0001:0001:1:0:0
-CCTV 4
-p:Globecast,c:000f3d,c:010f47,c:030f9f,c:160f9e
-026c:005aaedc:0001:0001:1:0:0
-CCTV E
-p:Globecast,c:000fa1,c:010fab,c:031003,c:161002
-026d:005aaedc:0001:0001:1:0:0
-CCTV-R
-p:Globecast,c:001005,c:01100f,c:031067,c:161066
-026e:005aaedc:0001:0001:1:0:0
-CGTN-A
-p:Globecast,c:001069,c:011073,c:0310cb,c:1610ca
 026f:005aaedc:0001:0001:1:0:0
 CGTN Documentary
 p:Globecast,c:0010cd,c:03112f,c:16112e
@@ -2213,111 +1871,15 @@ p:Globecast,c:001389,c:011393,c:031389,c:1613ea,C:0000
 0277:005aaedc:0001:0001:2:0:0
 EDM FM
 p:Globecast,c:0113f7,c:0313f7,c:16144e
+0001:005aaf75:032a:0110:2:0:0
+Servizio 1
+p:,c:010246,c:031fff,c:160065
 2009:005aaf75:032a:0110:25:0:0
 Sport Italia HD
 p:,c:000596,c:010597,c:030596,c:1600c9
-02c8:005ab035:0107:217c:1:0:0
-La 7 d
-p:,c:0003de,c:0103df,c:0303de,c:160070
-02ef:005ab035:0107:217c:25:0:0
-La 7 HD
-p:,c:0005fa,c:0305fa,c:0405fc,c:160097
-02f0:005ab035:0107:217c:25:0:0
-La7d HD
-p:,c:000604,c:030604,c:040606,c:160098
-0321:005ab035:0107:217c:25:0:0
-DAZN 1 HD
-p:,c:0005be,c:0105bf,c:0305be,c:1600c9,C:0000
-1b8c:005ab035:0384:0110:1:0:0
-R101 TV
-p:,c:0004a6,c:0104a7,c:0304a6,c:1600fc
-1bbe:005ab035:0384:0110:2:0:0
-Radio R101
-p:,c:0103c2,c:0303c2,c:1600ca
-1bbf:005ab035:0384:0110:2:0:0
-RADIO 105
-p:,c:0103c1,c:0303c1,c:1600cb
-1bc0:005ab035:0384:0110:2:0:0
-VIRGIN RADIO
-p:,c:0103c5,c:0303c5,c:1600cc
-1bc1:005ab035:0384:0110:2:0:0
-Radio Monte Carlo
-p:,c:0103c3,c:0303c3,c:1600cd
-1bd2:005ab035:0384:0110:1:0:0
-Premium Cinema
-p:,c:000280,c:010281,c:030280,c:1600de,C:0000
-1bd3:005ab035:0384:0110:1:0:0
-Premium Cinema 2
-p:,c:0001cc,c:0101cd,c:0301cc,c:1600df,C:0000
-1c0d:005ab035:0384:0110:1:0:0
-Donna Shopping
-p:,c:000c4e,c:010c4f,c:030c4e,c:160119
-1c16:005ab035:0384:0110:1:0:0
-TV 153
-p:,c:000e6a,c:030e6a,c:160122
-1c17:005ab035:0384:0110:1:0:0
-Sport Italia
-p:,c:00069a,c:01069b,c:03069a,c:160123
-1c18:005ab035:0384:0110:1:0:0
-Tele Padre Pio
-p:,c:00028a,c:01028b,c:03028a,c:160124
-07e3:005ab035:0389:0110:1:0:0
-20 Mediaset
-p:,c:00026c,c:01026d,c:03026c,c:1600db
-0849:005ab035:0389:0110:1:0:0
-TOPcrime
-p:,c:0006ea,c:0106eb,c:0206f3,c:0306ea,c:1600dd
-084a:005ab035:0389:0110:1:0:0
-Focus
-p:,c:0006f4,c:0106f5,c:0306f4,c:1600de
-084b:005ab035:0389:0110:1:0:0
-Cine34
-p:,c:0006e0,c:0106e1,c:0306e0,c:1600df
-0864:005ab035:0389:0110:1:0:0
-Food Network Italia
-p:,c:000406,c:010407,c:030406,c:1600f8
-0865:005ab035:0389:0110:1:0:0
-QVC Italia
-p:,c:000064,c:010065,c:030064,c:1600f9
-26ad:005ab035:a801:217c:1:0:0
+26ad:005ab05c:a801:217c:1:0:0
 Videolina
-p:Service Provider,c:000426,c:010605,c:030305,c:1600c9
-26ae:005ab035:a801:217c:1:0:0
-Videolina 2
-p:Service Provider,c:000502,c:010602,c:030502,c:1600ca
-26af:005ab035:a801:217c:1:0:0
-Sardegna Uno Sat
-p:Service Provider,c:000503,c:010603,c:030503,c:1600cb
-26b0:005ab035:a801:217c:1:0:0
-Tele Costa Smeralda
-p:Service Provider,c:000505,c:010606,c:030505,c:1600cc
-26b2:005ab035:a801:217c:1:0:0
-TTSTV
-p:In Aria!,c:0003c0,c:0103c1,c:0303c0,c:1600ce
-26b3:005ab035:a801:217c:1:0:0
-Teleregione Live
-p:Teleregione Live,c:0003ca,c:0103cb,c:0303ca,c:1600cf
-26b4:005ab035:a801:217c:1:0:0
-TeleSardegna
-p:,c:000701,c:030701,c:1600d0
-26b5:005ab035:a801:217c:1:0:0
-Canale 40
-p:Media Live,c:0003de,c:0103df,c:0303de,c:1600d1
-26b6:005ab035:a801:217c:1:0:0
-Catalan TV
-p:Media-Live,c:0003e8,c:0103e9,c:0303e8,c:1600d2
-26b7:005ab035:a801:217c:1:0:0
-Canale 40Reg
-p:Media-Live,c:0003f2,c:0103f3,c:0303f2,c:1600d3
-26b8:005ab035:a801:217c:1:0:0
-Radio Televizione Sarda
-p:RTS,c:0003fc,c:0103fd,c:0303fc,c:1600d4
-26b9:005ab035:a801:217c:1:0:0
-Canale Italia 83
-p:Canale Italia,c:000406,c:030406,c:1600d5
-26ba:005ab035:a801:217c:1:0:0
-Canale Italia 84
-p:Canale Italia,c:000410,c:030410,c:1600d6
+p:Service Provider,c:000426,c:010605,c:030426,c:1600c9
 26ae:005ab05c:a801:217c:1:0:0
 Videolina 2
 p:Service Provider,c:000502,c:010602,c:030502,c:1600ca
@@ -2354,6 +1916,9 @@ p:Canale Italia,c:000406,c:030406,c:1600d5
 26ba:005ab05c:a801:217c:1:0:0
 Canale Italia 84
 p:Canale Italia,c:000410,c:030410,c:1600d6
+26ad:005ab082:a801:217c:1:0:0
+Videolina
+p:Service Provider,c:000426,c:010605,c:030426,c:1600c9
 26ae:005ab082:a801:217c:1:0:0
 Videolina 2
 p:Service Provider,c:000502,c:010602,c:030502,c:1600ca
@@ -2363,6 +1928,9 @@ p:Service Provider,c:000503,c:010603,c:030503,c:1600cb
 26b0:005ab082:a801:217c:1:0:0
 Tele Costa Smeralda
 p:Service Provider,c:000505,c:010606,c:030505,c:1600cc
+26b1:005ab082:a801:217c:1:0:0
+Olbia TV Notizie
+p:Media-Live,c:0003b6,c:0103b7,c:0303b6,c:1600cd
 26b2:005ab082:a801:217c:1:0:0
 TTSTV
 p:In Aria!,c:0003c0,c:0103c1,c:0303c0,c:1600ce
@@ -2385,11 +1953,11 @@ p:Media-Live,c:0003f2,c:0303f2,c:1600d3
 Radio Televizione Sarda
 p:RTS,c:0003fc,c:0103fd,c:0303fc,c:1600d4
 26b9:005ab082:a801:217c:1:0:0
-Canale Italia 83
-p:Canale Italia,c:000406,c:030406,c:1600d5
+Canale Italia
+p:Canale Italia,c:000406,c:010407,c:030406,c:1600d5
 26ba:005ab082:a801:217c:1:0:0
-Canale Italia 84
-p:Canale Italia,c:000410,c:030410,c:1600d6
+Canale Italia Sardegna
+p:Canale Italia,c:000410,c:010411,c:030410,c:1600d6
 03e8:00820000:005e:0055:1:0:0
 Dorama
 p:XTRA TV,c:0003ea,c:0103eb,c:0303ea,c:1603e9,C:0000
@@ -2564,12 +2132,6 @@ p:XTRA TV,c:00099e,c:01099f,c:03099e,c:16099d,C:0000
 09b0:00820000:0060:0055:1:0:0
 TLC Russia
 p:XTRA TV,c:0009b2,c:0109b3,c:0309b2,c:1609b1,C:0000
-3650:00820000:00c8:013e:1:0:0
-Algérie 4
-p:TDA,c:0003ec,c:0107d4,c:0303ec,c:160388
-3651:00820000:00c8:013e:1:0:0
-Algérie 5
-p:TDA,c:0003ed,c:0107d5,c:0303ed,c:160389
 366a:00820000:00c8:013e:1:0:0
 Novy Mir
 p:Harmonic,c:000200,c:011010,c:030200
@@ -2897,6 +2459,9 @@ p:iKO Media Group,c:000065,c:010066,c:030065,c:160064
 0002:00820000:0578:013f:25:0:0
 Dieu TV
 p:iKO Media Group,c:0000c9,c:0100ca,c:0300c9,c:1600c8
+0003:00820000:0578:013f:25:0:0
+Holy God
+p:iKO Media Group,c:00012d,c:01012e,c:03012d,c:16012c
 13ee:00820000:05dc:013e:1:0:0
 Canal+ Sport 2 HD
 p:Platforma Canal+,c:0000a1,c:010054,c:0300a1,c:050001
@@ -3458,9 +3023,6 @@ p:SkyItalia
 2517:00820000:170c:fbff:25:0:0
 Race Control HD Fake
 p:Sky Italia,c:0000ac,c:0101bd,c:0300ac,c:050001
-0002:00820000:1770:0110:1:7074:0
-Canale 5
-p:Mediaset,c:00064a,c:01064b,c:020653,c:03064a
 003a:00820000:1770:0110:25:0:0
 Canale 239
 p:,c:000259,c:01025a,c:030259,c:160102
@@ -3654,8 +3216,8 @@ p:Sky Italia,c:0000b0,c:0101cb,c:0300b0,c:160460,C:0000
 Class CNBC
 p:Sky Italia,c:0000a3,c:010196,c:0300a3,c:160462,C:0000
 0fbd:00820000:19c8:fbff:1:0:0
-Fox +1 Italia
-p:Sky Italia,c:0000b5,c:0101b5,c:0201e0,c:0300b5,c:1603e9,C:0000
+Fox Simpson
+p:Sky Italia,C:0000
 1fac:00820000:19c8:fbff:1:0:0
 Sky News International
 p:Sky Italia,c:0000b9,c:0101bd,c:0300b9,c:1603ed,C:0000
@@ -3777,8 +3339,8 @@ p:Sky Italia,c:0000a6,c:0101a8,c:0202c3,c:0300a6,c:160457,C:0000
 Boomerang Italia
 p:Sky Italia,c:0000bb,c:0101e7,c:0202d0,c:0300bb,c:160471,C:0000
 0fbf:00820000:1af4:fbff:1:0:0
-DeA Kids +1
-p:Sky Italia,c:0000ad,c:0101ac,c:0300ad,c:1603f5,C:0000
+Masha e Orso
+p:Sky Italia,C:0000
 0fd9:00820000:1af4:fbff:1:0:0
 History Channel Italia +1
 p:Sky Italia,c:0000b0,c:0101b2,c:0202c1,c:0300b0,c:1603f8,C:0000
@@ -6405,7 +5967,7 @@ p:Kabelkiosk,c:000aff,c:010b00,c:030aff
 Classica
 p:Sky Deutschland,c:0005ff,c:010600,c:0305ff,c:160065,C:0000
 008b:00c00000:0002:0085:25:0:0
-Sky Cinema Christmas HD Germany
+Sky Cinema Family HD Germany
 p:Sky Deutschland,c:0002ff,c:0302ff,c:040303,c:160062,C:0000
 0093:00c00000:0002:0085:25:0:0
 Sky 1 HD Germany
@@ -6498,7 +6060,7 @@ p:Sky Deutschland,c:000bff,c:020020,c:030bff,c:040c02,c:16006b,C:0000
 Eurosport360 HD 5
 p:Kabelkiosk,c:000cff,c:030cff,c:040d03,c:16006c,C:0000
 0197:00c00000:0004:0085:1:0:0
-Sky Cinema Christmas Germany
+Sky Cinema Family Germany
 p:Sky Deutschland,C:0000
 0030:00c00000:0005:0085:1:0:0
 N24 Doku
@@ -6755,9 +6317,6 @@ p:Sky Deutschland,c:0005ff,c:010600,c:0305ff,c:160065,C:0000
 0031:00c00000:000d:0085:1:0:0
 Spiegel TV Wissen
 p:Kabelkiosk,c:0006ff,c:010700,c:0306ff,C:0000
-0031:00c00000:000d:0085:25:0:0
-Spiegel TV Wissen
-p:Kabelkiosk,c:0006ff,c:010700,c:0306ff
 006e:00c00000:000d:0085:25:0:0
 Sky Atlantic HD Germany
 p:Kabelkiosk,c:0004ff,c:010503,c:020020,c:0304ff
@@ -7948,9 +7507,6 @@ Calle 13 HD
 p:Movistar+ (Astra),c:0000a6,c:010074,c:020033,c:0300a6
 7825:00c00000:0428:0001:25:0:0
 SyFy HD Spain
-p:Movistar+,c:0000a8,c:020034,c:0300a8,c:04007a,c:160407,C:0000
-7825:00c00000:0428:0001:1:0:0
-Radio FG
 p:Movistar+,c:0000a8,c:020034,c:0300a8,c:04007a,c:160407,C:0000
 7826:00c00000:0428:0001:25:0:0
 Eurosport 1 HD
@@ -9393,5 +8949,5 @@ p:GLOBECAST,c:001aaf,c:011ab0,c:031aaf,c:161aae
 n-tv Austria
 p:RTL,c:000bcc,c:010bcd,c:020bd1,c:030bcc,c:1603fd
 end
-# 241 transponders and 2889 services.
-# Created by E-Channelizer v20.1.0.1220 on 22 dic, 2021 at 11:38 - https://www.echannelizer.com
+# 236 transponders and 2746 services.
+# Created by E-Channelizer v20.1.0.1220 on 04 gen, 2022 at 16:33 - https://www.echannelizer.com
