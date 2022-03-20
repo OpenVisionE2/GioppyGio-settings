@@ -105,11 +105,14 @@ eeee0000:0072:217c
 eeee0000:0078:217c
 	t 770000000:0:6:6:2:1:0:0:2:0
 /
-eeee0000:0099:217c
-	t 177500000:1:5:5:3:2:4:4:2:0
+eeee0000:00a3:217c
+	t 602000000:0:5:5:3:2:4:4:2:0
 /
 eeee0000:00c8:00c8
 	t 762000000:0:5:5:3:2:4:4:2:0
+/
+eeee0000:00cb:217c
+	t 205500000:1:0:0:3:2:4:4:2:0
 /
 eeee0000:0107:217c
 	t 506000000:0:5:5:3:2:4:4:2:0
@@ -596,9 +599,6 @@ eeee0000:d405:20bf
 /
 00820000:005e:0055
 	s 11219000:29900000:0:7:130:2:0:1:2:0:2
-/
-00820000:005f:0055
-	s 10949000:29900000:1:7:130:2:0:1:2:0:2
 /
 00820000:0060:0055
 	s 10853000:29900000:0:7:130:2:0:1:2:0:2
@@ -1646,6 +1646,9 @@ p:BeS
 012b:eeee0000:0039:217c:1:0:0
 Radio Juke Box TV
 p:BeS
+0191:eeee0000:0039:217c:1:11:0
+CHANNEL 401
+p:BeS
 0193:eeee0000:0039:217c:1:298:0
 RADIO MATER
 p:BeS
@@ -2303,8 +2306,11 @@ p:Telenorba
 006f:eeee0000:0078:217c:1:0:0
 Medjugorje TV
 p:Telenorba
-0515:eeee0000:0099:217c:25:0:0
+0547:eeee0000:00a3:217c:25:0:0
 Rai 1 HD
+p:Rai,c:050001
+0548:eeee0000:00a3:217c:25:1:0
+Rai 2 HD
 p:Rai
 0005:eeee0000:00c8:00c8:1:180:0
 Capri Casino'
@@ -2339,6 +2345,12 @@ p:BeS
 0801:eeee0000:00c8:00c8:1:0:0
 ODEON 24
 p:BeS
+060f:eeee0000:00cb:217c:25:0:0
+Rai 1 HD
+p:Rai,c:0000c9,c:0205dd,c:0300c9,c:04012d,c:050001
+0610:eeee0000:00cb:217c:25:0:0
+Rai 2 HD
+p:Rai,c:0000ca,c:0205de,c:0300ca,c:04012e,c:050001
 02c7:eeee0000:0107:217c:1:140:0
 LA7
 p:
@@ -9497,9 +9509,6 @@ p:XTRA TV,c:00058e,c:01058f,c:03058e,c:16058d,C:0000
 05f0:00820000:005e:0055:1:0:0
 Star Cinema HD
 p:XTRA TV,c:0005f2,c:0105f3,c:0305f2,c:1605f1,C:0000
-0604:00820000:005e:0055:1:0:0
-Zee TV Russia
-p:XTRA TV,c:000606,c:010607,c:030606,c:160605,C:0000
 07d0:00820000:0060:0055:1:0:0
 Viasat Sport Baltic & Russia
 p:XTRA TV,c:0007d2,c:0107d3,c:0307d2,c:1607d1,C:0000
@@ -9533,6 +9542,9 @@ p:XTRA TV,c:00098a,c:01098b,c:03098a,c:160989,C:0000
 099c:00820000:0060:0055:1:0:0
 Animal Planet Eastern Europe
 p:XTRA TV,c:00099e,c:01099f,c:03099e,c:16099d,C:0000
+09c4:00820000:0060:0055:1:0:0
+Rada ENG
+p:,c:0009c6,c:0109c7,c:0309c6,c:1609c5
 366a:00820000:00c8:013e:1:0:0
 Novy Mir
 p:Harmonic,c:000200,c:011010,c:030200
@@ -9551,6 +9563,24 @@ p:TivùSat,c:0001f8,c:0102e5,c:0301f8,c:1600ce,C:0000
 3b65:00820000:012c:013e:1:0:0
 Frisbee
 p:TivùSat,c:0001f9,c:0102ef,c:0301f9,c:1600cf,C:0000
+3b66:00820000:012c:013e:1:0:0
+Animal Planet Poland HD
+p:TVN SA Discovery Group,c:0001fa,c:0102f9,c:02024a,c:0301fa,c:160132,C:0000
+3b67:00820000:012c:013e:25:0:0
+Eurosport 1 Poland HD
+p:TVN SA Discovery Group,c:0001fb,c:010303,c:0301fb,c:160133,C:0000
+3b68:00820000:012c:013e:25:0:0
+Eurosport 2 Poland HD
+p:TVN SA Discovery Group,c:0001fc,c:01030d,c:0301fc,c:160134,C:0000
+3b69:00820000:012c:013e:25:0:0
+Investigation Discovery Poland HD
+p:TVN SA Discovery Group,c:0001fd,c:02024d,c:0301fd,c:040317,c:160135,C:0000
+3b6a:00820000:012c:013e:25:0:0
+Discovery Science Poland HD
+p:TVN SA Discovery Group,c:0001fe,c:010321,c:02024e,c:0301fe,c:160136,C:0000
+3b6b:00820000:012c:013e:25:0:0
+Discovery Turbo Xtra Poland HD
+p:TVN SA Discovery Group,c:0001ff,c:02024f,c:0301ff,c:04032b,c:160137,C:0000
 32cd:00820000:0190:013e:25:0:0
 Canal+ Now
 p:Platforma Canal+,c:0000a4,c:0300a4,c:040060
@@ -10200,7 +10230,7 @@ p:Sky Italia,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-Sergio Leone Collection HD
+Twilight Collection HD
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -10262,6 +10292,9 @@ p:Nova,c:0000d8,c:01013d,c:0300d8,c:16003e,C:0000
 01a2:00820000:1518:013e:25:0:0
 Animal Planet HD
 p:Nova,c:001523,c:01152d,c:031523,c:161521,C:0000
+01a3:00820000:1518:013e:1:0:0
+Disney Channel Greece
+p:Nova,c:000816,c:010817,c:031fff,c:16003e,C:0000
 012d:00820000:157c:013e:25:0:0
 Macedonia TV HD
 p:Nova,c:00020a,c:0102ee,c:03020a,c:16010c,C:0000
@@ -10701,7 +10734,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-Sergio Leone Collection
+Twilight Collection
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -10871,6 +10904,9 @@ p:Nova,c:0002bc,c:0102c6,c:0302bc,c:1600ca,C:0000
 3c9c:00820000:1bbc:013e:1:0:0
 Euronews Greek
 p:Nova,c:000134,c:010135,c:030134,c:1601e0,C:0000
+3c9e:00820000:1bbc:013e:1:0:0
+Viasat Explore HD
+p:Nova,c:0009c5,c:0109c6,c:0309c5,c:1609c4,C:0000
 0e2e:00820000:1c20:013e:2:0:0
 RADIO FRECCIA
 p:MTHREE SATCOM,c:010dbc,c:030dbc,c:160dbb
@@ -11131,7 +11167,7 @@ Wydarzenia 24
 p:Platforma Canal+,c:0001fc,c:0301fc,c:160022,C:0000
 1cca:00820000:1ce8:0071:25:0:0
 Polsat Viasat Explore HD
-p:Polsat Box,c:000202,c:010266,c:030202,c:050001,C:0000
+p:Polsat Box,c:000202,c:010266,c:030202,c:16004c,C:0000
 1ccd:00820000:1ce8:0071:1:0:0
 Polsat Reality
 p:Polsat Box,c:0000fa,c:0100fb,c:020113,c:0300fa,c:160040,C:0000
@@ -11331,7 +11367,7 @@ p:Sky Italia,c:0000a8,c:0300a8,c:0401a7,c:160452,C:0000
 Sky Sport HD Italia
 p:Sky Italia,c:0000a4,c:0300a4,c:04019c,c:160454,C:0000
 1090:00820000:2008:fbff:25:0:0
-Sky Serie +1 HD
+Sky Serie Maratone HD
 p:Sky Italia,c:0000b4,c:0202c6,c:0300b4,c:04019a,c:160463,C:0000
 109a:00820000:2008:fbff:25:0:0
 Sky Arte +1 HD
@@ -11678,9 +11714,6 @@ p:Eutelsat,c:001807,c:0102a8,c:031807,c:160267
 0650:00820000:2454:013e:1:0:0
 Algerie 3 HD
 p:Eutelsat,c:001811,c:01029e,c:031811,c:160268
-0651:00820000:2454:013e:1:0:0
-TV Art Live
-p:EUTELSAT
 0652:00820000:2454:013e:25:0:0
 RT Arabic HD
 p:EUTELSAT,c:001825,c:031825,c:041826,c:16026a
@@ -13127,9 +13160,6 @@ p:Total TV,c:000899,c:01089a,c:030899,c:160898,C:0000
 045a:00820000:526c:016e:1:0:0
 Viasat Nature HD
 p:Total TV,c:000961,c:010962,c:020981,c:030961,c:160960,C:0000
-045b:00820000:526c:016e:1:0:0
-Viasat Explore HD
-p:Total TV,c:0009c5,c:0109c6,c:0309c5,c:1609c4,C:0000
 045c:00820000:526c:016e:1:0:0
 Viasat History HD
 p:Total TV,c:000a29,c:010a2a,c:020a47,c:030a29,c:160a28,C:0000
@@ -13251,5 +13281,5 @@ p:,c:030c32,c:1614af
 VOA Urdu Radio ch310
 p:,c:0313a8,c:1614be
 end
-# 289 transponders and 4127 services.
-# Created by E-Channelizer v20.1.0.1220 on 09 mar, 2022 at 15:20 - https://www.echannelizer.com
+# 289 transponders and 4137 services.
+# Created by E-Channelizer v22.0.0.312 on 17 mar, 2022 at 21:22 - https://www.echannelizer.com
