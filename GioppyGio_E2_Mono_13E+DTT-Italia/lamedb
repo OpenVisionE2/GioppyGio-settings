@@ -798,6 +798,9 @@ eeee0000:d405:20bf
 00820000:206c:fbff
 	s 12360000:29900000:0:4:130:2:0:1:1:0:2
 /
+00820000:20d0:013e
+	s 12380000:30000000:1:4:130:2:0:1:2:0:2
+/
 00820000:2134:013e
 	s 12399000:29700000:0:2:130:2:0:1:2:0:2
 /
@@ -3715,9 +3718,6 @@ National Geographic
 p:
 0091:eeee0000:0385:0110:1:13197:0
 Cielo
-p:
-0091:eeee0000:0385:0110:0:0:0
-Cielo PROVVISORIO
 p:
 0092:eeee0000:0385:0110:1:13417:0
 Sky TG24
@@ -10804,7 +10804,7 @@ Canal+ Now
 p:Platforma Canal+,c:0000a4,c:0300a4,c:040060
 32ce:00820000:0190:013e:25:0:0
 Eleven Sports 4 HD
-p:Platforma Canal+,c:0000a5,c:010064,c:0300a5,c:050001
+p:Platforma Canal+,c:050001
 32dc:00820000:0190:013e:25:0:0
 Canal+ HD Polska
 p:Platforma Canal+,c:000167,c:010178,c:030167,c:050001
@@ -11072,15 +11072,18 @@ p:Polsat Box,c:000210,c:0102d8,c:030210,c:050001
 3ab8:00820000:0514:013e:25:0:0
 Discovery HD Showcase
 p:Polsat Box,c:000211,c:0102d9,c:030211,c:050001,C:0000
-3ab9:00820000:0514:013e:25:0:0
-nSport+
-p:Platforma Canal+,c:000212,c:0102da,c:030212,c:050001
+3ab9:00820000:0514:013e:1:0:0
+Canal+ Sport 5 HD Poland
+p:Orange Polska,c:000212,c:030212,c:0402da,c:160409,C:0000
 3abd:00820000:0514:013e:25:0:0
 TVP 1 HD
 p:Polsat Box,c:000216,c:01027a,c:030216,c:050001
 3abe:00820000:0514:013e:25:0:0
 Romance TV Polska
 p:Polsat Box,c:000217,c:01027b,c:030217,c:050001
+3ae1:00820000:0514:013e:25:0:0
+Canal+ Sport 5 HD Poland
+p:Platforma Canal+,c:000212,c:030212,c:0402da,c:160431,C:0000
 3b38:00820000:0514:013e:1:0:0
 pVOD Canal+ Polska
 p:Platforma Canal+,c:000801,c:030801,c:040802,c:160097,C:0000
@@ -11096,12 +11099,9 @@ p:iKO Media Group,c:00012d,c:01012e,c:03012d,c:16012c
 0004:00820000:0578:013f:1:0:0
 Amazing Facts
 p:,c:000191,c:010192,c:030191,c:160190
-0006:00820000:0578:013f:1:0:0
-Dieu TV
-p:
 13ee:00820000:05dc:013e:1:0:0
 Canal+ Sport 2 HD
-p:Platforma Canal+,c:0000a1,c:010054,c:0300a1,c:050001
+p:Orange Polska,c:0000a1,c:010054,c:0300a1,c:050001
 13ef:00820000:05dc:013e:25:0:0
 Canal+ Domo HD
 p:Platforma Canal+,c:0000a2,c:010058,c:0300a2,c:050001
@@ -11113,10 +11113,10 @@ Kino Polska HD
 p:Polsat Box,c:0000a5,c:0300a5,c:040064,c:1603ee,C:0000
 13f3:00820000:05dc:013e:25:0:0
 Eleven Sports 1 HD
-p:Polsat Box,c:0000a6,c:010068,c:0300a6,c:1603ef
+p:Polsat Box
 13f5:00820000:05dc:013e:25:0:0
 Eleven Sports 2 HD
-p:Polsat Box,c:0000a8,c:010070,c:0300a8,c:1603f1
+p:Polsat Box
 13f6:00820000:05dc:013e:25:0:0
 National Geographic Wild HD Polska
 p:Polsat Box,c:0000a9,c:0300a9,c:040074,c:1603f2,C:0000
@@ -11125,7 +11125,7 @@ TVP 3
 p:Polsat Box,c:0000aa,c:010078,c:0201ff,c:0300aa,c:1603f3,C:0000
 13f8:00820000:05dc:013e:25:0:0
 Eleven Sports 3 HD
-p:Polsat Box,c:0000ab,c:01007c,c:0300ab,c:1603f4
+p:Polsat Box
 1410:00820000:05dc:013e:2:0:0
 Radio ZET
 p:nc+,c:0101a7,c:0301a4,c:16040c
@@ -11372,6 +11372,9 @@ p:DU,c:00004d,c:010071,c:03004d,c:050001
 2529:00820000:13ef:013e:25:0:0
 Al Arabiya HD
 p:GioppyGio®
+252a:00820000:13ef:013e:25:0:0
+Al-Hadath HD
+p:DU,c:000bd8,c:010bd9,c:030bd8,c:160bd7
 252c:00820000:13ef:013e:1:6951:0
 Sky News Arabia
 p:Du,c:0010d8,c:0110d9,c:0310d8
@@ -11381,6 +11384,9 @@ p:,c:0010ea,c:0110eb,c:0310ea,c:1610e9
 2531:00820000:13ef:013e:2:0:0
 AL SHARJAH RADIO
 p:,c:01122e,c:03122e,c:16122d
+253a:00820000:13ef:013e:1:0:0
+Holy Quran Awards
+p:DU,c:000132,c:010196,c:030132,c:160131
 0d49:00820000:1450:013e:25:0:0
 Rai 1 HD
 p:RAI,c:0001f5,c:010259,c:0301f5,c:050001,C:0000
@@ -11451,7 +11457,7 @@ p:Sky Italia,C:0000
 Classica Italia HD
 p:Sky Italia,c:0000a3,c:0300a3,c:040197,C:0000
 106c:00820000:14b4:fbff:25:0:0
-Revenge Collection HD
+W la France Collection HD
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -11955,7 +11961,7 @@ p:Sky Italia,c:0000a1,c:010194,c:0300a1,c:16044d,C:0000
 Sky Uno
 p:Sky Italia,c:0000a5,c:0101a4,c:0300a5
 2dcc:00820000:1a2c:fbff:1:0:0
-Revenge Collection
+W la France Collection
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -11979,7 +11985,7 @@ p:Sky Italia,C:0000
 History Channel Italia +1
 p:Sky Italia,c:0000b0,c:0101b2,c:0202c1,c:0300b0,c:1603f8,C:0000
 0fda:00820000:1af4:fbff:1:0:0
-National Geographic Italy +1
+Nat Geo Crime Italy
 p:Sky Italia,C:0000
 1006:00820000:1af4:fbff:1:0:0
 Bike Channel
@@ -12638,6 +12644,18 @@ p:Sky Italia,c:0000a1,c:010190,c:0202bd,c:0300a1,c:16044d,C:0000
 2a97:00820000:206c:fbff:1:0:0
 Sky Uno +1
 p:Sky Italia,c:0000ae,c:0101b0,c:0202c0,c:0300ae,c:16045e,C:0000
+0bc2:00820000:20d0:013e:1:0:0
+Fashion TV
+p:
+0bc3:00820000:20d0:013e:25:0:0
+Fashion TV
+p:
+0bc4:00820000:20d0:013e:31:0:0
+Fashion 4K
+p:1
+0bea:00820000:20d0:013e:31:0:0
+Insight UHD
+p:Polsat Box,C:0000
 0388:00820000:2134:013e:2:0:0
 Noor Dubai Radio
 p:Etisalat,c:010579,c:030579,c:160578
@@ -12874,7 +12892,7 @@ Fashion TV
 p:,c:00006f,c:010070,c:03006f,c:16006e
 044e:00820000:238c:013e:1:0:0
 Fashion 4K
-p:1,c:000079,c:01007a,c:030079,c:160078
+p:1
 044f:00820000:238c:013e:1:0:0
 Love Nature 4K
 p:iKO Media Group,c:000083,c:010084,c:030083
@@ -12883,7 +12901,7 @@ MyZen 4K
 p:,c:000411,c:010412,c:030411,C:0000
 0451:00820000:238c:013e:1:0:0
 Insight UHD
-p:Eutelsat,c:00041b,c:03041b,c:04041c,c:16041a
+p:Eutelsat
 04b1:00820000:23f0:013e:25:0:0
 SBC HD
 p:,c:0007db,c:0307db,c:0407dc,c:1607da
@@ -13606,10 +13624,10 @@ SRF info HD
 p:Schweizer Radio und Fernsehen,c:00020a,c:02020f,c:03020a,c:04020b,c:160209
 4337:00820000:300c:013e:1:0:0
 RSI La 1 HD
-p:Radiotelevisione svizzera,c:000228,c:02022d,c:030228,c:040229,c:160227,C:0000
+p:Radiotelevisione svizzera,C:0000
 4338:00820000:300c:013e:1:0:0
 RSI La 2 HD
-p:Radiotelevisione svizzera,c:000232,c:020237,c:030232,c:040233,c:160231,C:0000
+p:Radiotelevisione svizzera,C:0000
 4345:00820000:300c:013e:2:0:0
 SRF 1
 p:Schweizer Radio und Fernsehen,c:0100d3,c:0300d3,c:1601c3
@@ -13969,7 +13987,7 @@ Polsat Sport Premium PPV6
 p:Polsat Box,C:0000
 070f:00820000:32c8:013e:1:0:0
 Eleven Sports 1 4K
-p:Polsat Box,c:000107,c:010207,c:030107,c:160057,C:0000
+p:Polsat Box,C:0000
 1c86:00820000:332c:013e:1:6510:0
 Bloomberg Europe
 p:Arqiva,c:000dae,c:010e26,c:020dfe,c:030dae
@@ -14511,5 +14529,5 @@ p:,c:030c32,c:1614af
 VOA Urdu Radio ch310
 p:,c:0313a8,c:1614be
 end
-# 308 transponders and 4528 services.
-# Created by E-Channelizer v22.0.0.329 on 01 apr, 2022 at 21:56 - https://www.echannelizer.com
+# 309 transponders and 4533 services.
+# Created by E-Channelizer v22.0.0.405 on 09 apr, 2022 at 16:48 - https://www.echannelizer.com
