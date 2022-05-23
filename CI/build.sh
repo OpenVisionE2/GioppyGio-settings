@@ -3,10 +3,8 @@
 # Script by Persian Prince for https://github.com/OpenVisionE2
 # You're not allowed to remove my copyright or reuse this script without putting this header.
 
-cd ..
 rm -rf GioppyGio*
 rm -rf *index*
-cd CI
 rm -rf *.zip
 
 lynx -dump https://gioppygio.it/settings/e2/ | awk '/zip/{print $2}' > links.txt
