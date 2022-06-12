@@ -432,6 +432,9 @@ transponders
 00c00000:0416:0001
 	s 11156000:22000000:1:4:192:2:0
 /
+00c00000:0418:0001
+	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -548,6 +551,9 @@ transponders
 /
 00c00000:0455:0001
 	s 12574000:22000000:0:2:192:2:0:1:2:0:2
+/
+00c00000:0457:0001
+	s 12603000:22000000:0:4:192:2:0
 /
 00c00000:0459:0001
 	s 12633000:22000000:0:4:192:2:0
@@ -955,7 +961,7 @@ MotorTrend HD
 p:TivùSat
 10e2:00820000:03e8:013e:25:0:0
 Giallo HD
-p:TivùSat
+p:TivùSat,c:00020b,c:0102f8,c:03020b,c:16010f,C:0000
 10e3:00820000:03e8:013e:25:0:0
 Nove HD
 p:TivùSat
@@ -1075,7 +1081,7 @@ Canal+ Dokument HD
 p:Polsat Box
 3a9b:00820000:0514:013e:25:0:0
 Investigation Discovery HD
-p:Polsat Box
+p:Polsat Box,C:0000
 3a9c:00820000:0514:013e:25:0:0
 DTX HD
 p:Polsat Box
@@ -1279,7 +1285,7 @@ Channel 5 HD
 p:KABELIO.CH
 3760:00820000:06a4:013e:25:0:0
 FreeSports HD
-p:KABELIO.CH
+p:KABELIO.CH,C:0000
 3764:00820000:06a4:013e:1:0:0
 ORF Sport Plus
 p:KABELIO.CH
@@ -1292,6 +1298,9 @@ p:KABELIO.CH
 3767:00820000:06a4:013e:1:0:0
 Auftanken.tv
 p:KABELIO.CH
+3768:00820000:06a4:013e:25:0:0
+BBC News HD
+p:KABELIO.CH,C:0000
 332d:00820000:1388:013e:25:0:0
 DW English HD
 p:GLOBECAST
@@ -1412,9 +1421,6 @@ p:
 2531:00820000:13ef:013e:2:0:0
 AL SHARJAH RADIO
 p:
-253a:00820000:13ef:013e:1:0:0
-Holy Quran Awards
-p:DU
 0d49:00820000:1450:013e:25:0:0
 Rai 1 HD
 p:RAI
@@ -1485,7 +1491,7 @@ p:Sky Italia
 Classica Italia HD
 p:Sky Italia
 106c:00820000:14b4:fbff:25:0:0
-W la mamma Collection HD
+Tom Cruise Collection HD
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -1499,12 +1505,9 @@ p:Sky Italia
 37b2:00820000:14b4:fbff:25:0:0
 Cartoon Network HD Italy
 p:Sky Italia
-37ba:00820000:14b4:fbff:1:0:0
-Sky Uno +1 HD
-p:Sky Italia
 37ba:00820000:14b4:fbff:25:0:0
 Sky Uno +1 HD
-p:Sky Italia
+p:Sky Italia,C:0000
 0191:00820000:1518:013e:1:0:0
 MTV 00s
 p:Nova
@@ -1542,7 +1545,7 @@ p:Nova
 Disney Junior Greece
 p:Nova
 019f:00820000:1518:013e:25:0:0
-Novacinema Fast&Furious
+Novasports Extra 1 HD
 p:Nova
 01a0:00820000:1518:013e:1:0:0
 TLC Greece
@@ -1748,9 +1751,6 @@ p:Nova
 1bc7:00820000:17d4:013e:1:0:0
 Disney Channel Greece
 p:Nova
-1bc8:00820000:17d4:013e:25:0:0
-CNN International HD
-p:Nova
 1bca:00820000:17d4:013e:25:0:0
 Nova Cinema 2 HD
 p:Nova
@@ -1774,19 +1774,16 @@ Sky Cinema Uno HD
 p:Sky Italia
 1c29:00820000:1838:fbff:1:0:0
 Sky Sport Calcio HD
-p:Sky Italia
-1c3e:00820000:1838:fbff:1:0:0
-Sky Sport Calcio HD
-p:Sky Italia
+p:Sky Italia,C:0000
 1c3e:00820000:1838:fbff:25:0:0
 Sky Sport Calcio HD
-p:Sky Italia
+p:Sky Italia,C:0000
 2505:00820000:1838:fbff:1:0:0
 Sky Uno HD
 p:Sky Italia
 2b0f:00820000:1838:fbff:25:0:0
 Sky Sport 1 HD Italia
-p:Sky Italia
+p:Sky Italia,C:0000
 3792:00820000:1838:fbff:25:0:0
 Sky Atlantic HD Italia
 p:Sky Italia
@@ -1825,7 +1822,7 @@ Sky Sport Arena
 p:Sky Italia
 2aaf:00820000:189c:fbff:1:0:0
 Sky Sport Calcio
-p:Sky Italia
+p:Sky Italia,C:0000
 0f6f:00820000:1900:fbff:25:0:0
 Sky Sport HD Italia
 p:Sky Italia
@@ -2001,7 +1998,7 @@ p:Sky Italia
 Sky Uno
 p:Sky Italia
 2dcc:00820000:1a2c:fbff:1:0:0
-W la mamma Collection
+Tom Cruise Collection
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2049,7 +2046,7 @@ p:Sky Italia
 Boomerang +1 Italia
 p:Sky Italia,C:0000
 3424:00820000:1af4:fbff:1:0:0
-NGW In Viaggio
+Nat Geo Wild +1 Italia
 p:Sky Italia
 34de:00820000:1af4:fbff:25:0:0
 Explorer HD Channel
@@ -2328,7 +2325,10 @@ p:Nova
 Mad TV
 p:Nova
 017d:00820000:1c84:013e:1:0:0
-Novasports Extra 2
+Novasports Extra 2 HD
+p:Nova,C:0000
+017d:00820000:1c84:013e:25:0:0
+Nova Sports Extra 3 HD
 p:Nova,C:0000
 0180:00820000:1c84:013e:1:0:0
 Kanali Voulis
@@ -2552,11 +2552,11 @@ p:Polsat Box
 2938:00820000:1edc:0071:1:0:0
 Disney Junior Middle-East & Africa
 p:Polsat Box
-0014:00820000:1f40:013e:25:0:0
-TSA Promo
-p:TSA
 030f:00820000:1f40:013e:1:0:0
 Telesur
+p:TSA
+030f:00820000:1f40:013e:25:0:0
+Telesur HD
 p:TSA
 0321:00820000:1f40:013e:25:0:0
 TBN Europe HD
@@ -2698,7 +2698,7 @@ Sky Cinema Family HD
 p:Sky Italia
 2a97:00820000:206c:fbff:1:0:0
 Sky Uno +1
-p:Sky Italia
+p:Sky Italia,C:0000
 0bc2:00820000:20d0:013e:1:0:0
 Fashion TV
 p:
@@ -2708,6 +2708,9 @@ p:
 0bc4:00820000:20d0:013e:31:0:0
 Fashion 4K
 p:1
+0be0:00820000:20d0:013e:31:0:0
+MyZen 4K
+p:,C:0000
 0bea:00820000:20d0:013e:31:0:0
 Insight UHD
 p:Polsat Box
@@ -2954,9 +2957,6 @@ p:1
 044f:00820000:238c:013e:1:0:0
 Love Nature 4K
 p:iKO Media Group
-0450:00820000:238c:013e:1:0:0
-MyZen 4K
-p:
 0451:00820000:238c:013e:1:0:0
 Insight UHD
 p:Eutelsat
@@ -2993,6 +2993,9 @@ p:
 0645:00820000:2454:013e:25:0:0
 Al Alam TV HD
 p:EUTELSAT
+0646:00820000:2454:013e:1:0:0
+MS Motor TV
+p:EUTELSAT
 064b:00820000:2454:013e:25:0:0
 Church of Jesus Christ
 p:
@@ -3017,14 +3020,8 @@ p:EUTELSAT
 200c:00820000:24b8:013e:1:7739:0
 BBC World News
 p:GlobeCast
-2010:00820000:24b8:013e:1:0:0
-Perviy Kanal Romania
-p:Globecast
 2023:00820000:24b8:013e:2:0:0
 Service 8227
-p:Globecast
-2065:00820000:24b8:013e:1:0:0
-ORT International (Perviy kanal Vsemirnaja set)
 p:Globecast
 2067:00820000:24b8:013e:25:0:0
 RT Doc
@@ -3113,9 +3110,6 @@ p:Platforma Canal+,C:0000
 116f:00820000:2af8:013e:31:0:0
 Canal+ 4K Ultra HD Poland
 p:Platforma Canal+
-116f:00820000:2af8:013e:1:0:0
-Canal+ 4K Ultra HD Poland
-p:Platforma Canal+,c:0000ac,c:010080,c:0300ac,c:160427
 1190:00820000:2af8:013e:2:0:0
 NETFLIX
 p:nc+
@@ -3128,6 +3122,9 @@ p:
 11fc:00820000:2b5c:013e:1:0:0
 Museum 4K
 p:
+11fd:00820000:2b5c:013e:1:0:0
+MyZen 4K
+p:,C:0000
 4279:00820000:2bc0:013e:25:0:0
 wPolsce.pl
 p:Polsat Box
@@ -3215,9 +3212,6 @@ p:Polsat Box
 429d:00820000:2bc0:013e:25:0:0
 Fokus TV
 p:Polsat Box,C:0000
-429e:00820000:2bc0:013e:1:0:0
-Nowa TV
-p:Polsat Box
 429e:00820000:2bc0:013e:25:0:0
 Nowa TV
 p:Polsat Box,C:0000
@@ -3262,9 +3256,6 @@ Hispan TV
 p:IRIB
 05fd:00820000:2c24:013e:1:0:0
 iFilm English
-p:IRIB
-0603:00820000:2c24:013e:25:0:0
-Al Alam TV HD
 p:IRIB
 060f:00820000:2c24:013e:2:0:0
 RADIO IRAN
@@ -3662,9 +3653,6 @@ p:Nova
 4207:00820000:2f44:013e:1:0:0
 Brazzers HD
 p:Polsat Box
-4208:00820000:2f44:013e:25:0:0
-HRT International HD
-p:OIV
 4209:00820000:2f44:013e:2:0:0
 VOICE OF CRO
 p:OIV
@@ -3695,9 +3683,6 @@ p:M-Three Satcom
 4231:00820000:2f44:013e:25:0:0
 LoveWorld Sat
 p:ViewSat
-4233:00820000:2f44:013e:1:0:0
-1+1 International
-p:1plus1 Media
 4234:00820000:2f44:013e:1:0:0
 Byoblu
 p:M-Three Satcom
@@ -4157,9 +4142,6 @@ p:Telespazio
 132a:00820000:33f4:013e:1:0:0
 RIK Sat
 p:Telespazio
-132e:00820000:33f4:013e:1:0:0
-Juwelo TV Italia
-p:Harmonic
 134b:00820000:33f4:013e:1:0:0
 Hadi TV 3
 p:Telespazio
@@ -4385,18 +4367,18 @@ p:Telespazio
 424d:00820000:3db8:013e:1:0:0
 Fuego
 p:Telespazio
-424f:00820000:3db8:013e:25:0:0
-RDS Social TV
-p:Teelspazio
+424f:00820000:3db8:013e:1:0:0
+RDS Social TV 4K test
+p:Telespazio
 4250:00820000:3db8:013e:1:0:0
 Radio Kiss Kiss TV
 p:Telespazio
-4251:00820000:3db8:013e:25:0:0
+4251:00820000:3db8:013e:1:0:0
 RDS Social TV
-p:Telespazio
+p:Telespazio,c:0014b6,c:0114b7,c:0314b6,c:050001
 4252:00820000:3db8:013e:1:0:0
-RDS Social TV
-p:Telespazio
+RDS Relax
+p:Telespazio,c:0007b6,c:0107b7,c:0307b6,c:050001
 4253:00820000:3db8:013e:25:0:0
 QVC Italia HD
 p: Telespazio
@@ -4970,6 +4952,9 @@ p:Sky Deutschland
 0104:00c00000:000b:0085:25:0:0
 Eurosport 360 HD 9
 p:Sky Deutschland
+0105:00c00000:000b:0085:1:0:0
+Sky Sport Austria 7 HD
+p:Sky Deutschland,C:0000
 0191:00c00000:000b:0085:25:0:0
 Jukebox
 p:Sky Deutschland
@@ -5007,7 +4992,7 @@ p:Kabelkiosk
 Sky Atlantic HD Germany
 p:Kabelkiosk
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema Special HD
+Sky 007 HD Germany
 p:Sky Deutschland
 0070:00c00000:000d:0085:25:0:0
 National Geographic HD Germany
@@ -5189,9 +5174,9 @@ p:ORF Digital
 3403:00c00000:03ed:0001:1:0:0
 Volksmusik TV
 p:ORS
-3404:00c00000:03ed:0001:25:0:0
-GoTV
-p:GoTV
+3404:00c00000:03ed:0001:1:0:0
+Stimmungsgarten TV
+p:ORS
 3405:00c00000:03ed:0001:25:0:0
 Melodie TV
 p:-
@@ -5360,9 +5345,6 @@ p:ARD Digital
 2840:00c00000:03fb:0001:25:0:0
 Sudwest Fernsehen Rheinland-Pfalz HD
 p:ARD Digital
-1b60:00c00000:03fc:0001:1:0:0
-Cubavision Internacional
-p:GlobeCast
 1b64:00c00000:03fc:0001:25:0:0
 Arirang TV HD
 p:Globecast
@@ -5861,6 +5843,24 @@ p:Movistar+ (Astra)
 7739:00c00000:0416:0001:1:0:0
 Movistar Deportes 1
 p:Movistar+
+10cc:00c00000:0418:0001:25:0:0
+Sport Digital Fussball HD
+p:Austriasat,C:0000
+10cd:00c00000:0418:0001:1:0:0
+Sport 1 +
+p:Boobles,C:0000
+10ce:00c00000:0418:0001:1:0:0
+eSports One
+p:Boobles,C:0000
+10cf:00c00000:0418:0001:1:0:0
+Edge Sport
+p:Boobles,C:0000
+10d0:00c00000:0418:0001:1:0:0
+Waidwerk
+p:Boobles,C:0000
+10d1:00c00000:0418:0001:1:0:0
+ClipMyHorse.TV
+p:Boobles,C:0000
 7853:00c00000:041a:0001:25:0:0
 Movistar LaLiga 1 HD
 p:Movistar+
@@ -5906,9 +5906,6 @@ p:Movistar+ (Astra)
 749c:00c00000:041c:0001:1:0:0
 Baby TV
 p:Movistar+ (Astra)
-749d:00c00000:041c:0001:1:0:0
-M+ Very British
-p:Movistar+
 749e:00c00000:041c:0001:1:0:0
 Boing Spain
 p:Movistar+ (Astra)
@@ -6215,6 +6212,12 @@ p:
 166d:00c00000:042c:0001:1:0:0
 Malyatko TV
 p:
+1677:00c00000:042c:0001:1:0:0
+TV Rus
+p:SES ASTRA
+1681:00c00000:042c:0001:1:0:0
+Kaufbei.tv
+p:SES
 1f41:00c00000:042e:0001:25:0:0
 BET HD France
 p:Canal+ France
@@ -7325,6 +7328,9 @@ p:Austriasat
 152e:00c00000:0455:0001:25:0:0
 DMAX HD Austria
 p:Austriasat
+1c20:00c00000:0457:0001:1:0:0
+Bloomberg Europe
+p:Bloomberg TV
 3138:00c00000:0459:0001:1:0:0
 Health.tv
 p:MB Satellite
@@ -8102,6 +8108,9 @@ p:Canale Italia
 2009:0dde0000:032a:0110:25:0:0
 Sport Italia HD
 p:
+200a:0dde0000:032a:0110:1:0:0
+Deluxe 139
+p:
 01f4:0dde0000:2711:0090:2:0:0
 Sec TDF1
 p:FM-DVB TDF RMV
@@ -8720,9 +8729,6 @@ p:Bis
 0133:0dde0000:4f4c:055f:25:0:0
 LCI HD
 p:Bis
-0139:0dde0000:4f4c:055f:31:0:0
-FRANSAT UHD
-p:EUTELSAT
 0142:0dde0000:4f4c:055f:25:0:0
 Fransat Info HD
 p:EUTELSAT
@@ -8927,10 +8933,13 @@ p:Rai Way
 0092:0dde0000:a001:217c:25:0:0
 TV Europa
 p:Rai Way
+0093:0dde0000:a001:217c:25:0:0
+La TR3
+p:Rai Way
 26ad:0dde0000:a801:217c:1:0:0
 Videolina
 p:Service Provider
-26ae:0dde0000:a801:217c:1:0:0
+26ae:0dde0000:a801:217c:25:0:0
 Videolina 2
 p:Videolina
 26af:0dde0000:a801:217c:1:0:0
@@ -8969,6 +8978,9 @@ p:Canale Italia
 26ba:0dde0000:a801:217c:1:0:0
 Canale Italia Sardegna
 p:Canale Italia
+26bb:0dde0000:a801:217c:1:0:0
+Super TV Italia
+p:Media-Live
 060f:0dde2b08:00cb:217c:25:0:0
 Rai 1 HD
 p:RAI
@@ -9090,5 +9102,5 @@ p:CNH
 Canal+ HD
 p:CNH
 end
-# 231 transponders and 2798 services.
-# Created by E-Channelizer v22.0.0.505 on 08 mag, 2022 at 10:18 - https://www.echannelizer.com
+# 233 transponders and 2800 services.
+# Created by E-Channelizer v22.0.0.605 on 10 giu, 2022 at 08:52 - https://www.echannelizer.com
