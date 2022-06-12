@@ -28,9 +28,6 @@ rename -f 's/_[^_]*$//' */
 find . -name '*satellites.xml*' -type f | xargs rm -f
 find . -name '*.url*' -type f | xargs rm -f
 
-mv -f GioppyGio* ../
-cd ..
-
 setup_git() {
   git config --global user.email "bot@openvision.tech"
   git config --global user.name "Open Vision settings bot"
