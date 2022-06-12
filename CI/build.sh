@@ -49,6 +49,5 @@ upload_files() {
   git push --quiet upstream master || echo "failed to push with error $?"
 }
 
-setup_git
 commit_files
 upload_files
