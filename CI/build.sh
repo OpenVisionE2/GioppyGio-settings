@@ -25,8 +25,12 @@ rm -rf *.zip
 
 rename -f 's/_[^_]*$//' */
 
-find . -name '*satellites.xml*' -type f | xargs rm -f
+find . -name '*.xml*' -type f | xargs rm -f
 find . -name '*.url*' -type f | xargs rm -f
+find . -name '*_org*' -type f | xargs rm -f
+find . -name '*.org*' -type f | xargs rm -f
+find . -name '*_bak*' -type f | xargs rm -f
+find . -name '*.bak*' -type f | xargs rm -f
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
