@@ -312,9 +312,6 @@ transponders
 0dde0000:00d5:217c
 	s 11637000:35300000:1:2:-50:2:0:1:2:0:2:10:16416:0
 /
-0dde0000:00df:217c
-	s 11179000:35300000:1:2:-50:2:0:1:2:0:2:14:16416:0
-/
 0dde0000:0107:217c
 	s 12669000:35500000:0:2:-50:2:0:1:2:0:2:1:8:0
 /
@@ -348,6 +345,9 @@ transponders
 0dde0000:5140:055f
 	s 11679000:29950000:1:2:-50:2:0:1:2:0:2
 /
+0dde0000:8800:217c
+	s 11138000:35300000:1:2:-50:2:0:1:2:0:2:50:16416:0
+/
 0dde0000:a000:217c
 	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:4:16416:0
 /
@@ -368,6 +368,9 @@ transponders
 /
 0dde3129:0000:0000
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:20:8:0
+/
+0ddeab82:8800:217c
+	s 11138000:35300000:1:2:-50:2:0:1:2:0:2:52:16416:0
 /
 0ddeb168:0003:20fa
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
@@ -428,9 +431,15 @@ p:Polsat Box
 32fe:00820000:0190:013e:25:0:0
 MiniMini+ HD
 p:Platforma Canal+
+32ff:00820000:0190:013e:1:0:0
+Canal+ Now
+p:Platforma Canal+,C:0000
 3305:00820000:0190:013e:25:0:0
 Eurosport 1 HD
 p:Nova
+3327:00820000:0190:013e:1:0:0
+Canal+ Now
+p:Platforma Canal+,C:0000
 0604:00820000:01f4:013e:2:0:0
 R Radio
 p:
@@ -502,9 +511,6 @@ Iran International HD
 p:ABS
 01f6:00820000:0384:013e:1:0:0
 ER24
-p:M-Three Satcom
-01f7:00820000:0384:013e:1:0:0
-Well TV
 p:M-Three Satcom
 01f8:00820000:0384:013e:25:0:0
 Nasa TV
@@ -599,6 +605,12 @@ p:Platforma Canal+
 379f:00820000:044c:013e:25:0:0
 Ale Kino+ HD
 p:Polsat Box
+37ab:00820000:044c:013e:1:0:0
+Canal+ Film HD Polska
+p:Orange Polska,C:0000
+37b4:00820000:044c:013e:1:0:0
+Canal+ Seriale HD
+p:Orange Polska,C:0000
 37b5:00820000:044c:013e:1:0:0
 Novelas+
 p:Platforma Canal+
@@ -710,9 +722,6 @@ p:Platforma Canal+,c:0000a0,c:010050,c:0300a0,c:1603e9
 13ee:00820000:05dc:013e:1:0:0
 Canal+ Sport 2 HD
 p:Orange Polska
-13ee:00820000:05dc:013e:25:0:0
-Canal+ Sport 2 HD
-p:Orange Polska,C:0000
 13ef:00820000:05dc:013e:25:0:0
 Canal+ Domo HD
 p:Platforma Canal+
@@ -976,7 +985,7 @@ Abu Dhabi TV HD
 p:
 2525:00820000:13ef:013e:1:6948:0
 Zad TV
-p:Du
+p:Du  🙏
 2526:00820000:13ef:013e:25:6949:0
 Al Sharqiya HD
 p:DU
@@ -1064,6 +1073,9 @@ p:Sky Italia
 104a:00820000:14b4:fbff:25:0:0
 Classica Italia HD
 p:Sky Italia
+106c:00820000:14b4:fbff:25:0:0
+Clint Eastwood Collection HD
+p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
 p:Sky Italia
@@ -1115,6 +1127,9 @@ p:Nova
 019e:00820000:1518:013e:1:0:0
 Disney Junior Greece
 p:Nova
+019f:00820000:1518:013e:1:0:0
+Novasports Premier League
+p:Nova,C:0000
 01a0:00820000:1518:013e:1:0:0
 TLC Greece
 p:Nova
@@ -1184,6 +1199,9 @@ p:Sky Italia
 0dec:00820000:15e0:fbff:1:0:0
 Sky Cinema Due HD
 p:Sky Italia
+0dee:00820000:15e0:fbff:1:0:0
+Zona DAZN
+p:Sky Italia,C:0000
 1e53:00820000:15e0:fbff:25:0:0
 MTV Italia HD
 p:Sky Italia
@@ -1292,6 +1310,9 @@ p:
 0068:00820000:1770:0110:2:0:0
 Virgin radio
 p:
+1bbe:00820000:17d4:013e:25:0:0
+Novasports Extra 4 HD
+p:Nova,C:0000
 1bbf:00820000:17d4:013e:25:0:0
 Viasat History HD
 p:Nova
@@ -1352,6 +1373,9 @@ p:Sky Italia,C:0000
 3792:00820000:1838:fbff:25:0:0
 Sky Atlantic HD Italia
 p:Sky Italia
+0dcf:00820000:189c:fbff:1:0:0
+Zona DAZN 2
+p:Sky Italia,C:0000
 0dd7:00820000:189c:fbff:1:0:0
 Blaze HD Italia
 p:Sky Italia
@@ -1556,6 +1580,9 @@ p:Sky Italia
 2dc6:00820000:1a2c:fbff:1:0:0
 Sky Uno
 p:Sky Italia
+2dcc:00820000:1a2c:fbff:1:0:0
+Clint Eastwood Collection
+p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
 p:Sky Italia
@@ -1571,6 +1598,9 @@ p:Sky Italia
 3c07:00820000:1a2c:fbff:1:0:0
 Boomerang Italia
 p:Sky Italia
+0dc6:00820000:1af4:fbff:1:0:0
+Zona DAZN 5
+p:Sky Italia,C:0000
 0fbf:00820000:1af4:fbff:1:0:0
 Masha e Orso
 p:Sky Italia
@@ -2024,6 +2054,12 @@ p:Sky Italia
 2da0:00820000:1e14:fbff:31:0:0
 Sky Cinema 4K
 p:Sky Italia
+2da1:00820000:1e14:fbff:1:0:0
+Zona DAZN 3
+p:Sky Italia,C:0000
+2da2:00820000:1e14:fbff:1:0:0
+Zona DAZN 4
+p:Sky Italia,C:0000
 0c1d:00820000:1e78:0071:25:0:0
 Polsat Sport HD
 p:Polsat Box
@@ -2173,7 +2209,7 @@ Sterk TV
 p:STN
 39d7:00820000:1fa4:013e:1:0:0
 Velayat TV
-p:
+p:🙏🙏🙏
 39d8:00820000:1fa4:013e:1:0:0
 Thai TV Global Network
 p:STN
@@ -2398,7 +2434,7 @@ RT Doc HD
 p:GlobeCast
 07d4:00820000:22c4:013e:25:0:0
 Vatican Media Europa
-p:GLOBECAST
+p:GLOBECAST  🙏
 07d5:00820000:22c4:013e:1:0:0
 2M Monde
 p:GLOBECAST
@@ -2924,18 +2960,9 @@ p:Polsat Box,C:0000
 0daf:00820000:2d50:013e:25:0:0
 Sport Klub HD Poland
 p:Platforma Canal+
-0db0:00820000:2d50:013e:25:0:0
-Animal Planet HD
-p:Polsat Box
 0db1:00820000:2d50:013e:25:0:0
 TVP Sport HD
 p:Polsat Box
-0db2:00820000:2d50:013e:25:0:0
-Discovery Historia Polska
-p:Polsat Box
-0db2:00820000:2d50:013e:1:0:0
-Discovery Historia Polska
-p:Orange Polska,C:0000
 0db3:00820000:2d50:013e:1:0:0
 Cinemax HD Eastern Europe
 p:Polsat Box
@@ -3762,7 +3789,7 @@ p:
 Zeta TV HD
 p:
 052b:00820000:3d54:013e:25:0:0
-RTL 102.5 Radio Doc
+RTL 102.5 NEWS ASPI
 p:M-Three satcom
 052e:00820000:3d54:013e:25:0:0
 VH-1 Italia HD
@@ -4517,15 +4544,6 @@ p:RAI
 0650:0dde0000:00d5:217c:1:0:0
 Rai 3 TGR Calabria
 p:RAI
-067d:0dde0000:00df:217c:1:0:0
-Rai 3 TGR Lazio
-p:RAI
-067e:0dde0000:00df:217c:1:0:0
-Rete Oro
-p:RAI
-067f:0dde0000:00df:217c:1:0:0
-Rai 3 TGR Lazio
-p:RAI
 02c7:0dde0000:0107:217c:1:0:0
 La 7
 p:
@@ -4565,6 +4583,36 @@ p:Canale Italia
 0c22:0dde0000:0107:217c:1:0:0
 Italia 135
 p:Canale Italia
+0fa1:0dde0000:0107:217c:1:0:0
+SoloCalcio
+p:In Aria!
+0fa2:0dde0000:0107:217c:1:0:0
+Donna Sport TV
+p:In Aria!
+0fa3:0dde0000:0107:217c:1:0:0
+Alma TV - Alice & Marcopolo
+p:In Aria!
+0fa4:0dde0000:0107:217c:1:0:0
+TeleCampione
+p:In Aria!
+0fa5:0dde0000:0107:217c:1:0:0
+Linea Italia
+p:In Aria!
+0fa6:0dde0000:0107:217c:1:0:0
+Canale 165
+p:In Aria!
+0fa7:0dde0000:0107:217c:1:0:0
+AP Channel
+p:In Aria!
+0fa9:0dde0000:0107:217c:1:0:0
+Canale 232
+p:In Aria!
+0faa:0dde0000:0107:217c:1:0:0
+Parole di Vita
+p:In Aria!
+0fab:0dde0000:0107:217c:1:0:0
+Premio Sport
+p:In Aria!
 01f4:0dde0000:2711:0090:2:0:0
 Sec TDF1
 p:FM-DVB TDF RMV
@@ -5318,6 +5366,51 @@ p:Bis,C:0000
 1029:0dde0000:5140:055f:1:0:0
 France 3 Poitou-Charentes
 p:Bis,C:0000
+004a:0dde0000:8800:217c:25:0:0
+TeleNorba
+p:Rai Way
+004b:0dde0000:8800:217c:1:0:0
+Teledue
+p:Rai Way
+004c:0dde0000:8800:217c:25:0:0
+Antenna Sud
+p:Rai Way
+004d:0dde0000:8800:217c:1:0:0
+TG Norba 24
+p:Rai Way
+004e:0dde0000:8800:217c:25:0:0
+Radio Norba Television
+p:Rai Way
+004f:0dde0000:8800:217c:1:0:0
+TRM H24
+p:Rai Way
+0050:0dde0000:8800:217c:1:0:0
+Telesveva
+p:Rai Way
+0051:0dde0000:8800:217c:25:0:0
+Telerama
+p:Rai Way
+0052:0dde0000:8800:217c:25:0:0
+Telebari
+p:Rai Way
+0053:0dde0000:8800:217c:25:0:0
+Le Cronache
+p:Rai Way
+0054:0dde0000:8800:217c:25:0:0
+Tele Padre Pio
+p:Rai Way
+0055:0dde0000:8800:217c:25:0:0
+Tele Dehon
+p:Rai Way
+0056:0dde0000:8800:217c:25:0:0
+La Nuova TV
+p:Rai Way
+0057:0dde0000:8800:217c:1:0:0
+Canale 700
+p:Rai Way
+0058:0dde0000:8800:217c:25:0:0
+Foggia TV
+p:Rai Way
 005a:0dde0000:a000:217c:1:0:0
 Video Regione
 p:RaiWay
@@ -5501,6 +5594,51 @@ p:
 0715:0dde3129:0000:0000:25:0:0
 TV5 Monde Europe HD
 p:
+004a:0ddeab82:8800:217c:25:0:0
+TeleNorba
+p:Rai Way
+004b:0ddeab82:8800:217c:1:0:0
+Teledue
+p:Rai Way
+004c:0ddeab82:8800:217c:25:0:0
+Antenna Sud
+p:Rai Way
+004d:0ddeab82:8800:217c:1:0:0
+TG Norba 24
+p:Rai Way
+004e:0ddeab82:8800:217c:25:0:0
+Radio Norba Television
+p:Rai Way
+004f:0ddeab82:8800:217c:1:0:0
+TRM H24
+p:Rai Way
+0050:0ddeab82:8800:217c:1:0:0
+Telesveva
+p:Rai Way
+0051:0ddeab82:8800:217c:25:0:0
+Telerama
+p:Rai Way
+0052:0ddeab82:8800:217c:25:0:0
+Telebari
+p:Rai Way
+0053:0ddeab82:8800:217c:25:0:0
+Le Cronache
+p:Rai Way
+0054:0ddeab82:8800:217c:25:0:0
+Tele Padre Pio
+p:Rai Way
+0055:0ddeab82:8800:217c:25:0:0
+Tele Dehon
+p:Rai Way
+0056:0ddeab82:8800:217c:25:0:0
+La Nuova TV
+p:Rai Way
+0057:0ddeab82:8800:217c:1:0:0
+Canale 700
+p:Rai Way
+0058:0ddeab82:8800:217c:25:0:0
+Foggia TV
+p:Rai Way
 0301:0ddeb168:0003:20fa:1:0:0
 Canal+ crypté
 p:CNH
@@ -5523,5 +5661,5 @@ p:CNH
 Canal+ HD
 p:CNH
 end
-# 124 transponders and 1716 services.
-# Created by E-Channelizer v22.0.0.730 on 02 ago, 2022 at 11:24 - https://www.echannelizer.com
+# 125 transponders and 1761 services.
+# Created by E-Channelizer v22.0.0.805 on 10 ago, 2022 at 23:18 - https://www.echannelizer.com
