@@ -273,9 +273,6 @@ transponders
 00a00000:0064:0064
 	s 12717000:7500000:0:3:160:2:0:1:1:0:2
 /
-00a00000:00b0:0064
-	s 12739000:2255000:0:3:160:2:0
-/
 00a00000:012c:0003
 	s 12567000:16664000:1:2:160:2:0:1:1:0:2
 /
@@ -384,14 +381,14 @@ transponders
 00a0316c:0065:ffff
 	s 12652000:11111000:0:2:160:2:0
 /
-00a03174:00a0:0000
-	s 12660000:2222000:0:7:160:2:0:1:2:0:2
-/
 00a03196:00a0:0000
 	s 12694000:2220000:0:9:160:2:0:1:1:0:2
 /
 00a0319c:0065:0001
 	s 12700000:9880000:0:2:160:2:0
+/
+00a031b4:0065:ffff
+	s 12724000:4100000:0:3:160:2:0:1:1:0:2
 /
 00a0acf8:00c8:0001
 	s 11512000:29950000:1:2:160:2:0:1:2:0:2
@@ -857,6 +854,12 @@ p:iKOMG
 08a7:00820000:01f4:013e:1:0:0
 ES TV
 p:
+08a8:00820000:01f4:013e:1:0:0
+Kentron TV
+p:Eutelsat
+08a9:00820000:01f4:013e:1:0:0
+Armpub TV
+p:Eutelsat
 08b2:00820000:01f4:013e:2:0:0
 Radio Novaya Zhizn
 p:Eutelsat
@@ -1032,7 +1035,7 @@ p:TivùSat
 La5 HD
 p:TivùSat
 0080:00820000:04b0:0110:25:0:0
-TgCom24 HD
+TgCom24
 p:
 0081:00820000:04b0:0110:25:0:0
 Mediaset Extra HD
@@ -1082,6 +1085,9 @@ p:Polsat Box
 3abe:00820000:0514:013e:25:0:0
 Romance TV Polska
 p:Polsat Box
+3ad0:00820000:0514:013e:1:0:0
+TVP Sport HD
+p:Polsat Box,C:0000
 3ae1:00820000:0514:013e:25:0:0
 Canal+ Sport 5 HD Poland
 p:Platforma Canal+
@@ -1269,7 +1275,7 @@ p:KABELIO.CH
 Auftanken.tv
 p:KABELIO.CH
 3768:00820000:06a4:013e:25:0:0
-BBC News HD
+CNN International Europe
 p:KABELIO.CH,C:0000
 332d:00820000:1388:013e:25:0:0
 DW English HD
@@ -1461,7 +1467,7 @@ p:Sky Italia
 Classica Italia HD
 p:Sky Italia
 106c:00820000:14b4:fbff:25:0:0
-Mel Gibson Collection HD
+Adventure Collection HD
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -1974,7 +1980,7 @@ p:Sky Italia
 Sky Uno
 p:Sky Italia
 2dcc:00820000:1a2c:fbff:1:0:0
-Mel Gibson Collection
+Adventure Collection
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -1994,6 +2000,9 @@ p:Sky Italia
 0dc6:00820000:1af4:fbff:1:0:0
 Zona DAZN 5
 p:Sky Italia,C:0000
+0dd3:00820000:1af4:fbff:1:0:0
+BFC
+p:Sky Italia
 0fbf:00820000:1af4:fbff:1:0:0
 Masha e Orso
 p:Sky Italia
@@ -2060,9 +2069,6 @@ p:Telespazio
 02d3:00820000:1b58:013e:1:0:0
 S Neu Jerusalem
 p:Telespazio
-02d4:00820000:1b58:013e:1:0:0
-Neu Jerusalem 2
-p:Harmonic
 02d7:00820000:1b58:013e:1:0:0
 QAF TV
 p:Telespazio
@@ -2606,6 +2612,12 @@ p:🙏🙏🙏
 39d8:00820000:1fa4:013e:1:0:0
 Thai TV Global Network
 p:STN
+39d9:00820000:1fa4:013e:1:0:0
+SonLife Broadcasting Network
+p:ARQIVA LTD
+39da:00820000:1fa4:013e:1:0:0
+Vidrodjennya
+p:FFmpeg
 39db:00820000:1fa4:013e:1:0:0
 Kalemeh TV
 p:iKO Media Group
@@ -2625,7 +2637,7 @@ p:Sky Italia,C:0000
 Sky Sport HD Italia
 p:Sky Italia,C:0000
 1090:00820000:2008:fbff:25:0:0
-Sky Serie +1 HD
+Sky Serie Anime HD
 p:Sky Italia,C:0000
 109a:00820000:2008:fbff:25:0:0
 Sky Arte +1 HD
@@ -2978,6 +2990,9 @@ p:GlobeCast
 2011:00820000:24b8:013e:1:0:0
 CGTN
 p:Globecast
+2012:00820000:24b8:013e:1:0:0
+Arirang TV
+p:GLOBECAST
 2016:00820000:24b8:013e:1:0:0
 Euronews Russian
 p:Globecast
@@ -3344,6 +3359,9 @@ p:RRSat
 43de:00820000:2cec:013e:1:0:0
 Eurasia Worldwide
 p:
+0dad:00820000:2d50:013e:1:0:0
+DTX
+p:Orange Polska,C:0000
 0dae:00820000:2d50:013e:25:0:0
 Kino Polska Muzyka
 p:Polsat Box
@@ -3365,6 +3383,9 @@ p:Polsat Box
 0db5:00820000:2d50:013e:1:0:0
 Red Carpet TV
 p:nc+
+0db6:00820000:2d50:013e:25:0:0
+Investigation Discovery Poland HD
+p:Orange Polska,C:0000
 0db7:00820000:2d50:013e:1:0:0
 Music Box Polska
 p:Platforma Canal+
@@ -3557,6 +3578,9 @@ p:Orange Polska
 3e30:00820000:2ee0:013e:1:0:0
 Cyfrowy Polsat PPV
 p:Polsat Box
+0029:00820000:2f44:013e:25:0:0
+Jibek Joly
+p:iKO Media Group
 4205:00820000:2f44:013e:1:0:0
 Dorcel TV HD
 p:Nova
@@ -3708,7 +3732,7 @@ p:RAI
 Rai 3
 p:RAI
 2146:00820000:3070:013e:25:0:0
-Rai Storia HD
+Rai Storia
 p:RAI
 2147:00820000:3070:013e:1:0:0
 Camera dei Deputati
@@ -3717,7 +3741,7 @@ p:RAI
 Senato italiano
 p:RAI
 2149:00820000:3070:013e:25:0:0
-Rai Scuola HD
+Rai Scuola
 p:Rai
 214a:00820000:3070:013e:25:0:0
 Rai Premium HD
@@ -4039,6 +4063,9 @@ Al Karma
 p:Telespazio
 132a:00820000:33f4:013e:1:0:0
 RIK Sat
+p:Telespazio
+132e:00820000:33f4:013e:1:0:0
+S Neu Jerusalem
 p:Telespazio
 134b:00820000:33f4:013e:1:0:0
 Hadi TV 3
@@ -4853,9 +4880,6 @@ p:
 0058:00a00000:0064:0064:1:0:0
 Alfa Omega TV
 p:
-0001:00a00000:00b0:0064:1:0:0
-Realitatea Plus
-p:Scopus Network Technologies
 000d:00a00000:012c:0003:1:0:0
 Prima TV
 p:
@@ -6344,18 +6368,9 @@ p:RTSH
 0118:00a0315f:0001:016e:2:0:0
 Radio Tirana Femiije
 p:RTSH
-0001:00a0316c:0065:ffff:1:0:0
-Unire TV
-p:
-0002:00a0316c:0065:ffff:1:0:0
-Unire 2
-p:
 000a:00a0316c:0065:ffff:1:0:0
 Unire Blu
 p:
-0001:00a03174:00a0:0000:25:0:0
-SNAI Live
-p:SNAI LIVE
 0001:00a03196:00a0:0000:25:0:0
 SNAI Quad Race
 p:EPQ
@@ -6374,6 +6389,12 @@ p:
 0039:00a0319c:0065:0001:25:0:0
 SNAI Virtuali 1
 p:
+0065:00a031b4:0065:ffff:1:0:0
+Teleippica 1
+p:,C:0000
+0066:00a031b4:0065:ffff:1:0:0
+Teleippica 2
+p:,C:0000
 0001:00a0acf8:00c8:0001:1:0:0
 TVR 1
 p:SRTV
@@ -6812,9 +6833,6 @@ p:Sky Deutschland,C:0000
 006e:00c00000:000d:0085:25:0:0
 Sky Atlantic HD Germany
 p:Kabelkiosk
-006f:00c00000:000d:0085:25:0:0
-Sky Cinema Special HD
-p:Sky Deutschland
 0070:00c00000:000d:0085:25:0:0
 National Geographic HD Germany
 p:Kabelkiosk
@@ -7262,9 +7280,6 @@ p:Canal+ France
 275f:00c00000:0402:0001:1:0:0
 RMC Découverte
 p:Canal+ France
-2760:00c00000:0402:0001:1:0:0
-SonLife Broadcasting Network
-p:SES ASTRA
 2763:00c00000:0402:0001:1:0:0
 Canal Algérie
 p:TDA
@@ -7349,6 +7364,9 @@ p:Movistar+
 7601:00c00000:0408:0001:1:0:0
 Movistar Liga Campeones 7
 p:Movistar+,c:0000ad,c:010084,c:031435,c:160406
+7602:00c00000:0408:0001:1:0:0
+Movistar Liga Campeones 13
+p:Movistar+,C:0000
 7604:00c00000:0408:0001:1:0:0
 Movistar Liga Campeones 9
 p:Movistar+,c:0000aa,c:010078,c:031432,c:16041c
@@ -7357,6 +7375,9 @@ Liga SmartBank 3
 p:Movistar+,C:0000
 7607:00c00000:0408:0001:1:0:0
 Liga SmartBank
+p:Movistar+,C:0000
+7608:00c00000:0408:0001:1:0:0
+Movistar Liga Campeones 10
 p:Movistar+,C:0000
 760a:00c00000:0408:0001:1:0:0
 Movistar Liga Campeones 8
@@ -7373,9 +7394,6 @@ p:Movistar+,c:0000a7,c:01006c,c:03142f,c:16041d
 760f:00c00000:0408:0001:1:0:0
 Movistar Liga Campeones 12
 p:Movistar+,c:0000b0,c:010090,c:031430,c:160411
-7610:00c00000:0408:0001:1:0:0
-Movistar Liga Campeones 13
-p:Movistar+,c:0000b1,c:010094,c:031431,c:160412
 2774:00c00000:0409:0001:25:0:0
 TLC HD
 p:HD +
@@ -8279,9 +8297,6 @@ p:ZDF Vision
 6d71:00c00000:0437:0001:2:0:0
 Dlf Nova
 p:ZDF Vision
-2262:00c00000:0438:0001:25:0:0
-Canal+ Décalé HD
-p:Canal+ France
 2263:00c00000:0438:0001:25:0:0
 Canal+ Cinéma HD
 p:Canal+ France
@@ -8324,6 +8339,9 @@ p:Canal+ France
 2270:00c00000:0438:0001:1:0:0
 France 3 Corse Via Stella
 p:Canal+ France
+2271:00c00000:0438:0001:25:0:0
+Canal+ Foot
+p:Canal+ France,C:0000
 4e21:00c00000:043a:0001:1:0:0
 ProSieben Schweiz
 p:ProSiebenSat.1
@@ -8387,6 +8405,9 @@ p:Canal+ France
 24c7:00c00000:043c:0001:25:0:0
 Game One HD
 p:Canal+ France
+24c8:00c00000:043c:0001:25:0:0
+Canal+ Sport 360
+p:Canal+ France,C:0000
 2456:00c00000:0440:0001:25:0:0
 Cine+ Premier HD
 p:Canal+ France
@@ -10224,5 +10245,5 @@ p:RTP
 ANT3 MADEIRA
 p:RTP
 end
-# 252 transponders and 3155 services.
-# Created by E-Channelizer v22.0.0.812 on 23 ago, 2022 at 08:29 - https://www.echannelizer.com
+# 251 transponders and 3163 services.
+# Created by E-Channelizer v22.0.0.812 on 02 set, 2022 at 08:27 - https://www.echannelizer.com
