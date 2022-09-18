@@ -72,9 +72,6 @@ transponders
 00820000:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:1770:00be
-	s 11919000:29900000:1:3:130:2:0:1:2:0:2
-/
 00820000:1770:0110
 	s 11919000:29900000:1:3:130:2:0:1:2:0:2
 /
@@ -94,7 +91,7 @@ transponders
 	s 10949000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:19c8:fbff
-	s 12034000:29900000:1:4:130:2:0
+	s 12034000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:1a2c:fbff
 	s 12054000:29900000:0:4:130:2:0:1:1:0:2
@@ -118,7 +115,7 @@ transponders
 	s 12188000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:1d4c:fbff
-	s 12207000:29900000:0:4:130:2:0:1:0:0:2
+	s 12207000:29900000:0:4:130:2:0:1:1:0:2
 /
 00820000:1e14:fbff
 	s 12245000:29900000:0:4:130:2:0:1:1:0:2
@@ -563,23 +560,26 @@ p:Mediaset
 3a99:00820000:0514:013e:25:0:0
 Canal+ Dokument HD
 p:Polsat Box
+3a9a:00820000:0514:013e:1:0:0
+Novelas+
+p:Orange Polska,C:0000
 3a9b:00820000:0514:013e:25:0:0
 Investigation Discovery HD
 p:Polsat Box,C:0000
-3a9c:00820000:0514:013e:25:0:0
-DTX HD
-p:Polsat Box
 3a9d:00820000:0514:013e:25:0:0
 TVP Dokument HD
 p:Orange Polska
 3a9e:00820000:0514:013e:1:0:0
 TVP Sport HD
 p:Orange Polska,C:0000
+3aa0:00820000:0514:013e:1:0:0
+Canal+ Sport 3 HD Polska
+p:Platforma Canal+,C:0000
+3aa1:00820000:0514:013e:1:0:0
+Canal+ Sport 4 HD Polska
+p:Platforma Canal+,C:0000
 3ab7:00820000:0514:013e:25:0:0
 AMC Poland
-p:Polsat Box
-3ab8:00820000:0514:013e:25:0:0
-Discovery HD Showcase
 p:Polsat Box
 3ab9:00820000:0514:013e:1:0:0
 Canal+ Sport 5 HD Poland
@@ -590,12 +590,27 @@ p:Polsat Box
 3abe:00820000:0514:013e:25:0:0
 Romance TV Polska
 p:Polsat Box
+3acc:00820000:0514:013e:1:0:0
+Novelas+
+p:Platforma Canal+,C:0000
 3ad0:00820000:0514:013e:1:0:0
 TVP Sport HD
 p:Polsat Box,C:0000
+3ad2:00820000:0514:013e:1:0:0
+Canal+ Sport 3 HD Polska
+p:Platforma Canal+,C:0000
+3ad3:00820000:0514:013e:1:0:0
+Canal+ Sport 4 HD Polska
+p:Platforma Canal+,C:0000
 3ae1:00820000:0514:013e:25:0:0
 Canal+ Sport 5 HD Poland
 p:Platforma Canal+
+3af0:00820000:0514:013e:1:0:0
+Canal+ Sport 3 HD Polska
+p:Platforma Canal+,C:0000
+3af1:00820000:0514:013e:1:0:0
+Canal+ Sport 4 HD Polska
+p:Platforma Canal+,C:0000
 3b38:00820000:0514:013e:1:0:0
 pVOD Canal+ Polska
 p:Platforma Canal+
@@ -781,6 +796,9 @@ Auftanken.tv
 p:KABELIO.CH
 3768:00820000:06a4:013e:25:0:0
 CNN International Europe
+p:KABELIO.CH,C:0000
+3769:00820000:06a4:013e:25:0:0
+BBC News HD
 p:KABELIO.CH,C:0000
 332d:00820000:1388:013e:25:0:0
 DW English HD
@@ -972,7 +990,7 @@ p:Sky Italia
 Classica Italia HD
 p:Sky Italia
 106c:00820000:14b4:fbff:25:0:0
-Adventure Collection HD
+Sky Cinema Sci-Fi HD Italia
 p:Sky Italia,C:0000
 379c:00820000:14b4:fbff:25:0:0
 National Geographic HD Italy
@@ -1190,9 +1208,6 @@ p:SkyItalia
 2517:00820000:170c:fbff:25:0:0
 Race Control HD Fake
 p:Sky Italia
-0069:00820000:1770:00be:2:0:0
-Radio 105
-p:
 003a:00820000:1770:0110:25:0:0
 Canale 239
 p:
@@ -1214,6 +1229,12 @@ p:
 0068:00820000:1770:0110:2:0:0
 Virgin radio
 p:
+0069:00820000:1770:0110:2:0:0
+Radio 105
+p:
+1bbd:00820000:17d4:013e:1:0:0
+ERT News
+p:Nova,C:0000
 1bbe:00820000:17d4:013e:25:0:0
 Novasports Extra 4 HD
 p:Nova,C:0000
@@ -1238,9 +1259,6 @@ p:Nova
 1bc7:00820000:17d4:013e:1:0:0
 Disney Channel Greece
 p:Nova
-1bc8:00820000:17d4:013e:1:0:0
-Epic Drama
-p:Nova,C:0000
 1bca:00820000:17d4:013e:25:0:0
 Nova Cinema 2 HD
 p:Nova
@@ -1485,7 +1503,7 @@ p:Sky Italia
 Sky Uno
 p:Sky Italia
 2dcc:00820000:1a2c:fbff:1:0:0
-Adventure Collection
+Sky Cinema Sci-Fi Italia
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -1769,6 +1787,9 @@ p:GLOBECAST
 015f:00820000:1c84:013e:1:0:0
 Discovery Channel Greece
 p:Nova
+0160:00820000:1c84:013e:25:0:0
+Naftemporiki HD
+p:Nova,C:0000
 0161:00820000:1c84:013e:25:0:0
 ERT World Europe
 p:Nova
@@ -1787,9 +1808,6 @@ p:Nova
 0169:00820000:1c84:013e:25:0:0
 Novasports Extra 1 HD
 p:Nova,c:000209,c:0102e4,c:030209,c:16011f,C:0000
-016a:00820000:1c84:013e:25:0:0
-Nova Summer HD
-p:Nova
 016b:00820000:1c84:013e:25:0:0
 Kontra Channel
 p:Nova
@@ -1819,9 +1837,6 @@ MTV Greece
 p:Nova
 017b:00820000:1c84:013e:2:0:0
 SPORT FM 94,6
-p:Nova
-017c:00820000:1c84:013e:25:0:0
-Mad TV
 p:Nova
 017d:00820000:1c84:013e:25:0:0
 Nova Sports Extra 3 HD
@@ -3096,7 +3111,7 @@ p:Polsat Box
 VOICE OF CRO
 p:OIV
 421c:00820000:2f44:013e:1:0:0
-UA TV
+Freedom
 p:Cosmonova LLC
 421d:00820000:2f44:013e:1:0:0
 Baby TV
@@ -3122,12 +3137,18 @@ p:M-Three Satcom
 4231:00820000:2f44:013e:25:0:0
 LoveWorld Sat
 p:ViewSat
+4232:00820000:2f44:013e:1:0:0
+RADA
+p:FFmpeg
 4234:00820000:2f44:013e:1:0:0
 Byoblu
 p:M-Three Satcom
 4235:00820000:2f44:013e:1:0:0
 Espreso TV
 p:
+4236:00820000:2f44:013e:1:0:0
+Noursat English
+p:ViewMedia
 4331:00820000:300c:013e:25:0:0
 SRF 1 HD
 p:SSR/SRG
@@ -3413,17 +3434,8 @@ p:MB Satellite
 1f5f:00820000:319c:013e:1:0:0
 Iran Aryaee
 p:MB Satellite
-0e81:00820000:3200:013e:1:0:0
-Folx TV
-p:MB Satellite
 0e83:00820000:3200:013e:1:0:0
 TVP Polonia
-p:MB Satellite
-0e85:00820000:3200:013e:25:0:0
-One Music Television
-p:MB Satellite
-0e86:00820000:3200:013e:25:0:0
-Zwei Music Television
 p:MB Satellite
 0064:00820000:3264:013e:25:0:0
 3+ HD
@@ -3494,18 +3506,6 @@ p:Polsat Box
 070a:00820000:32c8:013e:25:0:0
 Polsat Sport Premium 2
 p:Polsat Box
-070b:00820000:32c8:013e:25:0:0
-Polsat Sport Premium PPV3
-p:Polsat Box
-070c:00820000:32c8:013e:1:0:0
-Polsat Sport Premium PPV4
-p:Polsat Box
-070d:00820000:32c8:013e:1:0:0
-Polsat Sport Premium PPV5
-p:Polsat Box
-070e:00820000:32c8:013e:1:0:0
-Polsat Sport Premium PPV6
-p:Polsat Box
 070f:00820000:32c8:013e:1:0:0
 Eleven Sports 1 4K
 p:Polsat Box,C:0000
@@ -3521,6 +3521,9 @@ p:Arqiva
 1c8b:00820000:332c:013e:1:0:0
 Iran International
 p:ABS
+1c8c:00820000:332c:013e:1:0:0
+Armpub TV
+p:
 1cbb:00820000:332c:013e:1:6517:0
 Manoto 1
 p:Arqiva
@@ -4041,5 +4044,5 @@ p:
 VOA Urdu Radio ch310
 p:
 end
-# 86 transponders and 1260 services.
-# Created by E-Channelizer v22.0.0.812 on 02 set, 2022 at 08:29 - https://www.echannelizer.com
+# 85 transponders and 1262 services.
+# Created by E-Channelizer v22.0.0.903 on 12 set, 2022 at 13:02 - https://www.echannelizer.com
