@@ -82,7 +82,7 @@ transponders
 	s 11958000:27500000:1:3:130:2:0
 /
 00820000:189c:fbff
-	s 11977000:29900000:0:4:130:2:0:1:1:0:2
+	s 11976000:29900000:0:4:130:2:0:1:1:0:2
 /
 00820000:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
@@ -148,7 +148,7 @@ transponders
 	s 12418000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:2260:fbff
-	s 12466000:29900000:1:4:130:2:0:1:1:0:2
+	s 12465910:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
@@ -348,9 +348,6 @@ transponders
 0dde0000:8800:217c
 	s 11016000:35300000:0:2:-50:2:0:1:2:0:2:9:16416:0
 /
-0dde0000:a000:217c
-	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:4:16416:0
-/
 0dde0000:a801:217c
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:11:8:0
 /
@@ -359,6 +356,9 @@ transponders
 /
 0dde2cc9:0001:0001
 	s 11465000:667000:0:7:-50:2:0:1:2:0:2
+/
+0dde2d9c:00ad:217c
+	s 11676000:35300000:0:2:-50:2:0:1:2:0:2:5:16416:0
 /
 0dde3129:0000:0000
 	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:20:8:0
@@ -408,8 +408,8 @@ p:TVN SA Discovery Group
 Discovery Turbo Xtra Poland HD
 p:TVN SA Discovery Group
 3b6c:00820000:012c:013e:25:0:0
-WarnerTV Italy HD   il 30.10.22
-p:TVN,f:40
+Warner TV Italy HD
+p:TVN,C:0000,f:40
 32cd:00820000:0190:013e:25:0:0
 Canal+ Now
 p:Platforma Canal+
@@ -506,27 +506,18 @@ p:iKOMG
 08b4:00820000:01f4:013e:2:0:0
 Radio2000
 p:Eutelsat
-0003:00820000:02bc:013e:1:0:0
-Kentron TV
-p:iKO Media Group
-0004:00820000:02bc:013e:1:0:0
-Armenia 1 TV
-p:Arqiva LTD
 0005:00820000:02bc:013e:2:0:0
 Public Radio of Armenia
 p:
-0009:00820000:02bc:013e:1:0:0
-SonLife Broadcasting Network
-p:ARQIVA LTD
 000a:00820000:02bc:013e:1:6669:0
 RTP International
 p:ARQIVA LTD
-0011:00820000:02bc:013e:1:0:0
-Hot Bird 4k Test
-p:
-03e9:00820000:02bc:013e:1:0:0
-Vidrodjennya
-p:FFmpeg
+02bd:00820000:02bc:013e:25:0:0
+Eurosport 1 HD
+p:Total TV,C:0000
+02be:00820000:02bc:013e:25:0:0
+Eurosport 2 HD
+p:Total TV,C:0000
 01f5:00820000:0384:013e:25:0:0
 Iran International HD
 p:ABS
@@ -593,6 +584,9 @@ p:Polsat Box
 377b:00820000:044c:013e:25:0:0
 Canal+ Family HD Poland
 p:Polsat Box
+377c:00820000:044c:013e:1:0:0
+StudioMed TV HD
+p:Platforma Canal+,C:0000
 377d:00820000:044c:013e:25:0:0
 Teletoon+ HD Polska
 p:Orange Polska
@@ -1137,7 +1131,7 @@ p:Sky Italia
 Classica Italia HD
 p:Sky Italia
 106c:00820000:14b4:fbff:25:0:0
-Will Smith Collection HD
+Cinema Halloween HD
 p:Sky Italia,C:0000
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1268,9 +1262,6 @@ p:Sky Italia
 1e54:00820000:15e0:fbff:25:0:0
 Sky Sport NBA HD
 p:Sky Italia
-1e5b:00820000:15e0:fbff:25:0:0
-Primafila 1 HD
-p:SkyItalia
 1e5c:00820000:15e0:fbff:1:0:0
 Sky Sport Italia
 p:Sky Italia
@@ -1278,8 +1269,8 @@ p:Sky Italia
 Sky Sport Action
 p:Sky Italia
 38bf:00820000:15e0:fbff:1:0:0
-Primafila 10
-p:SkyItalia
+Primafila 5
+p:SkyItalia,C:0000
 0db9:00820000:1644:fbff:25:0:0
 History HD Italia
 p:Sky Italia
@@ -1307,9 +1298,6 @@ p:Sky Italia
 2c38:00820000:1644:fbff:1:0:0
 Nickelodeon Italia
 p:Sky Italia
-38fa:00820000:1644:fbff:1:0:0
-Primafila 8
-p:SkyItalia
 0dbf:00820000:16a8:fbff:1:0:0
 Sky TG24 HD
 p:Sky Italia
@@ -1331,9 +1319,6 @@ p:Sky Italia,C:0000
 1e5f:00820000:170c:fbff:25:0:0
 Sky Sport HD Italia
 p:Sky Italia,C:0000
-1e60:00820000:170c:fbff:25:0:0
-Primafila 2 HD
-p:SkyItalia
 2504:00820000:170c:fbff:25:0:0
 OnBoard Sky HD
 p:Sky Italia
@@ -1454,15 +1439,12 @@ p:Sky Italia
 1fac:00820000:189c:fbff:1:0:0
 Sky News
 p:Sky Italia
-1fbc:00820000:189c:fbff:1:0:0
-Vetrina Primafila
-p:SkyItalia
-1fbd:00820000:189c:fbff:1:0:0
-Vetrina Primafila
-p:SkyItalia
 1fc9:00820000:189c:fbff:1:0:0
 Sky Cinema Due
 p:Sky Italia
+1fcd:00820000:189c:fbff:1:0:0
+Sky Primafila Active
+p:SkyItalia
 1fd2:00820000:189c:fbff:1:0:0
 Sky Primafila
 p:SkyItalia
@@ -1595,6 +1577,9 @@ p:Sky Italia
 2cc4:00820000:19c8:fbff:1:0:0
 DeA Kids
 p:Sky Italia
+38fa:00820000:19c8:fbff:1:0:0
+Primafila 3
+p:SkyItalia,C:0000
 3bf0:00820000:19c8:fbff:1:0:0
 PESCA e Caccia
 p:Sky Italia
@@ -1635,8 +1620,8 @@ p:Sky Italia
 Sky Sport Italia
 p:Sky Italia
 2dbf:00820000:1a2c:fbff:1:0:0
-Primafila 6
-p:SkyItalia
+Primafila 1
+p:SkyItalia,C:0000
 2dc0:00820000:1a2c:fbff:1:0:0
 Sky Sport Football
 p:Sky Italia
@@ -1644,7 +1629,7 @@ p:Sky Italia
 Sky Uno
 p:Sky Italia
 2dcc:00820000:1a2c:fbff:1:0:0
-Will Smith Collection
+Cinema Halloween
 p:Sky Italia,C:0000
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2306,9 +2291,6 @@ p:Sky Italia
 1c50:00820000:2008:fbff:1:0:0
 Sky Sport Football HD
 p:Sky Italia
-2d55:00820000:2008:fbff:1:0:0
-Primafila 5
-p:SkyItalia
 2d5d:00820000:2008:fbff:1:0:0
 Sky Sport Italia
 p:Sky Italia
@@ -2429,15 +2411,9 @@ p:Sky Italia,C:0000
 0f48:00820000:2198:fbff:25:0:0
 Sky Sport HD Italia
 p:Sky Italia,C:0000
-0f4c:00820000:2198:fbff:25:0:0
-Primafila 4 HD
-p:SkyItalia
 0f66:00820000:2198:fbff:25:0:0
 Sky Selection
 p:Sky Italia
-0f71:00820000:2198:fbff:25:0:0
-Primafila 3 HD
-p:SkyItalia
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Action HD
 p:Sky Italia
@@ -2469,26 +2445,26 @@ p:Sky Italia
 Sky Nature HD
 p:Sky Italia
 341e:00820000:2260:fbff:1:0:0
-Primafila 15
-p:SkyItalia
+Primafila 10
+p:SkyItalia,C:0000
 3421:00820000:2260:fbff:1:0:0
-Primafila 11
-p:SkyItalia
+Primafila 6
+p:SkyItalia,C:0000
 3422:00820000:2260:fbff:1:0:0
-Primafila 13
-p:SkyItalia
+Primafila 8
+p:SkyItalia,C:0000
 3423:00820000:2260:fbff:1:0:0
-Primafila 14
-p:SkyItalia
-3427:00820000:2260:fbff:1:0:0
-Primafila 20 HD
-p:Sky Italia
-38c8:00820000:2260:fbff:1:0:0
 Primafila 9
-p:SkyItalia
+p:SkyItalia,C:0000
+3427:00820000:2260:fbff:1:0:0
+Primafila 7
+p:SkyItalia,C:0000
+38c8:00820000:2260:fbff:1:0:0
+Primafila 4
+p:SkyItalia,C:0000
 38c9:00820000:2260:fbff:1:0:0
-Primafila 20 HD
-p:Sky Italia
+Primafila 2
+p:SkyItalia,C:0000
 38d0:00820000:2260:fbff:1:0:0
 Fox Business
 p:Sky Italia
@@ -3010,9 +2986,6 @@ Sport Klub HD Poland
 p:Platforma Canal+
 0db1:00820000:2d50:013e:25:0:0
 TVP Sport HD
-p:Polsat Box
-0db3:00820000:2d50:013e:1:0:0
-Cinemax HD Eastern Europe
 p:Polsat Box
 0db4:00820000:2d50:013e:25:0:0
 AXN Spin HD
@@ -4220,6 +4193,9 @@ p:RAI
 03f7:0dde0000:0001:217c:1:0:0
 Rai Radio Kids
 p:RAI
+03fe:0dde0000:0001:217c:2:0:0
+Rai Radio 1
+p:RAI
 0201:0dde0000:0002:20fa:25:0:0
 C8 HD
 p:NTN
@@ -4293,7 +4269,7 @@ p:towerCast_A
 RFM
 p:towerCast_A
 002e:0dde0000:0003:20fa:2:0:0
-VIRGIN RADO
+VIRGIN RADIO
 p:towerCast_A
 03e9:0dde0000:0003:20fa:2:0:0
 SKYROCK-SAT
@@ -4505,6 +4481,9 @@ p:RAI
 0585:0dde0000:00ad:217c:1:0:0
 Rai 3 TGR Valle d'Aosta
 p:RAI
+0587:0dde0000:00ad:217c:1:0:0
+Rai 3 Bis
+p:RAI
 0588:0dde0000:00ad:217c:1:0:0
 Rai 3 TGR Valle d'Aosta
 p:RAI
@@ -4676,13 +4655,13 @@ p:In Aria!
 0fa3:0dde0000:0107:217c:1:0:0
 Alma TV - Alice & Marcopolo
 p:In Aria!
-0fa4:0dde0000:0107:217c:1:0:0
+0fa4:0dde0000:0107:217c:25:0:0
 TeleCampione
 p:In Aria!
 0fa5:0dde0000:0107:217c:1:0:0
 Linea Italia
 p:In Aria!
-0fa6:0dde0000:0107:217c:1:0:0
+0fa6:0dde0000:0107:217c:25:0:0
 Canale 165
 p:In Aria!
 0fa7:0dde0000:0107:217c:1:0:0
@@ -4693,6 +4672,12 @@ Canale 232
 p:In Aria!
 0faa:0dde0000:0107:217c:1:0:0
 Parole di Vita
+p:In Aria!
+0fae:0dde0000:0107:217c:1:0:0
+SoloCalcio
+p:In Aria!
+0faf:0dde0000:0107:217c:1:0:0
+Canale 163
 p:In Aria!
 01f4:0dde0000:2711:0090:2:0:0
 Sec TDF1
@@ -4708,7 +4693,7 @@ RTL
 p:FM-DVB TDF RMV
 04b0:0dde0000:2711:0090:2:0:0
 RTL2
-p:FM-DVB TDF RMVGG
+p:FM-DVB TDF RMV
 0514:0dde0000:2711:0090:2:0:0
 FUN
 p:FM-DVB TDF RMV
@@ -4755,7 +4740,7 @@ p:FM-DVB TDF RMV
 Sud Radio
 p:FM-DVB TDF RMV
 0064:0dde0000:32d2:055f:2:0:0
-France Bleu 107.1
+France Bleu Paris
 p:Radio France
 0065:0dde0000:32d2:055f:2:0:0
 France Bleu Alsace
@@ -5265,7 +5250,7 @@ p:Bis,C:0000
 LCI HD
 p:Bis,C:0000
 0139:0dde0000:4f4c:055f:31:0:0
-Réunion 1ère Ultra-HD
+FRANSAT UHD
 p:EUTELSAT,C:0000
 0142:0dde0000:4f4c:055f:25:0:0
 Fransat Info HD
@@ -5302,7 +5287,7 @@ LCP HD
 p:Bis,C:0000
 01aa:0dde0000:4fb0:055f:1:0:0
 Via Vosges
-p:EUTELSAT
+p:Fransat
 01ab:0dde0000:4fb0:055f:1:0:0
 KTO
 p:EUTELSAT
@@ -5441,60 +5426,6 @@ p:Rai Way
 0058:0dde0000:8800:217c:25:0:0
 Foggia TV
 p:Rai Way
-0059:0dde0000:a000:217c:25:0:0
-Antenna Sicilia
-p:RaiWay
-005a:0dde0000:a000:217c:25:0:0
-Video Regione
-p:RaiWay
-005b:0dde0000:a000:217c:25:0:0
-Telecolor
-p:RaiWay
-005c:0dde0000:a000:217c:25:0:0
-REI TV
-p:Rai Way
-005d:0dde0000:a000:217c:25:0:0
-Video Mediterraneo
-p:RaiWay
-005e:0dde0000:a000:217c:25:0:0
-TGS
-p:RaiWay
-005f:0dde0000:a000:217c:25:0:0
-Tele One
-p:RaiWay
-0060:0dde0000:a000:217c:25:0:0
-TRM Network
-p:RaiWay
-0061:0dde0000:a000:217c:25:0:0
-Telerent 7Gold
-p:Rai Way
-0062:0dde0000:a000:217c:25:0:0
-Sicilia Channel
-p:RaiWay
-0063:0dde0000:a000:217c:1:0:0
-Ciak Telesud
-p:RaiWay
-0064:0dde0000:a000:217c:1:0:0
-Telestar
-p:Rai Way
-0065:0dde0000:a000:217c:1:0:0
-6 Sestarete TV
-p:RaiWay
-0066:0dde0000:a000:217c:1:0:0
-TRIS
-p:Rai Way
-0067:0dde0000:a000:217c:1:0:0
-Canale Italia 83 Extra
-p:RaiWay
-0068:0dde0000:a000:217c:25:0:0
-TM Telemistretta
-p:Rai Way
-0069:0dde0000:a000:217c:1:0:0
-TVA Telenormanna
-p:RaiWay
-0090:0dde0000:a000:217c:25:0:0
-Etna Channel
-p:RaiWay
 26ad:0dde0000:a801:217c:1:0:0
 Videolina
 p:Service Provider
@@ -5564,6 +5495,36 @@ p:
 1388:0dde2cc9:0001:0001:2:0:0
 ALOUETTE - DAB
 p:
+0579:0dde2d9c:00ad:217c:25:0:0
+Rai 1 HD
+p:RAI
+057a:0dde2d9c:00ad:217c:25:0:0
+Rai 2 HD
+p:RAI
+057b:0dde2d9c:00ad:217c:1:0:0
+Rai News 24
+p:RAI
+0582:0dde2d9c:00ad:217c:25:0:0
+Rai 3 HD
+p:RAI
+0583:0dde2d9c:00ad:217c:1:0:0
+Rai 3 TGR FVG
+p:RAI
+0584:0dde2d9c:00ad:217c:1:0:0
+Rai 3 Bis
+p:RAI
+0585:0dde2d9c:00ad:217c:1:0:0
+Rai 3 TGR Valle d'Aosta
+p:RAI
+0586:0dde2d9c:00ad:217c:1:0:0
+Rai 3 TGR FVG
+p:RAI
+0587:0dde2d9c:00ad:217c:1:0:0
+Rai 3 Bis
+p:RAI
+0588:0dde2d9c:00ad:217c:1:0:0
+Rai 3 TGR Valle d'Aosta
+p:RAI
 0869:0dde3129:0000:0000:1:0:0
 Focus
 p:Mediaset
@@ -5592,5 +5553,5 @@ p:CNH,C:0000
 Canal+ HD
 p:CNH,C:0000
 end
-# 122 transponders and 1741 services.
-# Created by E-Channelizer v22.0.0.925 on 21 ott, 2022 at 15:54 - https://www.echannelizer.com
+# 122 transponders and 1728 services.
+# Created by E-Channelizer v22.0.0.1028 on 31 ott, 2022 at 17:26 - https://www.echannelizer.com
