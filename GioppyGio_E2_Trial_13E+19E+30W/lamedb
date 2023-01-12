@@ -1,8 +1,5 @@
 eDVB services /4/
 transponders
-00820000:0064:013e
-	s 11219000:27500000:0:1:130:2:0:1:1:0:2
-/
 00820000:00c8:013e
 	s 11240000:27500000:1:3:130:2:0
 /
@@ -260,6 +257,9 @@ transponders
 /
 00823121:2454:013e
 	s 12577000:27500000:0:3:130:2:0:1:2:0:2
+/
+0082abc0:0001:0001
+	s 11200000:34290000:1:0:130:2:0
 /
 0082afc2:0065:0001
 	s 12226000:27500000:1:3:130:2:0
@@ -561,6 +561,9 @@ transponders
 00c0313b:0457:0001
 	s 12603000:22000000:0:4:192:2:0
 /
+00c0ad12:03fe:0001
+	s 11538000:22000000:1:4:192:2:0
+/
 00c0b0ea:0451:0035
 	s 12522000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -617,12 +620,6 @@ transponders
 /
 end
 services
-0899:00820000:0064:013e:25:0:0
-BBC Persian HD
-p:BBC World Service,f:8
-089a:00820000:0064:013e:25:0:0
-Iran International HD
-p:Volant Media,f:8
 366a:00820000:00c8:013e:1:0:0
 Novy Mir
 p:Harmonic,f:8
@@ -775,9 +772,6 @@ Eurosport 2 HD
 p:Total TV,C:0000,f:8
 02ef:00820000:02bc:013e:25:0:0
 Eurosport 1 Greek HD
-p:Nova,C:0000,f:8
-02f0:00820000:02bc:013e:25:0:0
-Eurosport 1 Serbian HD
 p:Nova,C:0000,f:8
 02f1:00820000:02bc:013e:25:0:0
 Eurosport 2 Serbian HD
@@ -1027,7 +1021,7 @@ Amazing Facts
 p:,f:8
 0005:00820000:0578:013f:25:0:0
 Teleradiopace TV
-p:,f:8
+p:🙏,f:8
 13ed:00820000:05dc:013e:25:0:0
 Canal+ 1 HD Polska
 p:Platforma Canal+,c:0000a0,c:010050,c:0300a0,c:1603e9,f:8
@@ -1401,7 +1395,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Jurassic World Collection HD
+Sky Cinema Christmas HD Italia
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1809,8 +1803,8 @@ p:Sky Italia,f:8
 Sky Cinema Uno
 p:Sky Italia,f:8
 2b61:00820000:19c8:fbff:1:0:0
-Sky Cinema Family
-p:Sky Italia,C:0000,f:8
+Harry Potter Collection
+p:Sky Italia,f:8
 2b63:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
 p:Sky Italia,f:8
@@ -1899,7 +1893,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Jurassic World Collection
+Sky Cinema Christmas Italia
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2453,6 +2447,27 @@ p:Polsat Box,f:8
 030f:00820000:1f40:013e:25:0:0
 Telesur HD
 p:TSA,f:8
+0321:00820000:1f40:013e:25:0:0
+TBN Europe HD
+p:Overon,f:8
+0322:00820000:1f40:013e:1:0:0
+Life TV
+p:,f:8
+0324:00820000:1f40:013e:1:0:0
+Hillsong
+p:overon,f:8
+0326:00820000:1f40:013e:1:0:0
+Al Horreya TV
+p:Unnamed,f:8
+0327:00820000:1f40:013e:1:0:0
+TBN Poland
+p:overon,f:8
+0329:00820000:1f40:013e:1:0:0
+Nejat TV
+p:overon,f:8
+032a:00820000:1f40:013e:1:0:0
+Al Hayat / Life Channel
+p:OVERON,f:8
 0dad:00820000:1f40:013e:25:0:0
 TVE Internacional HD
 p:RTVE,f:8
@@ -2571,8 +2586,8 @@ p:Sky Italia,f:8
 Sky Cinema Romance HD
 p:Sky Italia,f:8
 1c57:00820000:206c:fbff:25:0:0
-Sky Cinema Family HD
-p:Sky Italia,C:0000,f:8
+Harry Potter Collection HD
+p:Sky Italia,f:8
 2a97:00820000:206c:fbff:1:0:0
 Sky Uno +1
 p:Sky Italia,C:0000,f:8
@@ -3194,6 +3209,9 @@ p:RRSat,f:8
 43de:00820000:2cec:013e:1:0:0
 Eurasia Worldwide
 p:,f:8
+0dad:00820000:2d50:013e:1:0:0
+DTX
+p:Orange Polska,C:0000,f:8
 0dae:00820000:2d50:013e:25:0:0
 Kino Polska Muzyka
 p:Polsat Box,f:8
@@ -3203,12 +3221,15 @@ p:Polsat Box,C:0000,f:8
 0db1:00820000:2d50:013e:25:0:0
 TVP Sport HD
 p:Polsat Box,f:8
-0db4:00820000:2d50:013e:25:0:0
-AXN Spin HD
-p:Polsat Box,f:8
 0db5:00820000:2d50:013e:1:0:0
 Red Carpet TV
 p:nc+,f:8
+0db6:00820000:2d50:013e:25:0:0
+Investigation Discovery Poland HD
+p:Orange Polska,C:0000,f:8
+0db7:00820000:2d50:013e:1:0:0
+Music Box Polska
+p:Platforma Canal+,f:8
 0dd7:00820000:2d50:013e:25:0:0
 HBO 2 HD Polska
 p:Polsat Box,f:8
@@ -3809,6 +3830,9 @@ p:Telespazio,f:8
 1328:00820000:33f4:013e:1:0:0
 Al Karma
 p:Telespazio,f:8
+132a:00820000:33f4:013e:1:0:0
+RIK Sat
+p:Telespazio,f:8
 132e:00820000:33f4:013e:1:0:0
 S Neu Jerusalem
 p:Telespazio,f:8
@@ -4000,7 +4024,7 @@ Redlight HD
 p:Polsat Box,f:8
 4238:00820000:3db8:013e:25:0:0
 Tele Padre Pio
-p:Telespazio,f:8
+p:Telespazio 🙏,f:8
 423a:00820000:3db8:013e:25:0:0
 Adventure HD
 p:Orange Polska,f:8
@@ -4124,9 +4148,6 @@ p:Bis,f:8
 0137:00820000:3e1c:013f:1:0:0
 TFX
 p:Bis,f:8
-0137:00820000:3e1c:013f:25:0:0
-TFX
-p:Bis,f:8
 0138:00820000:3e1c:013f:1:0:0
 NRJ 12
 p:Bis,f:8
@@ -4238,6 +4259,9 @@ p:,f:8
 0653:00823121:2454:013e:1:0:0
 Pop Economy
 p:,f:8
+0001:0082abc0:0001:0001:1:0:0
+Eutelsat Promo
+p:aCAN Group
 0001:0082afc2:0065:0001:25:0:0
 CurrentTime HD
 p:,f:8
@@ -7050,7 +7074,7 @@ p:MB Satellite,f:8
 Heiss und Sexy TV
 p:MB Satellite,f:8
 3159:00c00000:0459:0001:1:0:0
-Lilo TV
+Volksmusik TV
 p:MB Satellite,f:8
 315b:00c00000:0459:0001:1:0:0
 Babestation24 (Germany)
@@ -7106,6 +7130,9 @@ p:ORF Digital,f:8
 332e:00c00000:045b:0001:1:0:0
 RTL Nitro Austria
 p:RTL,f:8
+332f:00c00000:045b:0001:1:0:0
+Welt der Wunder
+p:-,f:8
 3330:00c00000:045b:0001:1:0:0
 LT1
 p:-,f:8
@@ -7289,6 +7316,9 @@ p:ARD Digital,f:8
 6f79:00c0313b:0457:0001:1:0:0
 WDR Studio Duisburg
 p:ARD Digital,f:8
+1af9:00c0ad12:03fe:0001:1:0:0
+France 24 (en Français)
+p:GLOBECAST,f:8
 1a91:00c0b0ea:0451:0035:25:0:0
 CGTN HD
 p:GLOBECAST,f:8
@@ -8070,5 +8100,5 @@ p:RTP,f:8
 ANT3 MADEIRA
 p:RTP,f:8
 end
-# 205 transponders and 2484 services.
-# Created by E-Channelizer v22.0.0.1225 on 01 gen, 2023 at 20:39 - https://www.echannelizer.com
+# 206 transponders and 2493 services.
+# Created by E-Channelizer v22.0.0.1225 on 09 gen, 2023 at 20:04 - https://www.echannelizer.com

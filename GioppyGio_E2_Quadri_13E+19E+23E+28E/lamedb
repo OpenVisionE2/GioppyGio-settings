@@ -1,8 +1,5 @@
 eDVB services /4/
 transponders
-00820000:0064:013e
-	s 11219000:27500000:0:1:130:2:0:1:1:0:2
-/
 00820000:00c8:013e
 	s 11240000:27500000:1:3:130:2:0
 /
@@ -260,6 +257,9 @@ transponders
 /
 00823121:2454:013e
 	s 12577000:27500000:0:3:130:2:0:1:2:0:2
+/
+0082abc0:0001:0001
+	s 11200000:34290000:1:0:130:2:0
 /
 0082afc2:0065:0001
 	s 12226000:27500000:1:3:130:2:0
@@ -561,6 +561,9 @@ transponders
 00c0313b:0457:0001
 	s 12603000:22000000:0:4:192:2:0
 /
+00c0ad12:03fe:0001
+	s 11538000:22000000:1:4:192:2:0
+/
 00c0b0ea:0451:0035
 	s 12522000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -654,6 +657,9 @@ transponders
 00ebad9b:0000:0000
 	s 11675000:999000:1:3:235:2:0:1:2:0:2
 /
+00ebae50:0c88:0003
+	s 11856000:29900000:1:2:235:2:0:1:2:0:2
+/
 00ebb104:0001:0001
 	s 12548000:1830000:1:3:235:2:0:1:1:0:2
 /
@@ -731,6 +737,9 @@ transponders
 /
 011a0000:07f3:0002
 	s 12382000:27500000:0:4:282:2:0
+/
+011a0000:07f5:0002
+	s 12421000:27500000:0:2:282:2:0
 /
 011a0000:07f6:0002
 	s 12441000:29500000:1:6:282:2:0:1:1:0:2
@@ -850,7 +859,7 @@ transponders
 	s 11307000:27500000:0:4:282:2:0
 /
 011a0000:083e:0002
-	s 11307000:27500000:0:2:282:2:0
+	s 11307000:27500000:1:4:282:2:0
 /
 011a0000:083f:0002
 	s 11344000:27500000:0:4:282:2:0
@@ -873,6 +882,12 @@ transponders
 011a0000:2012:233a
 	s 11608000:15480000:0:4:282:2:0:1:1:0:2
 /
+011a2c01:083b:0002
+	s 11265000:27500000:0:2:282:2:0
+/
+011a2d3e:0831:0002
+	s 11582000:22000000:0:4:282:2:0
+/
 011a2f26:07e3:0002
 	s 12070000:27500000:0:4:282:2:0
 /
@@ -881,12 +896,6 @@ transponders
 /
 end
 services
-0899:00820000:0064:013e:25:0:0
-BBC Persian HD
-p:BBC World Service,f:8
-089a:00820000:0064:013e:25:0:0
-Iran International HD
-p:Volant Media,f:8
 366a:00820000:00c8:013e:1:0:0
 Novy Mir
 p:Harmonic,f:8
@@ -1039,9 +1048,6 @@ Eurosport 2 HD
 p:Total TV,C:0000,f:8
 02ef:00820000:02bc:013e:25:0:0
 Eurosport 1 Greek HD
-p:Nova,C:0000,f:8
-02f0:00820000:02bc:013e:25:0:0
-Eurosport 1 Serbian HD
 p:Nova,C:0000,f:8
 02f1:00820000:02bc:013e:25:0:0
 Eurosport 2 Serbian HD
@@ -1291,7 +1297,7 @@ Amazing Facts
 p:,f:8
 0005:00820000:0578:013f:25:0:0
 Teleradiopace TV
-p:,f:8
+p:🙏,f:8
 13ed:00820000:05dc:013e:25:0:0
 Canal+ 1 HD Polska
 p:Platforma Canal+,c:0000a0,c:010050,c:0300a0,c:1603e9,f:8
@@ -1665,7 +1671,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Jurassic World Collection HD
+Sky Cinema Christmas HD Italia
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -2073,8 +2079,8 @@ p:Sky Italia,f:8
 Sky Cinema Uno
 p:Sky Italia,f:8
 2b61:00820000:19c8:fbff:1:0:0
-Sky Cinema Family
-p:Sky Italia,C:0000,f:8
+Harry Potter Collection
+p:Sky Italia,f:8
 2b63:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
 p:Sky Italia,f:8
@@ -2163,7 +2169,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Jurassic World Collection
+Sky Cinema Christmas Italia
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2717,6 +2723,27 @@ p:Polsat Box,f:8
 030f:00820000:1f40:013e:25:0:0
 Telesur HD
 p:TSA,f:8
+0321:00820000:1f40:013e:25:0:0
+TBN Europe HD
+p:Overon,f:8
+0322:00820000:1f40:013e:1:0:0
+Life TV
+p:,f:8
+0324:00820000:1f40:013e:1:0:0
+Hillsong
+p:overon,f:8
+0326:00820000:1f40:013e:1:0:0
+Al Horreya TV
+p:Unnamed,f:8
+0327:00820000:1f40:013e:1:0:0
+TBN Poland
+p:overon,f:8
+0329:00820000:1f40:013e:1:0:0
+Nejat TV
+p:overon,f:8
+032a:00820000:1f40:013e:1:0:0
+Al Hayat / Life Channel
+p:OVERON,f:8
 0dad:00820000:1f40:013e:25:0:0
 TVE Internacional HD
 p:RTVE,f:8
@@ -2835,8 +2862,8 @@ p:Sky Italia,f:8
 Sky Cinema Romance HD
 p:Sky Italia,f:8
 1c57:00820000:206c:fbff:25:0:0
-Sky Cinema Family HD
-p:Sky Italia,C:0000,f:8
+Harry Potter Collection HD
+p:Sky Italia,f:8
 2a97:00820000:206c:fbff:1:0:0
 Sky Uno +1
 p:Sky Italia,C:0000,f:8
@@ -3458,6 +3485,9 @@ p:RRSat,f:8
 43de:00820000:2cec:013e:1:0:0
 Eurasia Worldwide
 p:,f:8
+0dad:00820000:2d50:013e:1:0:0
+DTX
+p:Orange Polska,C:0000,f:8
 0dae:00820000:2d50:013e:25:0:0
 Kino Polska Muzyka
 p:Polsat Box,f:8
@@ -3467,12 +3497,15 @@ p:Polsat Box,C:0000,f:8
 0db1:00820000:2d50:013e:25:0:0
 TVP Sport HD
 p:Polsat Box,f:8
-0db4:00820000:2d50:013e:25:0:0
-AXN Spin HD
-p:Polsat Box,f:8
 0db5:00820000:2d50:013e:1:0:0
 Red Carpet TV
 p:nc+,f:8
+0db6:00820000:2d50:013e:25:0:0
+Investigation Discovery Poland HD
+p:Orange Polska,C:0000,f:8
+0db7:00820000:2d50:013e:1:0:0
+Music Box Polska
+p:Platforma Canal+,f:8
 0dd7:00820000:2d50:013e:25:0:0
 HBO 2 HD Polska
 p:Polsat Box,f:8
@@ -4073,6 +4106,9 @@ p:Telespazio,f:8
 1328:00820000:33f4:013e:1:0:0
 Al Karma
 p:Telespazio,f:8
+132a:00820000:33f4:013e:1:0:0
+RIK Sat
+p:Telespazio,f:8
 132e:00820000:33f4:013e:1:0:0
 S Neu Jerusalem
 p:Telespazio,f:8
@@ -4264,7 +4300,7 @@ Redlight HD
 p:Polsat Box,f:8
 4238:00820000:3db8:013e:25:0:0
 Tele Padre Pio
-p:Telespazio,f:8
+p:Telespazio 🙏,f:8
 423a:00820000:3db8:013e:25:0:0
 Adventure HD
 p:Orange Polska,f:8
@@ -4388,9 +4424,6 @@ p:Bis,f:8
 0137:00820000:3e1c:013f:1:0:0
 TFX
 p:Bis,f:8
-0137:00820000:3e1c:013f:25:0:0
-TFX
-p:Bis,f:8
 0138:00820000:3e1c:013f:1:0:0
 NRJ 12
 p:Bis,f:8
@@ -4502,6 +4535,9 @@ p:,f:8
 0653:00823121:2454:013e:1:0:0
 Pop Economy
 p:,f:8
+0001:0082abc0:0001:0001:1:0:0
+Eutelsat Promo
+p:aCAN Group
 0001:0082afc2:0065:0001:25:0:0
 CurrentTime HD
 p:,f:8
@@ -7314,7 +7350,7 @@ p:MB Satellite,f:8
 Heiss und Sexy TV
 p:MB Satellite,f:8
 3159:00c00000:0459:0001:1:0:0
-Lilo TV
+Volksmusik TV
 p:MB Satellite,f:8
 315b:00c00000:0459:0001:1:0:0
 Babestation24 (Germany)
@@ -7370,6 +7406,9 @@ p:ORF Digital,f:8
 332e:00c00000:045b:0001:1:0:0
 RTL Nitro Austria
 p:RTL,f:8
+332f:00c00000:045b:0001:1:0:0
+Welt der Wunder
+p:-,f:8
 3330:00c00000:045b:0001:1:0:0
 LT1
 p:-,f:8
@@ -7553,6 +7592,9 @@ p:ARD Digital,f:8
 6f79:00c0313b:0457:0001:1:0:0
 WDR Studio Duisburg
 p:ARD Digital,f:8
+1af9:00c0ad12:03fe:0001:1:0:0
+France 24 (en Français)
+p:GLOBECAST,f:8
 1a91:00c0b0ea:0451:0035:25:0:0
 CGTN HD
 p:GLOBECAST,f:8
@@ -9620,6 +9662,9 @@ p:,f:8
 1f40:00ebad9b:0000:0000:2:0:0
 
 p:,f:8
+1bfd:00ebae50:0c88:0003:25:0:0
+Nautical HD
+p:Canal Digitaal,C:0000,f:8
 03e8:00ebb104:0001:0001:2:0:0
 OOE 100
 p:KRONEHIT OOE,f:8
@@ -9750,7 +9795,7 @@ p:Sky Digital,C:0000,f:8
 Eurosport 2 HD
 p:Sky Digital,C:0000,f:8
 0f64:011a0000:07d8:0002:25:0:0
-Sky Sports Darts HD
+Sky Sports Arena HD
 p:Sky Digital,C:0000,f:8
 13b6:011a0000:07d8:0002:25:0:0
 Virgin Two HD
@@ -9864,7 +9909,7 @@ p:Sky Digital,C:0000,f:8
 Sky Crime
 p:Sky Digital,C:0000,f:8
 1612:011a0000:07dc:0002:1:0:0
-Sky Modern Greats
+Sky British Icons.
 p:Sky Digital,C:0000,f:8
 16bf:011a0000:07dc:0002:1:0:0
 Sky Première +1
@@ -9876,7 +9921,7 @@ p:Sky Digital,C:0000,f:8
 Challenge
 p:Sky Digital,f:8
 1ab7:011a0000:07dc:0002:1:0:0
-Sky Sports Darts
+Sky Sports Arena
 p:Sky Digital,C:0000,f:8
 0ef3:011a0000:07e0:0002:25:0:0
 Sky Sports Golf HD
@@ -10154,9 +10199,6 @@ p:Sky Digital,C:0000,f:8
 0f66:011a0000:07ed:0002:25:0:0
 Sky Sports Football HD
 p:Sky Digital,C:0000,f:8
-0f69:011a0000:07ed:0002:25:0:0
-Sky Sports Darts HD
-p:Sky Digital,C:0000,f:8
 0fa3:011a0000:07ed:0002:25:0:0
 Sky Sports Main Events HD
 p:Sky Digital,C:0000,f:8
@@ -10176,10 +10218,10 @@ p:Sky Digital,C:0000,f:8
 Sky Hits HD U.K.
 p:Sky Digital,C:0000,f:8
 0ee7:011a0000:07ee:0002:25:0:0
-Sky Modern Greats HD
+Sky British Icons HD
 p:Sky Digital,C:0000,f:8
 0ee8:011a0000:07ee:0002:25:0:0
-Sky Drama HD
+Sky Christmas HD
 p:Sky Digital,C:0000,f:8
 0ee9:011a0000:07ee:0002:25:0:0
 Sky Scifi/Horror HD
@@ -10280,6 +10322,12 @@ p:Sky Digital,f:8
 1859:011a0000:07f3:0002:1:0:0
 TLC Europe
 p:Sky Digital,C:0000,f:8
+1911:011a0000:07f5:0002:1:0:0
+BBC News
+p:,f:8
+195b:011a0000:07f5:0002:1:0:0
+BBC One England
+p:
 1ce8:011a0000:07f6:0002:31:0:0
 Astra Ultra HD Test
 p:SES ASTRA,f:8
@@ -10886,9 +10934,6 @@ p:Sky Digital,C:0000,f:8
 c7b7:011a0000:0817:0002:1:0:0
 Cartoonito
 p:Sky Digital,C:0000,f:8
-d3c2:011a0000:0829:0002:1:0:0
-Smithsonian Channel UK
-p:Sky Digital,f:8
 d3c3:011a0000:0829:0002:1:0:0
 PTC Punjabi
 p:Sky Digital,f:8
@@ -10990,9 +11035,6 @@ QVC HD UK
 p:Sky Digital,f:8
 5722:011a0000:082b:0002:25:0:0
 QVC Style HD UK
-p:Sky Digital,f:8
-d7e7:011a0000:082c:0002:25:0:0
-Smithsonian Channel UK
 p:Sky Digital,f:8
 d7e8:011a0000:082c:0002:25:0:0
 Racing UK HD
@@ -11216,6 +11258,9 @@ p:Sky Digital,f:8
 cb90:011a0000:0831:0002:1:0:0
 Babestation
 p:Sky Digital,f:8
+cb99:011a0000:0831:0002:1:0:0
+That's 60s
+p:Sky Digital,f:8
 cba4:011a0000:0831:0002:2:0:0
 Panjab Radio
 p:Sky Digital,f:8
@@ -11379,7 +11424,7 @@ p:Sky Digital,f:8
 Magic (UK)
 p:Sky Digital,f:8
 1c28:011a0000:083b:0002:1:0:0
-BoXmas
+The Box
 p:Sky Digital,f:8
 1c29:011a0000:083b:0002:1:0:0
 4Music
@@ -11450,8 +11495,11 @@ p:Sky Digital,f:8
 d043:011a0000:083e:0002:1:0:0
 GREAT! Movies
 p:Sky Digital,f:8
+d048:011a0000:083e:0002:1:0:0
+GREAT! Romance
+p:Sky Digital,f:8
 d04d:011a0000:083e:0002:1:0:0
-Great! Xmas+1
+GREAT! Romance +1
 p:Sky Digital,f:8
 d052:011a0000:083e:0002:1:0:0
 Tiny Pop
@@ -11660,6 +11708,12 @@ p:,C:0000,f:8
 2134:011a0000:2012:233a:1:0:0
 Channel 5 London
 p:,C:0000,f:8
+1c28:011a2c01:083b:0002:1:0:0
+The Box
+p:Sky Digital,f:8
+cb99:011a2d3e:0831:0002:1:0:0
+That's 60s
+p:Sky Digital,f:8
 0fc6:011a2f26:07e3:0002:1:0:0
 Virgin Two
 p:Sky Digital,C:0000,f:8
@@ -11670,10 +11724,10 @@ p:Sky Digital,C:0000,f:8
 SNR
 p:Sky Digital,f:8
 13ba:011a2f26:07e3:0002:1:0:0
-Christmas 24
+Movies 24
 p:Sky Digital,C:0000,f:8
 13bb:011a2f26:07e3:0002:1:0:0
-Christmas 24+
+Movies 24+
 p:Sky Digital,C:0000,f:8
 144c:011a2f26:07e3:0002:1:0:0
 Sky Nature
@@ -11690,6 +11744,12 @@ p:Sky Digital,C:0000,f:8
 1904:011a2f26:07e3:0002:1:0:0
 Sky News
 p:Sky Digital,f:8
+d048:011aac2b:083e:0002:1:0:0
+GREAT! Romance
+p:Sky Digital,f:8
+d04d:011aac2b:083e:0002:1:0:0
+GREAT! Romance +1
+p:Sky Digital,f:8
 d07f:011aac2b:083e:0002:1:0:0
 GREAT! TV
 p:Sky Digital,f:8
@@ -11697,5 +11757,5 @@ d084:011aac2b:083e:0002:1:0:0
 GREAT! TV +1
 p:Sky Digital,f:8
 end
-# 293 transponders and 3605 services.
-# Created by E-Channelizer v22.0.0.1225 on 01 gen, 2023 at 20:35 - https://www.echannelizer.com
+# 298 transponders and 3620 services.
+# Created by E-Channelizer v22.0.0.1225 on 09 gen, 2023 at 19:59 - https://www.echannelizer.com
