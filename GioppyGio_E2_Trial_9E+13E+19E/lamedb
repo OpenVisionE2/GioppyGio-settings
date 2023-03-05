@@ -105,9 +105,6 @@ transponders
 005a0000:1838:009e
 	s 11958000:27500000:1:2:90:2:0:1:2:0:2
 /
-005a0000:1964:009c
-	s 11747000:27500000:0:2:90:2:0:1:2:0:2
-/
 005a0000:19c8:009e
 	s 12034000:27500000:1:3:90:2:0:1:2:0:2
 /
@@ -728,6 +725,9 @@ transponders
 /
 00c00000:04b1:0001
 	s 12421000:27500000:0:3:192:2:0
+/
+00c0b160:0459:0001
+	s 12640000:22000000:1:4:192:2:0
 /
 end
 services
@@ -1733,27 +1733,6 @@ p:MTVA,f:8
 00a8:005a0000:1838:009e:2:0:0
 D192ser
 p:MTVA,f:8
-0196:005a0000:1964:009c:1:0:0
-Super RTL HD
-p:Kabelkiosk,C:0000,f:8
-01a0:005a0000:1964:009c:1:0:0
-Sixx HD
-p:Kabelkiosk,C:0000,f:8
-01a1:005a0000:1964:009c:25:0:0
-RTL 2 HD
-p:Kabelkiosk,C:0000,f:8
-01a2:005a0000:1964:009c:25:0:0
-Deluxe Music HD
-p:Kabelkiosk,C:0000,f:8
-01a3:005a0000:1964:009c:25:0:0
-Comedy Central HD Germany
-p:Kabelkiosk,C:0000,f:8
-01a4:005a0000:1964:009c:25:0:0
-Disney Channel HD Germany
-p:Kabelkiosk,C:0000,f:8
-01a5:005a0000:1964:009c:1:0:0
-Nickelodeon Germany
-p:BASIS 1,f:8
 0001:005a0000:19c8:009e:1:0:0
 RTS 1 Senegal
 p:GLOBECAST,f:8
@@ -1816,9 +1795,6 @@ eSports One
 p:Kabelkiosk,C:0000,f:8
 09c4:005a0000:1bbc:009c:1:0:0
 Euro Star
-p:Kabelkiosk,C:0000,f:8
-0aa0:005a0000:1bbc:009c:1:0:0
-Euronews French
 p:Kabelkiosk,C:0000,f:8
 0aaa:005a0000:1bbc:009c:25:0:0
 Kabel Eins Classics HD
@@ -2009,6 +1985,9 @@ p:Kabelkiosk,C:0000,f:8
 01fd:005a0000:2134:009c:25:0:0
 Mezzo Live HD
 p:Kabelkiosk,C:0000,f:8
+01fe:005a0000:2134:009c:1:0:0
+Current Time Ukraine
+p:Kabelkiosk,C:0000
 0204:005a0000:2134:009c:1:0:0
 Dusk International
 p:Kabelkiosk,C:0000,f:8
@@ -3501,7 +3480,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Star Trek Collection HD
+Brad Pitt Collection HD
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -3960,7 +3939,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Star Trek Collection
+Brad Pitt Collection
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -4832,6 +4811,9 @@ p:STN ltd,f:8
 2334:00820000:2328:013e:25:0:0
 Cira TV
 p:,f:8
+2335:00820000:2328:013e:1:0:0
+KICC TV
+p:STN,f:8
 2336:00820000:2328:013e:1:0:0
 Paci Contemporary Channel
 p:STN,f:8
@@ -4847,9 +4829,21 @@ p:STN,f:8
 233a:00820000:2328:013e:1:0:0
 The Kingdom Sat
 p:STN PLC,f:8
+233b:00820000:2328:013e:1:0:0
+CNA TV
+p:STN
 233c:00820000:2328:013e:1:0:0
 TBN Europe(Trinity Broadcasting Network)
 p:STN,f:8
+233d:00820000:2328:013e:1:0:0
+Firstlight TV
+p:STN
+233e:00820000:2328:013e:1:0:0
+Amazing Facts
+p:STN
+233f:00820000:2328:013e:25:0:0
+Teleradiopace TV
+p:STN
 2360:00820000:2328:013e:2:0:0
 Radio Hargeisa
 p:STN,f:8
@@ -5786,9 +5780,6 @@ p:Harmonic,f:8
 051f:00820000:3d54:013e:1:0:0
 Radionorba TV
 p:Telenorba,f:8
-0520:00820000:3d54:013e:1:0:0
-Yes Italia
-p:M-threee Satcom,f:8
 0521:00820000:3d54:013e:25:0:0
 KBS World HD
 p:MX1,f:8
@@ -6080,12 +6071,6 @@ p:,f:8
 064e:00823121:2454:013e:1:0:0
 MS Channel
 p:,f:8
-064f:00823121:2454:013e:25:0:0
-Canal Algérie
-p:GLOBECAST,f:8
-0650:00823121:2454:013e:25:0:0
-Algerie 3 HD
-p:GLOBECAST,f:8
 0653:00823121:2454:013e:1:0:0
 Pop Economy
 p:,f:8
@@ -7483,7 +7468,7 @@ Discovery Channel Spain & Portugal
 p:Movistar+,C:0000,f:8
 7730:00c00000:0416:0001:1:0:0
 Cosmopolitan TV
-p:Movistar+,C:0000,f:8
+p:Movistar+,C:0000
 7731:00c00000:0416:0001:1:0:0
 Canal de Historia
 p:Movistar+,C:0000,f:8
@@ -7551,7 +7536,7 @@ p:Movistar+,C:0000,f:8
 Baby TV
 p:Movistar+,C:0000,f:8
 749d:00c00000:041c:0001:1:0:0
-Movistar+ U. Tarantino
+Movistar Oscars
 p:Movistar+,C:0000,f:8
 749e:00c00000:041c:0001:1:0:0
 Boing Spain
@@ -8549,9 +8534,6 @@ p:Bis,C:0000,f:8
 427e:00c00000:0446:0001:25:0:0
 Animaux HD
 p:Bis,C:0000,f:8
-427f:00c00000:0446:0001:25:0:0
-Science et Vie
-p:Bis,C:0000,f:8
 4280:00c00000:0446:0001:25:0:0
 XXL
 p:Canal+ France,C:0000,f:8
@@ -8720,6 +8702,9 @@ p:M7 Group,C:0000,f:8
 103f:00c00000:0451:0035:2:0:0
 NRJ
 p:TeleSat,C:0000,f:8
+1040:00c00000:0451:0035:25:0:0
+Current Time Ukraine
+p:M7 Group,f:8
 1a91:00c00000:0452:0001:25:0:0
 CGTN HD
 p:GLOBECAST,f:8
@@ -9038,6 +9023,15 @@ p:,f:8
 32df:00c00000:045d:0001:1:0:0
 TV1 OOE
 p:ORS,f:8
+2904:00c00000:045e:0001:1:0:0
+Xplore
+p:SES
+2905:00c00000:045e:0001:1:0:0
+Hip Trips
+p:SES
+2906:00c00000:045e:0001:1:0:0
+One Terra
+p:SES
 2907:00c00000:045e:0001:1:0:0
 Deluxe Rock
 p:SES,f:8
@@ -9092,6 +9086,21 @@ p:ARD Digital,f:8
 6ee2:00c00000:04b1:0001:1:0:0
 SR Fernsehen HD
 p:ARD Digital,f:8
+314f:00c0b160:0459:0001:1:0:0
+Date Line TV
+p:MB Satellite,f:8
+3150:00c0b160:0459:0001:1:0:0
+Fotohandy.TV
+p:MB Satellite,f:8
+3151:00c0b160:0459:0001:1:0:0
+Mobile Sex
+p:MB Satellite,f:8
+3160:00c0b160:0459:0001:1:0:0
+BunnyClub 24
+p:MB Satellite,f:8
+3161:00c0b160:0459:0001:1:0:0
+Clipmobile
+p:MB Satellite,f:8
 end
-# 243 transponders and 2787 services.
-# Created by E-Channelizer v23.0.0.215 on 20 feb, 2023 at 18:33 - https://www.echannelizer.com
+# 243 transponders and 2790 services.
+# Created by E-Channelizer v23.0.0.225 on 02 mar, 2023 at 11:14 - https://www.echannelizer.com
