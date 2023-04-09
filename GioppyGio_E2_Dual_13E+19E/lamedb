@@ -72,9 +72,6 @@ transponders
 00820000:170c:fbff
 	s 11900000:29900000:0:4:130:2:0:1:1:0:2
 /
-00820000:1770:00be
-	s 11919000:29900000:1:3:130:2:0:1:2:0:2
-/
 00820000:1770:0110
 	s 11919000:29900000:1:3:130:2:0:1:2:0:2
 /
@@ -158,6 +155,9 @@ transponders
 /
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:2:0:1:2:0:2
+/
+00820000:2454:013e
+	s 12577000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:24b8:013e
 	s 12596000:27500000:1:3:130:2:0
@@ -275,9 +275,6 @@ transponders
 /
 00c00000:0008:0085
 	s 12070000:27500000:0:9:192:2:0:1:1:0:2
-/
-00c00000:0009:0085
-	s 11170000:22000000:0:3:192:2:0:1:2:0:2
 /
 00c00000:000b:0085
 	s 12382000:27500000:0:3:192:2:0:1:2:0:2
@@ -542,6 +539,9 @@ transponders
 /
 00c0b160:0459:0001
 	s 12640000:22000000:1:4:192:2:0
+/
+00c0b17d:045b:0001
+	s 12669000:22000000:1:4:192:2:0
 /
 end
 services
@@ -1047,7 +1047,7 @@ p:KABELIO.CH,f:8
 Tele Baern
 p:KABELIO.CH,f:8
 36e5:00820000:06a4:013e:25:0:0
-Kabelio Infokanal
+Leman Bleu
 p:KABELIO.CH,f:8
 374a:00820000:06a4:013e:25:0:0
 Canale 5 HD
@@ -1068,7 +1068,7 @@ p:KABELIO.CH,f:8
 TF 1
 p:KABELIO.CH,f:8
 3751:00820000:06a4:013e:25:0:0
-M6 HD
+M6 Music
 p:KABELIO.CH,f:8
 3755:00820000:06a4:013e:1:0:0
 Blue Zoom Deutsch
@@ -1113,7 +1113,7 @@ p:KABELIO.CH,f:8
 CNN International Europe
 p:KABELIO.CH,C:0000,f:8
 3769:00820000:06a4:013e:25:0:0
-BBC News HD
+Film4
 p:KABELIO.CH,C:0000,f:8
 332d:00820000:1388:013e:25:0:0
 DW English HD
@@ -1281,7 +1281,7 @@ p:RAI,f:8
 Rai Radio Techete'
 p:RAI,f:8
 0d78:00820000:1450:013e:2:0:0
-Rai Radio Live
+Rai Radio Live Napoli
 p:RAI,f:8
 0d79:00820000:1450:013e:2:0:0
 Rai Radio Kids
@@ -1311,7 +1311,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Keanu Reeves Collection HD
+Checco Zalone Collection HD
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1517,12 +1517,6 @@ p:SkyItalia,f:8
 2517:00820000:170c:fbff:25:0:0
 Race Control HD Fake
 p:Sky Italia,f:8
-006a:00820000:1770:00be:2:0:0
-RADIO SUBASIO
-p:,f:8
-006e:00820000:1770:00be:2:0:0
-Radiolina
-p:,f:8
 0049:00820000:1770:0110:1:0:0
 La 7 d HD
 p:TivùSat,f:8
@@ -1770,7 +1764,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Keanu Reeves Collection
+Checco Zalone Collection
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2654,9 +2648,6 @@ p:STN,f:8
 2338:00820000:2328:013e:1:0:0
 Somaliland National TV
 p:,f:8
-2339:00820000:2328:013e:1:0:0
-Ganj e Hozour TV
-p:STN,f:8
 233a:00820000:2328:013e:1:0:0
 The Kingdom Sat
 p:STN PLC,f:8
@@ -2674,7 +2665,7 @@ Amazing Facts
 p:STN,f:8
 233f:00820000:2328:013e:25:0:0
 Teleradiopace TV
-p:STN
+p:STN,f:8
 2360:00820000:2328:013e:2:0:0
 Radio Hargeisa
 p:STN,f:8
@@ -2702,8 +2693,11 @@ p:iChannel LTD,f:8
 04b9:00820000:23f0:013e:25:0:0
 Hot Bird 4k Test
 p:,f:8
+064b:00820000:2454:013e:25:0:0
+Church of Jesus Christ
+p:,f:8
 200c:00820000:24b8:013e:1:7739:0
-BBC World News
+BBC News
 p:GlobeCast,f:8
 2023:00820000:24b8:013e:2:0:0
 Service 8227
@@ -2943,7 +2937,7 @@ p:,f:8
 Bloomberg Europe
 p:Arqiva,f:8
 43a0:00820000:2cec:013e:1:0:0
-CNL Russia
+GNC
 p:RRsat,f:8
 43a5:00820000:2cec:013e:1:0:0
 TBN Russia
@@ -3311,9 +3305,6 @@ p:GLOBECAST,f:8
 06b2:00820000:3138:013e:1:0:0
 Soyuz TV
 p:GLOBECAST,f:8
-06b3:00820000:3138:013e:1:0:0
-Arirang TV
-p:GLOBECAST,f:8
 06b5:00820000:3138:013e:1:0:0
 Ganj e Hozour TV
 p:GlobeCast,f:8
@@ -3412,6 +3403,9 @@ Das Erste
 p:KABELIO.CH,f:8
 0085:00820000:3264:013e:1:0:0
 ZDF
+p:KABELIO.CH,f:8
+0088:00820000:3264:013e:25:0:0
+Kabelio Infokanal
 p:KABELIO.CH,f:8
 0709:00820000:32c8:013e:25:0:0
 Polsat Sport Premium 1
@@ -4049,6 +4043,9 @@ p:Sky Deutschland,C:0000,f:8
 0116:00c00000:0002:0085:25:0:0
 Sky Sport 2 HD Germany
 p:Sky Deutschland,C:0000,f:8
+0153:00c00000:0002:0085:1:0:0
+Sky Sport Austria 3 HD
+p:Sky Deutschland,C:0000,f:8
 0192:00c00000:0002:0085:1:0:0
 Crime + Investigation Germany
 p:Sky Deutschland,C:0000,f:8
@@ -4061,14 +4058,11 @@ p:Sky Deutschland,C:0000,f:8
 0011:00c00000:0003:0085:1:0:0
 Sky Sport F1 HD Germany
 p:Sky Deutschland,C:0000,f:8
+0074:00c00000:0003:0085:25:0:0
+Sky Cinema Action HD Germany
+p:Sky Deutschland,C:0000,f:8
 0085:00c00000:0003:0085:1:0:0
 Beate-Uhse.TV HD
-p:Kabelkiosk,C:0000,f:8
-0138:00c00000:0003:0085:1:0:0
-Sky Sport Bundesliga 6
-p:Sky Deutschland,C:0000,f:8
-0139:00c00000:0003:0085:1:0:0
-Sky Sport 6 Germany
 p:Kabelkiosk,C:0000,f:8
 013d:00c00000:0003:0085:25:0:0
 Sky Sport Bundesliga 6 HD
@@ -4217,42 +4211,30 @@ p:BetaDigital,f:8
 0307:00c00000:0007:0085:1:0:0
 MediaShop - Meine Einkaufswelt
 p:BetaDigital,f:8
+0007:00c00000:0008:0085:25:0:0
+Universal HD Germany
+p:Sky Deutschland,C:0000,f:8
 007b:00c00000:0008:0085:1:0:0
 Warner TV Serie HD
+p:Sky Deutschland,C:0000,f:8
+0084:00c00000:0008:0085:25:0:0
+DAZN 1 HD Germany
 p:Sky Deutschland,C:0000,f:8
 008f:00c00000:0008:0085:25:0:0
 Sky Sport Austria 1 HD
 p:Sky Deutschland,C:0000,f:8
+012a:00c00000:0008:0085:25:0:0
+Sky Sport 4 HD Germany
+p:Sky Deutschland,C:0000,f:8
 0149:00c00000:0008:0085:1:0:0
 Sky Sport Austria 2 HD
-p:Sky Deutschland,C:0000,f:8
-0065:00c00000:0009:0085:25:0:0
-Universal HD Germany
-p:Sky Deutschland,C:0000,f:8
-0074:00c00000:0009:0085:25:0:0
-Sky Cinema Action HD Germany
-p:Sky Deutschland,C:0000,f:8
-007b:00c00000:0009:0085:25:0:0
-Warner TV Serie HD
-p:Sky Deutschland,C:0000,f:8
-0084:00c00000:0009:0085:1:0:0
-DAZN 1 Bar HD
-p:Kabelkiosk,C:0000,f:8
-008d:00c00000:0009:0085:25:0:0
-Sky Sport Mix HD
-p:Sky Deutschland,C:0000,f:8
-0091:00c00000:0009:0085:25:0:0
-Sky  Sport Premier League HD
-p:Sky Deutschland,C:0000,f:8
-0129:00c00000:0009:0085:25:0:0
-Sky Sport Bundesliga 4 HD
-p:Sky Deutschland,C:0000,f:8
-012a:00c00000:0009:0085:25:0:0
-Sky Sport 4 HD Germany
 p:Sky Deutschland,C:0000,f:8
 0071:00c00000:000b:0085:25:0:0
 History Channel HD Germany
 p:Kabelkiosk,C:0000,f:8
+007d:00c00000:000b:0085:25:0:0
+CNBC Europe HD
+p:Sky Deutschland,f:8
 0087:00c00000:000b:0085:25:0:0
 Sky Cinema Premieren +24 HD
 p:Sky Deutschland,C:0000,f:8
@@ -4321,7 +4303,7 @@ Sky Atlantic HD Germany
 p:Kabelkiosk,C:0000,f:8
 006f:00c00000:000d:0085:25:0:0
 Sky Cinema Special HD
-p:Sky Deutschland,C:0000
+p:Sky Deutschland,C:0000,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
 p:Kabelkiosk,C:0000,f:8
@@ -4407,7 +4389,7 @@ p:BetaDigital,f:8
 RTL UHD Austria
 p:ORS,C:0000,f:8
 1389:00c00000:03ea:0001:25:0:0
-BBC World News Europe HD
+BBC News HD
 p:Canal+ France,f:8
 1392:00c00000:03ea:0001:25:0:0
 Insight TV HD
@@ -5142,7 +5124,7 @@ p:Movistar+,C:0000,f:8
 #Vamos Bar2
 p:Movistar+,C:0000,f:8
 7570:00c00000:0412:0001:1:0:0
-Toros
+Movistar Golf 2
 p:Movistar+,C:0000,f:8
 7574:00c00000:0412:0001:1:0:0
 DAZN 1 Bar HD
@@ -5224,7 +5206,7 @@ Discovery Channel Spain & Portugal
 p:Movistar+,C:0000,f:8
 7730:00c00000:0416:0001:1:0:0
 Cosmopolitan TV
-p:Movistar+,C:0000
+p:Movistar+,C:0000,f:8
 7731:00c00000:0416:0001:1:0:0
 Canal de Historia
 p:Movistar+,C:0000,f:8
@@ -5286,7 +5268,7 @@ p:Movistar+,C:0000,f:8
 Divinity
 p:Movistar+,C:0000,f:8
 749b:00c00000:041c:0001:1:0:0
-Fox News
+Movistar Golf 2
 p:Movistar+,C:0000,f:8
 749c:00c00000:041c:0001:1:0:0
 Baby TV
@@ -5631,7 +5613,7 @@ p:Movistar+,C:0000,f:8
 National Geographic Spain HD
 p:Movistar+,C:0000,f:8
 782d:00c00000:0428:0001:25:0:0
-Toros TV HD
+Movistar Golf 2 HD
 p:Movistar+,C:0000,f:8
 17d5:00c00000:042a:0001:1:0:0
 CNN International Europe
@@ -5740,9 +5722,6 @@ Disney+
 p:Canal+ France,C:0000,f:8
 2017:00c00000:0430:0001:25:0:0
 Melody HD
-p:Canal+ France,C:0000,f:8
-2018:00c00000:0430:0001:25:0:0
-Warner TV
 p:Canal+ France,C:0000,f:8
 6e2d:00c00000:0431:0001:1:0:0
 RBB Brandenburg
@@ -6050,9 +6029,6 @@ p:Canal+ France,C:0000,f:8
 245b:00c00000:0440:0001:25:0:0
 Ciné+ Emotion HD
 p:Canal+ France,C:0000,f:8
-245c:00c00000:0440:0001:25:0:0
-Cartoon Network HD France
-p:Canal+ France,C:0000,f:8
 245d:00c00000:0440:0001:25:0:0
 France 3 Sat HD
 p:Canal+ France,C:0000,f:8
@@ -6110,9 +6086,6 @@ p:CBC,f:8
 2f3b:00c00000:0441:0001:2:0:0
 TOGGO Radio
 p:CBC,f:8
-2329:00c00000:0442:0001:25:0:0
-TCM HD France
-p:Canal+ France,C:0000,f:8
 232a:00c00000:0442:0001:25:0:0
 National Geographic HD France
 p:Canal+ France,C:0000,f:8
@@ -6139,9 +6112,6 @@ LCI HD
 p:Canal+ France,C:0000,f:8
 2332:00c00000:0442:0001:25:0:0
 Infosport+ HD
-p:Canal+ France,C:0000,f:8
-2333:00c00000:0442:0001:25:0:0
-Boomerang France HD
 p:Canal+ France,C:0000,f:8
 2334:00c00000:0442:0001:25:0:0
 C8 HD
@@ -6775,13 +6745,13 @@ TV1 OOE
 p:ORS,f:8
 2904:00c00000:045e:0001:1:0:0
 Xplore
-p:SES
+p:SES,f:8
 2905:00c00000:045e:0001:1:0:0
 Hip Trips
-p:SES
+p:SES,f:8
 2906:00c00000:045e:0001:1:0:0
 One Terra
-p:SES
+p:SES,f:8
 2907:00c00000:045e:0001:1:0:0
 Deluxe Rock
 p:SES,f:8
@@ -6851,6 +6821,9 @@ p:MB Satellite,f:8
 3161:00c0b160:0459:0001:1:0:0
 Clipmobile
 p:MB Satellite,f:8
+332f:00c0b17d:045b:0001:1:0:0
+Lilo.TV
+p:-,f:8
 end
-# 181 transponders and 2102 services.
-# Created by E-Channelizer v23.0.0.303 on 22 mar, 2023 at 17:07 - https://www.echannelizer.com
+# 181 transponders and 2093 services.
+# Created by E-Channelizer v23.0.0.330 on 07 apr, 2023 at 22:27 - https://www.echannelizer.com
