@@ -156,9 +156,6 @@ transponders
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:2:0:1:2:0:2
 /
-00820000:2454:013e
-	s 12577000:27500000:0:3:130:2:0:1:2:0:2
-/
 00820000:24b8:013e
 	s 12596000:27500000:1:3:130:2:0
 /
@@ -398,6 +395,9 @@ transponders
 /
 00a0b131:0a78:0001
 	s 12593000:2500000:1:2:160:2:0
+/
+00a0b1b0:0001:0001
+	s 12720000:8000000:1:3:160:2:0:1:2:0:2
 /
 00c00000:0002:0085
 	s 11758000:27500000:0:9:192:2:0:1:1:0:2
@@ -958,7 +958,7 @@ p:Orange Polska,C:0000,f:8
 p:,f:8
 006f:00820000:04b0:0110:25:0:0
 Cine34 HD
-p:TivùSat,f:8
+p:TivùSat,C:0000,f:8
 0076:00820000:04b0:0110:22:0:0
 VIRGIN RADIO
 p:Mediaset,f:8
@@ -1455,7 +1455,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Sergio Leone Collection HD
+Jason Bourne Collection  HD
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1851,7 +1851,7 @@ p:Sky Italia,f:8
 Primafila HD
 p:SkyItalia,f:8
 2c5b:00820000:19c8:fbff:1:0:0
-The Looney Scooby Go! Channel
+Cartoon Network +1
 p:Sky Italia,f:8
 2cc4:00820000:19c8:fbff:1:0:0
 DeA Kids
@@ -1908,7 +1908,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Sergio Leone Collection
+Jason Bourne Collection
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2532,13 +2532,10 @@ p:Sky Italia,C:0000,f:8
 Sky Sport HD Italia
 p:Sky Italia,C:0000,f:8
 1090:00820000:2008:fbff:25:0:0
-Sky Serie +1 HD
+Sky Serie Maratone HD
 p:Sky Italia,C:0000,f:8
 109a:00820000:2008:fbff:25:0:0
-Sky Arte HD
-p:Sky Italia,f:8
-109a:00820000:2008:fbff:1:0:0
-Sky Arte Lucarelli
+Sky Arte +1 HD
 p:Sky Italia,f:8
 1c50:00820000:2008:fbff:1:0:0
 Sky Sport Football HD
@@ -2559,7 +2556,7 @@ p:Sky Italia,f:8
 Sky Documentaries +1 HD
 p:Sky Italia,C:0000,f:8
 0f5d:00820000:206c:fbff:25:0:0
-Sky Investigation Maratone HD
+Sky Investigation +1 HD
 p:Sky Italia,C:0000,f:8
 0f5e:00820000:206c:fbff:25:0:0
 Sky Documentaries +1 HD
@@ -2840,9 +2837,6 @@ p:iChannel LTD,f:8
 04b9:00820000:23f0:013e:25:0:0
 Hot Bird 4k Test
 p:,f:8
-064b:00820000:2454:013e:25:0:0
-Church of Jesus Christ
-p:,f:8
 200c:00820000:24b8:013e:1:7739:0
 BBC News
 p:GlobeCast,f:8
@@ -3101,6 +3095,9 @@ p:RRSat,f:8
 43de:00820000:2cec:013e:1:0:0
 Eurasia Worldwide
 p:,f:8
+43df:00820000:2cec:013e:1:0:0
+Vidrodjennya
+p:FFmpeg,f:8
 0001:00820000:2e18:00b0:25:0:0
 Al Maghribia
 p:SNRT,f:8
@@ -3788,17 +3785,11 @@ p:M-Three satcom,f:8
 0532:00820000:3d54:013e:2:0:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl,f:8
-0533:00820000:3d54:013e:1:0:0
-The Map Report TV
-p:M-Three satcom,f:8
 0534:00820000:3d54:013e:1:0:0
 Gold TV Italia
 p:M-Three Satcom,c:0007ef,c:0107f0,c:0307ef,c:1607ee,f:8
 0535:00820000:3d54:013e:1:0:0
 ER24
-p:M-Three Satcom,f:8
-0537:00820000:3d54:013e:1:0:0
-Well TV
 p:M-Three Satcom,f:8
 0538:00820000:3d54:013e:1:0:0
 Value 24
@@ -5438,6 +5429,9 @@ p:Antik,f:8
 0262:00a00000:c418:016e:25:0:0
 AutoMotorSport HD
 p:A1 Broadcasting,C:0000,f:8
+0262:00a00000:c418:016e:31:0:0
+FunBox 4K
+p:A1 Broadcasting,C:0000
 0263:00a00000:c418:016e:25:0:0
 Love Nature HD
 p:A1 Broadcasting,f:8
@@ -5468,9 +5462,6 @@ p:Antik Sat,C:0000,f:8
 0288:00a00000:c418:016e:1:0:0
 FOX Movies Adria
 p:A1 HR,f:8
-0289:00a00000:c418:016e:1:0:0
-NatGeo Wild Central Europe
-p:Antik Sat,f:8
 028a:00a00000:c418:016e:1:0:0
 Cartoonito Balkans
 p:A1 HR,C:0000,f:8
@@ -5636,6 +5627,9 @@ p:Antik Sat,f:8
 0388:00a00000:c670:016e:1:0:0
 BBC First HD
 p:A1 Broadcasting,f:8
+0389:00a00000:c670:016e:31:0:0
+FunBox 4K
+p:A1 Broadcasting,C:0000
 038a:00a00000:c670:016e:25:0:0
 Luxe TV
 p:,f:8
@@ -6086,6 +6080,9 @@ p:Djemba ITC,f:8
 0001:00a0b131:0a78:0001:1:0:0
 DM Sat
 p:DM-SAT,f:8
+0001:00a0b1b0:0001:0001:25:0:0
+Camera dei Deputati
+p:BBC
 000e:00c00000:0002:0085:25:0:0
 Sky Comedy HD Germany
 p:Sky Deutschland,C:0000,f:8
@@ -6283,6 +6280,9 @@ DAZN 1 HD Germany
 p:Sky Deutschland,C:0000,f:8
 008f:00c00000:0008:0085:25:0:0
 Sky Sport Austria 1 HD
+p:Sky Deutschland,C:0000,f:8
+012a:00c00000:0008:0085:25:0:0
+Sky Sport 4 HD Germany
 p:Sky Deutschland,C:0000,f:8
 0149:00c00000:0008:0085:1:0:0
 Sky Sport Austria 2 HD
@@ -6984,7 +6984,7 @@ p:Movistar+,C:0000,f:8
 Movistar Series
 p:Movistar+,C:0000,f:8
 76cb:00c00000:040e:0001:1:0:0
-TNT (Spain)
+Warner TV Spain
 p:Movistar+,C:0000,f:8
 76cc:00c00000:040e:0001:1:0:0
 Teledeporte
@@ -7233,7 +7233,7 @@ p:Movistar+,C:0000,f:8
 TCM HD Spain
 p:Movistar+,C:0000,f:8
 7888:00c00000:0414:0001:25:0:0
-TNT HD Spain
+Warner TV HD Spain
 p:Movistar+,C:0000,f:8
 7889:00c00000:0414:0001:25:0:0
 NatGeo Wild HD Spain
@@ -7781,9 +7781,6 @@ p:Canal+ France,C:0000,f:8
 2015:00c00000:0430:0001:25:0:0
 TMC HD
 p:Canal+ France,C:0000,f:8
-2016:00c00000:0430:0001:25:0:0
-Disney+
-p:Canal+ France,C:0000,f:8
 2017:00c00000:0430:0001:25:0:0
 Melody HD
 p:Canal+ France,C:0000,f:8
@@ -8099,9 +8096,6 @@ p:Canal+ France,C:0000,f:8
 245d:00c00000:0440:0001:25:0:0
 France 3 Sat HD
 p:Canal+ France,C:0000,f:8
-245e:00c00000:0440:0001:25:0:0
-Toonami France HD
-p:Canal+ France,C:0000,f:8
 245f:00c00000:0440:0001:1:0:0
 Barker Collectivités
 p:Canal+ France,f:8
@@ -8167,9 +8161,6 @@ TF1 Séries Films
 p:Canal+ France,C:0000,f:8
 232c:00c00000:0442:0001:25:0:0
 Paris Première HD
-p:Canal+ France,C:0000,f:8
-232d:00c00000:0442:0001:25:0:0
-Boing HD France
 p:Canal+ France,C:0000,f:8
 232e:00c00000:0442:0001:25:0:0
 Planète+ HD
@@ -8409,8 +8400,8 @@ p:Canal+ France,C:0000,f:8
 MGG TV
 p:Canal+ France,C:0000,f:8
 2200:00c00000:044c:0001:25:0:0
-Canal+ HD Promo
-p:,f:8
+Disney+
+p:Canal+ France,C:0000,f:8
 2201:00c00000:044c:0001:25:0:0
 TV Breizh HD
 p:Canal+ France,C:0000,f:8
@@ -8913,5 +8904,5 @@ p:MB Satellite,f:8
 Lilo.TV
 p:-,f:8
 end
-# 229 transponders and 2741 services.
-# Created by E-Channelizer v23.0.0.410 on 17 apr, 2023 at 18:05 - https://www.echannelizer.com
+# 229 transponders and 2738 services.
+# Created by E-Channelizer v23.0.0.422 on 27 apr, 2023 at 08:13 - https://www.echannelizer.com
