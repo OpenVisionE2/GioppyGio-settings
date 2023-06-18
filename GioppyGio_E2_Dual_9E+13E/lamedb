@@ -43,7 +43,7 @@ transponders
 	s 12341000:31400000:1:4:90:2:0:1:2:0:2:33:1:1
 /
 005a0000:0384:0110
-	s 12111000:31400000:1:2:90:2:0:1:4:0:2:3:8:0
+	s 12111000:31400000:1:2:90:2:0:1:4:0:2:3:8:-1
 /
 005a0000:0385:0110
 	s 12149000:31400000:1:2:90:2:0:1:2:0:2:2:262140:1
@@ -1049,6 +1049,9 @@ p:,f:8
 1c09:005a0000:0384:0110:1:0:0
 269 Italia
 p:,f:8
+1c0a:005a0000:0384:0110:1:0:0
+Arteora TV
+p:
 1c11:005a0000:0384:0110:1:0:0
 Deluxe 139
 p:,f:8
@@ -1065,7 +1068,7 @@ p:EPIQA,f:8
 Tele Padre Pio
 p:,f:8
 1c21:005a0000:0384:0110:25:0:0
-Sky Sport 1 HD Italia
+Sky Sport Summer HD
 p:Sky Italia,C:0000,f:8
 1c22:005a0000:0384:0110:1:0:0
 Sky Sport Calcio HD
@@ -2291,6 +2294,15 @@ p:Discovery,C:0000,f:8
 189c:005a0000:c3be:009e:25:0:0
 Discovery Channel HD Turkey
 p:Discovery,C:0000,f:8
+1900:005a0000:c3be:009e:25:0:0
+Cartoonito Central & East Europe
+p:Warner Bros. Discovery,C:0000,f:8
+1964:005a0000:c3be:009e:25:0:0
+Cartoon Network HD Eastern Europe
+p:Harmonic,C:0000,f:8
+19c8:005a0000:c3be:009e:1:0:0
+Cartoon Network Russia & South Eastern Europe
+p:Harmonic,C:0000,f:8
 026b:005aaedc:0001:0001:1:0:0
 CCTV 4
 p:Globecast,f:8
@@ -3066,7 +3078,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Transformers Collection  HD
+Animation Collection  HD
 p:Sky Italia,C:0000,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -3090,8 +3102,8 @@ p:Nova,f:8
 Travel Channel HD
 p:Nova,f:8
 0195:00820000:1518:013e:25:0:0
-NatGeo Wild HD
-p:Nova,f:8
+Nat Geo Wild Europe HD
+p:Nova,C:0000
 0196:00820000:1518:013e:1:0:0
 MTV Greece
 p:Nova,f:8
@@ -3102,9 +3114,6 @@ p:Nova,f:8
 Novasports 6 HD
 p:Nova,f:8
 019b:00820000:1518:013e:1:0:0
-Novasports Start HD
-p:Nova,f:8
-019c:00820000:1518:013e:25:0:0
 Novasports Start HD
 p:Nova,f:8
 019d:00820000:1518:013e:1:0:0
@@ -3317,9 +3326,6 @@ p:Nova,f:8
 1bc5:00820000:17d4:013e:25:0:0
 One Channel HD
 p:Nova,f:8
-1bc7:00820000:17d4:013e:1:0:0
-Disney Channel Greece
-p:Nova,f:8
 1bc8:00820000:17d4:013e:1:0:0
 Epic Drama HD
 p:Nova,C:0000,f:8
@@ -3357,7 +3363,7 @@ p:Sky Italia,C:0000,f:8
 Sky Uno HD
 p:Sky Italia,f:8
 2b0f:00820000:1838:fbff:25:0:0
-Sky Sport 1 HD Italia
+Sky Sport Summer HD
 p:Sky Italia,C:0000,f:8
 3792:00820000:1838:fbff:25:0:0
 Sky Atlantic HD Italia
@@ -3519,7 +3525,7 @@ p:Sky Italia,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Transformers Collection
+Animation Collection
 p:Sky Italia,C:0000,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -3656,6 +3662,9 @@ p:Telespazio,f:8
 0315:00820000:1b58:013e:1:0:0
 MTA 3 Al Arabiyah
 p:Harmonic,f:8
+3c8e:00820000:1bbc:013e:25:0:0
+Nova Summer HD
+p:Nova,C:0000
 3c8f:00820000:1bbc:013e:25:0:0
 National Geographic HD UK
 p:Nova,f:8
@@ -3844,9 +3853,6 @@ p:Nova,f:8
 p:Nova,f:8
 0179:00820000:1c84:013e:25:0:0
 Mad TV
-p:Nova,f:8
-017a:00820000:1c84:013e:25:0:0
-MTV Greece
 p:Nova,f:8
 017b:00820000:1c84:013e:2:0:0
 SPORT FM 94,6
@@ -4275,7 +4281,7 @@ p:Sky Italia,f:8
 Sky Sport Golf HD
 p:Sky Italia,f:8
 2aa8:00820000:2198:fbff:1:0:0
-Sky Sport 1 Italia
+Sky Sport Summer
 p:Sky Italia,f:8
 1fa7:00820000:2260:fbff:1:0:0
 Fox News
@@ -5405,8 +5411,8 @@ p:M-Three Satcom,c:0007ef,c:0107f0,c:0307ef,c:1607ee,f:8
 0535:00820000:3d54:013e:1:0:0
 ER24
 p:M-Three Satcom,f:8
-0538:00820000:3d54:013e:1:0:0
-Value 24
+0537:00820000:3d54:013e:1:0:0
+Well TV
 p:M-Three Satcom,f:8
 421a:00820000:3db8:013e:1:0:0
 TRM Network
@@ -5576,15 +5582,9 @@ p:Bis,C:0000,f:8
 0146:00820000:3e1c:013f:1:0:0
 LCI - La Chaîne Info
 p:Bis,f:8
-03f1:00820000:50dc:016e:1:0:0
-Travel Channel HD
-p:Digit Alb,C:0000,f:8
 0404:00820000:50dc:016e:1:0:0
 Ndihma e Klientit
 p:Digit Alb,C:0000,f:8
-0e74:00820000:50dc:016e:1:0:0
-Travel Channel HD
-p:A1,C:0000,f:8
 1040:00820000:50dc:016e:1:0:0
 Star Plus TV
 p:Digit Alb,C:0000,f:8
@@ -5776,4 +5776,4 @@ VOA Urdu Radio ch310
 p:,f:8
 end
 # 132 transponders and 1792 services.
-# Created by E-Channelizer v23.0.0.508 on 07 giu, 2023 at 07:54 - https://www.echannelizer.com
+# Created by E-Channelizer v23.0.0.610 on 15 giu, 2023 at 17:43 - https://www.echannelizer.com
