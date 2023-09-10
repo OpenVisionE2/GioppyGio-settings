@@ -522,9 +522,6 @@ transponders
 00c0b160:0459:0001
 	s 12640000:22000000:1:4:192:2:0
 /
-0ce40000:0001:0001
-	s 12519000:1481000:1:3:-300:2:0
-/
 0ce40000:0001:22d4
 	s 11491000:7522000:1:6:-300:2:0:1:2:0:2
 /
@@ -533,9 +530,6 @@ transponders
 /
 0ce40000:0009:0002
 	s 10939000:15000000:0:3:-300:2:0:1:1:0:2
-/
-0ce40000:000d:ff00
-	s 10890000:29990000:0:3:-300:2:0:1:2:0:2
 /
 0ce40000:0026:0036
 	s 12360000:27500000:0:3:-300:2:0:1:2:0:2
@@ -549,17 +543,23 @@ transponders
 0ce40000:0030:0036
 	s 12476000:27500000:0:3:-300:2:0:1:2:0:2
 /
-0ce40000:0065:0
-	s 11644000:4000000:1:2:-300:2:0
-/
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
 /
 0ce40000:03e9:22d4
 	s 11330000:9140000:0:3:-300:2:0:1:2:0:2
 /
-0ce4aee7:0001:0001
-	s 12007000:7200000:1:3:-300:2:0:1:2:0:2
+0ce42a8a:000d:ff00
+	s 10890000:30000000:0:3:-300:2:0:1:2:0:2
+/
+0ce42aa2:0001:0001
+	s 10914000:2500000:0:9:-300:2:0:1:1:0:2
+/
+0ce4ad7c:0065:0
+	s 11644000:4000000:1:2:-300:2:0
+/
+0ce4b0e7:0001:0001
+	s 12519000:1481000:1:3:-300:2:0
 /
 end
 services
@@ -1103,9 +1103,6 @@ p:KABELIO.CH,f:8
 3765:00820000:06a4:013e:1:0:0
 CBBC
 p:KABELIO.CH,C:0,f:8
-3766:00820000:06a4:013e:1:0:0
-Rouge TV Suisse
-p:KABELIO.CH,f:8
 3767:00820000:06a4:013e:1:0:0
 Auftanken.tv
 p:KABELIO.CH,f:8
@@ -1208,9 +1205,6 @@ p:GLOBECAST,f:8
 3359:00820000:1388:013e:2:0:0
 RFI Test
 p:GLOBECAST,f:8
-0130:00820000:13ef:013e:25:0:0
-Alaan TV HD
-p:,f:8
 2520:00820000:13ef:013e:25:0:0
 Sharjah HD
 p:,f:8
@@ -1311,7 +1305,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Christopher Nolan Collection HD
+Shrek Collection HD
 p:Sky Italia,C:0,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1373,9 +1367,6 @@ p:Nova,C:0,f:8
 012e:00820000:157c:013e:25:0:0
 ERT 2 HD
 p:Nova,f:8
-0132:00820000:157c:013e:1:0:0
-Nova Promo
-p:Nova,C:0,f:8
 0135:00820000:157c:013e:2:0:0
 Love Radio
 p:Nova,f:8
@@ -1578,7 +1569,7 @@ p:Nova,f:8
 FOX Greece HD
 p:Nova,f:8
 1bd2:00820000:17d4:013e:25:0:0
-Boomerang
+Cartoonito HD EMEA
 p:Nova,f:8
 0fd9:00820000:1838:fbff:1:0:0
 History Channel Italia +1
@@ -1596,7 +1587,7 @@ p:Sky Italia,C:0,f:8
 Sky Uno HD
 p:Sky Italia,f:8
 2b0f:00820000:1838:fbff:25:0:0
-Sky Sport Summer HD
+Sky Sport 1 HD Italia
 p:Sky Italia,C:0,f:8
 3792:00820000:1838:fbff:25:0:0
 Sky Atlantic HD Italia
@@ -1776,13 +1767,13 @@ p:Sky Italia,C:0,f:8
 Primafila 1
 p:SkyItalia,C:0,f:8
 2dc0:00820000:1a2c:fbff:1:0:0
-Sky Sport Action
-p:Sky Italia,f:8
+Sky Sport Max
+p:Sky Italia,C:0,f:8
 2dc6:00820000:1a2c:fbff:1:0:0
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Christopher Nolan Collection
+Shrek Collection
 p:Sky Italia,C:0,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -1806,8 +1797,8 @@ p:Sky Italia,C:0,f:8
 BFC
 p:Sky Italia,f:8
 0fbf:00820000:1af4:fbff:1:0:0
-Masha e Orso
-p:Sky Italia,f:8
+DeA Kids +1
+p:Sky Italia,C:0
 0fd9:00820000:1af4:fbff:1:0:0
 History Channel Italia +1
 p:Sky Italia,f:8
@@ -1936,9 +1927,6 @@ Nova Cinema 1 HD
 p:Nova,f:8
 3c97:00820000:1bbc:013e:25:0:0
 E! Eastern Europe HD
-p:Nova,C:0,f:8
-3c98:00820000:1bbc:013e:1:0:0
-Nova Promo
 p:Nova,C:0,f:8
 3c9a:00820000:1bbc:013e:25:0:0
 The Food Network EMEA HD
@@ -2093,9 +2081,6 @@ p:Nova,f:8
 0170:00820000:1c84:013e:25:0:0
 Nova Life
 p:Nova,f:8
-0172:00820000:1c84:013e:1:0:0
-Da Vinci HD
-p:Nova,C:0,f:8
 0174:00820000:1c84:013e:2:0:0
 Ó™Ï ÊÏÊÊÉˇ105,5
 p:Nova,f:8
@@ -2123,15 +2108,12 @@ p:Nova,f:8
 0185:00820000:1c84:013e:25:0:0
 VH-1 (Video Hits One)
 p:Nova,f:8
-0186:00820000:1c84:013e:1:1056:0
-Da Vinci HD
-p:novatotal tv,f:8
 1c86:00820000:1ce8:0071:1:0:0
 AXN White Poland
-p:Polsat Box,f:8
+p:Polsat Box,C:0,f:8
 1c87:00820000:1ce8:0071:1:0:0
 AXN Black Poland
-p:Polsat Box,f:8
+p:Polsat Box,C:0,f:8
 1c8a:00820000:1ce8:0071:25:0:0
 CNN International HD
 p:Nova,f:8
@@ -2403,8 +2385,8 @@ p:Sky Italia,C:0,f:8
 Sky Arte +1 HD
 p:Sky Italia,f:8
 1c50:00820000:2008:fbff:1:0:0
-Sky Sport Action HD
-p:Sky Italia,f:8
+Sky Sport Max
+p:Sky Italia,C:0,f:8
 2d5d:00820000:2008:fbff:1:0:0
 Sky Sport Italia
 p:Sky Italia,f:8
@@ -2458,9 +2440,6 @@ Noor Dubai Radio
 p:Etisalat,f:8
 0389:00820000:2134:013e:25:0:0
 Dubai TV HD
-p:ETISALAT,f:8
-038a:00820000:2134:013e:25:0:0
-Dubai Sports 1 HD
 p:ETISALAT,f:8
 038b:00820000:2134:013e:1:0:0
 Sudan TV
@@ -2531,9 +2510,9 @@ p:Sky Italia,f:8
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Golf HD
 p:Sky Italia,f:8
-2aa8:00820000:2198:fbff:1:0:0
-Sky Sport Summer
-p:Sky Italia,f:8
+2aa8:00820000:2198:fbff:25:0:0
+Sky Sport 1 HD Italia
+p:Sky Italia,C:0,f:8
 1fa7:00820000:2260:fbff:1:0:0
 Fox News
 p:Sky Italia,f:8
@@ -2672,6 +2651,9 @@ p:STN,f:8
 233f:00820000:2328:013e:25:0:0
 Teleradiopace TV
 p:STN,f:8
+2341:00820000:2328:013e:25:0:0
+MusicBox
+p:STN
 2360:00820000:2328:013e:2:0:0
 Radio Hargeisa
 p:STN,f:8
@@ -3066,7 +3048,7 @@ p:Orange Polska,f:8
 Cyfrowy Polsat PPV
 p:Polsat Box,f:8
 0029:00820000:2f44:013e:25:0:0
-Jibek Joly
+Silk Way
 p:iKO Media Group,f:8
 069e:00820000:2f44:013e:1:0:0
 LN24SA
@@ -3809,12 +3791,9 @@ p:Bis,f:8
 013c:00820000:3e1c:013f:25:0:0
 CNews
 p:Bis,f:8
-0140:00820000:3e1c:013f:1:0:0
-TF1 Séries Films
-p:Bis,f:8
 0140:00820000:3e1c:013f:25:0:0
 TF1 Séries Films
-p:Bis,f:8
+p:Bis,C:0,f:8
 0141:00820000:3e1c:013f:1:0:0
 L´Equipe TV
 p:Bis,f:8
@@ -3847,9 +3826,6 @@ ACI Sport TV
 p:,f:8
 064e:00823121:2454:013e:1:0:0
 MS Channel
-p:,f:8
-0653:00823121:2454:013e:1:0:0
-Pop Economy
 p:,f:8
 0654:00823121:2454:013e:1:0:0
 Noursat English
@@ -4270,6 +4246,9 @@ Schlager Deluxe
 p:BetaDigital,f:8
 0026:00c00000:000f:0085:1:0:0
 HGTV Germany
+p:BetaDigital,f:8
+0027:00c00000:000f:0085:1:0:0
+SRGT
 p:BetaDigital,f:8
 0089:00c00000:0010:0085:25:0:0
 Sky Documentaries HD Germany
@@ -5435,6 +5414,9 @@ p:Movistar+,C:0,f:8
 7797:00c00000:0424:0001:1:0:0
 Movistar LaLiga
 p:Movistar+,C:0,f:8
+7798:00c00000:0424:0001:1:0:0
+Movistar LaLiga 4
+p:Movistar+,C:0,f:8
 286e:00c00000:0425:0001:25:0:0
 rbb Brandenburg HD
 p:ARD Digital,f:8
@@ -5591,6 +5573,9 @@ p:Canal+ France,C:0,f:8
 200c:00c00000:0430:0001:1:0:0
 NRJ Hits
 p:Canal+ France,C:0,f:8
+200d:00c00000:0430:0001:25:0:0
+Canal+ Box Office
+p:Canal+ France,f:8
 200e:00c00000:0430:0001:25:0:0
 Cine+ Club HD
 p:Canal+ France,C:0,f:8
@@ -5876,9 +5861,6 @@ p:ProSiebenSat.1,f:8
 4e2a:00c00000:043a:0001:1:0:0
 SAT.1 RhlPf/Hessen
 p:ProSiebenSat.1,f:8
-24b9:00c00000:043c:0001:25:0:0
-A la carte
-p:Canal+ France,C:0,f:8
 24ba:00c00000:043c:0001:25:0:0
 Mosaïque Ligue des Champions
 p:Canal+ France,C:0,f:8
@@ -5924,6 +5906,9 @@ p:Canal+ France,C:0,f:8
 24c8:00c00000:043c:0001:25:0:0
 Canal+ Sport 360
 p:Canal+ France,C:0,f:8
+24c9:00c00000:043c:0001:25:0:0
+France 3 Auvergne
+p:Canal+ France,C:0,f:8
 2455:00c00000:0440:0001:25:0:0
 Pink X HD
 p:Canal+ France,C:0,f:8
@@ -5945,6 +5930,9 @@ p:Canal+ France,C:0,f:8
 245b:00c00000:0440:0001:25:0:0
 Ciné+ Emotion HD
 p:Canal+ France,C:0,f:8
+245c:00c00000:0440:0001:25:0:0
+LCP HD
+p:Canal+ France,f:8
 245d:00c00000:0440:0001:25:0:0
 France 3 Sat HD
 p:Canal+ France,C:0,f:8
@@ -6008,9 +5996,6 @@ p:CBC,f:8
 232a:00c00000:0442:0001:25:0:0
 National Geographic HD France
 p:Canal+ France,C:0,f:8
-232b:00c00000:0442:0001:25:0:0
-TF1 Séries Films
-p:Canal+ France,C:0,f:8
 232c:00c00000:0442:0001:25:0:0
 Paris Première HD
 p:Canal+ France,C:0,f:8
@@ -6038,12 +6023,6 @@ p:Canal+ France,C:0,f:8
 2336:00c00000:0442:0001:25:0:0
 CNews HD
 p:Canal+ France,f:8
-2337:00c00000:0442:0001:25:0:0
-LCP HD
-p:Canal+ France,f:8
-2338:00c00000:0442:0001:1:0:0
-France 3 Auvergne
-p:Canal+ France,C:0,f:8
 7080:00c00000:0443:0001:1:0:0
 RTL Österreich
 p:RTL,f:8
@@ -6257,6 +6236,9 @@ p:Canal+ France,C:0,f:8
 21fe:00c00000:044c:0001:25:0:0
 NatGeo Wild HD France
 p:Canal+ France,C:0,f:8
+21ff:00c00000:044c:0001:1:0:0
+TF1 Séries Films
+p:Canal+ France,C:0,f:8
 2200:00c00000:044c:0001:25:0:0
 Disney+
 p:Canal+ France,C:0,f:8
@@ -6342,7 +6324,7 @@ p:Canal Digitaal,C:0,f:8
 Canalplus First
 p:Sky Deutschland,C:0,f:8
 101d:00c00000:0451:0035:1:0:0
-AXN Deutschland
+AXN Black Germany
 p:Austriasat,C:0,f:8
 1034:00c00000:0451:0035:25:0:0
 Eleven Sports Pro League 1 FR
@@ -6710,6 +6692,9 @@ p:SES,f:8
 290b:00c00000:045e:0001:1:0:0
 Just Cooking
 p:SES,f:8
+290c:00c00000:045e:0001:1:0:0
+Just Fishing
+p:SES
 290f:00c00000:045e:0001:1:0:0
 Crime Time
 p:SES,f:8
@@ -6770,36 +6755,6 @@ p:MB Satellite,f:8
 3161:00c0b160:0459:0001:1:0:0
 Clipmobile
 p:MB Satellite,f:8
-0001:0ce40000:0001:0001:2:0:0
-ANTENA 1
-p:RTP,f:8
-0001:0ce40000:0001:0001:1:0:0
-Bom
-p:M-Three Satcom,f:8
-0002:0ce40000:0001:0001:2:0:0
-ANTENA 2
-p:RTP,f:8
-0003:0ce40000:0001:0001:2:0:0
-ANTENA 3
-p:RTP,f:8
-0004:0ce40000:0001:0001:2:0:0
-RDP AFRICA
-p:RTP,f:8
-0005:0ce40000:0001:0001:2:0:0
-OCASIONAIS
-p:RTP,f:8
-0006:0ce40000:0001:0001:2:0:0
-ACORES
-p:RTP,f:8
-0008:0ce40000:0001:0001:2:0:0
-ONDA MEDIA
-p:RTP,f:8
-0009:0ce40000:0001:0001:2:0:0
-ANT1 MADEIRA
-p:RTP,f:8
-000a:0ce40000:0001:0001:2:0:0
-ANT3 MADEIRA
-p:RTP,f:8
 0001:0ce40000:0001:22d4:1:0:0
 Television Castilla - La Mancha
 p:CMT,f:8
@@ -6857,9 +6812,6 @@ p:TSA,f:8
 03e8:0ce40000:0009:0002:2:0:0
 NAIZ irratia
 p:TSA,f:8
-051e:0ce40000:000d:ff00:31:0:0
-FunBox 4K
-p:MB Satellite,C:0,f:8
 0135:0ce40000:0026:0036:25:0:0
 Sport TV 4
 p:Nos,C:0,f:8
@@ -7192,7 +7144,7 @@ SIC Mulher
 p:Meo,C:0,f:8
 1389:0ce40000:0030:0036:1:0:0
 TLC Europe
-p:Meo,C:0,f:8
+p:Nos,C:0,f:8
 138c:0ce40000:0030:0036:1:0:0
 AMC Break
 p:,C:0,f:8
@@ -7229,51 +7181,6 @@ p:,C:0,f:8
 17c8:0ce40000:0030:0036:1:0:0
 Canção Nova
 p:,C:0,f:8
-0001:0ce40000:0065:0:2:0:0
-Onda Cero
-p:Onda Cero,f:8
-0002:0ce40000:0065:0:2:0:0
-Europa FM
-p:Europa FM,f:8
-0004:0ce40000:0065:0:2:0:0
-esRadio
-p:esRadio,f:8
-0008:0ce40000:0065:0:2:0:0
-RADIO MARIA
-p:RADIO MARIA,f:8
-000a:0ce40000:0065:0:2:0:0
-Cadena 100
-p:Cadena 100,f:8
-000b:0ce40000:0065:0:2:0:0
-ROCK FM
-p:ROCK FM,f:8
-0019:0ce40000:0065:0:2:0:0
-Kiss FM
-p:Kiss FM,f:8
-001a:0ce40000:0065:0:2:0:0
-HIT FM
-p:HIT FM,f:8
-001e:0ce40000:0065:0:2:0:0
-COPE SAT 2
-p:COPE SAT 2,f:8
-0025:0ce40000:0065:0:2:0:0
-COPE
-p:COPE,f:8
-0027:0ce40000:0065:0:2:0:0
-MegaStar
-p:MegaStar,f:8
-003a:0ce40000:0065:0:2:0:0
-FM ZARAGOZA
-p:FM ZARAGOZA,f:8
-003b:0ce40000:0065:0:2:0:0
-FM HUESCA
-p:FM HUESCA,f:8
-003c:0ce40000:0065:0:2:0:0
-FM TERUEL
-p:FM TERUEL,f:8
-0074:0ce40000:0065:0:2:0:0
-EXTREMADURA FM
-p:EXTREMADURA FM,f:8
 0065:0ce40000:0065:0053:1:0:0
 RTP 1
 p:,C:0,f:8
@@ -7478,9 +7385,84 @@ p:CARTV,f:8
 27b6:0ce40000:03e9:22d4:2:0:0
 ARAGON RADIO TERUEL
 p:CARTV,f:8
-0001:0ce4aee7:0001:0001:25:0:0
-PSC - Palestinian Satellite Channel
-p:OVERON,f:8
+051e:0ce42a8a:000d:ff00:31:0:0
+FunBox 4K
+p:MB Satellite,C:0,f:8
+0001:0ce42aa2:0001:0001:1:0:0
+Bom
+p:M-Three Satcom,f:8
+0001:0ce4ad7c:0065:0:2:0:0
+Onda Cero
+p:Onda Cero,f:8
+0002:0ce4ad7c:0065:0:2:0:0
+Europa FM
+p:Europa FM,f:8
+0004:0ce4ad7c:0065:0:2:0:0
+esRadio
+p:esRadio,f:8
+0008:0ce4ad7c:0065:0:2:0:0
+RADIO MARIA
+p:RADIO MARIA,f:8
+000a:0ce4ad7c:0065:0:2:0:0
+Cadena 100
+p:Cadena 100,f:8
+000b:0ce4ad7c:0065:0:2:0:0
+ROCK FM
+p:ROCK FM,f:8
+0019:0ce4ad7c:0065:0:2:0:0
+Kiss FM
+p:Kiss FM,f:8
+001a:0ce4ad7c:0065:0:2:0:0
+HIT FM
+p:HIT FM,f:8
+001e:0ce4ad7c:0065:0:2:0:0
+COPE SAT 2
+p:COPE SAT 2,f:8
+0025:0ce4ad7c:0065:0:2:0:0
+COPE
+p:COPE,f:8
+0027:0ce4ad7c:0065:0:2:0:0
+MegaStar
+p:MegaStar,f:8
+003a:0ce4ad7c:0065:0:2:0:0
+FM ZARAGOZA
+p:FM ZARAGOZA,f:8
+003b:0ce4ad7c:0065:0:2:0:0
+FM HUESCA
+p:FM HUESCA,f:8
+003c:0ce4ad7c:0065:0:2:0:0
+FM TERUEL
+p:FM TERUEL,f:8
+0074:0ce4ad7c:0065:0:2:0:0
+EXTREMADURA FM
+p:EXTREMADURA FM,f:8
+0001:0ce4b0e7:0001:0001:2:0:0
+ANTENA 1
+p:RTP,f:8
+0002:0ce4b0e7:0001:0001:2:0:0
+ANTENA 2
+p:RTP,f:8
+0003:0ce4b0e7:0001:0001:2:0:0
+ANTENA 3
+p:RTP,f:8
+0004:0ce4b0e7:0001:0001:2:0:0
+RDP AFRICA
+p:RTP,f:8
+0005:0ce4b0e7:0001:0001:2:0:0
+OCASIONAIS
+p:RTP,f:8
+0006:0ce4b0e7:0001:0001:2:0:0
+ACORES
+p:RTP,f:8
+0008:0ce4b0e7:0001:0001:2:0:0
+ONDA MEDIA
+p:RTP,f:8
+0009:0ce4b0e7:0001:0001:2:0:0
+ANT1 MADEIRA
+p:RTP,f:8
+000a:0ce4b0e7:0001:0001:2:0:0
+ANT3 MADEIRA
+p:RTP,f:8
 end
-# 187 transponders and 2306 services.
-# Created by E-Channelizer v23.0.0.804 on 28 ago, 2023 at 18:09 - https://www.echannelizer.com
+# 187 transponders and 2300 services.
+# Created by E-Channelizer v23.0.0.829 on 07 set, 2023 at 07:50 - https://www.echannelizer.com
