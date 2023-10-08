@@ -148,7 +148,7 @@ transponders
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:2328:013e
-	s 12520000:27500000:1:4:130:2:0:1:1:0:2
+	s 12520000:27500000:1:7:130:2:0:1:2:0:2
 /
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:2:0:1:2:0:2
@@ -874,7 +874,7 @@ Nuta Gold
 p:CANAL+,f:8
 32d4:00820000:0190:013e:1:0:0
 TVC Polska
-p:CANAL+
+p:CANAL+,f:8
 32d5:00820000:0190:013e:1:0:0
 Adventure HD
 p: Orange Polska,f:8
@@ -1557,7 +1557,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Harry Potter Collection HD
+Jurassic World Collection HD
 p:Sky Italia,C:0,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -1909,7 +1909,7 @@ Nickelodeon Polska
 p:Orange Polska,C:0,f:8
 0009:00820000:1964:013e:25:0:0
 Nickelodeon Polska
-p:Orange Polska,C:0
+p:Orange Polska,C:0,f:8
 000c:00820000:1964:013e:25:0:0
 Comedy Central Poland HD
 p:Orange Polska,C:0,f:8
@@ -2025,7 +2025,7 @@ p:Sky Italia,C:0,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Harry Potter Collection
+Jurassic World Collection
 p:Sky Italia,C:0,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -2045,12 +2045,9 @@ p:Sky Italia,f:8
 0dc6:00820000:1af4:fbff:1:0:0
 Zona DAZN 5
 p:Sky Italia,C:0,f:8
-0dd3:00820000:1af4:fbff:1:0:0
-BFC
-p:Sky Italia,f:8
 0fbf:00820000:1af4:fbff:1:0:0
 DeA Kids +1
-p:Sky Italia,C:0
+p:Sky Italia,C:0,f:8
 0fd9:00820000:1af4:fbff:1:0:0
 History Channel Italia +1
 p:Sky Italia,f:8
@@ -2179,6 +2176,9 @@ Nova Cinema 1 HD
 p:Nova,f:8
 3c97:00820000:1bbc:013e:25:0:0
 E! Eastern Europe HD
+p:Nova,C:0,f:8
+3c98:00820000:1bbc:013e:1:0:0
+Attica TV
 p:Nova,C:0,f:8
 3c9a:00820000:1bbc:013e:25:0:0
 The Food Network EMEA HD
@@ -2902,7 +2902,7 @@ Teleradiopace TV
 p:STN,f:8
 2341:00820000:2328:013e:25:0:0
 MusicBox
-p:STN
+p:STN,f:8
 2360:00820000:2328:013e:2:0:0
 Radio Hargeisa
 p:STN,f:8
@@ -3311,12 +3311,18 @@ p:Bis,C:0,f:8
 4209:00820000:2f44:013e:2:0:0
 VOICE OF CRO
 p:OIV,f:8
+422b:00820000:2f44:013e:1:0:0
+Mezzo
+p:Platforma Canal+,C:0
+422c:00820000:2f44:013e:1:0:0
+Brazzers TV
+p:Polsat Box,C:0,f:8
 4230:00820000:2f44:013e:25:0:0
 Giornale Radio
 p:M-Three Satcom,f:8
 4232:00820000:2f44:013e:25:0:0
 Dlia Ciebie TV
-p:1plus1 Media
+p:1plus1 Media,f:8
 4331:00820000:300c:013e:25:0:0
 SRF 1 HD
 p:SSR/SRG,f:8
@@ -4473,7 +4479,7 @@ p:Sky Deutschland,C:0,f:8
 Sky Atlantic HD Germany
 p:Kabelkiosk,C:0,f:8
 006f:00c00000:000d:0085:25:0:0
-Sky 007 HD Germany
+Sky Cinema Jurassic HD
 p:Sky Deutschland,C:0,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
@@ -4618,7 +4624,7 @@ Cosmopolitan HD
 p:Movistar+,C:0,f:8
 78be:00c00000:03ec:0001:25:0:0
 Movistar+ Documentales HD
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 78bf:00c00000:03ec:0001:25:0:0
 Movistar Clasicos HD
 p:Movistar+,C:0,f:8
@@ -4635,8 +4641,8 @@ p:Austriasat,C:0,f:8
 Flimmit
 p:ORF Digital,f:8
 33ff:00c00000:03ed:0001:1:0:0
-Aristo.TV
-p:ORF Digital,f:8
+MeinTVshop
+p:,f:8
 3400:00c00000:03ed:0001:25:0:0
 R9 Österreich HD
 p:-,f:8
@@ -4702,7 +4708,7 @@ Fox Spain
 p:Movistar+,C:0,f:8
 7471:00c00000:03f0:0001:1:0:0
 Movistar+ Documentales
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7472:00c00000:03f0:0001:1:0:0
 NatGeo Wild Spain
 p:Movistar+,C:0,f:8
@@ -4717,7 +4723,7 @@ AXN Spain
 p:Movistar+,C:0,f:8
 7478:00c00000:03f0:0001:1:0:0
 Movistar+ Originales
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 2b8e:00c00000:03f2:0001:25:0:0
 3sat HD
 p:ZDF Vision,f:8
@@ -5071,7 +5077,7 @@ Pro7Sat.1 UHD
 p:HD +,C:0,f:8
 76c0:00c00000:040e:0001:1:0:0
 Movistar+ Cine
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 76c1:00c00000:040e:0001:1:0:0
 Clan TVE
 p:Movistar+,C:0,f:8
@@ -5110,7 +5116,7 @@ Canal Cocina
 p:Movistar+,C:0,f:8
 76cf:00c00000:040e:0001:1:0:0
 Movistar+ Indie
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 2887:00c00000:040f:0001:25:0:0
 Tagesschau 24 HD
 p:ARD Digital,f:8
@@ -5320,7 +5326,7 @@ Movistar Liga Campeones
 p:Movistar+,C:0,f:8
 757f:00c00000:0412:0001:1:0:0
 Movistar+ Música
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7582:00c00000:0412:0001:1:0:0
 DAZN 2 Bar HD
 p:Movistar+,C:0,f:8
@@ -5341,7 +5347,7 @@ Eurosport 1 HD
 p:HD +,C:0,f:8
 7882:00c00000:0414:0001:25:0:0
 Movistar+ Suspense HD
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7884:00c00000:0414:0001:25:0:0
 DAZN LaLiga HD
 p:Movistar+,C:0,f:8
@@ -5359,7 +5365,7 @@ Disney Channel HD Spain
 p:Movistar+,C:0,f:8
 788c:00c00000:0414:0001:25:0:0
 Movistar+ Originales HD
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 788d:00c00000:0414:0001:25:0:0
 Caza y Pesca HD
 p:Movistar+,C:0,f:8
@@ -5752,7 +5758,7 @@ Movistar Deportes 2 HD
 p:Movistar+,C:0,f:8
 7533:00c00000:0426:0001:25:0:0
 Movistar+ Indie HD
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7534:00c00000:0426:0001:25:0:0
 Antena 3 HD Spain
 p:Movistar+,C:0,f:8
@@ -5767,7 +5773,7 @@ La Sexta HD
 p:Movistar+,C:0,f:8
 7539:00c00000:0426:0001:25:0:0
 Movistar+ Cine HD
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7820:00c00000:0428:0001:25:0:0
 Nickelodeon HD Spain
 p:Movistar+,C:0,f:8
@@ -6946,7 +6952,7 @@ Just Cooking
 p:SES,f:8
 290c:00c00000:045e:0001:1:0:0
 Just Fishing
-p:SES
+p:SES,f:8
 290f:00c00000:045e:0001:1:0:0
 Crime Time
 p:SES,f:8
@@ -7861,10 +7867,10 @@ Prima Max HD
 p:SkyLink,C:0,f:8
 36e6:00eb0000:0c8c:0003:1:0:0
 Nova Sport 3 HD Czech
-p:SkyLink,C:0
+p:SkyLink,C:0,f:8
 36e7:00eb0000:0c8c:0003:1:0:0
 Nova Sport 4 HD Czech
-p:SkyLink,C:0
+p:SkyLink,C:0,f:8
 36e8:00eb0000:0c8c:0003:1:0:0
 Prima Zoom HD
 p:SkyLink,C:0,f:8
@@ -8597,6 +8603,12 @@ p:Towercom,f:8
 135f:00eb0000:0ca2:0003:2:0:0
 FUNRADIO V
 p:Towercom,f:8
+1389:00eb0000:0ca2:0003:1:0:0
+RTS Nauka
+p:Telekom Srbija,C:0,f:8
+138a:00eb0000:0ca2:0003:1:0:0
+RTS Poletarac 2
+p:Telekom Srbija,C:0,f:8
 1427:00eb0000:0ca2:0003:2:0:0
 VLNA ZS
 p:Towercom,f:8
@@ -9234,7 +9246,7 @@ p:Sky Digital,c:000203,c:010286,c:020241,c:031ffe,f:8
 Sky Crime
 p:Sky Digital,c:00020e,c:010291,c:02024b,c:031ffe,f:8
 1612:011a0000:07dc:0002:1:0:0
-Sky Directors
+Sky Modern Greats
 p:Sky Digital,c:000204,c:0102ac,c:020242,c:031ffe,f:8
 16bf:011a0000:07dc:0002:1:0:0
 Sky Première +1
@@ -9549,7 +9561,7 @@ p:Sky Digital,c:000207,c:01028d,c:020246,c:030207,f:8
 Sky Hits HD U.K.
 p:Sky Digital,c:000206,c:01028b,c:020245,c:030206,f:8
 0ee7:011a0000:07ee:0002:25:0:0
-Sky Directors HD
+Sky Modern Greats HD
 p:Sky Digital,c:000203,c:010283,c:020242,c:030203,f:8
 0ee8:011a0000:07ee:0002:25:0:0
 Sky Drama HD
@@ -9567,7 +9579,7 @@ p:Sky Digital,c:000204,c:010287,c:020244,c:030204,f:8
 Sky Family HD
 p:Sky Digital,c:000205,c:01028e,c:020245,c:030205,f:8
 1784:011a0000:07ee:0002:25:0:0
-Sky Feel Good HD
+Sky Antiheroes HD
 p:Sky Digital,c:000209,c:01028d,c:020247,c:030209,f:8
 1785:011a0000:07ee:0002:25:0:0
 Sky Movies Premiere HD
@@ -10103,9 +10115,6 @@ p:Sky Digital,c:00092d,c:01092e,c:020930,c:03092d,f:8
 c4b8:011a0000:0811:0002:1:0:0
 Zee TV
 p:Sky Digital,c:000901,c:010902,c:02090e,c:030901,f:8
-c4d1:011a0000:0811:0002:1:0:0
-Viaplay 2 HD
-p:Sky Digital,c:00090a,c:010918,c:03090a,f:8
 c4d6:011a0000:0811:0002:1:0:0
 Inspiration Network
 p:Sky Digital,c:00090b,c:01090c,c:03090b,f:8
@@ -10149,7 +10158,7 @@ c512:011a0000:0813:0002:1:0:0
 Faith Channel
 p:Sky Digital,c:000912,c:010913,c:030912,f:8
 c518:011a0000:0813:0002:1:0:0
-TJC Beauty
+Ideal World
 p:Sky Digital,c:00090c,c:01090d,c:03090c,f:8
 c51c:011a0000:0813:0002:1:0:0
 Brit Asia TV
@@ -10209,7 +10218,7 @@ c793:011a0000:0815:0002:1:0:0
 Nickelodeon Europe
 p:Sky Digital,c:000913,c:010914,c:020916,c:030913,f:8
 c794:011a0000:0815:0002:1:0:0
-Nick Jr Peppa Ireland
+Nick Jr PAW Patrol Ireland
 p:Sky Digital,c:000931,c:010933,c:020934,c:030931,f:8
 c795:011a0000:0815:0002:1:0:0
 Comedy Central UK
@@ -10250,6 +10259,9 @@ p:Sky Digital,c:00090b,c:01090c,c:03090b,f:8
 5726:011a0000:082b:0002:1:0:0
 Channels 24
 p:Sky Digital,c:000901,c:010902,c:030901,f:8
+5727:011a0000:082b:0002:1:0:0
+Channel 7 UK
+p:Sky Digital,f:8
 d7e8:011a0000:082c:0002:25:0:0
 Racing UK HD
 p:Sky Digital,c:00090a,c:01090b,c:03090a,f:8
@@ -10625,9 +10637,9 @@ p:Sky Digital,c:000920,c:010921,c:030920,f:8
 d331:011a0000:0836:0002:1:0:0
 B4U Movies
 p:Sky Digital,c:000922,c:010923,c:030922,f:8
-c440:011a0000:0837:0002:25:0:0
-Ideal World HD
-p:Sky Digital,c:000901,c:010902,c:030901,f:8
+c44b:011a0000:0837:0002:25:0:0
+Viaplay 2 HD
+p:Sky Digital,C:0,f:8
 c44f:011a0000:0837:0002:25:0:0
 LoveWorldSat HD
 p:Sky Digital,c:000907,c:010908,c:030907,f:8
@@ -10739,6 +10751,15 @@ p:Sky Digital,c:000916,c:010901,c:020903,c:030916,f:8
 1c2f:011a0000:083b:0002:1:0:0
 Cartoon Network +1
 p:Sky Digital,c:00091a,c:010904,c:020918,c:03091a,f:8
+1c30:011a0000:083b:0002:1:0:0
+Boomerang
+p:Sky Digital,C:0,f:8
+1c31:011a0000:083b:0002:1:0:0
+Boomerang +1
+p:Sky Digital,C:0,f:8
+1c32:011a0000:083b:0002:1:0:0
+Cartoonito
+p:Sky Digital,C:0,f:8
 cb96:011a0000:083c:0002:1:0:0
 Racing UK
 p:Sky Digital,c:00090c,c:01090d,c:03090c,f:8
@@ -10794,7 +10815,7 @@ p:Sky Digital,c:00092d,c:01092b,c:02092e,c:03092d,f:8
 5 Action
 p:Sky Digital,c:000931,c:010933,c:020935,c:030931,f:8
 083e:011a0000:083d:0002:1:0:0
-Nick Jr Peppa
+Nick Jr PAW Patrol
 p:Sky Digital,c:000938,c:01093a,c:02093b,c:030938,f:8
 083f:011a0000:083d:0002:1:0:0
 Nickelodeon Europe
@@ -11001,10 +11022,10 @@ p:Sky Digital,c:00020b,c:010292,c:020241,c:031ffe,f:8
 SNR
 p:Sky Digital,c:010294,c:030294,f:8
 13ba:011a2f26:07e3:0002:1:0:0
-Movies 24
+Christmas 24
 p:Sky Digital,c:00020c,c:01028e,c:020242,c:031ffe,f:8
 13bb:011a2f26:07e3:0002:1:0:0
-Movies 24+
+Christmas 24+
 p:Sky Digital,c:000211,c:01028d,c:020243,c:031ffe,f:8
 144c:011a2f26:07e3:0002:1:0:0
 Sky Nature
@@ -11022,5 +11043,5 @@ p:Sky Digital,c:000209,c:010299,c:020248,c:031ffe,f:8
 Sky News
 p:Sky Digital,c:00020d,c:01028f,c:020244,c:031ffe,f:8
 end
-# 270 transponders and 3403 services.
-# Created by E-Channelizer v23.0.0.829 on 25 set, 2023 at 18:41 - https://www.echannelizer.com
+# 270 transponders and 3410 services.
+# Created by E-Channelizer v23.0.0.829 on 04 ott, 2023 at 10:54 - https://www.echannelizer.com
