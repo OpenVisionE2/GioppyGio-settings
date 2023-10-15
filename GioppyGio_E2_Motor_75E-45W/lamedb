@@ -520,7 +520,7 @@ transponders
 	s 11158000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:33f4:013e
-	s 11179000:27500000:0:3:130:2:0:1:2:0:2
+	s 11179000:27500000:0:2:130:2:0:1:2:0:2
 /
 00820000:3bc4:013e
 	s 11565000:29900000:0:3:130:2:0:1:2:2:2
@@ -532,7 +532,7 @@ transponders
 	s 11642000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:3db8:013e
-	s 11662000:27500000:1:3:130:2:0:1:2:0:2
+	s 11662000:27500000:1:2:130:2:0:1:2:0:2
 /
 00820000:3e1c:013f
 	s 11681000:27500000:0:3:130:2:0:1:2:0:2
@@ -1788,6 +1788,9 @@ transponders
 01a40000:7596:042e
 	s 12559000:27500000:1:2:420:2:0
 /
+01a40000:75fa:042e
+	s 12605000:34285000:1:2:420:2:0:1:4:0:2
+/
 01a40000:76c1:042e
 	s 12729000:30000000:1:2:420:2:0:1:2:0:2
 /
@@ -2280,6 +2283,9 @@ transponders
 0ce40000:0065:0053
 	s 12130000:27500000:0:3:-300:2:0:1:2:0:2
 /
+0ce40000:00c8:0022
+	s 11209000:8036000:1:3:-300:2:0:1:2:0:2
+/
 0ce40000:03e9:22d4
 	s 11330000:9140000:0:3:-300:2:0:1:2:0:2
 /
@@ -2438,6 +2444,9 @@ transponders
 /
 0dca0000:0008:0800
 	s 11958000:27500000:0:4:-70:2:0
+/
+0dca0000:000a:0800
+	s 11804000:27500000:0:3:-70:2:0:1:2:0:2
 /
 0dca0000:000b:0800
 	s 11823000:27500000:1:4:-70:2:0
@@ -4886,9 +4895,6 @@ p:Cosmote,C:0,f:8
 0469:005a0000:0008:00aa:1:0:0
 Al Arabiya
 p:Cosmote,C:0,f:8
-046b:005a0000:0008:00aa:1:0:0
-CBS Reality
-p:Cosmote,C:0,f:8
 046c:005a0000:0008:00aa:25:0:0
 Viasat Nature HD
 p:Cosmote,C:0,f:8
@@ -5828,6 +5834,15 @@ p:Kabelkiosk,C:0,f:8
 01fe:005a0000:2134:009c:1:0:0
 Current Time Ukraine
 p:Kabelkiosk,C:0,f:8
+01ff:005a0000:2134:009c:1:0:0
+Curiosity Channel HD
+p:Kabelkiosk,C:0
+0200:005a0000:2134:009c:1:0:0
+Marco Polo TV Germany
+p:Kabelkiosk,C:0,f:8
+0202:005a0000:2134:009c:1:0:0
+Gute Laune TV
+p:Kabelkiosk,C:0
 0204:005a0000:2134:009c:1:0:0
 Dusk International
 p:Kabelkiosk,C:0,f:8
@@ -7353,7 +7368,7 @@ p:Sky Italia,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Jurassic World Collection HD
+Classic Collection HD
 p:Sky Italia,C:0,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
@@ -7821,7 +7836,7 @@ p:Sky Italia,C:0,f:8
 Sky Uno
 p:Sky Italia,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Jurassic World Collection
+Classic Collection
 p:Sky Italia,C:0,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -7866,7 +7881,7 @@ p:Sky Italia,f:8
 Discovery Channel Italy +1
 p:Sky Italia,f:8
 2c4f:00820000:1af4:fbff:1:0:0
-Boomerang +1 Italia
+Barbie Channel
 p:Sky Italia,C:0,f:8
 34de:00820000:1af4:fbff:25:0:0
 Explorer HD Channel
@@ -9698,6 +9713,9 @@ p:M-Three Satcom,f:8
 0538:00820000:3d54:013e:1:0:0
 Value 24
 p:M-Three Satcom,f:8
+0539:00820000:3d54:013e:25:0:0
+WeDo TV
+p:FFmpeg
 421a:00820000:3db8:013e:1:0:0
 TRM Network
 p:Telespazio,f:8
@@ -11882,9 +11900,6 @@ p:Djemba ITC,f:8
 0001:00a0b131:0a78:0001:1:0:0
 DM Sat
 p:DM-SAT,f:8
-000e:00c00000:0002:0085:25:0:0
-Sky Comedy HD Germany
-p:Sky Deutschland,C:0,f:8
 0016:00c00000:0002:0085:1:0:0
 Heimatkanal
 p:Kabelkiosk,C:0,f:8
@@ -12159,7 +12174,7 @@ p:Sky Deutschland,C:0,f:8
 Sky Atlantic HD Germany
 p:Kabelkiosk,C:0,f:8
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema Jurassic HD
+Sky Cinema Special HD
 p:Sky Deutschland,C:0,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
@@ -13062,7 +13077,7 @@ p:Movistar+,C:0,f:8
 Antena 3
 p:Movistar+,C:0,f:8
 772d:00c00000:0416:0001:1:0:0
-AMC Break
+Eurosport 1 Spain
 p:Movistar+,C:0,f:8
 772e:00c00000:0416:0001:1:0:0
 Nickelodeon Spain
@@ -13077,7 +13092,7 @@ p:Movistar+,C:0,f:8
 Canal de Historia
 p:Movistar+,C:0,f:8
 7732:00c00000:0416:0001:1:0:0
-AMC Crime
+DAZN F1
 p:Movistar+,C:0,f:8
 7733:00c00000:0416:0001:1:0:0
 #Vamos
@@ -13224,7 +13239,7 @@ p:Movistar+,C:0,f:8
 Movistar LaLiga 2
 p:Movistar+,C:0,f:8
 769e:00c00000:041e:0001:1:0:0
-Movistar Liga Campeones BAR
+La Sexta
 p:Movistar+,C:0,f:8
 769f:00c00000:041e:0001:1:0:0
 Movistar Liga Campeones 3
@@ -13234,6 +13249,9 @@ Multideporte
 p:Movistar+,C:0,f:8
 76a4:00c00000:041e:0001:1:0:0
 DAZN 1 Spain
+p:Movistar+,C:0,f:8
+76a5:00c00000:041e:0001:1:0:0
+Eurosport 2 Spain
 p:Movistar+,C:0,f:8
 157c:00c00000:041f:0001:25:0:0
 Disney Channel HD Germany
@@ -13314,7 +13332,7 @@ p:Movistar+,f:8
 Movistar Golf
 p:Movistar+,C:0,f:8
 778a:00c00000:0424:0001:1:0:0
-Odisea
+Baby TV
 p:Movistar+,C:0,f:8
 778b:00c00000:0424:0001:1:0:0
 Playboy TV
@@ -17987,6 +18005,12 @@ p:EshailSat,f:8
 501d:01040000:0802:00e0:25:0:0
 Majan TV HD
 p:EshailSat,f:8
+501e:01040000:0802:00e0:1:0:0
+Sada El-Malaeb TV
+p:EshailSat
+501f:01040000:0802:00e0:1:0:0
+Sada Al Malaeb Economy
+p:EshailSat
 50dd:01040000:0816:00e0:25:0:0
 Al Rayyan TV HD
 p:EshailSat,f:8
@@ -18005,21 +18029,18 @@ p:Sky Digital,C:0,f:8
 d3d3:01040000:0829:0002:1:0:0
 Samaa TV
 p:Sky Digital,f:8
-d3c4:01040000:0839:0002:1:0:0
-Utsav Bharat
-p:Sky Digital,C:0
 d3c7:01040000:0839:0002:1:0:0
 XXX College
-p:Sky Digital,C:0
+p:Sky Digital,C:0,f:8
 d3c8:01040000:0839:0002:1:0:0
 XXX Public Pikups
-p:Sky Digital,C:0
+p:Sky Digital,C:0,f:8
 d3ca:01040000:0839:0002:1:0:0
 XXX Girl Girl
-p:Sky Digital,C:0
+p:Sky Digital,C:0,f:8
 d3ce:01040000:0839:0002:1:0:0
 TVX 40+
-p:Sky Digital,C:0
+p:Sky Digital,C:0,f:8
 d3cf:01040000:0839:0002:1:0:0
 Sanskar TV
 p:Sky Digital
@@ -18034,7 +18055,7 @@ iConcert
 p:Boobles,C:0,f:8
 17d7:01040000:0c91:0003:1:0:0
 AutoMotorSport HD
-p:Boobles,C:0
+p:Boobles,C:0,f:8
 17e9:01040000:0c91:0003:1:0:0
 RTS Nauka
 p:Telekom Srbija,C:0
@@ -19314,7 +19335,7 @@ p:Sky Digital,c:000204,c:010287,c:020244,c:030204,f:8
 Sky Family HD
 p:Sky Digital,c:000205,c:01028e,c:020245,c:030205,f:8
 1784:011a0000:07ee:0002:25:0:0
-Sky Antiheroes HD
+Sky Originals HD
 p:Sky Digital,c:000209,c:01028d,c:020247,c:030209,f:8
 1785:011a0000:07ee:0002:25:0:0
 Sky Movies Premiere HD
@@ -19826,6 +19847,9 @@ p:Sky Digital,c:000906,c:01090d,c:02090e,c:030906,f:8
 c482:011a0000:0811:0002:1:0:0
 Now 80s
 p:Sky Digital,c:000938,c:010939,c:030938,f:8
+c48b:011a0000:0811:0002:1:0:0
+Zee Cinema
+p:Sky Digital,C:0,f:8
 c490:011a0000:0811:0002:1:0:0
 GOLD
 p:Sky Digital,c:000912,c:010914,c:020915,c:030912,f:8
@@ -19850,6 +19874,9 @@ p:Sky Digital,c:00092d,c:01092e,c:020930,c:03092d,f:8
 c4b8:011a0000:0811:0002:1:0:0
 Zee TV
 p:Sky Digital,c:000901,c:010902,c:02090e,c:030901,f:8
+c4bb:011a0000:0811:0002:1:0:0
+Sky Sports Racing
+p:Sky Digital,C:0
 c4d6:011a0000:0811:0002:1:0:0
 Inspiration Network
 p:Sky Digital,c:00090b,c:01090c,c:03090b,f:8
@@ -19883,9 +19910,6 @@ p:Sky Digital,c:00090e,c:01090f,c:03090e,f:8
 c4ef:011a0000:0813:0002:1:0:0
 Islam Channel
 p:Sky Digital,c:000909,c:01090a,c:030909,f:8
-c4f4:011a0000:0813:0002:1:0:0
-Channel 7 UK
-p:Sky Digital,c:00091e,c:01091f,c:03091e,f:8
 c4fa:011a0000:0813:0002:1:0:0
 India Today International
 p:Sky Digital,c:000904,c:010903,c:030904,f:8
@@ -24011,6 +24035,9 @@ p:TURKSAT,f:8
 c4f1:01a40000:7596:042e:2:0:0
 RADYOBILIM
 p:TURKSAT,f:8
+41a0:01a40000:75fa:042e:1:0:0
+Turksat 8K Test
+p:TURKSAT,f:8
 c9a6:01a40000:76c1:042e:1:0:0
 Kudus TV
 p:TURKSAT,f:8
@@ -25066,6 +25093,9 @@ Van TV
 p:TURKSAT,f:8
 cbf5:01a40000:a925:042e:1:0:0
 Kanal 3 (Afyon)
+p:TURKSAT,f:8
+cbf6:01a40000:a925:042e:1:0:0
+Tek Rumeli
 p:TURKSAT,f:8
 14be:01a40000:a929:002a:25:0:0
 In Love
@@ -27789,8 +27819,8 @@ p:ViewMedia,f:8
 Coza TV
 p:ViewMedia,f:8
 0007:02ad3112:0001:0001:1:0:0
-Power TV
-p:ViewMedia,f:8
+Elohimglobal TV
+p:ViewMedia
 0008:02ad3112:0001:0001:1:0:0
 Now TV (News Of the World)
 p:ViewMedia,f:8
@@ -28607,6 +28637,9 @@ p:,C:0,f:8
 0473:0ce40000:0065:0053:2:0:0
 RFM Clubbing
 p:,C:0,f:8
+0001:0ce40000:00c8:0022:31:0:0
+Demo UHD 5G Spain
+p:Hispasat,f:8
 27b0:0ce40000:03e9:22d4:1:0:0
 Aragón Sat
 p:CARTV,f:8
@@ -30533,6 +30566,9 @@ p:Harmonic,f:8
 034b:0dca0000:0008:0800:2:0:0
 Radio Yaqeen Jordan
 p:Harmonic,f:8
+03e9:0dca0000:000a:0800:25:0:0
+Nilesat Promo HD
+p:Nilesat
 044e:0dca0000:000b:0800:25:0:0
 MBN Alhurra HD
 p:NILESAT,f:8
@@ -31679,6 +31715,9 @@ p:beIN Sports,f:8
 0965:0dca0000:01f4:077e:25:0:0
 beIN Sports 5 AFC
 p:beIN Sports,f:8
+0966:0dca0000:01f4:077e:1:0:0
+beIN Sports 6 AFC
+p:beIN SPORTS,C:0
 1270:0dca0000:01f4:5000:1:0:0
 Al Maghribia
 p:GULFSAT,f:8
@@ -31790,6 +31829,9 @@ p:STN,f:8
 03fb:0dca0000:0320:0800:25:0:0
 Aryen TV
 p:STN,f:8
+03fd:0dca0000:0320:0800:1:0:0
+Zarok TV
+p:STN,f:8
 0403:0dca0000:0320:0800:2:0:0
 Better Life Radio
 p:STN,f:8
@@ -31897,6 +31939,12 @@ Al Maaref
 p:,f:8
 0195:0dca0000:0c23:006e:1:0:0
 Menhag Alnbowa
+p:,f:8
+0196:0dca0000:0c23:006e:25:0:0
+Modern Studios
+p:,f:8
+0197:0dca0000:0c23:006e:25:0:0
+Modern Future
 p:,f:8
 0001:0dca0000:2a94:055e:25:0:0
 ENTV HD
@@ -32287,9 +32335,6 @@ NourSat Al Shabab
 p:ViewMedia,f:8
 002a:0dca2a3f:0001:ffff:1:0:0
 Sukar Banat
-p:ViewMedia,f:8
-002e:0dca2a3f:0001:ffff:1:0:0
-OSM Cinema
 p:ViewMedia,f:8
 0032:0dca2a3f:0001:ffff:1:0:0
 Alsayda3 Madeh
@@ -34757,6 +34802,12 @@ p:,f:8
 007b:0e080000:000c:000a:31:0:0
 4K Heritage
 p:iChannel LTD,f:8
+05b4:0e080000:000d:0001:1:0:0
+TVR Info
+p:Digi TV,C:0,f:8
+05be:0e080000:000d:0001:1:0:0
+TVR Cultural
+p:Digi TV,C:0,f:8
 0fb4:0e080000:000d:0001:25:0:0
 Match4 HD
 p:Digi TV,C:0,f:8
@@ -36510,5 +36561,5 @@ p:Digi TV,C:0,f:8
 Radio Maria RO
 p:DigiTV,f:8
 end
-# 974 transponders and 11195 services.
-# Created by E-Channelizer v23.0.0.829 on 04 ott, 2023 at 10:53 - https://www.echannelizer.com
+# 977 transponders and 11209 services.
+# Created by E-Channelizer v23.0.0.829 on 10 ott, 2023 at 13:16 - https://www.echannelizer.com
