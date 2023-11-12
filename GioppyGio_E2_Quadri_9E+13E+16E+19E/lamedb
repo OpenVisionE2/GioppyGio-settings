@@ -516,9 +516,6 @@ transponders
 00a0b0f9:0001:0001
 	s 12537000:13465000:1:3:160:2:0:1:1:0:2:0:0:-1:0:0
 /
-00a0b104:0001:0001
-	s 12548000:3617000:1:3:160:2:0
-/
 00a0b117:012c:0003
 	s 12567000:16664000:1:2:160:2:0:1:1:0:2:0:0:-1:0:0
 /
@@ -792,8 +789,14 @@ transponders
 00c00000:0459:0001
 	s 12633000:22000000:0:4:192:2:0
 /
+00c00000:045a:0001
+	s 12640000:23500000:1:3:192:2:0:1:2:0:2
+/
 00c00000:045b:0001
 	s 12662000:22000000:0:4:192:2:0
+/
+00c00000:045c:0001
+	s 12669000:23500000:1:3:192:2:0:1:2:0:2
 /
 00c00000:045d:0001
 	s 12692000:22000000:0:4:192:2:0
@@ -3479,17 +3482,17 @@ p:Sky Italia,c:150,C:0,f:8
 1015:00820000:14b4:fbff:25:0:0
 Discovery Channel HD Italy
 p:Sky Italia,c:150,f:8
+1020:00820000:14b4:fbff:1:0:0
+Sky Crime Italia
+p:Sky Italia,c:150,C:0
 104a:00820000:14b4:fbff:25:0:0
 Classica Italia HD
 p:Sky Italia,c:150,f:8
 106c:00820000:14b4:fbff:25:0:0
-Cinema Halloween HD
+Heroes Collection HD
 p:Sky Italia,c:150,C:0,f:8
 379d:00820000:14b4:fbff:25:0:0
 Fox HD Italia
-p:Sky Italia,c:150,f:8
-37a9:00820000:14b4:fbff:25:0:0
-CI Crime & Investigation HD Italy
 p:Sky Italia,c:150,f:8
 37b2:00820000:14b4:fbff:25:0:0
 Cartoon Network HD Italy
@@ -3656,6 +3659,9 @@ p:Sky Italia,f:8
 1016:00820000:170c:fbff:1:0:0
 Prime Video Sportsbar
 p:Sky Italia,c:150,C:0,f:8
+101c:00820000:170c:fbff:1:0:0
+Sky Crime Italia +1
+p:Sky Italia,c:150,C:0
 2504:00820000:170c:fbff:25:0:0
 OnBoard Sky HD
 p:Sky Italia,c:150,f:8
@@ -3951,7 +3957,7 @@ p:Sky Italia,c:150,C:0,f:8
 Sky Uno
 p:Sky Italia,c:150,f:8
 2dcc:00820000:1a2c:fbff:1:0:0
-Cinema Halloween
+Heroes Collection
 p:Sky Italia,c:150,C:0,f:8
 2dcd:00820000:1a2c:fbff:1:0:0
 Sky Cinema Comedy
@@ -3970,16 +3976,16 @@ Boomerang Italia
 p:Sky Italia,c:150,f:8
 0584:00820000:1a90:fbff:1:0:0
 Sky Atlantic Italia
-p:Sky Italia,f:8
+p:Sky Italia,C:0,f:8
 1018:00820000:1a90:fbff:1:0:0
 Cielo HD
-p:Sky Italia,f:8
+p:Sky Italia,C:0,f:8
 1c5c:00820000:1a90:fbff:25:0:0
 TV8 HD (Italy)
-p:Sky Italia,f:8
+p:Sky Italia,C:0,f:8
 2d6c:00820000:1a90:fbff:1:0:0
 Sky Sport 4k Italia
-p:Sky Italia,f:8
+p:Sky Italia,C:0,f:8
 0dc6:00820000:1af4:fbff:1:0:0
 Zona DAZN 5
 p:Sky Italia,c:150,C:0,f:8
@@ -4769,12 +4775,6 @@ p:STN Ltd,f:8
 232c:00820000:2328:013e:1:7688:0
 Med Music
 p:STN Ltd,f:8
-232e:00820000:2328:013e:25:0:0
-Al Araby TV HD
-p:,f:8
-232f:00820000:2328:013e:1:0:0
-NetViet
-p:STN Ltd.,f:8
 2330:00820000:2328:013e:1:0:0
 Deluxe 139
 p:STN,f:8
@@ -4847,9 +4847,6 @@ p:,c:150,f:8
 04b5:00820000:23f0:013e:25:0:0
 Saudi TV 1 HD
 p:,c:150,f:8
-04b8:00820000:23f0:013e:25:0:0
-Travel Africa Network
-p:iChannel LTD,c:150,f:8
 04b9:00820000:23f0:013e:25:0:0
 Hot Bird 4k Test
 p:,c:150,f:8
@@ -4858,9 +4855,6 @@ BBC News
 p:GlobeCast,f:8
 2023:00820000:24b8:013e:2:0:0
 Service 8227
-p:Globecast,f:8
-2067:00820000:24b8:013e:25:0:0
-RT Doc
 p:Globecast,f:8
 019f:00820000:26ac:013f:1:0:0
 BFM TV
@@ -5603,6 +5597,9 @@ p:Polsat Box,c:150,f:8
 070f:00820000:32c8:013e:1:0:0
 Eleven Sports 1 4K
 p:Polsat Box,c:150,C:0,f:8
+1c85:00820000:332c:013e:1:0:0
+Daystar TV Network
+p:,f:8
 1c86:00820000:332c:013e:1:6510:0
 Bloomberg Europe
 p:Arqiva,f:8
@@ -6711,7 +6708,7 @@ p:Digit Alb,c:150,C:0,f:8
 Dukagjini
 p:Digit Alb,c:150,C:0,f:8
 116c:00a00000:50dc:016e:1:0:0
-Fox Movies Eastern Europe
+Star Movies Albania
 p:Digit Alb,c:150,f:8
 03eb:00a00000:51a4:016e:1:0:0
 STV Folk
@@ -6729,7 +6726,7 @@ p:Digit Alb,c:150,f:8
 24 Kitchen
 p:Digit Alb,c:150,f:8
 03fe:00a00000:51a4:016e:1:0:0
-Fox Channel Albania
+Star Channel Albania
 p:Digit Alb,c:150,C:0,f:8
 03ff:00a00000:51a4:016e:1:0:0
 Discovery Turbo Xtra
@@ -6738,7 +6735,7 @@ p:Digit Alb,c:150,C:0,f:8
 Nick toons Adria
 p:Digit Alb,c:150,C:0,f:8
 0402:00a00000:51a4:016e:1:0:0
-Fox Life Albania
+Star Life Albania
 p:Digit Alb,c:150,C:0,f:8
 0403:00a00000:51a4:016e:1:0:0
 Nickelodeon Europe
@@ -6895,7 +6892,7 @@ Discovery HD Showcase
 p:Total TV,c:150,f:8
 05b1:00a00000:75fc:016e:25:0:0
 Star Movies Serbia HD
-p:Total TV,c:150,C:0
+p:Total TV,c:150,C:0,f:8
 05b2:00a00000:75fc:016e:1:0:0
 Insajder TV
 p:Total TV,c:150,f:8
@@ -8009,9 +8006,6 @@ p:,c:150,f:8
 0017:00a0b0f9:0001:0001:25:0:0
 PRO 1
 p:,c:150,f:8
-0001:00a0b104:0001:0001:1:0:0
-Kanal D Romania
-p:DoganMedia,f:8
 000d:00a0b117:012c:0003:1:0:0
 Realitatea Plus
 p:,c:150,f:8
@@ -8028,7 +8022,7 @@ p:DM-SAT,f:8
 Heimatkanal
 p:Kabelkiosk,c:150,C:0,f:8
 008b:00c00000:0002:0085:25:0:0
-Sky Cinema Spooky Halloween HD
+Sky Cinema Family HD Germany
 p:Sky Deutschland,c:150,C:0,f:8
 008d:00c00000:0002:0085:1:0:0
 Sky Sport Mix HD
@@ -8298,7 +8292,7 @@ p:Sky Deutschland,c:150,C:0,f:8
 Sky Atlantic HD Germany
 p:Kabelkiosk,c:150,C:0,f:8
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema Halloween HD
+Sky Cinema Special HD
 p:Sky Deutschland,c:150,C:0,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
@@ -9083,8 +9077,8 @@ p:ARD Digital,c:150,f:8
 28db:00c00000:040f:0001:2:0:0
 WDR Event
 p:ARD Digital,c:150,f:8
-7a47:00c00000:0410:0001:25:0:0
-TSA Promo
+7a48:00c00000:0410:0001:1:0:0
+Die Neue Zeit TV
 p:TSA,f:8
 7a49:00c00000:0410:0001:25:0:0
 Telesur HD
@@ -10613,6 +10607,30 @@ p:MB Satellite,f:8
 3178:00c00000:0459:0001:2:0:0
 Schlager Radio
 p:MB Satellite,f:8
+2968:00c00000:045a:0001:25:0:0
+One Terra HD
+p:HD +,C:0,f:8
+2969:00c00000:045a:0001:25:0:0
+Xplore HD
+p:HD +,C:0,f:8
+296a:00c00000:045a:0001:25:0:0
+Hip Trips HD
+p:HD +,C:0
+296b:00c00000:045a:0001:25:0:0
+Deluxe Dance by Kontor HD
+p:HD +,C:0,f:8
+296c:00c00000:045a:0001:25:0:0
+Deluxe Flashback HD
+p:HD +,C:0,f:8
+296d:00c00000:045a:0001:25:0:0
+Just Cooking HD
+p:HD +,C:0,f:8
+296e:00c00000:045a:0001:25:0:0
+Deluxe Rock HD
+p:HD +,C:0,f:8
+296f:00c00000:045a:0001:25:0:0
+Deluxe Rap HD
+p:HD +,C:0,f:8
 332d:00c00000:045b:0001:1:0:0
 ORF III
 p:ORF Digital,C:0,f:8
@@ -10688,6 +10706,21 @@ p:Radio Maria Österreich,f:8
 3355:00c00000:045b:0001:25:0:0
 Astro TV HD
 p:,f:8
+29cc:00c00000:045c:0001:25:0:0
+Just Fishing HD
+p:HD +,C:0,f:8
+29d0:00c00000:045c:0001:25:0:0
+Crime Time HD
+p:HD +,C:0,f:8
+29d1:00c00000:045c:0001:25:0:0
+Serien+ HD
+p:HD +,C:0,f:8
+29d2:00c00000:045c:0001:25:0:0
+Deluxe Lounge HD
+p:HD +,C:0,f:8
+29d3:00c00000:045c:0001:25:0:0
+Red Adventure HD
+p:HD +,C:0,f:8
 32c9:00c00000:045d:0001:1:0:0
 ORF 1
 p:Austriasat,C:0,f:8
@@ -10775,8 +10808,17 @@ p:SES,c:150,f:8
 290c:00c00000:045e:0001:1:0:0
 Just Fishing
 p:SES,c:150,f:8
+290d:00c00000:045e:0001:1:0:0
+Deluxe Lounge HD
+p:SES,c:150,f:8
+290e:00c00000:045e:0001:1:0:0
+Red Adventure
+p:SES,c:150
 290f:00c00000:045e:0001:1:0:0
 Crime Time
+p:SES,c:150,f:8
+2910:00c00000:045e:0001:1:0:0
+Serien+
 p:SES,c:150,f:8
 2649:00c00000:0460:0001:1:0:0
 France 3 Caen
@@ -10836,5 +10878,5 @@ p:MB Satellite,f:8
 Clipmobile
 p:MB Satellite,f:8
 end
-# 270 transponders and 3341 services.
-# Created by E-Channelizer v23.0.0.1026 - https://www.echannelizer.com
+# 271 transponders and 3354 services.
+# Created by E-Channelizer v23.0.0.1031 - https://www.echannelizer.com
