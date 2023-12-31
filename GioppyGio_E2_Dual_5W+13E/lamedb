@@ -76,7 +76,7 @@ transponders
 	s 11958000:27500000:1:3:130:2:0
 /
 00820000:189c:fbff
-	s 11976000:29900000:0:4:130:2:0:1:1:0:2
+	s 11977000:29900000:0:4:130:2:0:1:1:0:2
 /
 00820000:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
@@ -238,7 +238,7 @@ transponders
 	s 12226000:27500000:1:3:130:2:0
 /
 0dde0000:0001:013e
-	s 11637000:35294000:1:2:-50:2:0:1:2:0:2:1:16416:-1
+	s 11637000:35294000:1:2:-50:2:0:1:2:0:2:1:16416:0
 /
 0dde0000:0001:20fa
 	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:1:50416:1
@@ -251,6 +251,9 @@ transponders
 /
 0dde0000:0002:217c
 	s 11179000:35294000:1:2:-50:2:0:1:2:0:2:5:16416:0
+/
+0dde0000:0003:0064
+	s 11222000:30000000:0:3:-50:2:0:1:2:0:2
 /
 0dde0000:0003:20fa
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
@@ -295,7 +298,7 @@ transponders
 	s 11637000:35294000:1:2:-50:2:0:1:2:0:2:10:16416:0
 /
 0dde0000:0107:217c
-	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:1:8:0
+	s 12585000:35500000:0:0:-50:2:0:1:1:0:2:1:8:0
 /
 0dde0000:03e8:0001
 	s 11453000:542000:0:1:-50:2:0
@@ -334,7 +337,7 @@ transponders
 	s 11016000:35294000:0:2:-50:2:0:1:2:0:2:9:16416:0
 /
 0dde0000:a801:217c
-	s 12585000:35500000:0:2:-50:2:0:1:2:0:2:11:8:0
+	s 12585000:35500000:0:0:-50:2:0:1:1:0:2:11:8:0
 /
 0dde2cc9:0001:0001
 	s 11465000:667000:0:7:-50:2:0:1:2:0:2
@@ -618,7 +621,7 @@ p:Mediaset,f:8
 Radio Monte Carlo
 p:TivùSat,f:8
 0078:00820000:04b0:0110:25:0:0
-20 MEDIASET HD
+20 Mediaset HD
 p:TivùSat,f:8
 0079:00820000:04b0:0110:25:0:0
 Italia 1 HD
@@ -662,7 +665,7 @@ p:Mediaset,f:8
 3a99:00820000:0514:013e:25:0:0
 Canal+ Dokument HD
 p:Polsat Box,f:8
-3a9a:00820000:0514:013e:1:0:0
+3a9a:00820000:0514:013e:25:0:0
 Novelas+
 p:Orange Polska,C:0,f:8
 3a9b:00820000:0514:013e:25:0:0
@@ -750,8 +753,8 @@ p:Orange Polska,C:0,f:8
 National Geographic Wild HD Polska
 p:Polsat Box,f:8
 13f7:00820000:05dc:013e:1:0:0
-TVP 3
-p:Polsat Box,f:8
+TVP 2
+p:Orange Polska,C:0,f:8
 13f8:00820000:05dc:013e:25:0:0
 Eleven Sports 3 HD
 p:Orange Polska,C:0,f:8
@@ -1019,6 +1022,9 @@ p:,f:8
 2531:00820000:13ef:013e:2:0:0
 AL SHARJAH RADIO
 p:,f:8
+0001:00820000:1450:013e:0:0:0
+GioppyGio®
+p:♂ by GioppyGio®¥
 0d49:00820000:1450:013e:25:0:0
 Rai 1 HD
 p:RAI,f:8
@@ -1389,7 +1395,7 @@ p:Sky Italia,C:0,f:8
 Sky Documentaries +1 HD
 p:Sky Italia,C:0,f:8
 0f5d:00820000:189c:fbff:1:0:0
-Sky Investigation +1 HD
+Sky Investigation Maratone HD
 p:Sky Italia,C:0,f:8
 0f5e:00820000:189c:fbff:1:0:0
 Sky Documentaries +1 HD
@@ -1403,24 +1409,12 @@ p:Sky Italia,f:8
 1e63:00820000:189c:fbff:1:0:0
 Sky Cinema Due +24 HD
 p:Sky Italia,f:8
-1fc9:00820000:189c:fbff:1:0:0
-Sky Cinema Due
-p:Sky Italia,f:8
-1fcd:00820000:189c:fbff:1:0:0
-Sky Primafila Active
-p:SkyItalia
-1fd2:00820000:189c:fbff:1:0:0
-Sky Primafila
-p:SkyItalia
 250f:00820000:189c:fbff:1:0:0
 Inter TV Shop
 p:Sky Italia,f:8
 2a9a:00820000:189c:fbff:1:0:0
 Sky Sport 24
 p:Sky Italia,f:8
-2aaf:00820000:189c:fbff:1:0:0
-Sky Sport Calcio
-p:Sky Italia,C:0,f:8
 2c3a:00820000:189c:fbff:1:0:0
 Discovery Channel Italy +1
 p:Sky Italia,C:0,f:8
@@ -1431,7 +1425,7 @@ p:Sky Italia,C:0,f:8
 Nick Jr +1
 p:Sky Italia,C:0
 10fe:00820000:1900:fbff:1:0:0
-Caccia e Pesca
+Pesca e Caccia
 p:Sky Italia,C:0,f:8
 1fb0:00820000:1900:fbff:25:0:0
 Lazio Style Channel
@@ -1506,7 +1500,7 @@ p:Sky Italia,f:8
 Sky Cinema Uno
 p:Sky Italia,f:8
 2b61:00820000:19c8:fbff:1:0:0
-Sky Cinema Family
+Harry Potter Collection
 p:Sky Italia,C:0,f:8
 2b63:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
@@ -1533,7 +1527,7 @@ p:Sky Italia,f:8
 DeA Kids
 p:Sky Italia,f:8
 2d00:00820000:19c8:fbff:1:0:0
-Sky Atlantic Maratone HD
+Sky Atlantic +1 HD Italia
 p:Sky Italia,C:0,f:8
 37b5:00820000:19c8:fbff:1:0:0
 Milan Channel
@@ -1829,9 +1823,6 @@ p:GLOBECAST,f:8
 29d1:00820000:1c20:013e:1:0:0
 EWTN Europe
 p:GLOBECAST,f:8
-29e5:00820000:1c20:013e:1:0:0
-Mezzo
-p:Platforma Canal+,C:0,f:8
 29ed:00820000:1c20:013e:2:0:0
 WRN Russki
 p:GLOBECAST,f:8
@@ -1943,6 +1934,9 @@ p:,f:8
 1c8f:00820000:1ce8:0071:25:0:0
 Polsat Rodzina
 p:Polsat Box,f:8
+1c96:00820000:1ce8:0071:1:0:0
+AXN Polska
+p:Polsat Box,C:0,f:8
 1c97:00820000:1ce8:0071:1:0:0
 TV Okazje
 p:Polsat Box,f:8
@@ -2150,9 +2144,6 @@ p:STN,f:8
 39d6:00820000:1fa4:013e:1:0:0
 Sterk TV
 p:STN,f:8
-39d7:00820000:1fa4:013e:1:0:0
-Velayat TV
-p:🙏🙏🙏,f:8
 39d8:00820000:1fa4:013e:1:0:0
 Thai TV Global Network
 p:STN,f:8
@@ -2187,7 +2178,7 @@ p:Sky Italia,C:0,f:8
 Sky Sport HD Italia
 p:Sky Italia,C:0,f:8
 1090:00820000:2008:fbff:25:0:0
-Sky Serie +1 HD
+Sky Atlantic Maratone
 p:Sky Italia,C:0,f:8
 109a:00820000:2008:fbff:25:0:0
 Sky Arte +1 HD
@@ -2225,9 +2216,6 @@ p:Sky Italia,C:0,f:8
 1c3f:00820000:206c:fbff:25:0:0
 Sky Cinema Romance HD
 p:Sky Italia,f:8
-1c57:00820000:206c:fbff:25:0:0
-Sky Cinema Family HD
-p:Sky Italia,C:0,f:8
 0bc2:00820000:20d0:013e:1:0:0
 Fashion TV
 p:,f:8
@@ -2316,7 +2304,7 @@ p:Sky Italia,C:0,f:8
 Sky Selection
 p:Sky Italia,f:8
 1c57:00820000:2198:fbff:1:0:0
-Sky Cinema Family
+Harry Potter Collection HD
 p:Sky Italia,C:0,f:8
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Golf HD
@@ -2553,7 +2541,7 @@ p:TeleSat,f:8
 TVP HD
 p:Polsat Box,f:8
 1139:00820000:2af8:013e:25:0:0
-TVP Info HD
+TVP 1 HD
 p:Platforma Canal+,f:8
 113a:00820000:2af8:013e:25:0:0
 Sport Klub HD Poland
@@ -3230,7 +3218,7 @@ p:KABELIO.CH,f:8
 0074:00820000:3264:013e:1:0:0
 ORF 3
 p:KABELIO.CH,f:8
-0075:00820000:3264:013e:25:0:0
+0076:00820000:3264:013e:25:0:0
 ORF Sport+ HD
 p:KABELIO.CH,C:0,f:8
 007f:00820000:3264:013e:25:0:0
@@ -3311,6 +3299,9 @@ p:Polsat Box,f:8
 1325:00820000:33f4:013e:1:0:0
 JSTV - Japan Satellite TV
 p:Telespazio,f:8
+1325:00820000:33f4:013e:25:0:0
+KBS World HD
+p:GioppyGio,f:8
 1326:00820000:33f4:013e:1:0:0
 JSTV Promo
 p:Telespazio,f:8
@@ -3440,9 +3431,6 @@ p:Harmonic,f:8
 051f:00820000:3d54:013e:1:0:0
 Radionorba TV
 p:Telenorba,f:8
-0521:00820000:3d54:013e:25:0:0
-KBS World HD
-p:MX1,f:8
 0522:00820000:3d54:013e:25:0:0
 HRT 5
 p:OiV Zagreb,f:8
@@ -3482,9 +3470,15 @@ p:M-Three Satcom,c:0007ef,c:0107f0,c:0307ef,c:1607ee,f:8
 0535:00820000:3d54:013e:1:0:0
 ER24
 p:M-Three Satcom,f:8
+0538:00820000:3d54:013e:25:0:0
+Value 24
+p:M-Three Satcom,f:8
 0539:00820000:3d54:013e:25:0:0
 WeDo TV
 p:FFmpeg,f:8
+053a:00820000:3d54:013e:25:0:0
+Vilayet TV
+p:M-Three Satcom,f:8
 421a:00820000:3db8:013e:1:0:0
 TRM Network
 p:Telespazio,f:8
@@ -3665,6 +3659,9 @@ p:,f:8
 064e:00823121:2454:013e:1:0:0
 MS Channel
 p:,f:8
+0654:00823121:2454:013e:1:0:0
+Noursat English
+p:ViewMedia,f:8
 0001:0082afc2:0065:0001:25:0:0
 CurrentTime HD
 p:,f:8
@@ -3896,6 +3893,18 @@ p:RAI,f:8
 042c:0dde0000:0002:217c:1:0:0
 Rai Premium HD
 p:RAI,f:8
+051a:0dde0000:0003:0064:1:0:0
+Cinemax 2 Europe
+p:T-Home,C:0,f:8
+051c:0dde0000:0003:0064:1:0:0
+Duna World HD
+p:T-Home,C:0,f:8
+051f:0dde0000:0003:0064:1:0:0
+HBO 2 Central Europe
+p:T-Home,C:0,f:8
+0523:0dde0000:0003:0064:1:0:0
+Filmbox Family
+p:T-Home,C:0,f:8
 000b:0dde0000:0003:20fa:2:0:0
 NRJ
 p:towerCast_A,f:8
@@ -3937,9 +3946,9 @@ EUROPE 2
 p:towerCast_A,f:8
 0301:0dde0000:0003:20fa:1:0:0
 Canal+ crypté
-p:,f:8
+p:
 0302:0dde0000:0003:20fa:25:0:0
-Canal+ Cinéma HD
+Canal+ Cinéma(s) HD
 p:CNH,C:0,f:8
 0303:0dde0000:0003:20fa:25:0:0
 Canal+ Sport HD
@@ -4022,9 +4031,6 @@ p:RAI,f:8
 0457:0dde0000:0071:217c:25:0:0
 Rai 3 TGR Lombardia
 p:RAI,f:8
-0458:0dde0000:0071:217c:1:0:0
-Rai 3 TGR Piemonte
-p:RAI,f:8
 0458:0dde0000:0071:217c:25:0:0
 Rai 3 TGR Piemonte
 p:RAI,f:8
@@ -4079,26 +4085,14 @@ p:RAI,f:8
 04ed:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Lazio
 p:RAI,f:8
-04ee:0dde0000:008f:217c:1:0:0
-Rai 3 TGR Toscana
-p:RAI,f:8
 04ee:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Toscana
-p:RAI,f:8
-04ef:0dde0000:008f:217c:1:0:0
-Rai 3 TGR Umbria
 p:RAI,f:8
 04ef:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Umbria
 p:RAI,f:8
-04f1:0dde0000:008f:217c:1:0:0
-Rai 3 TGR Toscana
-p:RAI,f:8
 04f1:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Toscana
-p:RAI,f:8
-04f2:0dde0000:008f:217c:1:0:0
-Rai 3 TGR Umbria
 p:RAI,f:8
 04f2:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Umbria
@@ -4145,29 +4139,17 @@ p:RAI,f:8
 0550:0dde0000:00a3:217c:25:0:0
 Rai 3 HD
 p:RAI,f:8
-0551:0dde0000:00a3:217c:1:0:0
-Rai 3 TGR Veneto
-p:RAI,f:8
 0551:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Veneto
 p:RAI,f:8
 0552:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Emilia Romagna
 p:RAI,f:8
-0553:0dde0000:00a3:217c:1:0:0
-Rai 3 TGR Lombardia
-p:RAI,f:8
 0553:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Lombardia
 p:RAI,f:8
-0554:0dde0000:00a3:217c:1:0:0
-Rai 3 TGR Veneto
-p:RAI,f:8
 0554:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Veneto
-p:RAI,f:8
-0556:0dde0000:00a3:217c:1:0:0
-Rai 3 TGR Lombardia
 p:RAI,f:8
 0556:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Lombardia
@@ -4178,11 +4160,11 @@ p:RAI,f:8
 057a:0dde0000:00ad:217c:25:0:0
 Rai 2 HD
 p:RAI,f:8
-057b:0dde0000:00ad:217c:25:0:0
-Rai News 24 HD
-p:RAI,f:8
 057b:0dde0000:00ad:217c:1:0:0
 Rai News 24
+p:RAI,f:8
+057b:0dde0000:00ad:217c:25:0:0
+Rai News 24 HD
 p:RAI,f:8
 0582:0dde0000:00ad:217c:25:0:0
 Rai 3 HD
@@ -4201,9 +4183,6 @@ Rai 3 TGR Valle d'Aosta
 p:RAI,f:8
 0585:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR Valle d'Aosta
-p:RAI,f:8
-0586:0dde0000:00ad:217c:1:0:0
-Rai 3 TGR FVG
 p:RAI,f:8
 0586:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR FVG
@@ -4957,7 +4936,7 @@ LCI HD
 p:Bis,C:0,f:8
 0139:0dde0000:4f4c:055f:31:0:0
 FRANSAT UHD
-p:EUTELSAT,C:0,f:8
+p:Fransat,C:0,f:8
 0142:0dde0000:4f4c:055f:25:0:0
 Fransat Info HD
 p:EUTELSAT,f:8
@@ -5060,9 +5039,6 @@ p:Bis,C:0,f:8
 02be:0dde0000:50dc:055f:31:0:0
 France 2 UHD
 p:EUTELSAT,C:0,f:8
-02bf:0dde0000:50dc:055f:1:0:0
-France 2 UHD
-p:EUTELSAT,C:0,f:8
 02c2:0dde0000:50dc:055f:31:0:0
 France 3 UHD
 p:EUTELSAT,C:0,f:8
@@ -5099,13 +5075,13 @@ p:Bis,C:0,f:8
 004a:0dde0000:8800:217c:25:0:0
 TeleNorba
 p:Rai Way,f:8
-004b:0dde0000:8800:217c:1:0:0
+004b:0dde0000:8800:217c:25:0:0
 Teledue
 p:Rai Way,f:8
 004c:0dde0000:8800:217c:25:0:0
 Antenna Sud
 p:Rai Way,f:8
-004d:0dde0000:8800:217c:1:0:0
+004d:0dde0000:8800:217c:25:0:0
 TG Norba 24
 p:Rai Way,f:8
 004e:0dde0000:8800:217c:25:0:0
@@ -5141,6 +5117,9 @@ p:Rai Way,f:8
 0058:0dde0000:8800:217c:25:0:0
 Foggia TV
 p:Rai Way,f:8
+0096:0dde0000:8800:217c:1:0:0
+Teleregione Color
+p:RAI WAY,f:8
 26ad:0dde0000:a801:217c:25:0:0
 Videolina
 p:Service Provider,f:8
@@ -5156,7 +5135,7 @@ p:,f:8
 26b1:0dde0000:a801:217c:25:0:0
 Supersound
 p:SUPERSOUND,f:8
-26b2:0dde0000:a801:217c:1:0:0
+26b2:0dde0000:a801:217c:25:0:0
 TTSTV
 p:In Aria!,f:8
 26b3:0dde0000:a801:217c:25:0:0
@@ -5165,7 +5144,7 @@ p:Harmonic - NT,f:8
 26b4:0dde0000:a801:217c:25:0:0
 TeleSardegna
 p:Global,f:8
-26b5:0dde0000:a801:217c:1:0:0
+26b5:0dde0000:a801:217c:25:0:0
 Uno 4
 p:Uno 4,f:8
 26b6:0dde0000:a801:217c:25:0:0
@@ -5292,5 +5271,5 @@ p:RAI,f:8
 Radio Test
 p:,f:8
 end
-# 114 transponders and 1649 services.
+# 115 transponders and 1641 services.
 # Created by E-Channelizer v23.0.0.1209 - https://www.echannelizer.com
