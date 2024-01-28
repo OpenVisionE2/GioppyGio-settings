@@ -363,6 +363,9 @@ transponders
 00c00000:0002:0085
 	s 11758000:27500000:0:9:192:2:0:1:1:0:2
 /
+00c00000:0003:0001
+	s 11817000:31428000:1:8:192:2:0:1:4:0:2
+/
 00c00000:0004:0085
 	s 12031000:27500000:0:9:192:2:0:1:1:0:2
 /
@@ -1389,7 +1392,7 @@ p:Sky Italia,C:0,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Fast & Furious Collection HD
+Clint Eastwood Collection HD
 p:Sky Italia,C:0,f:8
 1c3f:00820000:14b4:fbff:1:0:0
 Sky Cinema Romance
@@ -1642,7 +1645,7 @@ Epic Drama HD
 p:Nova,C:0,f:8
 1bc9:00820000:17d4:013e:1:0:0
 Crime & Investigation Network
-p:Nova,f:8
+p:Nova,C:0,f:8
 1bca:00820000:17d4:013e:25:0:0
 Nova Cinema 2 HD
 p:Nova,f:8
@@ -1818,7 +1821,7 @@ p:Sky Italia,f:8
 DeA Kids
 p:Sky Italia,f:8
 2d00:00820000:19c8:fbff:1:0:0
-Sky Atlantic Maratone HD
+Sky Atlantic +1 HD Italia
 p:Sky Italia,C:0,f:8
 37b5:00820000:19c8:fbff:1:0:0
 Milan Channel
@@ -1964,6 +1967,9 @@ p:Telespazio,f:8
 02e2:00820000:1b58:013e:2:0:0
 ANNI 60
 p:Telespazio,f:8
+02e3:00820000:1b58:013e:2:0:0
+Radio Radio
+p:Telespazio,f:8
 02e4:00820000:1b58:013e:2:0:0
 R. Italia S.m.i.
 p:Telespazio,f:8
@@ -2060,9 +2066,6 @@ p:M-Three satcom,f:8
 0e3d:00820000:1c20:013e:2:0:0
 R.ONDA D'URTO
 p:M-Three satcom,f:8
-0e3e:00820000:1c20:013e:2:0:0
-Radio Radio
-p:M-Three Satcom Srl,f:8
 0e43:00820000:1c20:013e:2:0:0
 DEEJAY
 p:Elemedia,f:8
@@ -2425,9 +2428,6 @@ Revival TV
 p:UNITED TELEPORTS,f:8
 39d3:00820000:1fa4:013e:1:0:0
 Detski Mir
-p:NTV,f:8
-39d4:00820000:1fa4:013e:1:0:0
-Lubimoe Kino
 p:NTV,f:8
 39d5:00820000:1fa4:013e:1:0:0
 Ronahi TV
@@ -3596,9 +3596,6 @@ p:Telespazio,f:8
 134b:00820000:33f4:013e:1:0:0
 Hadi TV 3
 p:Telespazio,f:8
-1355:00820000:33f4:013e:2:0:0
-Radio Radio
-p:Telespazio,f:8
 1359:00820000:33f4:013e:2:0:0
 Radio Sintony
 p:Telespazio,f:8
@@ -4178,12 +4175,12 @@ p:H,f:8
 0081:00a00000:0001:016e:2:0:0
 RM BiH
 p:H,f:8
-0082:00a00000:0001:016e:1:0:0
-RTSH Plus
-p:RTSH,f:8
 0082:00a00000:0001:016e:2:0:0
 RM Kosovo
 p:,f:8
+0082:00a00000:0001:016e:1:0:0
+RTSH Plus
+p:RTSH,f:8
 0084:00a00000:0001:016e:2:0:0
 RM Hungary
 p:H,f:8
@@ -4379,9 +4376,6 @@ p:Max TV,C:0,f:8
 00c6:00a00000:0003:0040:1:0:0
 HRT 3
 p:Max TV,C:0,f:8
-00ce:00a00000:0003:0040:2:0:0
-Radio Maria Vision Medugorje
-p:Max TV,f:8
 00d7:00a00000:0003:0040:1:0:0
 Laudato TV
 p:Max TV,f:8
@@ -4457,10 +4451,10 @@ p:SRTV,C:0,f:8
 0011:00a00000:00c8:0001:25:0:0
 TVR 2 HD
 p:,C:0,f:8
-0012:00a00000:00c8:0001:1:0:0
+0012:00a00000:00c8:0001:25:0:0
 TVR Info
 p:,C:0,f:8
-0013:00a00000:00c8:0001:1:0:0
+0013:00a00000:00c8:0001:25:0:0
 TVR Cultural
 p:,C:0,f:8
 0014:00a00000:00c8:0001:25:0:0
@@ -4486,9 +4480,6 @@ Radio Romania International 2
 p:,f:8
 001b:00a00000:00c8:0001:2:0:0
 Radio Romania International 3
-p:,f:8
-000d:00a00000:012c:0003:1:0:0
-Realitatea Plus
 p:,f:8
 000f:00a00000:012c:0003:25:0:0
 Credo TV
@@ -4532,6 +4523,9 @@ p:,f:8
 000c:00a00000:01f4:0005:1:0:0
 Prima TV
 p:,C:0,f:8
+000d:00a00000:01f4:0005:1:0:0
+Realitatea Plus
+p:,f:8
 0015:00a00000:01f4:0005:1:0:0
 TVR Cluj
 p:SRTV,f:8
@@ -4547,6 +4541,9 @@ p:SRTV,f:8
 0019:00a00000:01f4:0005:1:0:0
 TVR Tirgu Mures
 p:SRTV,f:8
+001f:00a00000:01f4:0005:1:0:0
+TVR Moldova
+p:SRTV,C:0,f:8
 0065:00a00000:01f4:0005:2:0:0
 Radio Trinitas
 p:,f:8
@@ -4598,11 +4595,11 @@ p:Digit Alb,C:0,f:8
 0488:00a00000:4f4c:016e:1:0:0
 T
 p:Digit Alb,C:0,f:8
-049c:00a00000:4f4c:016e:1:0:0
-Ora News
-p:Digit Alb,C:0,f:8
 049c:00a00000:4f4c:016e:25:0:0
 RTV Ora
+p:Digit Alb,C:0,f:8
+049c:00a00000:4f4c:016e:1:0:0
+Ora News
 p:Digit Alb,C:0,f:8
 04b0:00a00000:4f4c:016e:1:0:0
 Klan Kosova
@@ -4642,10 +4639,10 @@ Top Gold Radio
 p:Digit Alb,f:8
 1432:00a00000:4f4c:016e:25:0:0
 Big Brother VIP Kosova 1
-p:Digit Alb,f:8
+p:Digit Alb,C:0,f:8
 1450:00a00000:4f4c:016e:25:0:0
 Big Brother VIP Kosova 2
-p:Digit Alb,f:8
+p:Digit Alb,C:0,f:8
 0399:00a00000:5014:016e:2:0:0
 My Music Radio
 p:Digit Alb,f:8
@@ -5029,7 +5026,7 @@ Arena Sport 2 HD Slovakia
 p:A1 Broadcasting,C:0,f:8
 04bb:00a00000:76c1:016e:1:0:0
 Extasi TV
-p:,f:8
+p:
 04bc:00a00000:76c1:016e:25:0:0
 HBO 3 HD Central Europe
 p:Akta,C:0,f:8
@@ -5930,6 +5927,21 @@ p:Sky Deutschland,C:0,f:8
 0206:00c00000:0002:0085:1:0:0
 Romance TV HD
 p:Kabelkiosk,C:0,f:8
+0001:00c00000:0003:0001:25:0:0
+NFL International
+p:,C:0,f:8
+0002:00c00000:0003:0001:25:0:0
+NFL International
+p:,C:0,f:8
+0003:00c00000:0003:0001:25:0:0
+NFL International
+p:,C:0,f:8
+0004:00c00000:0003:0001:25:0:0
+NFL International
+p:,C:0,f:8
+0005:00c00000:0003:0001:25:0:0
+NFL International
+p:,C:0,f:8
 000a:00c00000:0004:0085:1:0:0
 Sky Cinema Premieren
 p:Sky Deutschland,C:0,f:8
@@ -6326,9 +6338,6 @@ p:Austriasat,C:0,f:8
 33fd:00c00000:03ed:0001:25:0:0
 ORF Sport+ HD
 p:Austriasat,C:0,f:8
-33fe:00c00000:03ed:0001:1:0:0
-Flimmit
-p:ORF Digital,f:8
 33ff:00c00000:03ed:0001:1:0:0
 MeinTVshop
 p:,f:8
@@ -6384,7 +6393,7 @@ p:Movistar+,C:0,f:8
 Disney Junior Spain
 p:Movistar+,C:0,f:8
 746c:00c00000:03f0:0001:1:0:0
-Movistar Cracks
+Movistar Accion
 p:Movistar+,C:0,f:8
 746d:00c00000:03f0:0001:1:0:0
 Movistar Comedia
@@ -6642,7 +6651,7 @@ p:Sky Deutschland,C:0,f:8
 Factoria de Ficcion
 p:Movistar+,C:0,f:8
 77bd:00c00000:040a:0001:1:0:0
-Movistar+ Supercopa
+Movistar Copa del Rey
 p:Movistar+,C:0,f:8
 77be:00c00000:040a:0001:1:0:0
 DAZN 3 Spain
@@ -7056,7 +7065,7 @@ p:Movistar+,C:0,f:8
 Mezzo Live HD
 p:Movistar+,C:0,f:8
 74a3:00c00000:041c:0001:25:0:0
-Movistar+ Supercopa HD
+Movistar Copa del Rey HD
 p:Movistar+,C:0,f:8
 74a8:00c00000:041c:0001:25:0:0
 Movistar Plus+ 2 HD
@@ -8147,6 +8156,9 @@ p:Bis,C:0,f:8
 1009:00c00000:0451:0035:1:0:0
 Inplus
 p:Sky Deutschland,C:0,f:8
+100a:00c00000:0451:0035:1:0:0
+Inplus
+p:M7,C:0,f:8
 100b:00c00000:0451:0035:1:0:0
 Hustler TV
 p:Austriasat,C:0,f:8
@@ -8676,5 +8688,5 @@ p:MB Satellite,f:8
 Clipmobile
 p:MB Satellite,f:8
 end
-# 213 transponders and 2678 services.
-# Created by E-Channelizer v23.0.0.1225 - https://www.echannelizer.com
+# 214 transponders and 2681 services.
+# Created by E-Channelizer v23.0.0.1226 - https://www.echannelizer.com
