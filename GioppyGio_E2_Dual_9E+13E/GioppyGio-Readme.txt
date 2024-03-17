@@ -27,7 +27,7 @@
                                                            
        @************************************************************************@        
        |                   Comando Telnet per installare il plugin              | 
-       |   wget https://gioppygio.it/update/gioppygio.py -O - | /usr/bin/python |                                                 |                                                                        |
+       |   wget https://gioppygio.it/update/gioppygio.py -O - | /usr/bin/python |                                                   |                                                                        |
        @************************************************************************@        
                       liste canali sviluppate con l'ausilio di E-Channelizer                                        
                                                                                          
