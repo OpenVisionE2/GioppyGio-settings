@@ -256,10 +256,10 @@ transponders
 	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:2:121212:1
 /
 0dde0000:0003:20fa
-	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
+	s 11461000:5780000:0:3:-50:2:0:1:1:0:2
 /
 0dde0000:0004:20fa
-	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:4:50416:1
+	s 11456000:2548000:0:3:-50:2:0:1:1:0:2
 /
 0dde0000:0006:20fa
 	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:6:50416:1
@@ -333,8 +333,8 @@ transponders
 0dde0000:5140:055f
 	s 11679000:29950000:1:2:-50:2:0:1:2:0:2
 /
-0dde0000:8800:217c
-	s 11016000:35294000:0:2:-50:2:0:1:2:0:2:9:16416:0
+0dde0000:a000:217c
+	s 11016000:35294000:0:2:-50:2:0:1:2:0:2:12:16416:0
 /
 0dde0000:a801:217c
 	s 12585000:35500000:0:0:-50:2:0:1:1:0:2:11:8:0
@@ -344,6 +344,12 @@ transponders
 /
 0dde3153:0001:0001
 	s 12627000:35295000:0:2:-50:2:0:1:2:0:2:2:16416:0
+/
+0ddeb168:0003:20fa
+	s 12648000:29500000:1:6:-50:2:0:1:2:0:2:3:121212:1
+/
+0ddeb1bd:0004:20fa
+	s 12733000:29500000:1:6:-50:2:0:1:2:0:2:4:50416:1
 /
 end
 services
@@ -1110,7 +1116,7 @@ p:Sky Italia,C:0,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Claudio Bisio Collection HD
+DC Superheroes Collection HD
 p:Sky Italia,C:0,f:8
 1c3f:00820000:14b4:fbff:1:0:0
 Sky Cinema Romance
@@ -1615,9 +1621,6 @@ Al Jazeera Documentary
 p:Telespazio,f:8
 02c2:00820000:1b58:013e:1:0:0
 Al Jazeera Mubasher
-p:Telespazio,f:8
-02c4:00820000:1b58:013e:1:7248:0
-Al Jazeera Satellite Channel
 p:Telespazio,f:8
 02c9:00820000:1b58:013e:1:0:0
 RTP International
@@ -3182,6 +3185,9 @@ p:Svoboda Satellite,f:8
 0070:00820000:2fa8:013e:25:0:0
 Nastoyashcheye Vremya
 p:Svoboda Satellite,f:8
+0071:00820000:2fa8:013e:25:0:0
+DW Russian
+p:Svoboda Satellite,f:8
 4331:00820000:300c:013e:25:0:0
 SRF 1 HD
 p:SSR/SRG,f:8
@@ -3393,8 +3399,8 @@ p:GlobeCast,f:8
 Algérie 4
 p:GlobeCast,f:8
 06a7:00820000:3138:013e:1:0:0
-TNT Comedy
-p:GLOBECAST,f:8
+TNT (Russia)
+p:GLOBECAST
 06a8:00820000:3138:013e:1:0:0
 Euronews Hungarian
 p:GLOBECAST,f:8
@@ -3568,7 +3574,7 @@ Armpub TV
 p:,f:8
 1cbb:00820000:332c:013e:1:6517:0
 Manoto 1
-p:Arqiva,f:8
+p:Arqiva,f:a
 3333:00820000:3390:0071:25:0:0
 Polsat News 2
 p:Polsat Box,f:8
@@ -3761,6 +3767,9 @@ p:M-Three Satcom,f:8
 0537:00820000:3d54:013e:1:0:0
 Well TV
 p:M-Three Satcom,f:8
+0538:00820000:3d54:013e:25:0:0
+Value 24
+p:M-Three Satcom
 0539:00820000:3d54:013e:25:0:0
 WeDo TV
 p:FFmpeg,f:8
@@ -4259,48 +4268,12 @@ p:towerCast_A,f:8
 002e:0dde0000:0003:20fa:2:0:0
 EUROPE 2
 p:towerCast_A,f:8
-0301:0dde0000:0003:20fa:1:0:0
-Canal+ crypté
-p:
-0302:0dde0000:0003:20fa:25:0:0
-Canal+ Cinéma(s) HD
-p:CNH,C:0,f:8
-0303:0dde0000:0003:20fa:25:0:0
-Canal+ Sport HD
-p:CNH,C:0,f:8
-0304:0dde0000:0003:20fa:25:0:0
-Planète+ HD
-p:CNH,C:0,f:8
-0308:0dde0000:0003:20fa:1:0:0
-LCI - La Chaîne Info
-p:CNH,f:8
-0309:0dde0000:0003:20fa:1:0:0
-Paris Première
-p:CNH,C:0,f:8
-030a:0dde0000:0003:20fa:25:0:0
-Canal+ HD
-p:CNH,C:0,f:8
 03e9:0dde0000:0003:20fa:2:0:0
 SKYROCK-SAT
 p:SKYROCK,f:8
 0016:0dde0000:0004:20fa:2:0:0
 NOSTALGIE IDF
 p:towerCast_A,f:8
-0401:0dde0000:0004:20fa:25:0:0
-M6 HD
-p:Multi4,f:8
-0402:0dde0000:0004:20fa:25:0:0
-W9 HD
-p:Multi4,f:8
-0407:0dde0000:0004:20fa:25:0:0
-Arte HD
-p:Multi4,f:8
-0415:0dde0000:0004:20fa:25:0:0
-France 5 HD
-p:Multi4,f:8
-0416:0dde0000:0004:20fa:25:0:0
-6ter
-p:Multi4,f:8
 0601:0dde0000:0006:20fa:25:0:0
 TF 1
 p:SMR6,f:8
@@ -5375,54 +5348,60 @@ p:Bis,C:0,f:8
 1029:0dde0000:5140:055f:1:0:0
 France 3 Poitou-Charentes
 p:Bis,C:0,f:8
-004a:0dde0000:8800:217c:25:0:0
-TeleNorba
+0059:0dde0000:a000:217c:25:0:0
+Antenna Sicilia
+p:RaiWay,f:8
+005a:0dde0000:a000:217c:25:0:0
+Video Regione
 p:Rai Way,f:8
-004b:0dde0000:8800:217c:25:0:0
-Teledue
+005b:0dde0000:a000:217c:25:0:0
+Telecolor
+p:RaiWay,f:8
+005c:0dde0000:a000:217c:25:0:0
+REI TV
 p:Rai Way,f:8
-004c:0dde0000:8800:217c:25:0:0
-Antenna Sud
+005d:0dde0000:a000:217c:25:0:0
+Video Mediterraneo
+p:RaiWay,f:8
+005e:0dde0000:a000:217c:25:0:0
+TGS
+p:RaiWay,f:8
+005f:0dde0000:a000:217c:25:0:0
+Tele One
+p:RaiWay,f:8
+0060:0dde0000:a000:217c:25:0:0
+TRM Network
+p:RaiWay,f:8
+0061:0dde0000:a000:217c:25:0:0
+Telerent 7Gold
 p:Rai Way,f:8
-004d:0dde0000:8800:217c:25:0:0
-TG Norba 24
+0062:0dde0000:a000:217c:25:0:0
+Sicilia Channel
+p:RaiWay,f:8
+0063:0dde0000:a000:217c:1:0:0
+Ciak Telesud
 p:Rai Way,f:8
-004e:0dde0000:8800:217c:25:0:0
-Radio Norba Television
+0064:0dde0000:a000:217c:25:0:0
+Telestar
+p:RaiWay,f:8
+0065:0dde0000:a000:217c:25:0:0
+6 Sestarete TV
+p:RaiWay,f:8
+0066:0dde0000:a000:217c:1:0:0
+TRIS
 p:Rai Way,f:8
-004f:0dde0000:8800:217c:1:0:0
-TRM H24
+0067:0dde0000:a000:217c:1:0:0
+Canale Italia
+p:RaiWay,f:8
+0068:0dde0000:a000:217c:25:0:0
+TM Telemistretta
 p:Rai Way,f:8
-0050:0dde0000:8800:217c:25:0:0
-Telesveva
+0069:0dde0000:a000:217c:1:0:0
+TVA Telenormanna
 p:Rai Way,f:8
-0051:0dde0000:8800:217c:25:0:0
-Telerama
-p:Rai Way,f:8
-0052:0dde0000:8800:217c:25:0:0
-Telebari
-p:Rai Way,f:8
-0053:0dde0000:8800:217c:1:0:0
-TeleFoggia
-p:Rai Way,f:8
-0054:0dde0000:8800:217c:25:0:0
-Tele Padre Pio
-p:Rai Way,f:8
-0055:0dde0000:8800:217c:25:0:0
-Tele Dehon
-p:Rai Way,f:8
-0056:0dde0000:8800:217c:25:0:0
-La Nuova TV
-p:Rai Way,f:8
-0057:0dde0000:8800:217c:25:0:0
-Canale 700
-p:Rai Way,f:8
-0058:0dde0000:8800:217c:25:0:0
-Foggia TV
-p:Rai Way,f:8
-0096:0dde0000:8800:217c:25:0:0
-Teleregione Color
-p:RAI WAY,f:8
+0090:0dde0000:a000:217c:25:0:0
+Etna Channel
+p:RaiWay,f:8
 26ad:0dde0000:a801:217c:25:0:0
 Videolina
 p:,f:8
@@ -5576,6 +5555,42 @@ p:RAI,f:8
 006e:0dde3153:0001:0001:2:0:0
 Radio Test
 p:,f:8
+0301:0ddeb168:0003:20fa:1:0:0
+Canal+ crypté
+p:
+0302:0ddeb168:0003:20fa:25:0:0
+Canal+ Cinéma(s) HD
+p:CNH,C:0,f:8
+0303:0ddeb168:0003:20fa:25:0:0
+Canal+ Sport HD
+p:CNH,C:0,f:8
+0304:0ddeb168:0003:20fa:25:0:0
+Planète+ HD
+p:CNH,C:0,f:8
+0308:0ddeb168:0003:20fa:1:0:0
+LCI - La Chaîne Info
+p:CNH,f:8
+0309:0ddeb168:0003:20fa:1:0:0
+Paris Première
+p:CNH,C:0,f:8
+030a:0ddeb168:0003:20fa:25:0:0
+Canal+ HD
+p:CNH,C:0,f:8
+0401:0ddeb1bd:0004:20fa:25:0:0
+M6 HD
+p:Multi4,f:8
+0402:0ddeb1bd:0004:20fa:25:0:0
+W9 HD
+p:Multi4,f:8
+0407:0ddeb1bd:0004:20fa:25:0:0
+Arte HD
+p:Multi4,f:8
+0415:0ddeb1bd:0004:20fa:25:0:0
+France 5 HD
+p:Multi4,f:8
+0416:0ddeb1bd:0004:20fa:25:0:0
+6ter
+p:Multi4,f:8
 end
-# 115 transponders and 1743 services.
-# Created by E-Channelizer v23.0.0.1226 - https://www.echannelizer.com
+# 117 transponders and 1746 services.
+# Created by E-Channelizer v24.0.0.317 - https://www.echannelizer.com

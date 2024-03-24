@@ -411,9 +411,6 @@ transponders
 00c00000:0021:0085
 	s 12480000:27500000:1:3:192:2:0
 /
-00c00000:03e9:0001
-	s 11214000:23500000:0:3:192:2:0:1:2:0:2
-/
 00c00000:03ea:0001
 	s 11229000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -441,7 +438,7 @@ transponders
 00c00000:03f3:0001
 	s 11361000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f4:0001
+00c00000:03f4:0003
 	s 11376000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c00000:03f5:0001
@@ -502,7 +499,7 @@ transponders
 	s 11111000:22000000:0:2:192:2:0:1:2:0:2
 /
 00c00000:0414:0001
-	s 11126000:22000000:1:2:192:2:0:1:2:0:2
+	s 11126000:22000000:1:4:192:2:0
 /
 00c00000:0416:0001
 	s 11156000:22000000:1:4:192:2:0
@@ -594,9 +591,6 @@ transponders
 00c00000:0448:0001
 	s 12324000:29700000:1:2:192:2:0:1:2:0:2
 /
-00c00000:0449:0001
-	s 12343000:30000000:0:2:192:2:0:1:2:0:2
-/
 00c00000:044a:0001
 	s 12363000:27500000:1:3:192:2:0
 /
@@ -625,7 +619,7 @@ transponders
 	s 12603000:22000000:0:4:192:2:0
 /
 00c00000:0458:0001
-	s 12610000:22000000:1:2:192:2:0:1:2:0:2
+	s 12610000:22000000:1:3:192:2:0:1:2:0:2
 /
 00c00000:0459:0001
 	s 12633000:22000000:0:4:192:2:0
@@ -650,9 +644,6 @@ transponders
 /
 00c00000:04b1:0001
 	s 12421000:27500000:0:3:192:2:0
-/
-00c0b160:0459:0001
-	s 12640000:22000000:1:4:192:2:0
 /
 0ce40000:0001:22d4
 	s 11491000:7522000:1:6:-300:2:0:1:2:0:2
@@ -1458,7 +1449,7 @@ p:Sky Italia,C:0,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-Claudio Bisio Collection HD
+DC Superheroes Collection HD
 p:Sky Italia,C:0,f:8
 1c3f:00820000:14b4:fbff:1:0:0
 Sky Cinema Romance
@@ -1963,9 +1954,6 @@ Al Jazeera Documentary
 p:Telespazio,f:8
 02c2:00820000:1b58:013e:1:0:0
 Al Jazeera Mubasher
-p:Telespazio,f:8
-02c4:00820000:1b58:013e:1:7248:0
-Al Jazeera Satellite Channel
 p:Telespazio,f:8
 02c9:00820000:1b58:013e:1:0:0
 RTP International
@@ -3530,6 +3518,9 @@ p:Svoboda Satellite,f:8
 0070:00820000:2fa8:013e:25:0:0
 Nastoyashcheye Vremya
 p:Svoboda Satellite,f:8
+0071:00820000:2fa8:013e:25:0:0
+DW Russian
+p:Svoboda Satellite,f:8
 4331:00820000:300c:013e:25:0:0
 SRF 1 HD
 p:SSR/SRG,f:8
@@ -3741,8 +3732,8 @@ p:GlobeCast,f:8
 Algérie 4
 p:GlobeCast,f:8
 06a7:00820000:3138:013e:1:0:0
-TNT Comedy
-p:GLOBECAST,f:8
+TNT (Russia)
+p:GLOBECAST
 06a8:00820000:3138:013e:1:0:0
 Euronews Hungarian
 p:GLOBECAST,f:8
@@ -3916,7 +3907,7 @@ Armpub TV
 p:,f:8
 1cbb:00820000:332c:013e:1:6517:0
 Manoto 1
-p:Arqiva,f:8
+p:Arqiva,f:a
 3333:00820000:3390:0071:25:0:0
 Polsat News 2
 p:Polsat Box,f:8
@@ -4109,6 +4100,9 @@ p:M-Three Satcom,f:8
 0537:00820000:3d54:013e:1:0:0
 Well TV
 p:M-Three Satcom,f:8
+0538:00820000:3d54:013e:25:0:0
+Value 24
+p:M-Three Satcom
 0539:00820000:3d54:013e:25:0:0
 WeDo TV
 p:FFmpeg,f:8
@@ -4897,19 +4891,19 @@ SPTV
 p:Max TV,C:0,f:8
 03e9:00a00000:0007:016e:1:0:0
 Ginx
-p:eClutch,C:0
+p:eClutch,C:0,f:8
 03ea:00a00000:0007:016e:1:0:0
 Bigg TV
-p:eClutch,C:0
+p:eClutch,C:0,f:8
 03eb:00a00000:0007:016e:1:0:0
 Senemedia
-p:eClutch,C:0
+p:eClutch,C:0,f:8
 03ec:00a00000:0007:016e:1:0:0
 ESR 24
-p:eClutch,C:0
+p:eClutch,C:0,f:8
 03ed:00a00000:0007:016e:1:0:0
 Esports Legend
-p:eClutch,C:0
+p:eClutch,C:0,f:8
 000a:00a00000:0064:0064:1:0:0
 National TV
 p:,C:0,f:8
@@ -5776,6 +5770,9 @@ Spark CEE
 p:A1 Broadcasting,C:0,f:8
 07dc:00a00000:9e98:016e:25:0:0
 TA3 HD
+p:A1 Broadcasting,C:0,f:8
+07e0:00a00000:9e98:016e:1:0:0
+MCM Top HD
 p:A1 Broadcasting,C:0,f:8
 0673:00a00000:9fc4:016e:1:0:0
 SK Fight
@@ -6678,7 +6675,7 @@ p:Sky Deutschland,C:0,f:8
 Sky Atlantic HD Germany
 p:Kabelkiosk,C:0,f:8
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema Special HD
+Sky Cinema Action Heroes HD Germany
 p:Sky Deutschland,C:0,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
@@ -6767,15 +6764,9 @@ p:BetaDigital,f:8
 0384:00c00000:0021:0085:1:0:0
 Sport 1 Germany
 p:BetaDigital,f:8
-3462:00c00000:03e9:0001:31:0:0
-RTL UHD Austria
-p:ORS,C:0,f:8
 1389:00c00000:03ea:0001:25:0:0
 BBC News HD
 p:Canal+ France,f:8
-1393:00c00000:03ea:0001:25:0:0
-INSIGHT TV HD INT
-p:SES ASTRA,f:8
 139d:00c00000:03ea:0001:25:0:0
 NHK World HD
 p:SES,f:8
@@ -6938,25 +6929,25 @@ p:ZDF Vision,f:8
 2b7a:00c00000:03f3:0001:25:0:0
 ZDF_neo HD
 p:ZDF Vision,f:8
-18f0:00c00000:03f4:0001:1:0:0
+18f0:00c00000:03f4:0003:1:0:0
 Extremadura TV
 p:GLOBECAST,f:8
-18f1:00c00000:03f4:0001:25:0:0
+18f1:00c00000:03f4:0003:25:0:0
 Galicia TV HD
 p:GLOBECAST,f:8
-18f2:00c00000:03f4:0001:2:0:0
+18f2:00c00000:03f4:0003:2:0:0
 RADIO GALEGA
 p:GLOBECAST,f:8
-18f3:00c00000:03f4:0001:2:0:0
+18f3:00c00000:03f4:0003:2:0:0
 RADIO GALEGA MUSICA
 p:GLOBECAST,f:8
-18f4:00c00000:03f4:0001:1:0:0
+18f4:00c00000:03f4:0003:1:0:0
 Euronews German
 p:GLOBECAST,f:8
-18f5:00c00000:03f4:0001:1:0:0
+18f5:00c00000:03f4:0003:1:0:0
 Rai News 24
 p:GLOBECAST,f:8
-18f9:00c00000:03f4:0001:25:0:0
+18f9:00c00000:03f4:0003:25:0:0
 Telesur English
 p:GLOBECAST,f:8
 307a:00c00000:03f5:0001:31:0:0
@@ -8576,9 +8567,6 @@ p:Canal+ France,C:0,f:8
 21ac:00c00000:0448:0001:25:0:0
 DAZN 1 France
 p:Canal+ France,f:8
-07da:00c00000:0449:0001:31:0:0
-QVC 2 UHD Germany
-p:SES ASTRA,f:8
 238e:00c00000:044a:0001:2:0:0
 AUDIO PRIMO
 p:Canal+ France,C:0,f:8
@@ -8868,13 +8856,13 @@ p:MB Satellite,f:8
 Erotik Sat TV
 p:MB Satellite,f:8
 314e:00c00000:0459:0001:1:0:0
-Männersache
+Sexy Girls TV
 p:MB Satellite,f:8
 314f:00c00000:0459:0001:1:0:0
-Date Line TV
+Heisse Dates TV
 p:MB Satellite,f:8
 3150:00c00000:0459:0001:1:0:0
-Fotohandy.TV
+Hot Babes TV
 p:MB Satellite,f:8
 3151:00c00000:0459:0001:1:0:0
 Mobile Sex
@@ -8901,10 +8889,10 @@ p:MB Satellite,f:8
 Erotika TV
 p:MB Satellite,f:8
 3160:00c00000:0459:0001:1:0:0
-BunnyClub 24
+Sexy Treff TV
 p:MB Satellite,f:8
 3161:00c00000:0459:0001:1:0:0
-Clipmobile
+TeleSex TV
 p:MB Satellite,f:8
 3163:00c00000:0459:0001:1:0:0
 ALT Sendersuchlauf starten!!
@@ -9176,21 +9164,6 @@ p:ARD Digital,f:8
 6ee2:00c00000:04b1:0001:1:0:0
 SR Fernsehen HD
 p:ARD Digital,f:8
-314f:00c0b160:0459:0001:1:0:0
-Date Line TV
-p:MB Satellite,f:8
-3150:00c0b160:0459:0001:1:0:0
-Fotohandy.TV
-p:MB Satellite,f:8
-3151:00c0b160:0459:0001:1:0:0
-Mobile Sex
-p:MB Satellite,f:8
-3160:00c0b160:0459:0001:1:0:0
-BunnyClub 24
-p:MB Satellite,f:8
-3161:00c0b160:0459:0001:1:0:0
-Clipmobile
-p:MB Satellite,f:8
 0002:0ce40000:0001:22d4:25:0:0
 Television Castilla - La Mancha HD
 p:CMT,f:8
@@ -9897,5 +9870,5 @@ p:RTP,f:8
 ANT3 MADEIRA
 p:RTP,f:8
 end
-# 231 transponders and 3067 services.
-# Created by E-Channelizer v23.0.0.1226 - https://www.echannelizer.com
+# 228 transponders and 3061 services.
+# Created by E-Channelizer v24.0.0.317 - https://www.echannelizer.com
