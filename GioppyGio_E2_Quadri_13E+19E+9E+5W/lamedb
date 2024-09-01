@@ -160,7 +160,7 @@ transponders
 	s 11393000:27500000:1:3:130:2:0:1:2:0:2
 /
 00820000:044c:013e
-	s 11411000:27500000:0:3:130:2:0:1:2:0:2
+	s 11411000:27500000:0:4:130:2:0:1:2:0:2
 /
 00820000:04b0:0110
 	s 11432000:29900000:1:3:130:2:0:1:2:0:2
@@ -214,7 +214,7 @@ transponders
 	s 11958000:27500000:1:3:130:2:0
 /
 00820000:189c:fbff
-	s 11977000:29900000:0:4:130:2:0:1:1:0:2
+	s 11977000:29900000:0:3:130:2:0:1:2:0:2
 /
 00820000:1900:fbff
 	s 11996000:29900000:1:4:130:2:0:1:1:0:2
@@ -223,7 +223,7 @@ transponders
 	s 12015000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:19c8:fbff
-	s 12034000:29900000:1:4:130:2:0:1:1:0:2
+	s 12034000:29900000:1:3:130:2:0:1:2:0:2
 /
 00820000:1a2c:fbff
 	s 12054000:29900000:0:4:130:2:0:1:1:0:2
@@ -273,8 +273,8 @@ transponders
 00820000:2198:fbff
 	s 12418000:29900000:1:4:130:2:0:1:1:0:2
 /
-00820000:22c4:013e
-	s 12466000:29900000:1:4:130:2:0:1:1:0:2
+00820000:2260:fbff
+	s 12465910:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:2328:013e
 	s 12519000:27500000:1:7:130:2:0:1:2:0:2
@@ -1558,7 +1558,7 @@ Top Calcio 24
 p:Mediadiapason,f:8
 03e9:005a0000:10e1:217c:25:0:0
 Top Calcio 24
-p:Mediadiapason
+p:Mediadiapason,f:8
 03ea:005a0000:10e1:217c:25:0:0
 VideoGruppo
 p:ITC,f:8
@@ -1922,9 +1922,6 @@ p:RADIO BRUNO,f:8
 07e0:005a0000:20e1:217c:25:0:0
 Valenza TV
 p:VALENZA TV,f:8
-07e1:005a0000:20e1:217c:1:0:0
-RDS Social TV
-p:TELESPAZIO,f:8
 07e2:005a0000:20e1:217c:1:0:0
 Teleclusone
 p:TELECLUSONE,f:8
@@ -2716,7 +2713,7 @@ Eurosport 1 HD
 p:Nova,f:8
 3308:00820000:0190:013e:1:0:0
 MiniMini+ HD
-p:Orange Polska,C:0
+p:Orange Polska,C:0,f:8
 330d:00820000:0190:013e:31:0:0
 Canal+ 4K Ultra HD Poland
 p:CANAL+,C:0,f:8
@@ -2771,21 +2768,12 @@ p:Nova,C:0,f:8
 02f1:00820000:02bc:013e:25:0:0
 Eurosport 2 Serbian HD
 p:Nova,C:0,f:8
-02f3:00820000:02bc:013e:25:0:0
-Eurosport 3 HD
-p:Polsat Box,C:0,f:8
-02f4:00820000:02bc:013e:25:0:0
-Eurosport 4 HD
-p:Polsat Box,C:0,f:8
-02f5:00820000:02bc:013e:25:0:0
-Eurosport 5 HD
-p:Polsat Box,C:0,f:8
-02f6:00820000:02bc:013e:1:0:0
-Eurosport 6 HD
-p:Polsat Box,C:0,f:8
 01f5:00820000:0384:013e:25:0:0
 Iran International HD
 p:ABS,f:8
+01f7:00820000:0384:013e:25:0:0
+Al Bayyinah TV
+p:,f:8
 01f8:00820000:0384:013e:25:0:0
 Nasa TV
 p:,f:8
@@ -2854,7 +2842,7 @@ Canal+ Film HD Polska
 p:Polsat Box,f:8
 377a:00820000:044c:013e:1:0:0
 Canal+ Dokument HD
-p:Orange Polska,C:0
+p:Orange Polska,C:0,f:8
 377b:00820000:044c:013e:25:0:0
 Canal+ Family HD Poland
 p:Polsat Box,f:8
@@ -2990,9 +2978,6 @@ p:TivùSat,f:8
 0087:00820000:04b0:0110:25:0:0
 27 Twentyseven HD
 p:Mediaset,f:8
-3a99:00820000:0514:013e:25:0:0
-Canal+ Dokument HD
-p:Orange Polska,C:0,f:8
 3a9a:00820000:0514:013e:25:0:0
 Novelas+
 p:Orange Polska,C:0,f:8
@@ -3014,6 +2999,9 @@ p:Orange Polska,C:0,f:8
 3aa1:00820000:0514:013e:1:0:0
 Canal+ Sport 4 HD Polska
 p:Orange Polska,C:0,f:8
+3aa3:00820000:0514:013e:1:0:0
+Canal+ Extra 4
+p:Platforma Canal+,C:0,f:8
 3ab7:00820000:0514:013e:25:0:0
 AMC Poland
 p:Polsat Box,f:8
@@ -3040,6 +3028,9 @@ Canal+ Sport 3 HD Polska
 p:Platforma Canal+,C:0,f:8
 3ad3:00820000:0514:013e:1:0:0
 Canal+ Sport 4 HD Polska
+p:Platforma Canal+,C:0,f:8
+3ad5:00820000:0514:013e:1:0:0
+Canal+ Extra 4
 p:Platforma Canal+,C:0,f:8
 3ad6:00820000:0514:013e:1:0:0
 Novelas+
@@ -3351,7 +3342,7 @@ p:Sky Italia,C:0,f:8
 Classica Italia HD
 p:Sky Italia,f:8
 106c:00820000:14b4:fbff:25:0:0
-BarLume Collection HD
+Trilogia degli Anelli Collection HD
 p:Sky Italia,C:0,f:8
 1c3f:00820000:14b4:fbff:1:0:0
 Sky Cinema Romance
@@ -3374,6 +3365,9 @@ p:Nova,f:8
 0192:00820000:1518:013e:1:0:0
 MTV Hits
 p:Nova,f:8
+0193:00820000:1518:013e:25:0:0
+Cosmote Sport Highlights HD
+p:Nova,C:0
 0194:00820000:1518:013e:1:0:0
 Travel Channel HD
 p:Nova,f:8
@@ -3416,6 +3410,12 @@ p:Nova,C:0,f:8
 012e:00820000:157c:013e:25:0:0
 ERT 2 HD
 p:Nova,f:8
+012f:00820000:157c:013e:25:0:0
+Cosmote Sport 1 HD
+p:Nova,C:0
+0130:00820000:157c:013e:25:0:0
+Cosmote Sport 2 HD
+p:Nova,C:0
 0135:00820000:157c:013e:2:0:0
 Love Radio
 p:Nova,C:0,f:8
@@ -3522,7 +3522,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia +1
 p:Sky Italia,C:0,f:8
 1e5f:00820000:170c:fbff:1:0:0
-Eurosport 9
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 2504:00820000:170c:fbff:25:0:0
 OnBoard Sky HD
@@ -3580,7 +3580,7 @@ Novasports Extra 4 HD
 p:Nova,C:0,f:8
 1bbf:00820000:17d4:013e:1:0:0
 Viasat History HD
-p:NOVA
+p:NOVA,f:8
 1bc0:00820000:17d4:013e:1:0:0
 Duck TV
 p:Nova,f:8
@@ -3605,9 +3605,18 @@ p:Nova,C:0,f:8
 1bca:00820000:17d4:013e:25:0:0
 Nova Cinema 2 HD
 p:Nova,f:8
+1bcb:00820000:17d4:013e:25:0:0
+Cosmote Sport 4 HD
+p:Nova,C:0
+1bcc:00820000:17d4:013e:25:0:0
+Cosmote Sport 5 HD
+p:Nova,C:0
 1bcd:00820000:17d4:013e:2:0:0
 Mad Radio
 p:Nova,C:0,f:8
+1bce:00820000:17d4:013e:25:0:0
+Cosmote Sport 6 HD
+p:Nova,C:0
 1bd0:00820000:17d4:013e:25:0:0
 FX Life HD
 p:Nova,f:8
@@ -3669,7 +3678,7 @@ p:Sky Italia,C:0,f:8
 Boomerang +1 Italia
 p:Sky Italia,C:0,f:8
 0f6f:00820000:1900:fbff:1:0:0
-Eurosport 4
+Sky Sport Info Italia
 p:Sky Italia,C:0,f:8
 0fc6:00820000:1900:fbff:1:0:0
 Nick Jr +1
@@ -3756,7 +3765,7 @@ p:Sky Italia,C:0,f:8
 DeA Kids
 p:Sky Italia,C:0,f:8
 2d00:00820000:19c8:fbff:25:0:0
-Sky Atlantic Maratone HD
+Sky Atlantic +1 HD Italia
 p:Sky Italia,C:0,f:8
 37b5:00820000:19c8:fbff:1:0:0
 Milan Channel
@@ -3800,9 +3809,6 @@ p:Sky Italia,f:8
 2ba6:00820000:1a2c:fbff:2:0:0
 INBLU2000
 p:Sky Italia,f:8
-2da0:00820000:1a2c:fbff:1:0:0
-Eurosport 4K
-p:Sky Italia,C:0,f:8
 2dd2:00820000:1a2c:fbff:1:0:0
 Sky Sport Collection
 p:Sky Italia,f:8
@@ -3890,9 +3896,18 @@ p:Nova,f:8
 3c92:00820000:1bbc:013e:1:0:0
 TLC Greece
 p:Nova,C:0,f:8
+3c93:00820000:1bbc:013e:25:0:0
+Cosmote Sport 7 HD
+p:Nova,C:0
+3c94:00820000:1bbc:013e:25:0:0
+Cosmote Sport 8 HD
+p:Nova,C:0
 3c95:00820000:1bbc:013e:25:0:0
 Nova Cinema 1 HD
 p:Nova,f:8
+3c96:00820000:1bbc:013e:25:0:0
+Cosmote Sport 9 HD
+p:Nova,C:0
 3c97:00820000:1bbc:013e:25:0:0
 E! Eastern Europe HD
 p:Nova,C:0,f:8
@@ -3910,7 +3925,7 @@ Viasat Nature HD
 p:Total TV,f:8
 3c9e:00820000:1bbc:013e:1:0:0
 Viasat Explore HD
-p:NOVA
+p:NOVA,f:8
 3c9f:00820000:1bbc:013e:1:0:0
 BSKTV
 p:Nova,C:0,f:8
@@ -3970,7 +3985,7 @@ SMTv San Marino Radio
 p:Harmonic,f:8
 1c6f:00820000:1c20:013e:1:0:0
 Al Bayyinah TV
-p:Eutelsat,f:8
+p:,f:8
 1c70:00820000:1c20:013e:2:0:0
 RADIO MATER
 p:M-Three satcom,f:8
@@ -4007,6 +4022,9 @@ p:Nova,f:8
 0164:00820000:1c84:013e:25:0:0
 NR1 HD
 p:Nova,f:8
+0165:00820000:1c84:013e:25:0:0
+Cosmote Sport 3 HD
+p:Nova,C:0
 0166:00820000:1c84:013e:1:0:0
 Open Beyond TV
 p:Nova,f:8
@@ -4168,16 +4186,16 @@ Polsat Film 2
 p:Polsat Box,f:8
 3e81:00820000:1e14:013e:1:0:0
 Eurosport 7 HD
-p:Polsat Box,C:0
+p:Polsat Box,C:0,f:8
 3e82:00820000:1e14:013e:1:0:0
 Eurosport 8 HD
-p:Polsat Box,C:0
+p:Polsat Box,C:0,f:8
 3e83:00820000:1e14:013e:1:0:0
 Eurosport 9 HD
-p:Polsat Box,C:0
+p:Polsat Box,C:0,f:8
 3e84:00820000:1e14:013e:31:0:0
 Eurosport 4K
-p:Polsat Box,C:0
+p:Polsat Box,C:0,f:8
 0c1d:00820000:1e78:0071:25:0:0
 Polsat Sport 1
 p:Polsat Box,C:0,f:8
@@ -4239,7 +4257,7 @@ p:Orange Polska,f:8
 Extreme Sports HD
 p:Orange Polska,f:8
 290b:00820000:1edc:0071:25:0:0
-CBS Europa HD
+Film Café
 p:Polsat Box,f:8
 290c:00820000:1edc:0071:1:0:0
 Wydarzenia 24
@@ -4314,10 +4332,10 @@ p:VOZROZHDENIE,f:8
 La Roma di History
 p:Sky Italia,C:0,f:8
 1089:00820000:2008:fbff:1:0:0
-Eurosport 5
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 108a:00820000:2008:fbff:1:0:0
-Eurosport 6
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 1090:00820000:2008:fbff:25:0:0
 Sky Serie Maratone HD
@@ -4401,16 +4419,16 @@ p:ETISALAT,f:8
 OMAN HOLY QURAN
 p:ETISALAT,f:8
 0f46:00820000:2198:fbff:1:0:0
-Eurosport 7
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 0f48:00820000:2198:fbff:1:0:0
-Eurosport 8
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 0f4d:00820000:2198:fbff:25:0:0
 Sky Sport HD Italia
 p:Sky Italia,C:0,f:8
 0f4d:00820000:2198:fbff:1:0:0
-Eurosport 3
+Sky Sport Italia
 p:Sky Italia,C:0,f:8
 0f66:00820000:2198:fbff:25:0:0
 Sky Selection
@@ -4424,32 +4442,41 @@ p:Sky Italia,f:8
 1e5c:00820000:2198:fbff:1:0:0
 Sky Sport Italia
 p:Sky Italia,C:0,f:8
-07d4:00820000:22c4:013e:25:0:0
-Vatican Media Europa
-p:GLOBECAST  🙏,f:8
-07d5:00820000:22c4:013e:1:0:0
-2M Monde
-p:GLOBECAST,f:8
-07e1:00820000:22c4:013e:1:0:0
-Euronews Italian
-p:GLOBECAST,f:8
-0830:00820000:22c4:013e:25:0:0
-Equidia PRO1 HD
-p:GLOBECAST,f:8
-0830:00820000:22c4:013e:1:0:0
-Equidia PRO1 HD
-p:GLOBECAST,C:0,f:8
-0831:00820000:22c4:013e:25:0:0
-Equidia PRO2 HD
-p:GLOBECAST,f:8
-0831:00820000:22c4:013e:1:0:0
-Equidia PRO2 HD
-p:GLOBECAST,f:8
-0838:00820000:22c4:013e:2:0:0
-Radio 2M
-p:GLOBECAST,f:8
-1036:00820000:22c4:013e:25:0:0
+0f4f:00820000:2260:fbff:25:0:0
+Eurosport HD Nederland
+p:Sky Italia,C:0,f:8
+1036:00820000:2260:fbff:25:0:0
 Eurosport 2 HD Italia
+p:Sky Italia,C:0,f:8
+2da4:00820000:2260:fbff:25:0:0
+Sky Serie HD
+p:Sky Italia,C:0,f:8
+2da6:00820000:2260:fbff:25:0:0
+Sky Investigation HD
+p:Sky Italia,C:0,f:8
+2daf:00820000:2260:fbff:25:0:0
+Sky Nature HD
+p:Sky Italia,C:0,f:8
+2db1:00820000:2260:fbff:25:0:0
+Sky Documentaries HD
+p:Sky Italia,C:0,f:8
+2db2:00820000:2260:fbff:25:0:0
+Sky Documentaries HD
+p:Sky Italia,C:0,f:8
+2dbe:00820000:2260:fbff:25:0:0
+Sky Nature HD
+p:Sky Italia,C:0,f:8
+341e:00820000:2260:fbff:1:0:0
+Primafila 5
+p:SkyItalia,C:0,f:8
+3421:00820000:2260:fbff:1:0:0
+Primafila 3
+p:SkyItalia,C:0,f:8
+3423:00820000:2260:fbff:1:0:0
+Primafila 4
+p:SkyItalia,C:0,f:8
+38c9:00820000:2260:fbff:1:0:0
+CetoXcento TV
 p:Sky Italia,C:0,f:8
 232b:00820000:2328:013e:1:7687:0
 Ronahi TV
@@ -5287,31 +5314,31 @@ Soul & Pepper
 p:Vivacom,C:0,f:8
 0259:00820000:2774:013e:1:0:0
 FX Life HD
-p:NOVA,C:0
+p:NOVA,C:0,f:8
 025a:00820000:2774:013e:1:0:0
 FX HD
 p:NOVA,f:8
 025b:00820000:2774:013e:1:0:0
 MyZen TV HD
-p:NOVA
+p:NOVA,f:8
 025c:00820000:2774:013e:1:0:0
 NR1 HD
-p:NOVA
+p:NOVA,f:8
 025e:00820000:2774:013e:1:0:0
 Crime+Investigation
-p:NOVA
+p:NOVA,f:8
 025f:00820000:2774:013e:1:0:0
 National Geographic HD
-p:NOVA
+p:NOVA,f:8
 0260:00820000:2774:013e:1:0:0
 Viasat History HD
-p:NOVA
+p:NOVA,f:8
 0261:00820000:2774:013e:1:0:0
 Viasat Nature HD
-p:NOVA
+p:NOVA,f:8
 0262:00820000:2774:013e:1:0:0
 Viasat Explore HD
-p:NOVA
+p:NOVA,f:8
 1133:00820000:2af8:013e:25:0:0
 BBC First HD
 p:Orange Polska,C:0,f:8
@@ -5320,7 +5347,7 @@ TVP HD
 p:Polsat Box,f:8
 1139:00820000:2af8:013e:25:0:0
 TVP Info HD
-p:Orange Polska,C:0,f:8
+p:Orange Polska,f:8
 113a:00820000:2af8:013e:25:0:0
 Sport Klub HD Poland
 p:Orange Polska,C:0,f:8
@@ -5372,6 +5399,9 @@ p:Polsat Box,C:0,f:8
 1184:00820000:2af8:013e:1:0:0
 BBC Earth HD
 p:Polsat Box,C:0,f:8
+118f:00820000:2af8:013e:0:0:0
+by GioppyGio®
+p:♂ by GioppyGio®¥,f:8
 1190:00820000:2af8:013e:2:0:0
 NETFLIX
 p:CANAL+,f:8
@@ -6506,6 +6536,9 @@ p:Bis,C:0,f:8
 0146:00820000:3e1c:013f:1:0:0
 LCI - La Chaîne Info
 p:Bis,f:8
+07d4:008230bb:22c4:013e:25:0:0
+Vatican Media Europa
+p:GLOBECAST  🙏,f:8
 07d5:008230bb:22c4:013e:1:0:0
 2M Monde
 p:GLOBECAST,f:8
@@ -6518,6 +6551,18 @@ p:Orange Polska,C:0,f:8
 07db:008230bb:22c4:013e:25:0:0
 BBC Lifestyle HD Poland
 p:Orange Polska,C:0,f:8
+07e1:008230bb:22c4:013e:1:0:0
+Euronews Italian
+p:GLOBECAST,f:8
+0830:008230bb:22c4:013e:25:0:0
+Equidia PRO1 HD
+p:GLOBECAST,f:8
+0831:008230bb:22c4:013e:25:0:0
+Equidia PRO2 HD
+p:GLOBECAST,f:8
+0838:008230bb:22c4:013e:2:0:0
+Radio 2M
+p:GLOBECAST,f:8
 0641:00823121:2454:013e:25:0:0
 Al Jazeera HD
 p:EUTELSAT,f:8
@@ -6595,6 +6640,9 @@ Sky Sport 4 HD Germany
 p:Sky Deutschland,C:0,f:8
 0133:00c00000:0004:0085:1:0:0
 Sky Sport Bundesliga 5 HD
+p:Sky Deutschland,C:0,f:8
+0134:00c00000:0004:0085:25:0:0
+Sky Sport 5 HD Germany
 p:Sky Deutschland,C:0,f:8
 0155:00c00000:0004:0085:1:0:0
 Prime Sportsbar
@@ -6721,7 +6769,7 @@ Sky Sport Austria 7 HD
 p:Sky Deutschland,C:0,f:8
 0106:00c00000:0009:0085:1:0:0
 Sky Sport Austria 8
-p:Sky Deutschland,C:0
+p:Sky Deutschland,C:0,f:8
 013d:00c00000:0009:0085:1:0:0
 Sky Sport Bundesliga 6 HD
 p:Sky Deutschland,C:0,f:8
@@ -7290,10 +7338,7 @@ p:Movistar+,C:0,f:8
 Movistar Deportes 3
 p:Movistar+,C:0,f:8
 77c3:00c00000:040a:0001:1:0:0
-Movistar Champions Tour
-p:Movistar+,C:0
-77c4:00c00000:040a:0001:1:0:0
-Eurosport 4
+Movistar Liga Campeones 2
 p:Movistar+,C:0,f:8
 77c6:00c00000:040a:0001:1:0:0
 Movistar Clasicos
@@ -7308,7 +7353,7 @@ p:Movistar+,C:0,f:8
 Movistar Deportes 8
 p:Movistar+,C:0,f:8
 77d8:00c00000:040a:0001:1:0:0
-Eurosport 3
+Movistar Liga Campeones 4
 p:Movistar+,C:0,f:8
 0001:00c00000:040b:0001:31:0:0
 SES UHD Demo
@@ -7619,15 +7664,6 @@ p:Movistar+,C:0,f:8
 7891:00c00000:0414:0001:1:0:0
 Be Mad
 p:Movistar+,C:0,f:8
-7892:00c00000:0414:0001:1:0:0
-Eurosport 7
-p:Movistar+,C:0,f:8
-7893:00c00000:0414:0001:1:0:0
-Eurosport 8
-p:Movistar+,C:0,f:8
-7894:00c00000:0414:0001:1:0:0
-Eurosport 9
-p:Movistar+,C:0,f:8
 7729:00c00000:0416:0001:1:0:0
 Canal Sur Andalucia
 p:Movistar+,f:8
@@ -7692,10 +7728,10 @@ p:Movistar+,C:0,f:8
 DAZN LaLiga 2 HD
 p:Movistar+,C:0,f:8
 749e:00c00000:041c:0001:1:0:0
-Movistar Champions Tour HD
+Movistar Liga Campeones 2
 p:Movistar+,C:0,f:8
 749f:00c00000:041c:0001:1:0:0
-Movistar Champions Tour 2 HD
+Movistar Liga Campeones 3
 p:Movistar+,C:0,f:8
 74a2:00c00000:041c:0001:25:0:0
 Mezzo Live HD
@@ -7737,7 +7773,7 @@ p:Movistar+,C:0,f:8
 Alquiler XY
 p:Movistar+,C:0,f:8
 7696:00c00000:041e:0001:1:0:0
-Movistar Com Rom
+Movistar Brad Pitt
 p:Movistar+,C:0,f:8
 7697:00c00000:041e:0001:1:0:0
 Nick Junior Spain
@@ -7758,7 +7794,7 @@ p:Movistar+,C:0,f:8
 La Sexta
 p:Movistar+,C:0,f:8
 769f:00c00000:041e:0001:1:0:0
-Movistar Champions Tour 2
+Movistar Liga Campeones 3
 p:Movistar+,C:0,f:8
 76a3:00c00000:041e:0001:1:0:0
 Multideporte
@@ -7973,9 +8009,6 @@ p:Movistar+,C:0,f:8
 7821:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion 6
 p:Movistar+,C:0,f:8
-7822:00c00000:0428:0001:1:0:0
-Eurosport 6
-p:Movistar+,C:0,f:8
 7824:00c00000:0428:0001:1:0:0
 LaLiga TV Bar 6
 p:Movistar+,C:0,f:8
@@ -7984,9 +8017,6 @@ LaLiga TV Hypermotion
 p:Movistar+,C:0,f:8
 7827:00c00000:0428:0001:1:0:0
 La Resistencia
-p:Movistar+,C:0,f:8
-7829:00c00000:0428:0001:1:0:0
-Eurosport 5
 p:Movistar+,C:0,f:8
 782a:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion 3
@@ -9211,1294 +9241,1294 @@ MTV 80s
 p:beIN,C:0,f:8
 0101:0dde0000:0001:20fa:25:0:0
 France 2 HD
-p:GR1 A
+p:GR1 A,f:8
 0104:0dde0000:0001:20fa:25:0:0
 France 4 HD
-p:GR1 A
+p:GR1 A,f:8
 0106:0dde0000:0001:20fa:25:0:0
 Franceinfo: HD
-p:GR1 A
+p:GR1 A,f:8
 0110:0dde0000:0001:20fa:25:0:0
 France 3 Sat HD
-p:GR1
+p:GR1,f:8
 0201:0dde0000:0002:20fa:25:0:0
 C8 HD
-p:NTN
+p:NTN,f:8
 0203:0dde0000:0002:20fa:25:0:0
 BFM TV HD
-p:NTN
+p:NTN,f:8
 0204:0dde0000:0002:20fa:25:0:0
 CNews HD
-p:NTN
+p:NTN,f:8
 0205:0dde0000:0002:20fa:25:0:0
 CStar HD
-p:NTN
+p:NTN,f:8
 0206:0dde0000:0002:20fa:25:0:0
 Gulli HD
-p:NTN
+p:NTN,f:8
 000b:0dde0000:0003:20fa:2:0:0
 NRJ
-p:towerCast_A
+p:towerCast_A,f:8
 000c:0dde0000:0003:20fa:2:0:0
 CHERIE FM
-p:towerCast_A
+p:towerCast_A,f:8
 000d:0dde0000:0003:20fa:2:0:0
 RIRE ET CHANSONS
-p:towerCast_A
+p:towerCast_A,f:8
 000e:0dde0000:0003:20fa:2:0:0
 NOSTALGIE
-p:towerCast_A
+p:towerCast_A,f:8
 000f:0dde0000:0003:20fa:2:0:0
 CANAL EVENT
-p:towerCast_A
+p:towerCast_A,f:8
 0015:0dde0000:0003:20fa:2:0:0
 NRJ IDF
-p:towerCast_A
+p:towerCast_A,f:8
 0016:0dde0000:0003:20fa:2:0:0
 NOSTALGIE IDF
-p:towerCast_A
+p:towerCast_A,f:8
 0029:0dde0000:0003:20fa:2:0:0
 RTL
-p:towerCast_A
+p:towerCast_A,f:8
 002a:0dde0000:0003:20fa:2:0:0
 RTL2
-p:towerCast_A
+p:towerCast_A,f:8
 002b:0dde0000:0003:20fa:2:0:0
 FUN RADIO
-p:towerCast_A
+p:towerCast_A,f:8
 002c:0dde0000:0003:20fa:2:0:0
 EUROPE 1
-p:towerCast_A
+p:towerCast_A,f:8
 002d:0dde0000:0003:20fa:2:0:0
 RFM
-p:towerCast_A
+p:towerCast_A,f:8
 002e:0dde0000:0003:20fa:2:0:0
 EUROPE 2
-p:towerCast_A
+p:towerCast_A,f:8
 03e9:0dde0000:0003:20fa:2:0:0
 SKYROCK-SAT
-p:SKYROCK
+p:SKYROCK,f:8
 0016:0dde0000:0004:20fa:2:0:0
 NOSTALGIE IDF
-p:towerCast_A
+p:towerCast_A,f:8
 0601:0dde0000:0006:20fa:25:0:0
 TF 1
-p:SMR6
+p:SMR6,f:8
 0602:0dde0000:0006:20fa:25:0:0
 NRJ 12
-p:SMR6
+p:SMR6,f:8
 0606:0dde0000:0006:20fa:25:0:0
 TMC HD
-p:SMR6
+p:SMR6,f:8
 0608:0dde0000:0006:20fa:25:0:0
 TFX
-p:SMR6
+p:SMR6,f:8
 0609:0dde0000:0006:20fa:25:0:0
 LCP HD
-p:SMR6
+p:SMR6,f:8
 0a01:0dde0000:000a:20fa:25:0:0
 TF1 Séries Films
-p:MHD7
+p:MHD7,f:8
 0a02:0dde0000:000a:20fa:25:0:0
 L´Equipe 21
-p:MHD7
+p:MHD7,f:8
 0a03:0dde0000:000a:20fa:25:0:0
 Cherie 25
-p:MHD7
+p:MHD7,f:8
 0a04:0dde0000:000a:20fa:25:0:0
 RMC Découverte
-p:MHD7
+p:MHD7,f:8
 0a05:0dde0000:000a:20fa:25:0:0
 RMC Story
-p:MHD7
+p:MHD7,f:8
 044d:0dde0000:0071:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 044e:0dde0000:0071:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 044f:0dde0000:0071:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 0456:0dde0000:0071:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 0457:0dde0000:0071:217c:25:0:0
 Rai 3 TGR Lombardia
-p:RAI
+p:RAI,f:8
 0458:0dde0000:0071:217c:25:0:0
 Rai 3 TGR Piemonte
-p:RAI
+p:RAI,f:8
 0459:0dde0000:0071:217c:1:0:0
 Rai 3 TGR Emilia Romagna
-p:RAI
+p:RAI,f:8
 045e:0dde0000:0071:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 04e3:0dde0000:008f:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 04e4:0dde0000:008f:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 04e5:0dde0000:008f:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 04ec:0dde0000:008f:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 04ed:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Lazio
-p:RAI
+p:RAI,f:8
 04ee:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Toscana
-p:RAI
+p:RAI,f:8
 04ef:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Umbria
-p:RAI
+p:RAI,f:8
 04f1:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Toscana
-p:RAI
+p:RAI,f:8
 04f2:0dde0000:008f:217c:25:0:0
 Rai 3 TGR Umbria
-p:RAI
+p:RAI,f:8
 0515:0dde0000:0099:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 0516:0dde0000:0099:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 0517:0dde0000:0099:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 051e:0dde0000:0099:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 051f:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Puglia
-p:RAI
+p:RAI,f:8
 0520:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Basilicata
-p:RAI
+p:RAI,f:8
 0521:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Molise
-p:RAI
+p:RAI,f:8
 0522:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Puglia
-p:RAI
+p:RAI,f:8
 0523:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Basilicata
-p:RAI
+p:RAI,f:8
 0524:0dde0000:0099:217c:25:0:0
 Rai 3 TGR Molise
-p:RAI
+p:RAI,f:8
 0547:0dde0000:00a3:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 0548:0dde0000:00a3:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 0549:0dde0000:00a3:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 0550:0dde0000:00a3:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 0551:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Veneto
-p:RAI
+p:RAI,f:8
 0552:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Emilia Romagna
-p:RAI
+p:RAI,f:8
 0553:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Lombardia
-p:RAI
+p:RAI,f:8
 0554:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Veneto
-p:RAI
+p:RAI,f:8
 0556:0dde0000:00a3:217c:25:0:0
 Rai 3 TGR Lombardia
-p:RAI
+p:RAI,f:8
 0579:0dde0000:00ad:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 057a:0dde0000:00ad:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 057b:0dde0000:00ad:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 0582:0dde0000:00ad:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 0583:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR FVG
-p:RAI
+p:RAI,f:8
 0584:0dde0000:00ad:217c:1:0:0
 Rai 3 Bis
-p:RAI
+p:RAI,f:8
 0585:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR Valle d'Aosta
-p:RAI
+p:RAI,f:8
 0586:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR FVG
-p:RAI
+p:RAI,f:8
 0587:0dde0000:00ad:217c:1:0:0
 Rai 3 Bis
-p:RAI
+p:RAI,f:8
 0588:0dde0000:00ad:217c:25:0:0
 Rai 3 TGR Valle d'Aosta
-p:RAI
+p:RAI,f:8
 05ab:0dde0000:00b7:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 05ac:0dde0000:00b7:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 05ad:0dde0000:00b7:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 05b4:0dde0000:00b7:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 05b5:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Liguria
-p:RAI
+p:RAI,f:8
 05b6:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Sardegna
 p:RAI,f:8
 05b7:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Toscana
-p:RAI
+p:RAI,f:8
 05b8:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Liguria
-p:RAI
+p:RAI,f:8
 05b9:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Sardegna
 p:RAI,f:8
 05ba:0dde0000:00b7:217c:1:0:0
 Rai 3 TGR Toscana
-p:RAI
+p:RAI,f:8
 05bc:0dde0000:00b7:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 060f:0dde0000:00cb:217c:25:0:0
 Rai 1 HD
-p:RAI
+p:RAI,f:8
 0610:0dde0000:00cb:217c:25:0:0
 Rai 2 HD
-p:RAI
+p:RAI,f:8
 0611:0dde0000:00cb:217c:1:0:0
 Rai News 24
-p:RAI
+p:RAI,f:8
 0618:0dde0000:00cb:217c:25:0:0
 Rai 3 HD
-p:RAI
+p:RAI,f:8
 0619:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Sicilia
-p:RAI
+p:RAI,f:8
 061a:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Calabria
-p:RAI
+p:RAI,f:8
 061b:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Basilicata
-p:RAI
+p:RAI,f:8
 061c:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Sicilia
-p:RAI
+p:RAI,f:8
 061d:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Calabria
-p:RAI
+p:RAI,f:8
 061e:0dde0000:00cb:217c:25:0:0
 Rai 3 TGR Basilicata
-p:RAI
+p:RAI,f:8
 02ef:0dde0000:0107:217c:25:0:0
 La 7 HD
-p:
+p:,f:8
 02f0:0dde0000:0107:217c:25:0:0
 La7d HD
-p:
+p:,f:8
 0318:0dde0000:0107:217c:25:0:0
 La 7
-p:
+p:,f:8
 0bb9:0dde0000:0107:217c:1:0:0
 Italia 121
-p:Canale Italia
+p:Canale Italia,f:8
 0bba:0dde0000:0107:217c:1:0:0
 Arte Italia 124
-p:Canale Italia
+p:Canale Italia,f:8
 0bbb:0dde0000:0107:217c:1:0:0
 Arte Italia 125
-p:Canale Italia
+p:Canale Italia,f:8
 0bbc:0dde0000:0107:217c:1:0:0
 Italia 126
-p:Canale Italia
+p:Canale Italia,f:8
 0bbd:0dde0000:0107:217c:1:0:0
 Italia 127
-p:Canale Italia
+p:Canale Italia,f:8
 0bbe:0dde0000:0107:217c:1:0:0
 Italia 135
-p:Canale Italia
+p:Canale Italia,f:8
 0bbf:0dde0000:0107:217c:1:0:0
 Italia 134
-p:Canale Italia
+p:Canale Italia,f:8
 0fa2:0dde0000:0107:217c:1:0:0
 Donna Sport TV
-p:In Aria!
+p:In Aria!,f:8
 0fa3:0dde0000:0107:217c:1:0:0
 Alma TV - Alice & Marcopolo
-p:In Aria!
+p:In Aria!,f:8
 0fa4:0dde0000:0107:217c:1:0:0
 TeleCampione
-p:In Aria!
+p:In Aria!,f:8
 0fa9:0dde0000:0107:217c:1:0:0
 Canale 232
-p:In Aria!
+p:In Aria!,f:8
 0faa:0dde0000:0107:217c:1:0:0
 Parole di Vita
-p:In Aria!
+p:In Aria!,f:8
 0faf:0dde0000:0107:217c:1:0:0
 Canale 163
-p:In Aria!
+p:In Aria!,f:8
 0fb2:0dde0000:0107:217c:1:0:0
 Premio Sport
-p:
+p:,f:8
 0fb7:0dde0000:0107:217c:1:0:0
 Canale 235
-p:In Aria!
+p:In Aria!,f:8
 03e9:0dde0000:03e8:0001:2:0:0
 NOSTALGIE
-p:NGROUP
+p:NGROUP,f:8
 03ea:0dde0000:03e8:0001:2:0:0
 NRJ
-p:NGROUP
+p:NGROUP,f:8
 01f4:0dde0000:2711:0090:2:0:0
 Sec TDF1
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 0258:0dde0000:2711:0090:2:0:0
 Sec TDF2
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 02bc:0dde0000:2711:0090:2:0:0
 Sec TDF3
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 0834:0dde0000:2711:0090:2:0:0
 Radio Classique
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 1004:0dde0000:2711:0090:2:0:0
 RMC
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 1068:0dde0000:2711:0090:2:0:0
 BFM
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 13ec:0dde0000:2711:0090:2:0:0
 France Inter
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 1450:0dde0000:2711:0090:2:0:0
 France Culture
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 14b4:0dde0000:2711:0090:2:0:0
 France Musique
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 1518:0dde0000:2711:0090:2:0:0
 FIP
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 15e0:0dde0000:2711:0090:2:0:0
 France Info
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 16a8:0dde0000:2711:0090:2:0:0
 Le Mouv'
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 17d4:0dde0000:2711:0090:2:0:0
 MFM
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 1bbc:0dde0000:2711:0090:2:0:0
 Sud Radio
-p:FM-DVB TDF RMV
+p:FM-DVB TDF RMV,f:8
 0064:0dde0000:32d2:055f:2:0:0
 France Bleu Paris
-p:Radio France
+p:Radio France,f:8
 0065:0dde0000:32d2:055f:2:0:0
 France Bleu Alsace
-p:Radio France
+p:Radio France,f:8
 0066:0dde0000:32d2:055f:2:0:0
 France Bleu Armorique
-p:Radio France
+p:Radio France,f:8
 0067:0dde0000:32d2:055f:2:0:0
 France Bleu Auxerre
-p:Radio France
+p:Radio France,f:8
 0068:0dde0000:32d2:055f:2:0:0
 France Bleu Azur
-p:Radio France
+p:Radio France,f:8
 0069:0dde0000:32d2:055f:2:0:0
 France Bleu Basse Normandie
-p:Radio France
+p:Radio France,f:8
 006a:0dde0000:32d2:055f:2:0:0
 France Bleu Bearn
-p:Radio France
+p:Radio France,f:8
 006b:0dde0000:32d2:055f:2:0:0
 France Bleu Belfort Montbeliard
-p:Radio France
+p:Radio France,f:8
 006c:0dde0000:32d2:055f:2:0:0
 France Bleu Berry
-p:Radio France
+p:Radio France,f:8
 006d:0dde0000:32d2:055f:2:0:0
 France Bleu Besancon
-p:Radio France
+p:Radio France,f:8
 006e:0dde0000:32d2:055f:2:0:0
 France Bleu Bourgogne
-p:Radio France
+p:Radio France,f:8
 006f:0dde0000:32d2:055f:2:0:0
 France Bleu Breizh Izel
-p:Radio France
+p:Radio France,f:8
 0070:0dde0000:32d2:055f:2:0:0
 France Bleu Champagne
-p:Radio France
+p:Radio France,f:8
 0071:0dde0000:32d2:055f:2:0:0
 France Bleu Cotentin
-p:Radio France
+p:Radio France,f:8
 0072:0dde0000:32d2:055f:2:0:0
 France Bleu Creuse
-p:Radio France
+p:Radio France,f:8
 0073:0dde0000:32d2:055f:2:0:0
 France Bleu Drome Ardeche
-p:Radio France
+p:Radio France,f:8
 0074:0dde0000:32d2:055f:2:0:0
 France Bleu Frequenza Mora
-p:Radio France
+p:Radio France,f:8
 0075:0dde0000:32d2:055f:2:0:0
 France Bleu Gard Lozere
-p:Radio France
+p:Radio France,f:8
 0076:0dde0000:32d2:055f:2:0:0
 France Bleu Gascogne
-p:Radio France
+p:Radio France,f:8
 0077:0dde0000:32d2:055f:2:0:0
 France Bleu Gironde
-p:Radio France
+p:Radio France,f:8
 0078:0dde0000:32d2:055f:2:0:0
 France Bleu Haute Normandie
-p:Radio France
+p:Radio France,f:8
 0079:0dde0000:32d2:055f:2:0:0
 France Bleu Herault
-p:Radio France
+p:Radio France,f:8
 007a:0dde0000:32d2:055f:2:0:0
 France Bleu Isere
-p:Radio France
+p:Radio France,f:8
 007b:0dde0000:32d2:055f:2:0:0
 France Bleu La Rochelle
-p:Radio France
+p:Radio France,f:8
 007c:0dde0000:32d2:055f:2:0:0
 France Bleu Limousin
-p:Radio France
+p:Radio France,f:8
 007d:0dde0000:32d2:055f:2:0:0
 France Bleu Loire Ocean
-p:Radio France
+p:Radio France,f:8
 007e:0dde0000:32d2:055f:2:0:0
 France Bleu Lorraine Nord
-p:Radio France
+p:Radio France,f:8
 007f:0dde0000:32d2:055f:2:0:0
 France Bleu Maine
-p:Radio France
+p:Radio France,f:8
 0080:0dde0000:32d2:055f:2:0:0
 France Bleu Mayenne
-p:Radio France
+p:Radio France,f:8
 0081:0dde0000:32d2:055f:2:0:0
 France Bleu Natio
-p:Radio France
+p:Radio France,f:8
 0082:0dde0000:32d2:055f:2:0:0
 France Bleu Nord
-p:Radio France
+p:Radio France,f:8
 0083:0dde0000:32d2:055f:2:0:0
 France Bleu Orleans
-p:Radio France
+p:Radio France,f:8
 0084:0dde0000:32d2:055f:2:0:0
 France Bleu Pays Basque
-p:Radio France
+p:Radio France,f:8
 0085:0dde0000:32d2:055f:2:0:0
 France Bleu Pays d Auvergne
-p:Radio France
+p:Radio France,f:8
 0086:0dde0000:32d2:055f:2:0:0
 France Bleu Pays de Savoie
-p:Radio France
+p:Radio France,f:8
 0087:0dde0000:32d2:055f:2:0:0
 France Bleu Perigord
-p:Radio France
+p:Radio France,f:8
 0088:0dde0000:32d2:055f:2:0:0
 France Bleu Picardie
-p:Radio France
+p:Radio France,f:8
 0089:0dde0000:32d2:055f:2:0:0
 France Bleu Poitou
-p:Radio France
+p:Radio France,f:8
 008a:0dde0000:32d2:055f:2:0:0
 France Bleu Provence
-p:Radio France
+p:Radio France,f:8
 008b:0dde0000:32d2:055f:2:0:0
 France Bleu Roussillon
-p:Radio France
+p:Radio France,f:8
 008c:0dde0000:32d2:055f:2:0:0
 France Bleu Saint Etienne
-p:Radio France
+p:Radio France,f:8
 008d:0dde0000:32d2:055f:2:0:0
 France Bleu Sud Lorraine
-p:Radio France
+p:Radio France,f:8
 008e:0dde0000:32d2:055f:2:0:0
 France Bleu Occitanie
-p:Radio France
+p:Radio France,f:8
 008f:0dde0000:32d2:055f:2:0:0
 France Bleu Touraine
-p:Radio France
+p:Radio France,f:8
 0090:0dde0000:32d2:055f:2:0:0
 France Bleu Vaucluse
-p:Radio France
+p:Radio France,f:8
 0096:0dde0000:32d2:055f:2:0:0
 RCF
-p:
+p:,f:8
 0097:0dde0000:32d2:055f:2:0:0
 RCF Pays de l'Ain
-p:
+p:,f:8
 0098:0dde0000:32d2:055f:2:0:0
 RCF Allier
-p:
+p:,f:8
 0099:0dde0000:32d2:055f:2:0:0
 RCF Hautes-Alpes
-p:
+p:,f:8
 009a:0dde0000:32d2:055f:2:0:0
 RCF Orne
-p:
+p:,f:8
 009b:0dde0000:32d2:055f:2:0:0
 RCF Pays d'Aude
-p:
+p:,f:8
 009c:0dde0000:32d2:055f:2:0:0
 RCF en Berry
-p:
+p:,f:8
 009d:0dde0000:32d2:055f:2:0:0
 RCF en Bourgogne
-p:
+p:,f:8
 009e:0dde0000:32d2:055f:2:0:0
 RCF Franche-Comté
-p:
+p:,f:8
 009f:0dde0000:32d2:055f:2:0:0
 RCF Drôme-Ardèche
-p:
+p:,f:8
 00a0:0dde0000:32d2:055f:2:0:0
 RCF Bordeaux
-p:
+p:,f:8
 00a1:0dde0000:32d2:055f:2:0:0
 RCF Alpha Rennes
-p:
+p:,f:8
 00a2:0dde0000:32d2:055f:2:0:0
 RCF Touraine
-p:
+p:,f:8
 00a3:0dde0000:32d2:055f:2:0:0
 RCF Isère
-p:
+p:,f:8
 00a4:0dde0000:32d2:055f:2:0:0
 RCF Loir et Cher
-p:
+p:,f:8
 00a5:0dde0000:32d2:055f:2:0:0
 RCF Haute-Loire
-p:
+p:,f:8
 00a6:0dde0000:32d2:055f:2:0:0
 RCF Anjou
-p:
+p:,f:8
 00a7:0dde0000:32d2:055f:2:0:0
 RCF Reims-Ardennes
-p:
+p:,f:8
 00a8:0dde0000:32d2:055f:2:0:0
 RCF Coeur de Champagne
-p:
+p:,f:8
 00a9:0dde0000:32d2:055f:2:0:0
 RCF Lyon
-p:
+p:,f:8
 00aa:0dde0000:32d2:055f:2:0:0
 RCF Savoie
-p:
+p:,f:8
 00ab:0dde0000:32d2:055f:2:0:0
 RCF Haute-Savoie
-p:
+p:,f:8
 00ac:0dde0000:32d2:055f:2:0:0
 RCF Haute-Normandie
-p:
+p:,f:8
 00ad:0dde0000:32d2:055f:2:0:0
 RCF Vaucluse
-p:
+p:,f:8
 00ae:0dde0000:32d2:055f:2:0:0
 RCF Vendée
-p:
+p:,f:8
 00af:0dde0000:32d2:055f:2:0:0
 RCF Poitou
-p:
+p:,f:8
 00b0:0dde0000:32d2:055f:2:0:0
 RCF Limousin
-p:
+p:,f:8
 00b1:0dde0000:32d2:055f:2:0:0
 RCF Corrèze
-p:
+p:,f:8
 00b2:0dde0000:32d2:055f:2:0:0
 RCF Jerico-Moselle
-p:
+p:,f:8
 00b4:0dde0000:32d2:055f:2:0:0
 RCF Contribution
-p:
+p:,f:8
 00c1:0dde0000:32d2:055f:2:0:0
 RF Contrib
-p:Radio France
+p:Radio France,f:8
 00c2:0dde0000:32d2:055f:2:0:0
 Radio Esperance
-p:TDF
+p:TDF,f:8
 0bb8:0dde0000:4e84:055f:25:0:0
 TF1 Séries Films
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bb9:0dde0000:4e84:055f:25:0:0
 L´Equipe 21
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bbb:0dde0000:4e84:055f:25:0:0
 RMC Story
-p:Fransat,C:0
+p:Fransat,C:0,f:8
 0bbc:0dde0000:4e84:055f:25:0:0
 RMC Découverte
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bbd:0dde0000:4e84:055f:25:0:0
 Cherie 25
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bc3:0dde0000:4e84:055f:25:0:0
 CNews HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bc4:0dde0000:4e84:055f:25:0:0
 BFM TV HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bc5:0dde0000:4e84:055f:25:0:0
 C8 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bc6:0dde0000:4e84:055f:25:0:0
 CStar HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bc7:0dde0000:4e84:055f:25:0:0
 Gulli HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0bcc:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU 107.1
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bcd:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU ALSACE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bce:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU ARMORIQUE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bcf:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU AUXERRE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd0:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU AZUR
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd1:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BASSE NORMANDIE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd2:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BEARN
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd3:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BELFORT MONTBELIARD
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd4:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BERRY
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd5:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BESANCON
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd6:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BOURGOGNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd7:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU BREIZH IZEL
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd8:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU CHAMPAGNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bd9:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU COTENTIN
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bda:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU CREUSE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bdb:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU DROME ARDECHE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bdc:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU FREQUENZA MORA
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bdd:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU GARD LOZERE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bde:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU GASCOGNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bdf:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU GIRONDE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be0:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU HAUTE NORMANDIE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be1:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU HERAULT
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be2:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU ISERE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be3:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU LA ROCHELLE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be4:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU LIMOUSIN
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be5:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU LOIRE OCEAN
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be6:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU LORRAINE NORD
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be7:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU MAINE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be8:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU MAYENNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0be9:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU NORD
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bea:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU ORLEANS
-p:EUTELSAT
+p:EUTELSAT,f:8
 0beb:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PAYS BASQUE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bec:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PAYS D'AUVERGNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bed:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PAYS DE SAVOIE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bee:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PERIGORD
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bef:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PICARDIE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf0:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU POITOU
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf1:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU PROVENCE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf2:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU ROUSSILLON
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf3:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU SAINT ETIENNE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf4:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU SUD LORRAINE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf5:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU TOULOUSE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf6:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU TOURAINE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf7:0dde0000:4e84:055f:2:0:0
 FRANCE BLEU VAUCLUSE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf8:0dde0000:4e84:055f:2:0:0
 FRANCE INTER
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bf9:0dde0000:4e84:055f:2:0:0
 FRANCE CULTURE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bfa:0dde0000:4e84:055f:2:0:0
 FRANCE MUSIQUE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bfb:0dde0000:4e84:055f:2:0:0
 FIP
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bfc:0dde0000:4e84:055f:2:0:0
 FRANCE INFO
-p:EUTELSAT
+p:EUTELSAT,f:8
 0bfd:0dde0000:4e84:055f:2:0:0
 LE MOUV
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c00:0dde0000:4e84:055f:2:0:0
 NOSTALGIE
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c01:0dde0000:4e84:055f:2:0:0
 NRJ
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c02:0dde0000:4e84:055f:2:0:0
 RIRE ET CHANSONS
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c03:0dde0000:4e84:055f:2:0:0
 CHERIE FM
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c04:0dde0000:4e84:055f:2:0:0
 EUROPE 1
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c05:0dde0000:4e84:055f:2:0:0
 EUROPE 2
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c06:0dde0000:4e84:055f:2:0:0
 RFM
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c07:0dde0000:4e84:055f:2:0:0
 RADIO AFRICA N01
-p:EUTELSAT
+p:EUTELSAT,f:8
 0c08:0dde0000:4e84:055f:2:0:0
 NOVA
-p:EUTELSAT
+p:EUTELSAT,f:8
 00c9:0dde0000:4ee8:055f:25:0:0
 RTL 9
-p:Bis,C:0
+p:Bis,C:0,f:8
 00ca:0dde0000:4ee8:055f:1:0:0
 Mangas
-p:Bis,C:0
+p:Bis,C:0,f:8
 00cb:0dde0000:4ee8:055f:25:0:0
 AB 1
-p:Bis,C:0
+p:Bis,C:0,f:8
 00cc:0dde0000:4ee8:055f:25:0:0
 Automoto La Chaine
-p:Bis,C:0
+p:Bis,C:0,f:8
 00cd:0dde0000:4ee8:055f:1:0:0
 Golf Channel France
-p:Bis,C:0
+p:Bis,C:0,f:8
 00ce:0dde0000:4ee8:055f:1:0:0
 Ushuaia TV
-p:Bis,C:0
+p:Bis,C:0,f:8
 00cf:0dde0000:4ee8:055f:25:0:0
 Trek
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d0:0dde0000:4ee8:055f:25:0:0
 Animaux
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d1:0dde0000:4ee8:055f:25:0:0
 Science et Vie
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d2:0dde0000:4ee8:055f:1:0:0
 Toute l´Histoire
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d3:0dde0000:4ee8:055f:1:0:0
 Chasse et Pêche
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d4:0dde0000:4ee8:055f:25:0:0
 Action
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d6:0dde0000:4ee8:055f:1:0:0
 TV Breizh
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d7:0dde0000:4ee8:055f:1:0:0
 Crime District
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d8:0dde0000:4ee8:055f:1:0:0
 XXL
-p:Bis,C:0
+p:Bis,C:0,f:8
 00d9:0dde0000:4ee8:055f:1:0:0
 Dorcel TV
-p:Bis,C:0
+p:Bis,C:0,f:8
 00db:0dde0000:4ee8:055f:1:0:0
 Téva
-p:Bis,C:0
+p:Bis,C:0,f:8
 00dc:0dde0000:4ee8:055f:1:0:0
 Equidia Live
-p:Bis,C:0
+p:Bis,C:0,f:8
 012d:0dde0000:4f4c:055f:25:0:0
 France 2 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 012e:0dde0000:4f4c:055f:25:0:0
 France 3 Sat HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 012f:0dde0000:4f4c:055f:25:0:0
 France 4 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0131:0dde0000:4f4c:055f:25:0:0
 franceinfo:
-p:Bis,C:0
+p:Bis,C:0,f:8
 0132:0dde0000:4f4c:055f:25:0:0
 Canal+ HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0133:0dde0000:4f4c:055f:25:0:0
 LCI HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0139:0dde0000:4f4c:055f:31:0:0
 FRANSAT UHD
-p:Fransat,C:0
+p:Fransat,C:0,f:8
 0142:0dde0000:4f4c:055f:25:0:0
 Fransat Info HD
-p:EUTELSAT
+p:EUTELSAT,f:8
 0191:0dde0000:4fb0:055f:25:0:0
 TF 1
-p:Bis,C:0
+p:Bis,C:0,f:8
 0193:0dde0000:4fb0:055f:25:0:0
 M6 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0194:0dde0000:4fb0:055f:25:0:0
 Arte HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a1:0dde0000:4fb0:055f:25:0:0
 NRJ 12 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a3:0dde0000:4fb0:055f:25:0:0
 France 5 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a5:0dde0000:4fb0:055f:25:0:0
 W9 HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a6:0dde0000:4fb0:055f:25:0:0
 6ter
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a7:0dde0000:4fb0:055f:25:0:0
 TMC HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a8:0dde0000:4fb0:055f:25:0:0
 TFX
-p:Bis,C:0
+p:Bis,C:0,f:8
 01a9:0dde0000:4fb0:055f:25:0:0
 LCP HD
-p:Bis,C:0
+p:Bis,C:0,f:8
 01aa:0dde0000:4fb0:055f:1:0:0
 Via Vosges
-p:Fransat
+p:Fransat,f:8
 01ab:0dde0000:4fb0:055f:1:0:0
 KTO
-p:EUTELSAT
+p:EUTELSAT,f:8
 1025:0dde0000:4fb0:055f:1:0:0
 France 3 Nouvelle Aquitaine
-p:Fransat,C:0
+p:Fransat,C:0,f:8
 01f6:0dde0000:5014:055f:1:0:0
 ETB 1
-p:Fransat,C:0
+p:Fransat,C:0,f:8
 01f7:0dde0000:5014:055f:1:0:0
 ETB 3
-p:Fransat,C:0
+p:Fransat,C:0,f:8
 1001:0dde0000:5014:055f:1:0:0
 France 3 Picardie
-p:Bis,C:0
+p:Bis,C:0,f:8
 1008:0dde0000:5014:055f:1:0:0
 France 3 Nord Pas-de-Calais
-p:Bis,C:0
+p:Bis,C:0,f:8
 1013:0dde0000:5014:055f:1:0:0
 France 3 Lorraine
-p:Bis,C:0
+p:Bis,C:0,f:8
 1015:0dde0000:5014:055f:1:0:0
 France 3 Nice
-p:Bis,C:0
+p:Bis,C:0,f:8
 1019:0dde0000:5014:055f:1:0:0
 France 3 Champagne-Ardennes
-p:Bis,C:0
+p:Bis,C:0,f:8
 1022:0dde0000:5014:055f:1:0:0
 France 3 Alsace
-p:Bis,C:0
+p:Bis,C:0,f:8
 1023:0dde0000:5014:055f:1:0:0
 France 3 Midi-Pyrénées
-p:Bis,C:0
+p:Bis,C:0,f:8
 1024:0dde0000:5014:055f:1:0:0
 France 3 Corse Via Stella
-p:Bis,C:0
+p:Bis,C:0,f:8
 0259:0dde0000:5078:055f:25:0:0
 TV 5 Monde (France Belgique Suisse)
-p:Bis,C:0
+p:Bis,C:0,f:8
 1003:0dde0000:5078:055f:1:0:0
 France 3 Aquitaine
-p:Bis,C:0
+p:Bis,C:0,f:8
 1005:0dde0000:5078:055f:1:0:0
 France 3 Auvergne
-p:Bis,C:0
+p:Bis,C:0,f:8
 1007:0dde0000:5078:055f:1:0:0
 France 3 Alpes
-p:Bis,C:0
+p:Bis,C:0,f:8
 1009:0dde0000:5078:055f:1:0:0
 France 3 Limousin
-p:Bis,C:0
+p:Bis,C:0,f:8
 1010:0dde0000:5078:055f:1:0:0
 France 3 Rhone-Alpes
-p:Bis,C:0
+p:Bis,C:0,f:8
 1011:0dde0000:5078:055f:1:0:0
 France 3 Provence-Alpes
-p:Bis,C:0
+p:Bis,C:0,f:8
 1012:0dde0000:5078:055f:1:0:0
 France 3 Languedoc Roussillon
-p:Bis,C:0
+p:Bis,C:0,f:8
 1020:0dde0000:5078:055f:1:0:0
 France 3 Bretagne
-p:Bis,C:0
+p:Bis,C:0,f:8
 02be:0dde0000:50dc:055f:31:0:0
 France 2 UHD
-p:EUTELSAT,C:0
+p:EUTELSAT,C:0,f:8
 02c2:0dde0000:50dc:055f:31:0:0
 France 3 UHD
-p:Bis,C:0
+p:Bis,C:0,f:8
 0003:0dde0000:5140:055f:1:0:0
 France 3 Sat
-p:Bis,C:0
+p:Bis,C:0,f:8
 0321:0dde0000:5140:055f:25:0:0
 Opsis TV
-p:EUTELSAT
+p:EUTELSAT,f:8
 1002:0dde0000:5140:055f:1:0:0
 France 3 Franche-Comté
-p:Bis,C:0
+p:Bis,C:0,f:8
 1004:0dde0000:5140:055f:1:0:0
 France 3 Caen
-p:Bis,C:0
+p:Bis,C:0,f:8
 1006:0dde0000:5140:055f:1:0:0
 France 3 Bourgogne
-p:Bis,C:0
+p:Bis,C:0,f:8
 1016:0dde0000:5140:055f:1:0:0
 France 3 Orléans
-p:Bis,C:0
+p:Bis,C:0,f:8
 1017:0dde0000:5140:055f:1:0:0
 France 3 Paris Ile-de-France
-p:Bis,C:0
+p:Bis,C:0,f:8
 1021:0dde0000:5140:055f:1:0:0
 France 3 Haute-Normandie
-p:Bis,C:0
+p:Bis,C:0,f:8
 1028:0dde0000:5140:055f:1:0:0
 France 3 Nantes
-p:Bis,C:0
+p:Bis,C:0,f:8
 1029:0dde0000:5140:055f:1:0:0
 France 3 Poitou-Charentes
-p:Bis,C:0
+p:Bis,C:0,f:8
 004a:0dde0000:8800:217c:25:0:0
 TeleNorba
-p:Rai Way
+p:Rai Way,f:8
 004b:0dde0000:8800:217c:25:0:0
 Teledue
-p:Rai Way
+p:Rai Way,f:8
 004c:0dde0000:8800:217c:25:0:0
 Antenna Sud
-p:Rai Way
+p:Rai Way,f:8
 004d:0dde0000:8800:217c:25:0:0
 TG Norba 24
-p:Rai Way
+p:Rai Way,f:8
 004e:0dde0000:8800:217c:25:0:0
 Radio Norba Television
-p:Rai Way
+p:Rai Way,f:8
 004f:0dde0000:8800:217c:25:0:0
 TRM H24
-p:Rai Way
+p:Rai Way,f:8
 0050:0dde0000:8800:217c:25:0:0
 Telesveva
-p:Rai Way
+p:Rai Way,f:8
 0051:0dde0000:8800:217c:25:0:0
 Telerama
-p:Rai Way
+p:Rai Way,f:8
 0052:0dde0000:8800:217c:25:0:0
 Telebari
-p:Rai Way
+p:Rai Way,f:8
 0053:0dde0000:8800:217c:1:0:0
 TeleFoggia
-p:Rai Way
+p:Rai Way,f:8
 0054:0dde0000:8800:217c:25:0:0
 Tele Padre Pio
-p:Rai Way
+p:Rai Way,f:8
 0055:0dde0000:8800:217c:25:0:0
 Tele Dehon
-p:Rai Way
+p:Rai Way,f:8
 0056:0dde0000:8800:217c:25:0:0
 La Nuova TV
-p:Rai Way
+p:Rai Way,f:8
 0057:0dde0000:8800:217c:25:0:0
 Canale 7
-p:Rai Way
+p:Rai Way,f:8
 0058:0dde0000:8800:217c:25:0:0
 Foggia TV
-p:Rai Way
+p:Rai Way,f:8
 0096:0dde0000:8800:217c:25:0:0
 Teleregione Color
-p:RaiWay
+p:RaiWay,f:8
 26ad:0dde0000:a801:217c:25:0:0
 Videolina
-p:
+p:,f:8
 26ae:0dde0000:a801:217c:25:0:0
 L'Unione TV
-p:Harmonic
+p:Harmonic,f:8
 26af:0dde0000:a801:217c:25:0:0
 Sardegna Uno Sat
-p:Harmonic
+p:Harmonic,f:8
 26b0:0dde0000:a801:217c:25:0:0
 Tele Costa Smeralda
-p:
+p:,f:8
 26b1:0dde0000:a801:217c:25:0:0
 Radio Sardegna TV
-p:ARD Digital
+p:ARD Digital,f:8
 26b2:0dde0000:a801:217c:25:0:0
 TTSTV
-p:In Aria!
+p:In Aria!,f:8
 26b3:0dde0000:a801:217c:25:0:0
 Teleregione Live
-p:Harmonic - NT
+p:Harmonic - NT,f:8
 26b4:0dde0000:a801:217c:25:0:0
 TeleSardegna
-p:Global
+p:Global,f:8
 26b5:0dde0000:a801:217c:25:0:0
 Uno 4
-p:Media-Live
+p:Media-Live,f:8
 26b6:0dde0000:a801:217c:25:0:0
 Catalan TV
-p:SCP2100
+p:SCP2100,f:8
 26b8:0dde0000:a801:217c:25:0:0
 Radio Televizione Sarda
-p:RTS
+p:RTS,f:8
 26b9:0dde0000:a801:217c:1:0:0
 Canale Italia
-p:Canale Italia
+p:Canale Italia,f:8
 26ba:0dde0000:a801:217c:1:0:0
 Canale Italia Sardegna
-p:Canale Italia
+p:Canale Italia,f:8
 26bb:0dde0000:a801:217c:25:0:0
 SuperTV Aristanis
-p:SUPERTV ARISTANIS
+p:SUPERTV ARISTANIS,f:8
 26bc:0dde0000:a801:217c:1:0:0
 Odeon 24
-p:Media Group
+p:Media Group,f:8
 26bd:0dde0000:a801:217c:2:0:0
 RADIO SINTONY INT.
-p:RADIO SINTONY INT.
+p:RADIO SINTONY INT.,f:8
 03e8:0dde2cc9:0001:0001:2:0:0
 ALOUETTE
-p:
+p:,f:8
 07d0:0dde2cc9:0001:0001:2:0:0
 MAGIC LIMOGES
-p:
+p:,f:8
 0bb8:0dde2cc9:0001:0001:2:0:0
 TEMPO
-p:
+p:,f:8
 0fa0:0dde2cc9:0001:0001:2:0:0
 GRAFFIC
-p:
+p:,f:8
 1388:0dde2cc9:0001:0001:2:0:0
 ALOUETTE - DAB
-p:
+p:,f:8
 0001:0dde3153:0001:0001:2:0:0
 Rai Radio MF1 Roma
-p:RAI
+p:RAI,f:8
 0002:0dde3153:0001:0001:2:0:0
 Rai Radio1 AO
-p:RAI
+p:RAI,f:8
 0003:0dde3153:0001:0001:2:0:0
 Rai Radio1 AN
-p:RAI
+p:RAI,f:8
 0004:0dde3153:0001:0001:2:0:0
 Rai Radio1 BA
-p:RAI
+p:RAI,f:8
 0005:0dde3153:0001:0001:2:0:0
 Rai Radio1 BO
-p:RAI
+p:RAI,f:8
 0006:0dde3153:0001:0001:2:0:0
 Rai Radio1 BZ
-p:RAI
+p:RAI,f:8
 0007:0dde3153:0001:0001:2:0:0
 Rai Radio1 CA
-p:RAI
+p:RAI,f:8
 0008:0dde3153:0001:0001:2:0:0
 Rai Radio1 CB
-p:RAI
+p:RAI,f:8
 0009:0dde3153:0001:0001:2:0:0
 Rai Radio1 CS
-p:RAI
+p:RAI,f:8
 000a:0dde3153:0001:0001:2:0:0
 Rai Radio1 FI
-p:RAI
+p:RAI,f:8
 000b:0dde3153:0001:0001:2:0:0
 Rai Radio1 GE
-p:RAI
+p:RAI,f:8
 000c:0dde3153:0001:0001:2:0:0
 Rai Radio1 MI
-p:RAI
+p:RAI,f:8
 000d:0dde3153:0001:0001:2:0:0
 Rai Radio1 NA
-p:RAI
+p:RAI,f:8
 000e:0dde3153:0001:0001:2:0:0
 Rai Radio1 PA
-p:RAI
+p:RAI,f:8
 000f:0dde3153:0001:0001:2:0:0
 Rai Radio1 PE
-p:RAI
+p:RAI,f:8
 0010:0dde3153:0001:0001:2:0:0
 Rai Radio1 PG
-p:RAI
+p:RAI,f:8
 0011:0dde3153:0001:0001:2:0:0
 Rai Radio1 PZ
-p:RAI
+p:RAI,f:8
 0012:0dde3153:0001:0001:2:0:0
 Rai Radio1 TN
-p:RAI
+p:RAI,f:8
 0013:0dde3153:0001:0001:2:0:0
 Rai Radio1 TO
-p:RAI
+p:RAI,f:8
 0014:0dde3153:0001:0001:2:0:0
 Rai Radio1 TS
-p:RAI
+p:RAI,f:8
 0015:0dde3153:0001:0001:2:0:0
 Rai Radio1 VE
-p:RAI
+p:RAI,f:8
 0016:0dde3153:0001:0001:2:0:0
 Rai Radio1 SDT
-p:RAI
+p:RAI,f:8
 0017:0dde3153:0001:0001:2:0:0
 Rai Radio1 SLV
-p:RAI
+p:RAI,f:8
 0038:0dde3153:0001:0001:2:0:0
 Rai Radio 1
-p:
+p:,f:8
 0039:0dde3153:0001:0001:2:0:0
 Rai Radio 3
-p:RAI
+p:RAI,f:8
 003a:0dde3153:0001:0001:2:0:0
 Rai Radio GR Parlamento
-p:RAI
+p:RAI,f:8
 003b:0dde3153:0001:0001:2:0:0
 Rai Radio 2
-p:RAI
+p:RAI,f:8
 003c:0dde3153:0001:0001:2:0:0
 Rai Radio Classica
-p:RAI
+p:RAI,f:8
 003d:0dde3153:0001:0001:2:0:0
 Rai Isoradio
-p:RAI
+p:RAI,f:8
 006e:0dde3153:0001:0001:2:0:0
 Radio Test
-p:
+p:,f:8
 0301:0ddeb168:0003:20fa:25:0:0
 Canal+ crypté
-p:
+p:,f:8
 0302:0ddeb168:0003:20fa:25:0:0
 Canal+ Cinéma(s) HD
-p:CNH,C:0
+p:CNH,C:0,f:8
 0303:0ddeb168:0003:20fa:25:0:0
 Canal+ Sport HD
-p:CNH,C:0
+p:CNH,C:0,f:8
 0304:0ddeb168:0003:20fa:25:0:0
 Planète+ HD
-p:CNH,C:0
+p:CNH,C:0,f:8
 0308:0ddeb168:0003:20fa:1:0:0
 LCI - La Chaîne Info
-p:CNH
+p:CNH,f:8
 0309:0ddeb168:0003:20fa:1:0:0
 Paris Première
-p:CNH,C:0
+p:CNH,C:0,f:8
 030a:0ddeb168:0003:20fa:25:0:0
 Canal+ HD
-p:CNH,C:0
+p:CNH,C:0,f:8
 0401:0ddeb1bd:0004:20fa:25:0:0
 M6 HD
-p:Multi4
+p:Multi4,f:8
 0402:0ddeb1bd:0004:20fa:25:0:0
 W9 HD
-p:Multi4
+p:Multi4,f:8
 0407:0ddeb1bd:0004:20fa:25:0:0
 Arte HD
-p:Multi4
+p:Multi4,f:8
 0415:0ddeb1bd:0004:20fa:25:0:0
 France 5 HD
-p:Multi4
+p:Multi4,f:8
 0416:0ddeb1bd:0004:20fa:25:0:0
 6ter
-p:Multi4
+p:Multi4,f:8
 end
-# 252 transponders and 3247 services.
+# 252 transponders and 3257 services.
 # Created by E-Channelizer v24.0.0.712 - https://www.echannelizer.com
