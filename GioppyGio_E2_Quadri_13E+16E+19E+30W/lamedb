@@ -70,7 +70,7 @@ transponders
 	s 11919000:29900000:1:2:130:2:0:1:1:2:2
 /
 00820000:17d4:013e
-	s 11938000:27500000:0:3:130:2:0:1:2:0:2
+	s 11938000:30000000:0:4:130:2:0:1:2:0:2
 /
 00820000:1838:fbff
 	s 11958000:27500000:1:3:130:2:0
@@ -97,7 +97,7 @@ transponders
 	s 12111000:27500000:1:3:130:2:0
 /
 00820000:1bbc:013e
-	s 12130000:27500000:0:3:130:2:0:1:2:0:2
+	s 12130000:30000000:0:4:130:2:0:1:2:0:2
 /
 00820000:1c20:013e
 	s 12149000:27500000:1:3:130:2:0
@@ -139,7 +139,7 @@ transponders
 	s 12466000:29900000:1:4:130:2:0:1:1:0:2
 /
 00820000:2328:013e
-	s 12519000:27500000:1:7:130:2:0:1:2:0:2
+	s 12519000:27500000:1:2:130:2:0:1:2:0:2
 /
 00820000:23f0:013e
 	s 12558000:27500000:1:4:130:2:0:1:2:0:2
@@ -444,7 +444,7 @@ transponders
 00c00000:03f3:0001
 	s 11361000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:03f4:0003
+00c00000:03f4:0001
 	s 11376000:22000000:1:2:192:2:0:1:2:0:2
 /
 00c00000:03f5:0001
@@ -645,9 +645,6 @@ transponders
 00c00000:04b1:0001
 	s 12421000:27500000:0:3:192:2:0
 /
-00c00000:0fd2:00e0
-	s 10891000:22000000:0:2:192:2:0:1:2:0:2
-/
 0ce40000:0001:22d4
 	s 11491000:7522000:1:6:-300:2:0:1:2:0:2
 /
@@ -671,9 +668,6 @@ transponders
 /
 0ce40000:03e9:22d4
 	s 11330000:9140000:0:3:-300:2:0:1:2:0:2
-/
-0ce42a8a:000d:ff00
-	s 10890000:30000000:0:3:-300:2:0:1:2:0:2
 /
 0ce42aa2:0001:0001
 	s 10914000:2500000:0:9:-300:2:0:1:1:0:2
@@ -1086,8 +1080,8 @@ p:Platforma Canal+,C:0,f:8
 AMC Poland
 p:Polsat Box,f:8
 3ab9:00820000:0514:013e:1:0:0
-Canal+ Sport 5 HD Poland
-p:Orange Polska,f:8
+CANAL+ SPORT 5 HD
+p:Orange Polska,f:48
 3abd:00820000:0514:013e:1:0:0
 TVP 1 HD
 p:CANAL+,f:8
@@ -1364,6 +1358,9 @@ p:Rai,f:8
 0d4f:00820000:1450:013e:31:0:0
 Rai 4K
 p:Rai,f:8
+0d50:00820000:1450:013e:1:0:0
+Senato italiano
+p:RAI,f:8
 0d71:00820000:1450:013e:2:0:0
 Rai Radio 1
 p:RAI,f:8
@@ -1373,41 +1370,8 @@ p:RAI,f:8
 0d73:00820000:1450:013e:2:0:0
 Rai Radio 3
 p:RAI,f:8
-0d74:00820000:1450:013e:2:0:0
-Rai Radio3 Classica
-p:RAI,f:8
-0d75:00820000:1450:013e:2:0:0
-Rai GR Parlamento
-p:RAI,f:8
-0d76:00820000:1450:013e:2:0:0
-Rai Isoradio
-p:RAI,f:8
-0d77:00820000:1450:013e:2:0:0
-Rai Radio Techete'
-p:RAI,f:8
-0d78:00820000:1450:013e:2:0:0
-Rai Radio Live Napoli
-p:RAI,f:8
-0d79:00820000:1450:013e:2:0:0
-Rai Radio Kids
-p:RAI,f:8
-0d7a:00820000:1450:013e:2:0:0
-No Name Radio
-p:RAI,f:8
-0d7b:00820000:1450:013e:2:0:0
-Rai Radio Tutta Italiana
-p:RAI,f:8
-0d7c:00820000:1450:013e:2:0:0
-L’Ora della Venezia Giulia
-p:RAI,f:8
-0d7d:00820000:1450:013e:2:0:0
-Rai Radio1 Sport
-p:RAI,f:8
 0d7e:00820000:1450:013e:2:0:0
 Rai Radio Slovenia
-p:RAI,f:8
-0d7f:00820000:1450:013e:2:0:0
-Rai Radio Südtirol
 p:RAI,f:8
 0191:00820000:1518:013e:1:0:0
 MTV 00s
@@ -1689,10 +1653,10 @@ p:Sky Italia,C:0,f:8
 Sky Investigation +1 HD
 p:Sky Italia,C:0,f:8
 0fbf:00820000:189c:fbff:1:0:0
-DeA Kids +1
-p:Sky Italia,C:0,f:8
+New School channel
+p:Sky Italia,C:0
 101c:00820000:189c:fbff:1:0:0
-Sky Crime +1
+Storie di Lucarelli
 p:Sky Italia,C:0
 101d:00820000:189c:fbff:1:0:0
 Sky Crime +1
@@ -1736,9 +1700,6 @@ p:Sky Italia,C:0,f:8
 1016:00820000:1900:fbff:1:0:0
 Prime Video Sportsbar
 p:Sky Italia,C:0
-10fe:00820000:1900:fbff:1:0:0
-Pesca e Caccia
-p:Sky Italia,C:0,f:8
 2506:00820000:1900:fbff:25:0:0
 Sky Sport F1 HD
 p:Sky Italia,f:8
@@ -1800,7 +1761,7 @@ p:Sky Italia,f:8
 Bike Channel
 p:SkyItalia,f:8
 1090:00820000:19c8:fbff:1:0:0
-Sky Serie Maratone HD
+ky Serie +1 HD
 p:Sky Italia,C:0,f:8
 109a:00820000:19c8:fbff:1:0:0
 Sky Arte +1 HD
@@ -2505,7 +2466,7 @@ p:Sky Italia,C:0,f:8
 Sky Sport Italia
 p:Sky Italia,C:0,f:8
 1c57:00820000:2198:fbff:1:0:0
-Sky Cinema Family HD
+Harry Potter Collection HD
 p:Sky Italia,C:0,f:8
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Golf HD
@@ -2563,7 +2524,7 @@ Gambero Rosso HD
 p:Sky Italia,f:8
 2fc5:00820000:2260:fbff:1:0:0
 Gambero Rosso HD
-p:Sky Italia,C:0
+p:Sky Italia,C:0,f:8
 341e:00820000:2260:fbff:1:0:0
 Primafila 5
 p:SkyItalia,C:0,f:8
@@ -4004,14 +3965,47 @@ p:RAI,f:8
 2147:00820000:3070:013e:1:0:0
 Camera dei Deputati
 p:RAI,f:8
-2148:00820000:3070:013e:1:0:0
-Senato italiano
-p:RAI,f:8
 2149:00820000:3070:013e:25:0:0
 Rai Scuola HD
 p:Rai,f:8
 214a:00820000:3070:013e:25:0:0
 Rai Premium HD
+p:RAI,f:8
+214b:00820000:3070:013e:22:0:0
+tivù la guida
+p:RAI
+214c:00820000:3070:013e:2:0:0
+Rai Radio3 Classica
+p:RAI,f:8
+214d:00820000:3070:013e:2:0:0
+Rai GR Parlamento
+p:RAI,f:8
+214e:00820000:3070:013e:2:0:0
+Rai Isoradio
+p:RAI,f:8
+214f:00820000:3070:013e:2:0:0
+Rai Radio Techete'
+p:RAI,f:8
+2150:00820000:3070:013e:2:0:0
+Rai Radio Live Napoli
+p:RAI,f:8
+2151:00820000:3070:013e:2:0:0
+Rai Radio Kids
+p:RAI,f:8
+2152:00820000:3070:013e:2:0:0
+No Name Radio
+p:RAI,f:8
+2153:00820000:3070:013e:2:0:0
+Rai Radio Tutta Italiana
+p:RAI,f:8
+2154:00820000:3070:013e:2:0:0
+L’Ora della Venezia Giulia
+p:RAI,f:8
+2155:00820000:3070:013e:2:0:0
+Rai Radio1 Sport
+p:RAI,f:8
+2157:00820000:3070:013e:2:0:0
+Rai Radio Südtirol
 p:RAI,f:8
 452f:00820000:30d4:013e:25:0:0
 Rai News 24 HD
@@ -5879,6 +5873,9 @@ p:Total TV,C:0,f:8
 067a:00a00000:9fc4:016e:1:0:0
 MRT 1
 p:Total TV,C:0,f:8
+067d:00a00000:9fc4:016e:25:0:0
+Marquee TV HD
+p:Total TV,C:0,f:8
 067e:00a00000:9fc4:016e:25:0:0
 Nova TV HD Croatia
 p:Total TV,C:0,f:8
@@ -7097,6 +7094,9 @@ p:ORF Digital,f:8
 1342:00c00000:03ef:0001:1:0:0
 RIC
 p:,f:8
+1344:00c00000:03ef:0001:1:0:0
+TV Berlin
+p:ORF Digital
 7468:00c00000:03f0:0001:1:0:0
 M+ Ellas #V
 p:Movistar+,C:0,f:8
@@ -7154,34 +7154,31 @@ p:ZDF Vision,f:8
 2b7a:00c00000:03f3:0001:25:0:0
 ZDF_neo HD
 p:ZDF Vision,f:8
-18ed:00c00000:03f4:0003:25:0:0
+18ed:00c00000:03f4:0001:25:0:0
 CGTN HD
 p:TSA,f:8
-18ee:00c00000:03f4:0003:25:0:0
+18ee:00c00000:03f4:0001:25:0:0
 CGTN Documentary
 p:TSA,f:8
-18ef:00c00000:03f4:0003:25:0:0
+18ef:00c00000:03f4:0001:25:0:0
 CGTN Français HD
 p:TSA,f:8
-18f1:00c00000:03f4:0003:25:0:0
+18f1:00c00000:03f4:0001:25:0:0
 Galicia TV HD
 p:GLOBECAST,f:8
-18f2:00c00000:03f4:0003:2:0:0
+18f2:00c00000:03f4:0001:2:0:0
 RADIO GALEGA
 p:GLOBECAST,f:8
-18f3:00c00000:03f4:0003:2:0:0
+18f3:00c00000:03f4:0001:2:0:0
 RADIO GALEGA MUSICA
 p:GLOBECAST,f:8
-18f4:00c00000:03f4:0003:1:0:0
+18f4:00c00000:03f4:0001:1:0:0
 Euronews German
 p:GLOBECAST,f:8
-18f5:00c00000:03f4:0003:1:0:0
-Rai News 24
-p:GLOBECAST,f:8
-18f7:00c00000:03f4:0003:25:0:0
+18f7:00c00000:03f4:0001:25:0:0
 Daystar TV Español
 p:TSA,f:8
-18f9:00c00000:03f4:0003:25:0:0
+18f9:00c00000:03f4:0001:25:0:0
 Telesur English
 p:GLOBECAST,f:8
 307a:00c00000:03f5:0001:31:0:0
@@ -7839,7 +7836,7 @@ p:Movistar+,C:0,f:8
 Alquiler XY
 p:Movistar+,C:0,f:8
 7696:00c00000:041e:0001:1:0:0
-Movistar Anime
+Movistar Frank Capra
 p:Movistar+,C:0,f:8
 7697:00c00000:041e:0001:1:0:0
 Nick Junior Spain
@@ -9293,12 +9290,6 @@ p:ARD Digital,f:8
 6ee2:00c00000:04b1:0001:1:0:0
 SR Fernsehen HD
 p:ARD Digital,f:8
-9e3a:00c00000:0fd2:00e0:1:0:0
-MTV Club
-p:beIN,C:0,f:8
-9e3b:00c00000:0fd2:00e0:1:0:0
-MTV 80s
-p:beIN,C:0,f:8
 0002:0ce40000:0001:22d4:25:0:0
 Television Castilla - La Mancha HD
 p:CMT,f:8
@@ -9926,15 +9917,9 @@ p:CARTV,f:8
 27b6:0ce40000:03e9:22d4:2:0:0
 ARAGON RADIO TERUEL
 p:CARTV,f:8
-051e:0ce42a8a:000d:ff00:31:0:0
-FunBox 4K
-p:MB Satellite,C:0,f:8
 0001:0ce42aa2:0001:0001:25:0:0
 Bom
 p:M-Three Satcom,f:8
-0007:0ce42aae:0004:ffff:25:0:0
-TSA Promo
-p:TSA,f:8
 03e8:0ce42aae:0004:ffff:2:0:0
 NAIZ irratia
 p:Qbit GmbH,f:8
@@ -10011,5 +9996,5 @@ p:RTP,f:8
 ANT3 MADEIRA
 p:RTP,f:8
 end
-# 229 transponders and 3107 services.
+# 227 transponders and 3104 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com
