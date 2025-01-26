@@ -63,9 +63,6 @@ transponders
 00820000:16a8:fbff
 	s 11881000:27500000:1:3:130:2:0
 /
-00820000:170c:fbff
-	s 11900000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:1770:00be
 	s 11919000:29900000:1:2:130:2:0:1:1:2:2
 /
@@ -558,6 +555,9 @@ transponders
 00eb0000:0c9d:0003
 	s 12265000:29900000:0:3:235:2:0:1:2:0:2
 /
+00eb0000:0c9e:0003
+	s 12285000:30000000:1:2:235:2:0:1:2:0:2
+/
 00eb0000:0ca1:0003
 	s 12344000:29900000:0:3:235:2:0:1:2:0:2
 /
@@ -578,9 +578,6 @@ transponders
 /
 00eb0000:0ca8:0003
 	s 12480000:30000000:1:3:235:2:0:1:2:0:2
-/
-00ebaffd:0000:0000
-	s 12285000:30000000:1:2:235:2:0:1:2:0:2:0:-1:-1
 /
 00ebb104:0001:0001
 	s 12548000:1830000:1:3:235:2:0:1:1:0:2
@@ -1601,15 +1598,6 @@ p:Sky Italia,f:8
 0e70:00820000:16a8:fbff:2:0:0
 IEPG Data
 p:Sky Italia,f:8
-101c:00820000:170c:fbff:1:0:0
-Mostri Italiani
-p:Sky Italia,C:0,f:8
-250e:00820000:170c:fbff:1:0:0
-FEED Tempi
-p:SkyItalia,f:8
-2517:00820000:170c:fbff:25:0:0
-Race Control HD Fake
-p:Sky Italia,f:8
 0049:00820000:1770:00be:1:0:0
 La7d HD
 p:TivùSat,f:8
@@ -2565,7 +2553,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Transformers Collection
+Jack Ryan Collection
 p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -4519,7 +4507,7 @@ RVS-Accendi la Speranza
 p:M-Three Satcom Srl,f:8
 0534:00820000:3d54:013e:1:0:0
 Gold TV Italia
-p:M-Three Satcom,c:0007ef,c:0107f0,c:0307ef,c:1607ee,f:8
+p:M-Three Satcom,c:1607ee,f:8
 0538:00820000:3d54:013e:1:0:0
 GEB TV
 p:,f:8
@@ -4870,9 +4858,6 @@ OLDIE ANTENNE
 p:BetaDigital,f:8
 0202:00c00000:0007:0085:1:0:0
 Immer etwas Neues TV
-p:BetaDigital,f:8
-02fd:00c00000:0007:0085:1:0:0
-Pearl.tv
 p:BetaDigital,f:8
 0301:00c00000:0007:0085:1:0:0
 Channel 21
@@ -5438,12 +5423,6 @@ p:ProSiebenSat.1,f:8
 14c0:00c00000:0407:0001:1:0:0
 Kabel 1 Doku Austria
 p:ProSiebenSat.1,f:8
-14c1:00c00000:0407:0001:1:0:0
-Sat.1 Emotions
-p:Austriasat,C:0,f:8
-14c2:00c00000:0407:0001:1:0:0
-Kabel Eins Classics
-p:Austriasat,C:0,f:8
 2774:00c00000:0409:0001:25:0:0
 TLC HD
 p:HD +,C:0,f:8
@@ -5757,7 +5736,7 @@ p:Movistar+,C:0,f:8
 DAZN 2 Bar HD
 p:Movistar+,C:0,f:8
 7584:00c00000:0412:0001:1:0:0
-Movistar+ Supercopa
+Movistar Copa del Rey
 p:Movistar+,C:0,f:8
 7587:00c00000:0412:0001:1:0:0
 Neox
@@ -5781,7 +5760,7 @@ p:Movistar+,C:0,f:8
 LaLiga TV Hypermotion 4
 p:Movistar+,C:0,f:8
 7885:00c00000:0414:0001:1:0:0
-Movistar Navidad Disney
+Movistar+ Los Goya
 p:Movistar+,C:0,f:8
 7888:00c00000:0414:0001:1:0:0
 Boing Spain
@@ -5979,7 +5958,7 @@ p:Sky Deutschland,C:0,f:8
 LaLiga TV Bar HD
 p:Movistar+,C:0,f:8
 7504:00c00000:0420:0001:25:0:0
-Movistar+ Supercopa HD
+Movistar Copa del Rey HD
 p:Movistar+,C:0,f:8
 7508:00c00000:0420:0001:25:0:0
 #Vamos HD
@@ -8624,6 +8603,54 @@ p:SkyLink,C:0,f:8
 33a0:00eb0000:0c9d:0003:25:0:0
 JOJ 24 HD
 p:SkyLink,C:0,f:8
+1e1e:00eb0000:0c9e:0003:2:0:0
+Ukrayinske Radio
+p:,f:8
+1e20:00eb0000:0c9e:0003:2:0:0
+Radio Promin
+p:,f:8
+1e22:00eb0000:0c9e:0003:2:0:0
+Radio Culture
+p:,f:8
+1e24:00eb0000:0c9e:0003:2:0:0
+RadioTochka
+p:,f:8
+1e26:00eb0000:0c9e:0003:2:0:0
+Voice
+p:,f:8
+1e28:00eb0000:0c9e:0003:2:0:0
+Tysa FM
+p:,f:8
+1e2a:00eb0000:0c9e:0003:2:0:0
+ARMY FM
+p:,f:8
+1e2c:00eb0000:0c9e:0003:2:0:0
+radio nv
+p:TRK ERA,f:8
+1e2e:00eb0000:0c9e:0003:2:0:0
+Golos Kyiva
+p:,f:8
+1e50:00eb0000:0c9e:0003:25:0:0
+Inter HD
+p:,f:8
+1e5a:00eb0000:0c9e:0003:1:0:0
+1+1 International
+p:1plus1 Media,C:0,f:8
+1e5b:00eb0000:0c9e:0003:1:0:0
+1+1 Marafon
+p:1plus1 Media,f:8
+1e64:00eb0000:0c9e:0003:1:0:0
+ICTV
+p:
+1e65:00eb0000:0c9e:0003:1:0:0
+Telekanal STB
+p:
+1e66:00eb0000:0c9e:0003:1:0:0
+Novy Kanal
+p:
+1e6e:00eb0000:0c9e:0003:1:0:0
+Sonce Ukraine
+p:
 1f41:00eb0000:0ca1:0003:25:0:0
 CT 1 HD
 p:SkyLink,C:0,f:8
@@ -9503,45 +9530,6 @@ p:,C:0,f:8
 4eec:00eb0000:0ca8:0003:25:0:0
 Arena Sport 7 HD
 p:,C:0,f:8
-1e1e:00ebaffd:0000:0000:2:0:0
-Ukrayinske Radio
-p:,f:8
-1e20:00ebaffd:0000:0000:2:0:0
-Radio Promin
-p:,f:8
-1e22:00ebaffd:0000:0000:2:0:0
-Radio Culture
-p:,f:8
-1e24:00ebaffd:0000:0000:2:0:0
-RadioTochka
-p:,f:8
-1e26:00ebaffd:0000:0000:2:0:0
-Voice
-p:,f:8
-1e28:00ebaffd:0000:0000:2:0:0
-Tysa FM
-p:,f:8
-1e2a:00ebaffd:0000:0000:2:0:0
-ARMY FM
-p:,f:8
-1e2c:00ebaffd:0000:0000:2:0:0
-radio nv
-p:TRK ERA,f:8
-1e2e:00ebaffd:0000:0000:2:0:0
-Golos Kyiva
-p:,f:8
-1e35:00ebaffd:0000:0000:1:0:0
-Suspilne Kultura
-p:,C:0,f:8
-1e50:00ebaffd:0000:0000:25:0:0
-Inter HD
-p:,f:8
-1e5a:00ebaffd:0000:0000:1:0:0
-1+1 International
-p:1plus1 Media,C:0,f:8
-1e5b:00ebaffd:0000:0000:1:0:0
-1+1 Marafon
-p:1plus1 Media,f:8
 03e8:00ebb104:0001:0001:2:0:0
 OOE 100
 p:KRONEHIT OOE,f:8
@@ -9586,9 +9574,6 @@ Sky Sports Golf HD
 p:Sky Digital,C:0,f:8
 108a:011a0000:07d3:0002:25:0:0
 Sky Sports Golf HD
-p:Sky Digital,C:0,f:8
-13b2:011a0000:07d3:0002:25:0:0
-Amazon Prime Video UK 1
 p:Sky Digital,C:0,f:8
 1410:011a0000:07d3:0002:25:0:0
 Sky Documentaries HD
@@ -9675,7 +9660,7 @@ p:Sky Digital,C:0,f:8
 Sky Sports Main Events
 p:Sky Digital,C:0,f:8
 10ce:011a0000:07dc:0002:1:0:0
-Sky Stunts
+Sky Action
 p:Sky Digital,C:0,f:8
 1133:011a0000:07dc:0002:1:0:0
 Sky Family
@@ -10013,9 +9998,6 @@ p:Sky Digital,f:8
 13e0:011a0000:07e8:0002:25:0:0
 CNBC Europe HD
 p:Sky Digital,f:8
-13f5:011a0000:07e8:0002:25:0:0
-ITV HD
-p:Sky Digital,f:8
 1430:011a0000:07e8:0002:25:0:0
 STV HD
 p:Sky Digital,f:8
@@ -10091,9 +10073,6 @@ p:Sky Digital,C:0,f:8
 1b77:011a0000:07eb:0002:25:0:0
 National Geographic HD UK
 p:Sky Digital,C:0,f:8
-1d4e:011a0000:07eb:0002:25:0:0
-ITV 1 Meridian East HD
-p:Sky Digital,f:8
 148b:011a0000:07ec:0002:2:0:0
 SNR
 p:Sky Digital,f:8
@@ -10143,7 +10122,7 @@ p:Sky Digital,C:0,f:8
 Sky Comedy HD
 p:Sky Digital,C:0,f:8
 177e:011a0000:07ee:0002:25:0:0
-Sky Stunts HD
+Sky Action HD
 p:Sky Digital,C:0,f:8
 1782:011a0000:07ee:0002:25:0:0
 Sky Family HD
@@ -10158,7 +10137,7 @@ p:Sky Digital,C:0,f:8
 Sky Hits HD U.K.
 p:Sky Digital,C:0,f:8
 17ae:011a0000:07ee:0002:25:0:0
-Sky Thriller HD
+Sky Crime HD
 p:Sky Digital,C:0,f:8
 1837:011a0000:07ee:0002:25:0:0
 Sky Animation HD
@@ -10178,9 +10157,6 @@ p:Sky Digital,C:0,f:8
 13b4:011a0000:07f2:0002:25:0:0
 Virgin Four HD
 p:Sky Digital,C:0,f:8
-13f2:011a0000:07f2:0002:25:0:0
-ITV 1 Meridian East HD
-p:Sky Digital,f:8
 1452:011a0000:07f2:0002:25:0:0
 Channel 4 South & East HD
 p:Sky Digital,f:8
@@ -10222,6 +10198,9 @@ HGTV UK
 p:Sky Digital,f:8
 0b68:011a0000:07f3:0002:25:0:0
 Quest
+p:Sky Digital,f:8
+0b6d:011a0000:07f3:0002:25:0:0
+Quest HD
 p:Sky Digital,f:8
 1839:011a0000:07f3:0002:1:0:0
 Discovery Channel
@@ -11223,7 +11202,7 @@ d7a1:011a0000:0840:0002:1:0:0
 That's TV 2
 p:Sky Digital,f:8
 d7a7:011a0000:0840:0002:1:0:0
-That's Fabulous
+That's Oldies
 p:Sky Digital,f:8
 d7ad:011a0000:0840:0002:1:0:0
 PBS America
@@ -11319,5 +11298,5 @@ p:Sky Digital,f:8
 Islam Channel
 p:Sky Digital,f:8
 end
-# 252 transponders and 3520 services.
+# 251 transponders and 3514 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com

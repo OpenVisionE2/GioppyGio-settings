@@ -63,9 +63,6 @@ transponders
 00820000:16a8:fbff
 	s 11881000:27500000:1:3:130:2:0
 /
-00820000:170c:fbff
-	s 11900000:29900000:0:4:130:2:0:1:1:0:2
-/
 00820000:1770:00be
 	s 11919000:29900000:1:2:130:2:0:1:1:2:2
 /
@@ -341,6 +338,9 @@ transponders
 /
 00a02b2e:0001:0001
 	s 11054000:365000:0:2:160:2:0
+/
+00a02bd0:0067:ff23
+	s 11216000:22500000:0:3:160:2:0:1:1:0:2
 /
 00a03113:0001:ffff
 	s 12563000:3703000:0:5:160:2:0
@@ -1475,15 +1475,6 @@ p:Sky Italia,f:8
 0e70:00820000:16a8:fbff:2:0:0
 IEPG Data
 p:Sky Italia,f:8
-101c:00820000:170c:fbff:1:0:0
-Mostri Italiani
-p:Sky Italia,C:0,f:8
-250e:00820000:170c:fbff:1:0:0
-FEED Tempi
-p:SkyItalia,f:8
-2517:00820000:170c:fbff:25:0:0
-Race Control HD Fake
-p:Sky Italia,f:8
 0049:00820000:1770:00be:1:0:0
 La7d HD
 p:TivùSat,f:8
@@ -2439,7 +2430,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Transformers Collection
+Jack Ryan Collection
 p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -4393,7 +4384,7 @@ RVS-Accendi la Speranza
 p:M-Three Satcom Srl,f:8
 0534:00820000:3d54:013e:1:0:0
 Gold TV Italia
-p:M-Three Satcom,c:0007ef,c:0107f0,c:0307ef,c:1607ee,f:8
+p:M-Three Satcom,c:1607ee,f:8
 0538:00820000:3d54:013e:1:0:0
 GEB TV
 p:,f:8
@@ -5351,17 +5342,14 @@ p:A1 Broadcasting,C:0,f:8
 048f:00a00000:76c0:016e:1:0:0
 TLC Czech
 p:A1 Broadcasting,C:0,f:8
-0490:00a00000:76c0:016e:1:0:0
-RTVS 24
-p:A1 Broadcasting,C:0,f:8
+0490:00a00000:76c0:016e:25:0:0
+JOJ Sport 2 HD
+p:A1 Broadcasting,C:0
 0491:00a00000:76c0:016e:1:0:0
 AutoMotorSport HD
 p:A1 Broadcasting,C:0,f:8
 0492:00a00000:76c0:016e:1:0:0
 JOJ 24
-p:A1 Broadcasting,C:0,f:8
-0493:00a00000:76c0:016e:25:0:0
-Prima Zoom HD
 p:A1 Broadcasting,C:0,f:8
 04b1:00a00000:76c1:016e:25:0:0
 Eurosport 2 HD
@@ -5375,9 +5363,9 @@ p:Antik Sat,C:0,f:8
 04b4:00a00000:76c1:016e:25:0:0
 Markiza Klasik HD
 p:A1 Broadcasting,C:0,f:8
-04b5:00a00000:76c1:016e:1:0:0
-Fishing & Hunting
-p:A1 Broadcasting,C:0,f:8
+04b5:00a00000:76c1:016e:25:0:0
+RTVS 24 HD
+p:A1 Broadcasting,C:0
 04b6:00a00000:76c1:016e:1:0:0
 Arcadia World
 p:A1 Broadcasting,C:0,f:8
@@ -5945,6 +5933,27 @@ p:CASTOR BROADCAST,f:8
 53aa:00a02b2e:0001:0001:2:0:0
 Radio 538 TNZ
 p:Broadcast Partners,f:8
+0001:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 1
+p:Tippmix,C:0
+0002:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 2
+p:Tippmix,C:0
+0003:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 3
+p:Tippmix,C:0
+0004:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 4
+p:Tippmix,C:0
+0005:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 15
+p:Tippmix,C:0
+0006:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 16
+p:Tippmix,C:0
+0007:00a02bd0:0067:ff23:25:0:0
+Tippmix élo 7
+p:Tippmix,C:0
 0001:00a03113:0001:ffff:1:0:0
 SIC International
 p:SIC INTERNACIONAL,C:0,f:8
@@ -6481,9 +6490,6 @@ OLDIE ANTENNE
 p:BetaDigital,f:8
 0202:00c00000:0007:0085:1:0:0
 Immer etwas Neues TV
-p:BetaDigital,f:8
-02fd:00c00000:0007:0085:1:0:0
-Pearl.tv
 p:BetaDigital,f:8
 0301:00c00000:0007:0085:1:0:0
 Channel 21
@@ -7049,12 +7055,6 @@ p:ProSiebenSat.1,f:8
 14c0:00c00000:0407:0001:1:0:0
 Kabel 1 Doku Austria
 p:ProSiebenSat.1,f:8
-14c1:00c00000:0407:0001:1:0:0
-Sat.1 Emotions
-p:Austriasat,C:0,f:8
-14c2:00c00000:0407:0001:1:0:0
-Kabel Eins Classics
-p:Austriasat,C:0,f:8
 2774:00c00000:0409:0001:25:0:0
 TLC HD
 p:HD +,C:0,f:8
@@ -7368,7 +7368,7 @@ p:Movistar+,C:0,f:8
 DAZN 2 Bar HD
 p:Movistar+,C:0,f:8
 7584:00c00000:0412:0001:1:0:0
-Movistar+ Supercopa
+Movistar Copa del Rey
 p:Movistar+,C:0,f:8
 7587:00c00000:0412:0001:1:0:0
 Neox
@@ -7392,7 +7392,7 @@ p:Movistar+,C:0,f:8
 LaLiga TV Hypermotion 4
 p:Movistar+,C:0,f:8
 7885:00c00000:0414:0001:1:0:0
-Movistar Navidad Disney
+Movistar+ Los Goya
 p:Movistar+,C:0,f:8
 7888:00c00000:0414:0001:1:0:0
 Boing Spain
@@ -7590,7 +7590,7 @@ p:Sky Deutschland,C:0,f:8
 LaLiga TV Bar HD
 p:Movistar+,C:0,f:8
 7504:00c00000:0420:0001:25:0:0
-Movistar+ Supercopa HD
+Movistar Copa del Rey HD
 p:Movistar+,C:0,f:8
 7508:00c00000:0420:0001:25:0:0
 #Vamos HD
