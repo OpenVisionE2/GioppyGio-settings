@@ -112,7 +112,7 @@ transponders
 	s 12380000:31400000:1:2:90:2:0:1:4:0:2:24:8:0
 /
 005a0000:7918:217c
-	s 12341000:31400000:1:4:90:2:0:1:2:0:2:36:0:0
+	s 12340000:31400000:1:2:90:2:0:1:4:0:2:36:0:0
 /
 005a0000:80e1:217c
 	s 12303000:31400000:1:2:90:2:0:1:4:0:2:21:8:0
@@ -130,7 +130,7 @@ transponders
 	s 11881000:30000000:1:3:90:2:0:1:2:0:2
 /
 005a0000:c3be:009e
-	s 11919000:30000000:1:3:90:2:0:1:2:0:2
+	s 11934000:29700000:1:2:90:2:0:1:2:0:2
 /
 005aaedc:0001:0001
 	s 11996000:27500000:1:3:90:2:0
@@ -182,6 +182,9 @@ transponders
 /
 00820000:1450:013e
 	s 11766000:29900000:1:3:130:2:0:1:2:0:2
+/
+00820000:14b4:013e
+	s 11785000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:1518:013e
 	s 11804000:29700000:1:3:130:2:0:1:2:0:2
@@ -1240,13 +1243,13 @@ Sembach Afternoon Radio
 p:,C:0,f:8
 0065:005a0000:006f:0110:25:0:0
 R101 TV
-p:Mediaset
+p:Mediaset,f:8
 0066:005a0000:006f:0110:25:0:0
 La5
-p:Mediaset
+p:Mediaset,f:8
 0067:005a0000:006f:0110:25:0:0
 Iris
-p:Mediaset
+p:Mediaset,f:8
 0068:005a0000:006f:0110:25:0:0
 Mediaset Italia Due
 p:Mediaset,f:8
@@ -1255,19 +1258,19 @@ p:Mediaset,f:8
 p:Mediaset,f:8
 006b:005a0000:006f:0110:25:0:0
 R101 TV
-p:Mediaset
+p:Mediaset,f:8
 0072:005a0000:006f:0110:25:0:0
 TgCom24
 p:Mediaset,f:8
 0074:005a0000:006f:0110:25:0:0
 Radio 105
-p:Mediaset
+p:Mediaset,f:8
 0079:005a0000:006f:0110:2:0:0
 RADIO 105
-p:Mediaset
+p:Mediaset,f:8
 0097:005a0000:006f:0110:25:0:0
 Radio 105
-p:Mediaset
+p:Mediaset,f:8
 02c8:005a0000:0107:217c:25:0:0
 La7d HD
 p:,f:8
@@ -1489,7 +1492,7 @@ AP Channel
 p:,f:8
 1c22:005a0000:0384:0110:1:0:0
 Plus TV Africa HD
-p:
+p:,f:8
 0065:005a0000:0385:0110:25:0:0
 R101 TV
 p:Mediaset,f:8
@@ -1939,10 +1942,10 @@ Dusk International
 p:Kabelkiosk,C:0,f:8
 0205:005a0000:2134:009c:25:0:0
 MyZen TV HD International
-p:M7 Group,C:0
+p:M7 Group,C:0,f:8
 0206:005a0000:2134:009c:25:0:0
 Museum TV HD International
-p:M7 Group,C:0
+p:M7 Group,C:0,f:8
 0af1:005a0000:28e1:217c:25:0:0
 Trentino TV
 p:,f:8
@@ -2327,6 +2330,9 @@ p:Persidera,f:8
 0064:005a0000:7918:217c:1:0:0
 Canale 235
 p:Persidera,f:8
+0067:005a0000:7918:217c:1:0:0
+Canale 263
+p:Persidera,f:8
 006e:005a0000:7918:217c:25:0:0
 Cusano Italia TV
 p:Persidera,f:8
@@ -2471,6 +2477,9 @@ p:Medialooks,f:8
 265c:005a0000:98e1:217c:25:0:0
 7 Gold Calabria
 p:SETTE GOLD,f:8
+265d:005a0000:98e1:217c:1:0:0
+Digital TV
+p:TELESPAZIO,f:8
 0362:005a0000:c35a:009e:2:0:0
 TRT tamil
 p:A1 Broadcasting,f:8
@@ -2519,6 +2528,9 @@ p:,C:0,f:8
 1838:005a0000:c3be:009e:25:0:0
 Discovery Channel Hungary HD
 p:Discovery,C:0,f:8
+189c:005a0000:c3be:009e:25:0:0
+Discovery Channel Central Europe HD
+p:,C:0
 1900:005a0000:c3be:009e:25:0:0
 Cartoonito Central & East Europe
 p:Warner Bros. Discovery,C:0,f:8
@@ -2666,6 +2678,18 @@ p:IKOMG,f:8
 089c:00820000:01f4:00fc:1:0:0
 Yemen TV
 p:iKOMG,f:8
+089d:00820000:01f4:00fc:1:0:0
+Amazing Facts
+p:iKOMG,f:8
+089e:00820000:01f4:00fc:1:0:0
+Firstlight TV
+p:iKOMG,f:8
+089f:00820000:01f4:00fc:1:0:0
+KICC TV
+p:iKOMG
+08a0:00820000:01f4:00fc:25:0:0
+Teleradiopace TV
+p:iKOMG
 08a6:00820000:01f4:00fc:25:0:0
 Medya Haber
 p:Eutelsat,f:8
@@ -2720,6 +2744,9 @@ p:MuxIP,f:8
 05e5:00820000:0321:013e:25:0:0
 MVMT Movement of Culture
 p:MuxIP,f:8
+05e6:00820000:0321:013e:25:0:0
+AWE
+p:MuxIP
 01f5:00820000:0384:013e:25:0:0
 Iran International HD
 p:ABS,f:8
@@ -3227,6 +3254,9 @@ p:RAI,f:8
 0d7e:00820000:1450:013e:2:0:0
 Rai Radio Slovenia
 p:RAI,f:8
+02c7:00820000:14b4:013e:25:0:0
+Wild TV
+p:MuxIP
 0191:00820000:1518:013e:1:0:0
 MTV 00s
 p:Nova,f:8
@@ -3540,7 +3570,7 @@ p:Sky Italia,C:0,f:8
 Discovery Channel Italy +1
 p:Sky Italia,C:0,f:8
 2c4f:00820000:189c:fbff:1:0:0
-Boomerang +1 Italia
+Barbie Channel
 p:Sky Italia,C:0,f:8
 37b2:00820000:189c:fbff:1:0:0
 Cartoon Network
@@ -4226,9 +4256,6 @@ p:,f:8
 0bc2:00820000:20d0:013e:1:0:0
 Fashion TV
 p:Nimbus,f:8
-0bc5:00820000:20d0:013e:31:0:0
-Love Nature 4K
-p:Polsat Box,c:010c27,C:0,f:9
 0bea:00820000:20d0:013e:31:0:0
 Insight UHD
 p:Polsat Box,f:8
@@ -4329,7 +4356,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Matt Damon Collection
+Dwayne Johnson Collection
 p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -4477,7 +4504,7 @@ Radio Mariam Armenia
 p:,f:8
 0655:00820000:2454:013e:1:0:0
 SRS TV
-p:
+p:,f:8
 0065:00820000:251c:013e:1:0:0
 Travel Channel
 p:Vivacom,C:0,f:8
@@ -5369,9 +5396,6 @@ p:Platforma Canal+,C:0,f:8
 3d56:00820000:2c88:013e:25:0:0
 Motowizja TV HD
 p:Orange Polska,f:8
-3d57:00820000:2c88:013e:25:0:0
-Bizness24 HD
-p:Orange Polska,c:0000a2,c:010058,c:0300a2,f:8
 3d58:00820000:2c88:013e:1:0:0
 TVS - TV Silesia
 p:Platforma Canal+,f:8
@@ -6398,9 +6422,6 @@ p:Bis,f:8
 0133:00820000:3e1c:013f:25:0:0
 Arte HD
 p:Bis,f:8
-0134:00820000:3e1c:013f:1:0:0
-C8
-p:Bis,f:8
 0135:00820000:3e1c:013f:25:0:0
 W9
 p:Bis,f:8
@@ -6412,9 +6433,6 @@ TFX
 p:Bis,f:8
 0137:00820000:3e1c:013f:25:0:0
 TFX
-p:Bis,f:8
-0138:00820000:3e1c:013f:1:0:0
-NRJ 12
 p:Bis,f:8
 0139:00820000:3e1c:013f:25:0:0
 LCP - La Chaîne Parlementaire
@@ -8415,8 +8433,8 @@ p:Canal+ France,C:0,f:8
 Infosport+ HD
 p:Canal+ France,C:0,f:8
 2334:00c00000:0442:0001:25:0:0
-C8 HD
-p:Canal+ France,C:0,f:8
+Touche Pas à Mon Poste
+p:,f:8
 2335:00c00000:0442:0001:25:0:0
 CStar HD
 p:Canal+ France,C:0,f:8
@@ -8624,9 +8642,6 @@ p:Canal+ France,C:0,f:8
 21fd:00c00000:044c:0001:25:0:0
 France 4 HD
 p:Canal+ France,C:0,f:8
-21fe:00c00000:044c:0001:25:0:0
-NatGeo Wild HD France
-p:Canal+ France,C:0,f:8
 21ff:00c00000:044c:0001:1:0:0
 TF1 Séries Films
 p:Canal+ France,C:0,f:8
@@ -8770,9 +8785,6 @@ Algerie 3
 p:TDA,f:8
 2f6c:00c00000:0454:0001:25:0:0
 Cherie 25
-p:Canal+ France,C:0,f:8
-2f71:00c00000:0454:0001:25:0:0
-NRJ 12 HD
 p:Canal+ France,C:0,f:8
 2f9a:00c00000:0454:0001:1:0:0
 SonLife Broadcasting Network
@@ -9116,9 +9128,6 @@ p:RAI,f:8
 0405:0dde0000:0001:217c:1:0:0
 Rai Premium HD
 p:RAI,f:8
-0201:0dde0000:0002:20fa:25:0:0
-C8 HD
-p:NTN,f:8
 0203:0dde0000:0002:20fa:25:0:0
 BFM TV HD
 p:NTN,f:8
@@ -9175,9 +9184,6 @@ NOSTALGIE IDF
 p:towerCast_A,f:8
 0601:0dde0000:0006:20fa:25:0:0
 TF 1
-p:SMR6,f:8
-0602:0dde0000:0006:20fa:25:0:0
-NRJ 12
 p:SMR6,f:8
 0606:0dde0000:0006:20fa:25:0:0
 TMC HD
@@ -10001,9 +10007,6 @@ p:Bis,C:0,f:8
 0194:0dde0000:4fb0:055f:25:0:0
 Arte HD
 p:Bis,C:0,f:8
-01a1:0dde0000:4fb0:055f:25:0:0
-NRJ 12 HD
-p:Bis,C:0,f:8
 01a3:0dde0000:4fb0:055f:25:0:0
 France 5 HD
 p:Bis,C:0,f:8
@@ -10395,5 +10398,5 @@ p:Multi4,f:8
 6ter
 p:Multi4,f:8
 end
-# 249 transponders and 3215 services.
+# 250 transponders and 3215 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com
