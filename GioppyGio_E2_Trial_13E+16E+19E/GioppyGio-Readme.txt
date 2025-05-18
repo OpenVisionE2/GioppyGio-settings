@@ -23,11 +23,21 @@
                                  +------------Ooo-------------+
 
                             Telegram: https://t.me/gioppygiosettings
-                                                           
+
+
+       @************************************************************************@        
+       |                   Comando Telnet per installare il plugin              |
+       |   wget https://gioppygio.it/update_new/gioppygio.py -O - | /usr/bin/python |
+       @************************************************************************@ 
+                                        V.1.0                   
+
+
        @************************************************************************@        
        |                   Comando Telnet per installare il plugin              |
        |   wget https://gioppygio.it/update/gioppygio.py -O - | /usr/bin/python |
        @************************************************************************@        
+
+
                       liste canali sviluppate con l'ausilio di E-Channelizer                                        
                                                                                          
               *****************************************************************               
