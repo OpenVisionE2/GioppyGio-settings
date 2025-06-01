@@ -430,7 +430,7 @@ transponders
 	s 11053000:365000:0:7:160:2:0:1:1:0:2
 /
 00a00000:4e84:016e
-	s 10721000:30000000:0:7:160:2:0:1:2:0:2
+	s 10721000:30000000:0:3:160:2:0:1:2:0:2
 /
 00a00000:4f4c:016e
 	s 10762000:30000000:0:7:160:2:0:1:2:0:2
@@ -1547,6 +1547,9 @@ p:,f:8
 1c26:005a0000:0384:0110:1:0:0
 Nexum Channel
 p:
+1c27:005a0000:0384:0110:1:0:0
+Satisfaction Channel Television
+p:
 0065:005a0000:0385:0110:25:0:0
 R101 TV
 p:Mediaset,f:8
@@ -2627,6 +2630,9 @@ p:ECLUTCH,f:8
 006b:00820000:00c8:013e:25:0:0
 Padel TV
 p:ECLUTCH,f:8
+006c:00820000:00c8:013e:1:0:0
+eClutch Live 2
+p:ECLUTCH,C:0
 3b61:00820000:012c:013e:25:0:0
 Real Time HD Italia
 p:TivùSat,f:8
@@ -2804,12 +2810,6 @@ p:M-Three satcom,f:8
 0215:00820000:0384:013e:25:0:0
 NHK World HD
 p:,f:8
-0217:00820000:0384:013e:25:0:0
-Channel 8 Arabic
-p:,f:8
-0218:00820000:0384:013e:25:0:0
-Channel 8 Kurdish
-p:,f:8
 10dd:00820000:03e8:013e:1:0:0
 Discovery Poland HD
 p:Orange Polska,C:0,f:8
@@ -2860,7 +2860,7 @@ StudioMed TV HD
 p:Platforma Canal+,C:0,f:8
 377d:00820000:044c:013e:25:0:0
 ViDocTV
-p:Orange Polska,C:0,f:8
+p:Platforma Canal+,f:8
 377e:00820000:044c:013e:25:0:0
 Planete+ HD Polska
 p:Orange Polska,C:0,f:8
@@ -2870,9 +2870,6 @@ p:Orange Polska,f:8
 3782:00820000:044c:013e:25:0:0
 Canal+ Seriale HD
 p:Orange Polska,C:0,f:8
-3784:00820000:044c:013e:1:0:0
-TeenNick Poland
-p:Platforma Canal+,f:8
 3784:00820000:044c:013e:25:0:0
 TeenNick Poland
 p:Orange Polska,C:0,f:8
@@ -3065,9 +3062,6 @@ p:Orange Polska,f:8
 13ef:00820000:05dc:013e:25:0:0
 Canal+ Domo HD
 p:Orange Polska,C:0,f:8
-13f2:00820000:05dc:013e:25:0:0
-Kino Polska HD
-p:Orange Polska,C:0,f:8
 13f3:00820000:05dc:013e:25:0:0
 Eleven Sports 1 HD
 p:Orange Polska,C:0,f:8
@@ -3092,6 +3086,15 @@ p:Platforma Canal+,C:0,f:8
 13fa:00820000:05dc:013e:1:0:0
 Eleven Sports 4 HD
 p:Orange Polska,C:0,f:8
+13fb:00820000:05dc:013e:1:0:0
+StudioMed TV HD
+p:Platforma Canal+,C:0,f:8
+13fc:00820000:05dc:013e:1:0:0
+TeenNick Poland
+p:Orange Polska,C:0,f:8
+13fd:00820000:05dc:013e:1:0:0
+ViDocTV
+p:CANAL+
 1418:00820000:05dc:013e:2:0:0
 CANAL+ PR
 p:CANAL+,f:8
@@ -3554,11 +3557,8 @@ p:Sky Italia,C:0,f:8
 0f58:00820000:189c:fbff:1:0:0
 Sky Documentaries +1 HD
 p:Sky Italia,C:0,f:8
-0f5d:00820000:189c:fbff:1:0:0
-Sky Investigation Maratone HD
-p:Sky Italia,C:0,f:8
 0f5d:00820000:189c:fbff:25:0:0
-Sky Investigation Maratone HD
+Sky Investigation +1 HD
 p:Sky Italia,C:0,f:8
 0fbf:00820000:189c:fbff:1:0:0
 DeA Kids +1
@@ -3597,7 +3597,7 @@ p:Sky Italia,C:0,f:8
 Discovery Channel Italy +1
 p:Sky Italia,C:0,f:8
 2c4f:00820000:189c:fbff:1:0:0
-Canale Batwheels
+Boomerang +1 Italia
 p:Sky Italia,C:0,f:8
 37b2:00820000:189c:fbff:1:0:0
 Cartoon Network
@@ -3666,7 +3666,7 @@ p:Sky Italia,f:8
 Bike Channel
 p:SkyItalia,f:8
 1090:00820000:19c8:fbff:1:0:0
-Sky Serie +1 HD
+Sky Serie Maratone HD
 p:Sky Italia,C:0,f:8
 1c38:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
@@ -3705,7 +3705,7 @@ p:Sky Italia,C:0,f:8
 Milan Channel
 p:Sky Italia,C:0,f:8
 37ba:00820000:19c8:fbff:1:0:0
-Sky Uno +1
+Sky Uno +1 HD
 p:Sky Italia,C:0,f:8
 38c4:00820000:19c8:fbff:1:0:0
 Nickelodeon +1 Italia
@@ -4377,8 +4377,11 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Harry Potter Collection HD
+Apocalypse Collection HD
 p:Sky Italia,C:0,f:8
+106c:00820000:2260:fbff:25:0:0
+Alfred Hitchcock Collection HD
+p:Sky Italia,C:0
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
 p:Sky Italia,f:8
@@ -6270,7 +6273,7 @@ p:GLOBECAST,f:8
 Bahrain TV
 p:GLOBECAST,f:8
 0327:00820000:3bc4:013e:25:0:0
-France 24 (en Français)
+France 24 HD (en Francais)
 p:GLOBECAST,f:8
 0328:00820000:3bc4:013e:25:0:0
 France 24 HD (in English)
@@ -7044,7 +7047,7 @@ p:Telekom Srbija,C:0,f:8
 Toxic
 p:Total TV,C:0,f:8
 05ef:00a00000:4e84:016e:1:0:0
-Timeless Dizi Channel
+Niš TV
 p:Total TV,C:0,f:8
 05f0:00a00000:4e84:016e:1:0:0
 TV Hram
@@ -7316,9 +7319,6 @@ p:Digit Alb,C:0,f:8
 10cc:00a00000:51a4:016e:1:0:0
 RTSH Shqip
 p:Digit Alb,C:0,f:8
-10e0:00a00000:51a4:016e:1:0:0
-Klan Macedonia
-p:Digit Alb,C:0,f:8
 10f4:00a00000:51a4:016e:1:0:0
 Kanal 10 Albania
 p:Digit Alb,C:0,f:8
@@ -7394,9 +7394,6 @@ p:Total TV,C:0,f:8
 0559:00a00000:75fb:016e:1:0:0
 KCN Music 2
 p:Total TV,f:8
-055c:00a00000:75fb:016e:1:0:0
-Arena Sport 2 Serbia
-p:Total TV,C:0,f:8
 055d:00a00000:75fb:016e:1:0:0
 SK HD
 p:Total TV,C:0,f:8
@@ -9498,7 +9495,7 @@ p:Movistar+,C:0,f:8
 Movistar Liga Campeones 2
 p:Movistar+,C:0,f:8
 77c4:00c00000:040a:0001:1:0:0
-Movistar Liga Campeones
+DAZN LaLiga 3
 p:Movistar+,C:0,f:8
 77c6:00c00000:040a:0001:1:0:0
 Movistar Clasicos
@@ -9513,7 +9510,7 @@ p:Movistar+,C:0,f:8
 Movistar Deportes 8
 p:Movistar+,C:0,f:8
 77d8:00c00000:040a:0001:1:0:0
-Movistar Liga Campeones 4
+DAZN LaLiga 5
 p:Movistar+,C:0,f:8
 0001:00c00000:040b:0001:31:0:0
 SES UHD Demo
@@ -9765,10 +9762,13 @@ p:Movistar+,C:0,f:8
 Movistar Liga Campeones
 p:Movistar+,C:0,f:8
 757f:00c00000:0412:0001:1:0:0
-Movistar+ Música
+AXN Movies
 p:Movistar+,C:0,f:8
 7582:00c00000:0412:0001:1:0:0
 DAZN 2 Bar HD
+p:Movistar+,C:0,f:8
+7584:00c00000:0412:0001:1:0:0
+Movistar LaLiga 6
 p:Movistar+,C:0,f:8
 7587:00c00000:0412:0001:1:0:0
 Neox
@@ -9785,6 +9785,12 @@ p:HD +,C:0,f:8
 30f2:00c00000:0413:0001:25:0:0
 K-TV Fernsehen HD
 p:SES ASTRA,f:8
+7882:00c00000:0414:0001:1:0:0
+LaLiga TV Bar 10
+p:Movistar+,C:0,f:8
+7884:00c00000:0414:0001:1:0:0
+LaLiga TV Hypermotion 4
+p:Movistar+,C:0
 7885:00c00000:0414:0001:1:0:0
 Movistar Tom Cruise
 p:Movistar+,C:0,f:8
@@ -9797,6 +9803,12 @@ p:Movistar+,C:0,f:8
 788b:00c00000:0414:0001:1:0:0
 Divinity
 p:Movistar+,C:0,f:8
+788c:00c00000:0414:0001:1:0:0
+LaLiga TV Hypermotion 5
+p:Movistar+,C:0
+788d:00c00000:0414:0001:1:0:0
+LaLiga TV Hypermotion 7
+p:Movistar+,C:0
 788f:00c00000:0414:0001:1:0:0
 MTV Spain
 p:Movistar+,C:0,f:8
@@ -9808,6 +9820,9 @@ Be Mad
 p:Movistar+,C:0,f:8
 7892:00c00000:0414:0001:1:0:0
 Movistar LaLiga 4
+p:Movistar+,C:0,f:8
+7894:00c00000:0414:0001:1:0:0
+LaLiga TV Bar 11
 p:Movistar+,C:0,f:8
 7729:00c00000:0416:0001:1:0:0
 Canal Sur Andalucia
@@ -9873,12 +9888,9 @@ p:Movistar+,C:0,f:8
 DAZN LaLiga 2 HD
 p:Movistar+,C:0,f:8
 749e:00c00000:041c:0001:25:0:0
-Canal+ Liga Campeones 2 HD
-p:Movistar+,C:0,f:8
-749e:00c00000:041c:0001:1:0:0
 Movistar Liga Campeones 2
 p:Movistar+,C:0,f:8
-749f:00c00000:041c:0001:1:0:0
+749f:00c00000:041c:0001:25:0:0
 Movistar Liga Campeones 3
 p:Movistar+,C:0,f:8
 74a2:00c00000:041c:0001:25:0:0
@@ -10145,14 +10157,38 @@ p:Movistar+,C:0,f:8
 7539:00c00000:0426:0001:25:0:0
 Movistar Estrenos HD
 p:Movistar+,C:0,f:8
+7820:00c00000:0428:0001:1:0:0
+LaLiga TV Bar 9
+p:Movistar+,C:0,f:8
+7821:00c00000:0428:0001:1:0:0
+LaLiga TV Hypermotion 6
+p:Movistar+,C:0
+7822:00c00000:0428:0001:1:0:0
+LaLiga TV Bar 5
+p:Movistar+,C:0,f:8
+7824:00c00000:0428:0001:1:0:0
+LaLiga TV Bar 6
+p:Movistar+,C:0,f:8
 7825:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion
+p:Movistar+,C:0,f:8
+7829:00c00000:0428:0001:1:0:0
+DAZN LaLiga 4
 p:Movistar+,C:0,f:8
 782a:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion 3
 p:Movistar+,C:0,f:8
+782b:00c00000:0428:0001:1:0:0
+Movistar LaLiga 5
+p:Movistar+,C:0,f:8
+782c:00c00000:0428:0001:1:0:0
+LaLiga TV Bar 7
+p:Movistar+,C:0,f:8
 782d:00c00000:0428:0001:1:0:0
 Movistar Deportes 7
+p:Movistar+,C:0,f:8
+782f:00c00000:0428:0001:1:0:0
+LaLiga TV Bar 8
 p:Movistar+,C:0,f:8
 7830:00c00000:0428:0001:1:0:0
 LaLiga TV Bar 4
@@ -11241,5 +11277,5 @@ p:ARD Digital,f:8
 Radio Bremen TV
 p:ARD Digital,f:8
 end
-# 269 transponders and 3477 services.
+# 269 transponders and 3489 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com
