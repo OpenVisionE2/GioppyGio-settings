@@ -564,6 +564,9 @@ transponders
 00eb0000:0c9e:0003
 	s 12285000:30000000:1:2:235:2:0:1:2:0:2
 /
+00eb0000:0c9f:0003
+	s 12304000:30000000:0:3:235:2:0:1:2:0:2
+/
 00eb0000:0ca1:0003
 	s 12343000:29900000:0:3:235:2:0:1:2:0:2
 /
@@ -691,7 +694,7 @@ transponders
 	s 11582000:23000000:0:2:282:2:0:1:2:0:2
 /
 011a0000:0832:0002
-	s 11597000:22000000:1:4:282:2:0
+	s 11597000:23000000:1:2:282:2:0:1:2:0:2
 /
 011a0000:0833:0002
 	s 11612000:22000000:0:4:282:2:0
@@ -1436,6 +1439,21 @@ p:RAI,f:8
 0d7e:00820000:1450:013e:2:0:0
 Rai Radio Slovenia
 p:RAI,f:8
+02bd:00820000:14b4:013e:25:0:0
+World Poker Tour
+p:MuxIP
+02be:00820000:14b4:013e:25:0:0
+Outdoor Channel EMEA HD
+p:MuxIP,f:8
+02bf:00820000:14b4:013e:25:0:0
+Cricket Gold
+p:MuxIP
+02c3:00820000:14b4:013e:25:0:0
+Sports First
+p:MuxIP
+02c4:00820000:14b4:013e:25:0:0
+Bare Knuckles Fighting Championship
+p:MuxIP
 02c5:00820000:14b4:013e:25:0:0
 MVMT Movement of Culture
 p:MuxIP,f:8
@@ -1701,7 +1719,7 @@ p:Sky Italia,C:0,f:8
 Sky Documentaries +1 HD
 p:Sky Italia,C:0,f:8
 0f5d:00820000:189c:fbff:25:0:0
-Sky Investigation +1 HD
+Sky Investigation Maratone HD
 p:Sky Italia,C:0,f:8
 0fbf:00820000:189c:fbff:1:0:0
 DeA Kids +1
@@ -1809,7 +1827,7 @@ p:Sky Italia,f:8
 Bike Channel
 p:SkyItalia,f:8
 1090:00820000:19c8:fbff:1:0:0
-Sky Serie Maratone HD
+Sky Serie +1 HD
 p:Sky Italia,C:0,f:8
 1c38:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
@@ -2492,9 +2510,9 @@ p:Sky Italia,C:0,f:8
 106e:00820000:2198:fbff:25:0:0
 Sky Cinema Action HD Italia
 p:Sky Italia,f:8
-1c57:00820000:2198:fbff:1:0:0
-Sky Cinema Family HD
-p:Sky Italia,C:0,f:8
+1c57:00820000:2198:fbff:25:0:0
+DreamWorks Collection HD
+p:Sky Italia,C:0
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Golf HD
 p:Sky Italia,f:8
@@ -2520,10 +2538,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Apocalypse Collection HD
-p:Sky Italia,C:0,f:8
-106c:00820000:2260:fbff:25:0:0
-Alfred Hitchcock Collection HD
+Guardie & Ladri Collection
 p:Sky Italia,C:0
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -3857,6 +3872,9 @@ p:Svoboda Satellite,f:8
 0067:00820000:2fa8:013e:25:0:0
 Gordon Live
 p:Svoboda Satellite,f:8
+0068:00820000:2fa8:013e:1:0:0
+Russia's Future
+p:Svoboda Satellite
 006a:00820000:2fa8:013e:25:0:0
 Belarus Tomorrow
 p:Svoboda Satellite,f:8
@@ -4589,6 +4607,9 @@ p:Bis,f:8
 0133:00820000:3e1c:013f:25:0:0
 Arte HD
 p:Bis,f:8
+0134:00820000:3e1c:013f:1:0:0
+T18
+p:Bis,C:0,f:8
 0135:00820000:3e1c:013f:25:0:0
 W9
 p:Bis,f:8
@@ -4601,6 +4622,9 @@ p:Bis,f:8
 0137:00820000:3e1c:013f:25:0:0
 TFX
 p:Bis,f:8
+0138:00820000:3e1c:013f:1:0:0
+Novo 19
+p:,f:8
 0139:00820000:3e1c:013f:25:0:0
 LCP - La Chaîne Parlementaire
 p:Bis,f:8
@@ -5471,9 +5495,6 @@ p:Movistar+,C:0,f:8
 77c3:00c00000:040a:0001:1:0:0
 Movistar Liga Campeones 2
 p:Movistar+,C:0,f:8
-77c4:00c00000:040a:0001:1:0:0
-DAZN LaLiga 3
-p:Movistar+,C:0,f:8
 77c6:00c00000:040a:0001:1:0:0
 Movistar Clasicos
 p:Movistar+,C:0,f:8
@@ -5485,9 +5506,6 @@ Movistar Deportes 5
 p:Movistar+,C:0,f:8
 77c9:00c00000:040a:0001:1:0:0
 Movistar Deportes 8
-p:Movistar+,C:0,f:8
-77d8:00c00000:040a:0001:1:0:0
-DAZN LaLiga 5
 p:Movistar+,C:0,f:8
 0001:00c00000:040b:0001:31:0:0
 SES UHD Demo
@@ -5744,9 +5762,6 @@ p:Movistar+,C:0,f:8
 7582:00c00000:0412:0001:1:0:0
 DAZN 2 Bar HD
 p:Movistar+,C:0,f:8
-7584:00c00000:0412:0001:1:0:0
-Movistar LaLiga 6
-p:Movistar+,C:0,f:8
 7587:00c00000:0412:0001:1:0:0
 Neox
 p:Movistar+,C:0,f:8
@@ -5762,14 +5777,11 @@ p:HD +,C:0,f:8
 30f2:00c00000:0413:0001:25:0:0
 K-TV Fernsehen HD
 p:SES ASTRA,f:8
-7882:00c00000:0414:0001:1:0:0
-LaLiga TV Bar 10
-p:Movistar+,C:0,f:8
 7884:00c00000:0414:0001:1:0:0
 LaLiga TV Hypermotion 4
 p:Movistar+,C:0
 7885:00c00000:0414:0001:1:0:0
-Movistar Tom Cruise
+Movistar Thriller
 p:Movistar+,C:0,f:8
 7888:00c00000:0414:0001:1:0:0
 Boing Spain
@@ -5797,9 +5809,6 @@ Be Mad
 p:Movistar+,C:0,f:8
 7892:00c00000:0414:0001:1:0:0
 Movistar LaLiga 4
-p:Movistar+,C:0,f:8
-7894:00c00000:0414:0001:1:0:0
-LaLiga TV Bar 11
 p:Movistar+,C:0,f:8
 7729:00c00000:0416:0001:1:0:0
 Canal Sur Andalucia
@@ -6134,38 +6143,20 @@ p:Movistar+,C:0,f:8
 7539:00c00000:0426:0001:25:0:0
 Movistar Estrenos HD
 p:Movistar+,C:0,f:8
-7820:00c00000:0428:0001:1:0:0
-LaLiga TV Bar 9
-p:Movistar+,C:0,f:8
 7821:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion 6
 p:Movistar+,C:0
 7822:00c00000:0428:0001:1:0:0
 LaLiga TV Bar 5
 p:Movistar+,C:0,f:8
-7824:00c00000:0428:0001:1:0:0
-LaLiga TV Bar 6
-p:Movistar+,C:0,f:8
 7825:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion
-p:Movistar+,C:0,f:8
-7829:00c00000:0428:0001:1:0:0
-DAZN LaLiga 4
 p:Movistar+,C:0,f:8
 782a:00c00000:0428:0001:1:0:0
 LaLiga TV Hypermotion 3
 p:Movistar+,C:0,f:8
-782b:00c00000:0428:0001:1:0:0
-Movistar LaLiga 5
-p:Movistar+,C:0,f:8
-782c:00c00000:0428:0001:1:0:0
-LaLiga TV Bar 7
-p:Movistar+,C:0,f:8
 782d:00c00000:0428:0001:1:0:0
 Movistar Deportes 7
-p:Movistar+,C:0,f:8
-782f:00c00000:0428:0001:1:0:0
-LaLiga TV Bar 8
 p:Movistar+,C:0,f:8
 7830:00c00000:0428:0001:1:0:0
 LaLiga TV Bar 4
@@ -6317,6 +6308,9 @@ p:Canal+ France,C:0,f:8
 22c6:00c00000:0434:0001:25:0:0
 TV5 Monde FBS HD
 p:Canal+ France,f:8
+22c7:00c00000:0434:0001:25:0:0
+Canal+
+p:Canal+ France,C:0
 22c8:00c00000:0434:0001:25:0:0
 Histoire HD
 p:Canal+ France,C:0,f:8
@@ -6404,9 +6398,6 @@ p:ZDF Vision,f:8
 6d71:00c00000:0437:0001:2:0:0
 Dlf Nova
 p:ZDF Vision,f:8
-2261:00c00000:0438:0001:25:0:0
-Canal+ HD
-p:Canal+ France,C:0,f:8
 2262:00c00000:0438:0001:1:0:0
 Mezzo Live HD
 p:Canal+ France,C:0,f:8
@@ -6592,6 +6583,9 @@ Canal+ Box Office UHD
 p:Canal+ France,C:0,f:8
 232a:00c00000:0442:0001:25:0:0
 National Geographic HD France
+p:Canal+ France,C:0,f:8
+232a:00c00000:0442:0001:1:0:0
+T18
 p:Canal+ France,C:0,f:8
 232b:00c00000:0442:0001:25:0:0
 Canal+ Live 9
@@ -8120,6 +8114,9 @@ p:,f:8
 1e6e:00eb0000:0c9e:0003:1:0:0
 Sonce Ukraine
 p:,f:8
+4f44:00eb0000:0c9f:0003:1:0:0
+V5
+p:Telekom Srbija
 1f41:00eb0000:0ca1:0003:25:0:0
 CT 1 HD
 p:SkyLink,C:0,f:8
@@ -8342,6 +8339,9 @@ p:Towercom,f:8
 1429:00eb0000:0ca2:0003:2:0:0
 VLNA VS
 p:Towercom,f:8
+143c:00eb0000:0ca2:0003:1:0:0
+TBN Ukraine
+p:
 4e84:00eb0000:0ca2:0003:1:0:0
 RTS Nauka
 p:Telekom Srbija,C:0,f:8
@@ -9075,7 +9075,7 @@ p:Sky Digital,C:0
 Sky Action
 p:Sky Digital,C:0,f:8
 1133:011a0000:07dc:0002:1:0:0
-Sky Fairy Tales
+Sky Family
 p:Sky Digital,C:0,f:8
 1134:011a0000:07dc:0002:1:0:0
 Sky Première +1
@@ -9215,9 +9215,6 @@ p:Sky Digital,C:0
 0ffc:011a0000:07e5:0002:25:0:0
 Sky Sports Mix HD
 p:Sky Digital,C:0
-1418:011a0000:07e5:0002:25:0:0
-Sky Comedy HD
-p:Sky Digital,C:0,f:8
 145c:011a0000:07e5:0002:25:0:0
 Sky Crime HD
 p:Sky Digital,C:0
@@ -9516,22 +9513,22 @@ p:Sky Digital,C:0,f:8
 Sky Scifi/Horror HD
 p:Sky Digital,C:0,f:8
 0eeb:011a0000:07ee:0002:25:0:0
-Sky Comedy HD
-p:Sky Digital,C:0,f:8
+Pitch Perfect HD
+p:Sky Digital,C:0
 177e:011a0000:07ee:0002:25:0:0
 Sky Action HD
 p:Sky Digital,C:0,f:8
 1782:011a0000:07ee:0002:25:0:0
-Sky Fairy Tales HD
+Sky Family HD
 p:Sky Digital,C:0,f:8
 1784:011a0000:07ee:0002:25:0:0
-Sky 80s´ HD
+Sky Superhero HD
 p:Sky Digital,C:0,f:8
 1785:011a0000:07ee:0002:25:0:0
 Sky Movies Premiere HD
 p:Sky Digital,C:0,f:8
 1791:011a0000:07ee:0002:25:0:0
-Sky Hits HD U.K.
+Blockbusters HD
 p:Sky Digital,C:0,f:8
 17ae:011a0000:07ee:0002:1:0:0
 Sky Thriller HD
@@ -10158,7 +10155,7 @@ d381:011a0000:0830:0002:1:0:0
 Takbeer TV
 p:Sky Digital
 d387:011a0000:0830:0002:1:0:0
-That's Pride
+That's Dance
 p:Sky Digital
 d395:011a0000:0830:0002:1:0:0
 Aaj Tak
@@ -10719,5 +10716,5 @@ p:Arqiva
 TRP 1 (The Racing Partnership)
 p:,C:0
 end
-# 249 transponders and 3323 services.
+# 250 transponders and 3321 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com
