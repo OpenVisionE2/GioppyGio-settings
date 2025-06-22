@@ -261,9 +261,6 @@ transponders
 00820000:2008:fbff
 	s 12341000:29900000:1:4:130:2:0:1:1:0:2
 /
-00820000:206c:013e
-	s 12360000:27500000:0:3:130:2:0:1:2:0:2
-/
 00820000:20d0:013e
 	s 12380000:30000000:1:4:130:2:0:1:2:0:2
 /
@@ -883,7 +880,7 @@ COSMOTE Series Marathon HD
 p:Cosmote,C:0,f:8
 0418:005a0000:0006:00aa:1:0:0
 MEGA News
-p:Cosmote,C:0
+p:Cosmote,C:0,f:8
 0419:005a0000:0006:00aa:25:0:0
 Pop Up HD
 p:Cosmote,C:0,f:8
@@ -1393,10 +1390,10 @@ Plus TV Africa HD
 p:,f:8
 1c26:005a0000:0384:0110:1:0:0
 Nexum Channel
-p:
+p:,f:8
 1c27:005a0000:0384:0110:1:0:0
 Satisfaction Channel Television
-p:
+p:,f:8
 0065:005a0000:0385:0110:25:0:0
 R101 TV
 p:Mediaset,f:8
@@ -1859,6 +1856,12 @@ p:,f:8
 0afb:005a0000:28e1:217c:1:0:0
 Canale Italia
 p:Canale Italia,f:8
+0afc:005a0000:28e1:217c:25:0:0
+ORF 1 HD
+p:ORF Digital
+0afd:005a0000:28e1:217c:25:0:0
+ORF Sport+ HD
+p:ORF Digital,f:8
 0fa1:005a0000:40e1:217c:25:0:0
 Primocanale HD
 p:Global,f:8
@@ -2476,7 +2479,7 @@ Padel TV
 p:ECLUTCH,f:8
 006c:00820000:00c8:013e:1:0:0
 eClutch Live 2
-p:ECLUTCH,C:0
+p:ECLUTCH,C:0,f:8
 3b61:00820000:012c:013e:25:0:0
 Real Time HD Italia
 p:TivùSat,f:8
@@ -2699,12 +2702,6 @@ p:Orange Polska,C:0,f:8
 377b:00820000:044c:013e:25:0:0
 Canal+ 360
 p:Polsat Box,f:8
-377c:00820000:044c:013e:1:0:0
-StudioMed TV HD
-p:Platforma Canal+,C:0,f:8
-377d:00820000:044c:013e:25:0:0
-ViDocTV
-p:Platforma Canal+,f:8
 377e:00820000:044c:013e:25:0:0
 Planete+ HD Polska
 p:Orange Polska,C:0,f:8
@@ -2713,9 +2710,6 @@ Canal+ Kuchnia HD
 p:Orange Polska,f:8
 3782:00820000:044c:013e:25:0:0
 Canal+ Seriale HD
-p:Orange Polska,C:0,f:8
-3784:00820000:044c:013e:25:0:0
-TeenNick Poland
 p:Orange Polska,C:0,f:8
 378c:00820000:044c:013e:1:0:0
 La Trois
@@ -2938,7 +2932,7 @@ TeenNick Poland
 p:Orange Polska,C:0,f:8
 13fd:00820000:05dc:013e:1:0:0
 ViDocTV
-p:CANAL+
+p:CANAL+,f:8
 1418:00820000:05dc:013e:2:0:0
 CANAL+ PR
 p:CANAL+,f:8
@@ -2980,7 +2974,7 @@ TTV HD
 p:Polsat Box,f:8
 3dd8:00820000:0640:013e:25:0:0
 Travel Channel HD
-p:Polsat Box,f:8
+p:Polsat Box,C:0,f:8
 3dd9:00820000:0640:013e:25:0:0
 The Food Network EMEA HD
 p:Orange Polska,C:0,f:8
@@ -2995,10 +2989,10 @@ BBC Arabic HD
 p:GLOBECAST,f:8
 332f:00820000:1388:013e:25:0:0
 BBC Persian HD
-p:Globecast
+p:Globecast,f:8
 3330:00820000:1388:013e:1:0:0
 BBC News
-p:Globecast
+p:Globecast,f:8
 3331:00820000:1388:013e:1:0:0
 TV5 Monde Europe
 p:Globecast,f:8
@@ -3139,19 +3133,19 @@ Rai Radio Slovenia
 p:RAI,f:8
 02bd:00820000:14b4:013e:25:0:0
 World Poker Tour
-p:MuxIP
+p:MuxIP,f:8
 02be:00820000:14b4:013e:25:0:0
 Outdoor Channel EMEA HD
 p:MuxIP,f:8
 02bf:00820000:14b4:013e:25:0:0
 Cricket Gold
-p:MuxIP
+p:MuxIP,f:8
 02c3:00820000:14b4:013e:25:0:0
 Sports First
-p:MuxIP
+p:MuxIP,f:8
 02c4:00820000:14b4:013e:25:0:0
 Bare Knuckles Fighting Championship
-p:MuxIP
+p:MuxIP,f:8
 02c5:00820000:14b4:013e:25:0:0
 MVMT Movement of Culture
 p:MuxIP,f:8
@@ -3160,7 +3154,7 @@ Wild TV
 p:MuxIP,f:8
 02c8:00820000:14b4:013e:25:0:0
 World Fishing Network
-p:MuxIP
+p:MuxIP,f:8
 0191:00820000:1518:013e:1:0:0
 MTV 00s
 p:Nova,f:8
@@ -3172,7 +3166,7 @@ Cosmote Sport Highlights HD
 p:Nova,C:0,f:8
 0194:00820000:1518:013e:1:0:0
 Travel Channel HD
-p:Nova,f:8
+p:Nova,C:0,f:8
 0195:00820000:1518:013e:25:0:0
 Nat Geo Wild Europe HD
 p:Nova,C:0,f:8
@@ -3293,9 +3287,6 @@ p:Sky Italia,C:0,f:8
 0ded:00820000:1644:fbff:1:0:0
 Sky Sport Business 3
 p:Sky Italia,C:0,f:8
-0df8:00820000:1644:fbff:1:0:0
-Sky Sport Business 4
-p:Sky Italia,C:0,f:8
 10e8:00820000:1644:fbff:1:0:0
 TG24 PrimoPiano
 p:Sky Italia,f:8
@@ -3352,7 +3343,7 @@ Novasports Extra 4 HD
 p:Nova,C:0,f:8
 1bc0:00820000:17d4:013e:1:0:0
 Duck TV
-p:Nova,f:8
+p:Nova,C:0,f:8
 1bc2:00820000:17d4:013e:25:0:0
 Nova Cinema 3
 p:Nova,f:8
@@ -4130,9 +4121,6 @@ p:Sky Italia,C:0,f:8
 0f6f:00820000:2008:fbff:1:0:0
 Sky Sport Info Italia
 p:Sky Italia,C:0,f:8
-05de:00820000:206c:013e:25:0:0
-Arte HD
-p:,f:8
 0bc2:00820000:20d0:013e:1:0:0
 Fashion TV
 p:Nimbus,f:8
@@ -4209,8 +4197,8 @@ p:Sky Italia,C:0,f:8
 Sky Cinema Action HD Italia
 p:Sky Italia,f:8
 1c57:00820000:2198:fbff:25:0:0
-DreamWorks Collection HD
-p:Sky Italia,C:0
+Sky Cinema Family HD
+p:Sky Italia,C:0,f:8
 1e58:00820000:2198:fbff:1:0:0
 Sky Sport Golf HD
 p:Sky Italia,f:8
@@ -4236,8 +4224,8 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Guardie & Ladri Collection
-p:Sky Italia,C:0
+Sci-Fi Collection
+p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
 p:Sky Italia,f:8
@@ -5572,7 +5560,7 @@ Gordon Live
 p:Svoboda Satellite,f:8
 0068:00820000:2fa8:013e:1:0:0
 Russia's Future
-p:Svoboda Satellite
+p:Svoboda Satellite,f:8
 006a:00820000:2fa8:013e:25:0:0
 Belarus Tomorrow
 p:Svoboda Satellite,f:8
@@ -6013,7 +6001,7 @@ Eleven Sports 1 4K
 p:Polsat Box,C:0,f:8
 0711:00820000:32c8:013e:25:0:0
 Karuhaq Ak
-p:Polsat Box,C:0
+p:Polsat Box,C:0,f:8
 1c85:00820000:332c:013e:1:0:0
 Daystar TV Network
 p:,f:8
@@ -6355,25 +6343,25 @@ LCI - La Chaîne Info
 p:Bis,f:8
 0452:00820000:526c:016e:1:0:0
 Viasat History HD
-p:A1 Broadcasting,C:0
+p:A1 Broadcasting,C:0,f:8
 0453:00820000:526c:016e:1:0:0
 Epic Drama HD
-p:A1 Broadcasting,C:0
+p:A1 Broadcasting,C:0,f:8
 0454:00820000:526c:016e:1:0:0
 Viasat Explore HD
-p:A1 Broadcasting,C:0
+p:A1 Broadcasting,C:0,f:8
 0458:00820000:526c:016e:1:0:0
 Epic Drama HD
-p:Total TV,C:0
+p:Total TV,C:0,f:8
 045a:00820000:526c:016e:1:0:0
 Viasat Nature HD
 p:Total TV,C:0,f:8
 045b:00820000:526c:016e:1:0:0
 Viasat Explore HD
-p:Total TV,C:0
+p:Total TV,C:0,f:8
 045c:00820000:526c:016e:1:0:0
 Viasat History HD
-p:Total TV,C:0
+p:Total TV,C:0,f:8
 07d4:008230bb:22c4:013e:25:0:0
 Vatican Media Europa
 p:GLOBECAST  🙏,f:8
@@ -7168,7 +7156,7 @@ QVC Style HD
 p:BetaDigital,f:8
 277e:00c00000:0409:0001:25:0:0
 TLC Austria
-p:BetaDigital,C:0
+p:BetaDigital,C:0,f:8
 77bc:00c00000:040a:0001:1:0:0
 Factoria de Ficcion
 p:Movistar+,C:0,f:8
@@ -7477,7 +7465,7 @@ K-TV Fernsehen HD
 p:SES ASTRA,f:8
 7884:00c00000:0414:0001:1:0:0
 LaLiga TV Hypermotion 4
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 7885:00c00000:0414:0001:1:0:0
 Movistar Thriller
 p:Movistar+,C:0,f:8
@@ -7492,10 +7480,10 @@ Divinity
 p:Movistar+,C:0,f:8
 788c:00c00000:0414:0001:1:0:0
 LaLiga TV Hypermotion 5
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 788d:00c00000:0414:0001:1:0:0
 LaLiga TV Hypermotion 7
-p:Movistar+,C:0
+p:Movistar+,C:0,f:8
 788f:00c00000:0414:0001:1:0:0
 MTV Spain
 p:Movistar+,C:0,f:8
@@ -7617,7 +7605,7 @@ p:Movistar+,C:0,f:8
 Alquiler XY
 p:Movistar+,C:0,f:8
 7696:00c00000:041e:0001:1:0:0
-Movistar Comedia Ñ
+MovistarTodo Chaplin
 p:Movistar+,C:0,f:8
 7697:00c00000:041e:0001:1:0:0
 Nick Junior Spain
@@ -7841,9 +7829,6 @@ p:Movistar+,C:0,f:8
 7539:00c00000:0426:0001:25:0:0
 Movistar Estrenos HD
 p:Movistar+,C:0,f:8
-7821:00c00000:0428:0001:1:0:0
-LaLiga TV Hypermotion 6
-p:Movistar+,C:0
 7822:00c00000:0428:0001:1:0:0
 LaLiga TV Bar 5
 p:Movistar+,C:0,f:8
@@ -8008,7 +7993,7 @@ TV5 Monde FBS HD
 p:Canal+ France,f:8
 22c7:00c00000:0434:0001:25:0:0
 Canal+
-p:Canal+ France,C:0
+p:Canal+ France,C:0,f:8
 22c8:00c00000:0434:0001:25:0:0
 Histoire HD
 p:Canal+ France,C:0,f:8
@@ -8946,5 +8931,5 @@ p:ARD Digital,f:8
 Radio Bremen TV
 p:ARD Digital,f:8
 end
-# 218 transponders and 2763 services.
+# 217 transponders and 2759 services.
 # Created by E-Channelizer v24.0.0.1005 - https://www.echannelizer.com
