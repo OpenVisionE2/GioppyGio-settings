@@ -25,18 +25,18 @@
                             Telegram: https://t.me/gioppygiosettings
 
 
-       @************************************************************************@        
-       |                   Comando Telnet per installare il plugin              |
-       |   wget https://gioppygio.it/update_new/gioppygio.py -O - | /usr/bin/python |
-       @************************************************************************@ 
+       @****************************************************************************************************@        
+       |                         Comando Telnet per installare il plugin                                    |
+       | wget --no-check-certificate https://gioppygio.it/update_new/gioppygio.py -O - | /usr/bin/python3   |
+       @****************************************************************************************************@ 
                                         V.1.0                   
 
 
-       @************************************************************************@        
-       |                   Comando Telnet per installare il plugin              |
-       |   wget https://gioppygio.it/update/gioppygio.py -O - | /usr/bin/python |
-       @************************************************************************@        
-
+       @***********************************************************************************************@        
+       |                        Comando Telnet per installare il plugin                                |
+       |  wget --no-check-certificate https://gioppygio.it/update/gioppygio.py -O - | /usr/bin/python  |
+       @***********************************************************************************************@        
+                                       V.12.5
 
                       liste canali sviluppate con l'ausilio di E-Channelizer                                        
                                                                                          
