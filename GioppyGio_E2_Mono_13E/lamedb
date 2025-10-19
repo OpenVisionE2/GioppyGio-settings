@@ -186,9 +186,6 @@ transponders
 00820000:2c88:013e
 	s 10796000:27500000:1:3:130:2:0:1:2:0:2
 /
-00820000:2db4:013e
-	s 10853000:29900000:0:2:130:2:0:1:2:0:2
-/
 00820000:2e18:00b0
 	s 10873000:27500000:1:3:130:2:0:1:2:0:2
 /
@@ -324,8 +321,8 @@ p:Discovery Science Poland HD,C:0,f:8
 Discovery Turbo Xtra Poland HD
 p:Orange Polska,C:0,f:8
 3b6c:00820000:012c:013e:25:0:0
-Discovery
-p:TVN,C:0,f:8
+Discovery Channel HD Italy
+p:TivùSat,C:0,f:8
 3b6d:00820000:012c:013e:25:0:0
 CNN International HD
 p:Nova,C:0,f:8
@@ -386,6 +383,9 @@ p:iKOMG,f:8
 08a1:00820000:01f4:00fc:1:0:0
 KTV
 p:IKOMG,f:8
+08a2:00820000:01f4:00fc:25:0:0
+Nûçe TV
+p:iKOMG
 08a6:00820000:01f4:00fc:25:0:0
 Medya Haber
 p:Eutelsat,f:8
@@ -454,7 +454,7 @@ People TV
 p:M-Three Satcom,f:8
 0209:00820000:0384:013e:1:0:0
 Baby TV
-p:Orange Polska,C:0
+p:Orange Polska,C:0,f:8
 0215:00820000:0384:013e:25:0:0
 NHK World HD
 p:,f:8
@@ -937,13 +937,13 @@ Cricket Gold
 p:MuxIP,f:8
 02c0:00820000:14b4:013e:25:0:0
 Ayozat TV
-p:MuxIP
+p:MuxIP,f:8
 02c1:00820000:14b4:013e:25:0:0
 One America News
-p:MuxIP
+p:MuxIP,f:8
 02c2:00820000:14b4:013e:25:0:0
 AFV Americas Funniest
-p:MuxIP
+p:MuxIP,f:8
 02c3:00820000:14b4:013e:25:0:0
 Sports First
 p:MuxIP,f:8
@@ -955,7 +955,7 @@ MVMT Movement of Culture
 p:MuxIP,f:8
 02c6:00820000:14b4:013e:25:0:0
 AWE
-p:MuxIP
+p:MuxIP,f:8
 02c7:00820000:14b4:013e:25:0:0
 Wild TV
 p:MuxIP,f:8
@@ -1037,6 +1037,9 @@ p:Nova,C:0,f:8
 013c:00820000:157c:013e:2:0:0
 VOICE OF GREECE
 p:NOVA,f:8
+013e:00820000:157c:013e:1:0:0
+Mega HD
+p:Nova,C:0,f:8
 0142:00820000:157c:013e:25:0:0
 ERT 1 HD
 p:Nova,f:8
@@ -1165,13 +1168,13 @@ Téva
 p:Bis,C:0,f:8
 05bc:00820000:170c:013f:1:0:0
 XXL
-p:TeleSat,C:0
+p:TeleSat,C:0,f:8
 05be:00820000:170c:013f:1:0:0
 Padel Time TV
 p:TeleSat,C:0,f:8
 0049:00820000:1770:00be:1:0:0
 La7 Cinema
-p:TivùSat,f:8
+p:TivùSat,C:0,f:8
 004f:00820000:1770:00be:25:0:0
 La 7 HD
 p:TivùSat,C:0,f:8
@@ -1257,7 +1260,7 @@ p:Sky Italia,C:0,f:8
 Sky Sport 24 HD
 p:Sky Italia,C:0,f:8
 0f5d:00820000:189c:fbff:25:0:0
-Sky Investigation Maratone HD
+Sky Investigation +1 HD
 p:Sky Italia,C:0,f:8
 0f79:00820000:189c:fbff:1:0:0
 Sky Adventure Italia
@@ -1359,7 +1362,7 @@ p:Sky Italia,f:8
 Bike Channel
 p:SkyItalia,f:8
 1090:00820000:19c8:fbff:1:0:0
-Sky Serie +1 HD
+Sky Serie Maratone HD
 p:Sky Italia,C:0,f:8
 1c38:00820000:19c8:fbff:1:0:0
 Sky Cinema Uno +24
@@ -1891,7 +1894,7 @@ Polsat Sport 3
 p:Polsat Box,C:0,f:8
 2914:00820000:1edc:0071:1:0:0
 Mango 24
-p:Polsat Box
+p:Polsat Box,f:8
 2938:00820000:1edc:0071:1:0:0
 Disney Junior Middle-East & Africa
 p:Orange Polska,C:0,f:8
@@ -1937,9 +1940,6 @@ p:Sky Italia,C:0,f:8
 0f6f:00820000:2008:fbff:1:0:0
 Sky Sport Info Italia
 p:Sky Italia,C:0,f:8
-0bc2:00820000:20d0:013e:1:0:0
-Fashion TV
-p:Nimbus,f:8
 0bea:00820000:20d0:013e:31:0:0
 Insight UHD
 p:Polsat Box,f:8
@@ -2034,13 +2034,13 @@ p:Sky Italia,C:0,f:8
 History Channel Italia +1
 p:Sky Italia,C:0,f:8
 0fc6:00820000:2260:fbff:1:0:0
-I Puffi Channel
+Nick Junior +1 Italia
 p:Sky Italia,C:0,f:8
 1020:00820000:2260:fbff:1:0:0
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Trilogia Ocean's Collection HD
+Paola Cortellesi Collection HD
 p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -3170,111 +3170,6 @@ p:Polsat Box,f:8
 3dae:00820000:2c88:013e:2:0:0
 
 p:,f:8
-00c9:00820000:2db4:013e:25:0:0
-Tele Baern
-p:KABELIO.CH,C:0,f:8
-00ca:00820000:2db4:013e:25:0:0
-Tele Basel
-p:KABELIO.CH,C:0,f:8
-00cb:00820000:2db4:013e:25:0:0
-Tele1
-p:KABELIO.CH,C:0,f:8
-00cc:00820000:2db4:013e:25:0:0
-TVO (Switzerland)
-p:KABELIO.CH,C:0,f:8
-00cd:00820000:2db4:013e:25:0:0
-TV Suedost
-p:KABELIO.CH,C:0,f:8
-00ce:00820000:2db4:013e:25:0:0
-Tele M1
-p:KABELIO.CH,C:0,f:8
-00cf:00820000:2db4:013e:25:0:0
-Leman Bleu
-p:KABELIO.CH,C:0,f:8
-00d0:00820000:2db4:013e:25:0:0
-Carac 1
-p:KABELIO.CH,C:0,f:8
-00d3:00820000:2db4:013e:25:0:0
-Swiss 1
-p:KABELIO.CH,C:0,f:8
-00d4:00820000:2db4:013e:25:0:0
-Auftanken.tv
-p:KABELIO.CH,C:0,f:8
-00d5:00820000:2db4:013e:25:0:0
-Blue Zoom Deutsch
-p:KABELIO.CH,C:0,f:8
-00dd:00820000:2db4:013e:25:0:0
-BBC One HD
-p:KABELIO.CH,C:0,f:8
-00de:00820000:2db4:013e:25:0:0
-BBC Two HD
-p:KABELIO.CH,C:0,f:8
-00df:00820000:2db4:013e:25:0:0
-BBC Three HD
-p:KABELIO.CH,C:0,f:8
-00e0:00820000:2db4:013e:25:0:0
-BBC Four HD
-p:KABELIO.CH,C:0,f:8
-00e1:00820000:2db4:013e:25:0:0
-ITV 1 London HD
-p:KABELIO.CH,C:0,f:8
-00e2:00820000:2db4:013e:25:0:0
-ITV 2 HD
-p:KABELIO.CH,C:0,f:8
-00e3:00820000:2db4:013e:25:0:0
-ITV 3 HD
-p:KABELIO.CH,C:0,f:8
-00e4:00820000:2db4:013e:25:0:0
-ITV 4 HD
-p:KABELIO.CH,C:0,f:8
-00e5:00820000:2db4:013e:25:0:0
-Channel 4 HD
-p:KABELIO.CH,C:0,f:8
-00e6:00820000:2db4:013e:25:0:0
-Channel 5 HD
-p:KABELIO.CH,C:0,f:8
-00e7:00820000:2db4:013e:25:0:0
-Film4 HD
-p:KABELIO.CH,C:0,f:8
-00f1:00820000:2db4:013e:25:0:0
-TF 1
-p:KABELIO.CH,C:0,f:8
-00f2:00820000:2db4:013e:25:0:0
-M6 Music
-p:KABELIO.CH,C:0,f:8
-00f3:00820000:2db4:013e:25:0:0
-RTL 9 HD
-p:KABELIO.CH,C:0,f:8
-00fb:00820000:2db4:013e:25:0:0
-Canale 5 HD
-p:KABELIO.CH,C:0,f:8
-00fc:00820000:2db4:013e:25:0:0
-BVN - Beste van Vlaanderen en Nederland
-p:KABELIO.CH,f:8
-00fd:00820000:2db4:013e:25:0:0
-S1 HD Swiss View
-p:KABELIO.CH,C:0,f:8
-00fe:00820000:2db4:013e:25:0:0
-TMC HD Suisse
-p:KABELIO.CH,C:0,f:8
-0100:00820000:2db4:013e:25:0:0
-Sky News International
-p:KABELIO.CH,f:8
-0101:00820000:2db4:013e:1:0:0
-TV8 (Italy)
-p:KABELIO.CH,C:0,f:8
-0101:00820000:2db4:013e:25:0:0
-TV8 HD (Italy)
-p:KABELIO.CH,C:0,f:8
-0104:00820000:2db4:013e:25:0:0
-wedo Movies
-p:KABELIO.CH,f:8
-0105:00820000:2db4:013e:25:0:0
-Wedo Sports
-p:KABELIO.CH,f:8
-0106:00820000:2db4:013e:25:0:0
-Wedo BigStor
-p:KABELIO.CH,f:8
 0001:00820000:2e18:00b0:25:0:0
 Al Maghribia
 p:SNRT,f:8
@@ -3408,7 +3303,7 @@ p:Bis,C:0,f:8
 RMC Découverte
 p:Bis,C:0,f:8
 052d:00820000:2e7c:013f:1:0:0
-Cherie 25
+RMC Life
 p:Bis,C:0,f:8
 052e:00820000:2e7c:013f:1:0:0
 LCI - La Chaîne Info
@@ -3493,7 +3388,7 @@ Russia's Future
 p:Svoboda Satellite,f:8
 0069:00820000:2fa8:013e:1:0:0
 Svoboda+
-p:Svoboda Satellite
+p:Svoboda Satellite,f:8
 006a:00820000:2fa8:013e:25:0:0
 Belarus Tomorrow
 p:Svoboda Satellite,f:8
@@ -4099,7 +3994,7 @@ RTL 102.5 Caliente
 p:M-Three satcom,f:8
 0530:00820000:3d54:013e:25:0:0
 People TV
-p:M-Three Satcom,f:8
+p:PEOPLETV-RETE7,f:8
 0532:00820000:3d54:013e:2:0:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl,f:8
@@ -4257,7 +4152,7 @@ p:Bis,C:0,f:8
 RMC Découverte
 p:Bis,f:8
 0145:00820000:3e1c:013f:1:0:0
-Cherie 25
+RMC Life
 p:Bis,C:0,f:8
 0146:00820000:3e1c:013f:1:0:0
 LCI - La Chaîne Info
@@ -4350,5 +4245,5 @@ p:Vivacom,f:8
 Nat Geo Wild Bulgaria
 p:Vivacom,C:0,f:8
 end
-# 86 transponders and 1363 services.
+# 85 transponders and 1329 services.
 # Created by E-Channelizer v26.0.0.714 - https://www.echannelizer.com
