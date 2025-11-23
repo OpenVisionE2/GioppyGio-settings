@@ -33,9 +33,6 @@ transponders
 005a0000:0065:0012
 	s 11804000:27500000:1:2:90:2:0:1:2:0:2
 /
-005a0000:006f:0110
-	s 12149000:31400000:1:2:90:2:0:1:4:0:2:121:8:0
-/
 005a0000:0107:217c
 	s 12111000:31400000:1:2:90:2:0:1:4:0:2:1:8:0
 /
@@ -1286,12 +1283,6 @@ p:,C:0,f:8
 0094:005a0000:0065:0012:2:0:0
 Sembach Afternoon Radio
 p:,C:0,f:8
-138b:005a0000:006f:0110:2:0:0
-Servizio 3
-p:,f:8
-1392:005a0000:006f:0110:2:0:0
-Servizio Test
-p:,f:8
 02c8:005a0000:0107:217c:25:0:0
 La7 Cinema
 p:,f:8
@@ -1429,6 +1420,12 @@ Real Time HD Italia
 p:Persidera,f:8
 0032:005a0000:0204:001d:25:0:0
 DMAX Italia
+p:Persidera,f:8
+0040:005a0000:0204:001d:25:0:0
+Class CNBC
+p:Persidera,f:8
+0041:005a0000:0204:001d:25:0:0
+Class TV Moda
 p:Persidera,f:8
 0042:005a0000:0204:001d:25:0:0
 Man-Ga
@@ -1937,6 +1934,9 @@ p:SUPERTV,f:8
 07db:005a0000:20e1:217c:25:0:0
 Piu Valli TV
 p:PIU VALLI TV,f:8
+07dc:005a0000:20e1:217c:25:0:0
+Telecolor
+p:TELECOLOR,f:8
 07dd:005a0000:20e1:217c:1:0:0
 Canale 77
 p:Canale Italia,f:8
@@ -2375,9 +2375,9 @@ p:Persidera,f:8
 0059:005a0000:7918:217c:1:0:0
 Canale 162
 p:Persidera,f:8
-005a:005a0000:7918:217c:25:0:0
-Luxury Channel 137
-p:Persidera,f:8
+005a:005a0000:7918:217c:1:0:0
+Gold Invest TV
+p:Persidera
 005c:005a0000:7918:217c:25:0:0
 Canale 237
 p:Persidera,f:8
@@ -2762,6 +2762,9 @@ p:ABS,f:8
 01f7:00820000:0384:013e:25:0:0
 Al Bayyinah TV
 p:,f:8
+01f9:00820000:0384:013e:25:0:0
+MC EU
+p:Itep Pictures,f:8
 01fa:00820000:0384:013e:25:0:0
 Rudaw HD
 p:,f:8
@@ -3380,12 +3383,18 @@ p:NOVA,f:8
 013e:00820000:157c:013e:1:0:0
 Mega HD
 p:Nova,C:0,f:8
+013f:00820000:157c:013e:1:0:0
+Kanali Voulis
+p:Nova
 0142:00820000:157c:013e:25:0:0
 ERT 1 HD
 p:Nova,f:8
 0146:00820000:157c:013e:25:0:0
 Skai
 p:Nova,f:8
+0151:00820000:157c:013e:25:0:0
+Alpha TV HD
+p:Nova,C:0
 0168:00820000:157c:013e:1:0:0
 BNT 4
 p:Nova,f:8
@@ -3518,6 +3527,9 @@ p:TivùSat,C:0,f:8
 004f:00820000:1770:00be:25:0:0
 La 7 HD
 p:TivùSat,C:0,f:8
+005b:00820000:1770:00be:25:0:0
+TV 2000
+p:Sky Italia,C:0,f:8
 0065:00820000:1770:00be:2:0:0
 Radio R101
 p:,f:8
@@ -4259,9 +4271,6 @@ p:NTV,f:8
 39d9:00820000:1fa4:013e:1:0:0
 SonLife Broadcasting Network
 p:ARQIVA LTD,f:8
-39e0:00820000:1fa4:013e:1:0:0
-MC EU
-p:MCEU,f:8
 0df0:00820000:2008:fbff:1:0:0
 Super!
 p:Sky Italia,C:0,f:8
@@ -4365,7 +4374,7 @@ p:Sky Italia,C:0,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:1:0:0
-Transformers Collection HD
+Gangster Collection HD
 p:Sky Italia,C:0,f:8
 10e1:00820000:2260:fbff:1:0:0
 Sky Meteo24
@@ -5678,7 +5687,7 @@ p:COSMONOVA LLC,f:8
 422c:00820000:2f44:013e:1:0:0
 Brazzers TV
 p:Polsat Box,C:0,f:8
-422d:00820000:2f44:013e:1:0:0
+422d:00820000:2f44:013e:25:0:0
 Class TV Moda
 p:M-Three Satcom,f:8
 422e:00820000:2f44:013e:1:0:0
@@ -6053,7 +6062,7 @@ p:GLOBECAST,f:8
 0e83:00820000:3200:013e:25:0:0
 TVP Polonia
 p:MB Satellite,f:8
-0e88:00820000:3200:013e:1:0:0
+0e88:00820000:3200:013e:25:0:0
 MC EU
 p:MB Satellite,f:8
 0e8d:00820000:3200:013e:25:0:0
@@ -6203,6 +6212,9 @@ p:Polsat Box,f:8
 1325:00820000:33f4:013e:25:0:0
 KBS World HD
 p:Corea del Sud,f:8
+1326:00820000:33f4:013e:25:0:0
+CNBC Europe HD
+p:,f:8
 1328:00820000:33f4:013e:1:0:0
 Al Karma
 p:Telespazio,f:8
@@ -6247,9 +6259,6 @@ Qatar TV HD
 p:GLOBECAST,f:8
 031f:00820000:3bc4:013e:25:0:0
 TRT Arabi HD
-p:GLOBECAST,f:8
-0320:00820000:3bc4:013e:25:0:0
-Belarus 24 HD
 p:GLOBECAST,f:8
 0321:00820000:3bc4:013e:25:0:0
 Euronews HD
@@ -7265,11 +7274,11 @@ p:Digit Alb,C:0,f:8
 1324:00a00000:5014:016e:25:0:0
 Film Autor HD
 p:Digit Alb,C:0,f:8
-13d8:00a00000:5014:016e:25:0:0
-KTV Kohavision HD
-p:Digit Alb,C:0,f:8
 0064:00a00000:50dc:016e:1:0:0
 RTV 21 Sat
+p:Digit Alb,C:0,f:8
+0190:00a00000:50dc:016e:25:0:0
+Kohavision
 p:Digit Alb,C:0,f:8
 029e:00a00000:50dc:016e:1:0:0
 IN TV (Albania)
@@ -7385,6 +7394,12 @@ p:Digit Alb,C:0,f:8
 125c:00a00000:51a4:016e:25:0:0
 Animal Planet HD
 p:A1,C:0,f:8
+13f6:00a00000:51a4:016e:25:0:0
+Big Brother VIP Kosova 1
+p:Digit Alb,C:0
+1414:00a00000:51a4:016e:25:0:0
+Big Brother VIP Kosova 2
+p:Digit Alb,C:0
 044d:00a00000:526c:016e:1:0:0
 Viasat Nature CEE
 p:A1 Broadcasting,C:0,f:8
@@ -7948,9 +7963,6 @@ BN Music
 p:Total TV,C:0,f:8
 0080:00a00000:9f60:016e:1:0:0
 Arena Premium 4 HD
-p:Total TV,C:0,f:8
-0081:00a00000:9f60:016e:1:0:0
-TS Media Live
 p:Total TV,C:0,f:8
 0673:00a00000:9fc4:016e:1:0:0
 SK Fight
@@ -8918,14 +8930,11 @@ p:Kabelkiosk,C:0,f:8
 0085:00c00000:0002:0085:1:0:0
 Beate-Uhse.TV
 p:Sky Deutschland,C:0,f:8
-008b:00c00000:0002:0085:25:0:0
+008b:00c00000:0002:0085:1:0:0
 Sky Cinema Family Germany
 p:Sky Deutschland,C:0,f:8
-008d:00c00000:0002:0085:1:0:0
-Sky Sport Mix HD
-p:Sky Deutschland,C:0,f:8
 008d:00c00000:0002:0085:25:0:0
-Sky Sport Mix HD
+Sky Sport Mix
 p:Sky Deutschland,C:0,f:8
 0093:00c00000:0002:0085:25:0:0
 Sky 1 HD Germany
@@ -8963,7 +8972,7 @@ p:Sky Deutschland,C:0,f:8
 0029:00c00000:0004:0085:1:0:0
 Sky Cinema Best Of
 p:Sky Deutschland,C:0,f:8
-0074:00c00000:0004:0085:25:0:0
+0074:00c00000:0004:0085:1:0:0
 Sky Cinema Action HD Germany
 p:Sky Deutschland,C:0,f:8
 0077:00c00000:0004:0085:25:0:0
@@ -8976,7 +8985,7 @@ p:Sky Deutschland,C:0,f:8
 Sky Sport Austria 1 HD
 p:Sky Deutschland,C:0,f:8
 0091:00c00000:0004:0085:25:0:0
-Sky  Sport Premier League HD
+Sky Sport Premier League HD
 p:Sky Deutschland,C:0,f:8
 00dd:00c00000:0004:0085:1:0:0
 Sky Sport Top Event
@@ -9096,7 +9105,7 @@ p:,f:8
 Immer etwas Neues TV
 p:BetaDigital,f:8
 0091:00c00000:0009:0085:25:0:0
-Sky  Sport Premier League HD
+Sky Sport Premier League HD
 p:Sky Deutschland,C:0,f:8
 0105:00c00000:0009:0085:1:0:0
 Sky Sport Austria 7 HD
@@ -9119,9 +9128,6 @@ p:Sky Deutschland,C:0,f:8
 008e:00c00000:000b:0085:1:0:0
 Sky Showcase HD
 p:Sky Deutschland,C:0,f:8
-008e:00c00000:000b:0085:25:0:0
-Sky Showcase Germany
-p:SKY,C:0,f:8
 00a8:00c00000:000b:0085:1:0:0
 Motorvision
 p:Sky Deutschland,C:0,f:8
@@ -9189,7 +9195,7 @@ p:Sky Deutschland,C:0,f:8
 Sky Atlantic HD Germany
 p:Kabelkiosk,C:0,f:8
 006f:00c00000:000d:0085:25:0:0
-Sky Cinema Harry Potter 
+Sky Cinema Highlights
 p:Sky Deutschland,C:0,f:8
 0070:00c00000:000d:0085:25:0:0
 Sky Documentaries HD Germany
@@ -9200,8 +9206,8 @@ p:Sky Deutschland,C:0,f:8
 007f:00c00000:000d:0085:25:0:0
 13th Street HD
 p:Kabelkiosk,C:0,f:8
-0090:00c00000:000d:0085:25:0:0
-Sky Sport Golf HD
+0090:00c00000:000d:0085:1:0:0
+Sky Sport Golf
 p:Sky Deutschland,C:0,f:8
 0149:00c00000:000d:0085:25:0:0
 Sky Sport Austria 2
@@ -9530,6 +9536,9 @@ p:TSA,f:8
 18f4:00c00000:03f4:0001:1:0:0
 Euronews German
 p:GLOBECAST,f:8
+18f5:00c00000:03f4:0001:25:0:0
+CNBC Europe HD
+p:TSA,f:8
 18f6:00c00000:03f4:0001:2:0:0
 NAIZ irratia
 p:TSA,f:8
@@ -10089,8 +10098,8 @@ p:Movistar+,C:0,f:8
 Classica
 p:Movistar+,C:0,f:8
 7579:00c00000:0412:0001:1:0:0
-Movistar Plus+ 2
-p:Movistar+,C:0,f:8
+Movistar Vamos 2
+p:Movistar+,C:0
 757b:00c00000:0412:0001:1:0:0
 Movistar Liga Campeones
 p:Movistar+,C:0,f:8
@@ -10109,9 +10118,6 @@ p:Movistar+,C:0,f:8
 7588:00c00000:0412:0001:1:0:0
 Movistar Plus+
 p:Movistar+,C:0,f:8
-30d4:00c00000:0413:0001:25:0:0
-SAT.1 Gold HD
-p:HD +,C:0,f:8
 30d6:00c00000:0413:0001:25:0:0
 Eurosport 1 HD
 p:HD +,C:0,f:8
@@ -10122,7 +10128,7 @@ p:SES ASTRA,f:8
 LaLiga TV Hypermotion 4
 p:Movistar+,C:0,f:8
 7885:00c00000:0414:0001:1:0:0
-Movistar Terror
+Movistar Nicolas Cage
 p:Movistar+,C:0,f:8
 7888:00c00000:0414:0001:1:0:0
 Boing Spain
@@ -10236,8 +10242,8 @@ p:Movistar+,C:0,f:8
 Movistar LaLiga 3 HD
 p:Movistar+,C:0,f:8
 74a8:00c00000:041c:0001:25:0:0
-Movistar Plus+ 2 HD
-p:Movistar+,C:0,f:8
+Movistar Vamos 2 HD
+p:Movistar+,C:0
 526c:00c00000:041d:0001:25:0:0
 Anixe HD
 p:BetaDigital,f:8
@@ -11027,9 +11033,6 @@ p:Canal+ France,C:0,f:8
 2333:00c00000:0442:0001:1:0:0
 France 3 Nantes
 p:Canal+ France,C:0,f:8
-2334:00c00000:0442:0001:25:0:0
-Touche Pas à Mon Poste
-p:,f:8
 2335:00c00000:0442:0001:25:0:0
 CStar HD
 p:Canal+ France,C:0,f:8
@@ -11303,9 +11306,6 @@ p:,f:8
 6dcf:00c00000:044d:0001:1:0:0
 Genius Exklusiv TV
 p:WISI,f:8
-0fe0:00c00000:0451:0035:1:0:0
-Vivid TV
-p:Canal Digitaal,C:0,f:8
 1005:00c00000:0451:0035:1:0:0
 BVN - Beste van Vlaanderen en Nederland
 p:M7,f:8
@@ -11700,5 +11700,5 @@ p:,f:8
 Daystar HD
 p:Sky Digital,f:8
 end
-# 265 transponders and 3634 services.
+# 264 transponders and 3635 services.
 # Created by E-Channelizer v26.0.0.714 - https://www.echannelizer.com
