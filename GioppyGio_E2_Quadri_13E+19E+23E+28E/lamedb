@@ -13,7 +13,7 @@ transponders
 	s 11334000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:0384:013e
-	s 11373000:27500000:0:3:130:2:0:1:2:0:2
+	s 11372000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:03e8:013e
 	s 11393000:27500000:1:3:130:2:0:1:2:2:2
@@ -222,6 +222,9 @@ transponders
 008230bb:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
 /
+0082aa47:0001:0001
+	s 10823000:3674000:1:3:130:2:0:1:2:0:2
+/
 0082b15b:0000:0000
 	s 12635000:30000000:1:4:130:2:0:1:2:0:2
 /
@@ -359,6 +362,9 @@ transponders
 /
 00c00000:0418:0001
 	s 11185000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:041a:0001
+	s 10729000:23500000:1:3:192:2:0:1:2:0:2
 /
 00c00000:041c:0001
 	s 10758000:22000000:1:2:192:2:0:1:2:0:2
@@ -887,6 +893,9 @@ p:M-Three Satcom Srl,f:8
 0215:00820000:0384:013e:25:0:0
 NHK World HD
 p:,f:8
+0216:00820000:0384:013e:25:0:0
+Bloomberg TV HD Bulgaria
+p:
 10dd:00820000:03e8:013e:1:0:0
 Discovery Poland HD
 p:Orange Polska,C:0,f:8
@@ -1086,7 +1095,7 @@ p:Orange Polska,C:0,f:8
 AMC Poland
 p:Polsat Box,f:8
 3ab9:00820000:0514:013e:1:0:0
-CANAL+ SPORT 5 HD
+Canal+ Sport 5 HD
 p:Orange Polska,f:8
 3abd:00820000:0514:013e:1:0:0
 TVP 1 HD
@@ -1373,9 +1382,6 @@ p:MuxIP,f:8
 02c0:00820000:14b4:013e:25:0:0
 Ayozat TV
 p:MuxIP,f:8
-02c1:00820000:14b4:013e:25:0:0
-One America News
-p:MuxIP,f:8
 02c3:00820000:14b4:013e:25:0:0
 Sports First
 p:MuxIP,f:8
@@ -1384,9 +1390,6 @@ Bare Knuckles Fighting Championship
 p:MuxIP,f:8
 02c5:00820000:14b4:013e:25:0:0
 MVMT Movement of Culture
-p:MuxIP,f:8
-02c6:00820000:14b4:013e:25:0:0
-AWE
 p:MuxIP,f:8
 02c7:00820000:14b4:013e:25:0:0
 Wild TV
@@ -1397,9 +1400,6 @@ p:MuxIP,f:8
 02c9:00820000:14b4:013e:25:0:0
 Wedotv Movies
 p:Amtecco,f:8
-0192:00820000:1518:013e:1:0:0
-MTV Hits
-p:Nova,f:8
 0193:00820000:1518:013e:25:0:0
 Cosmote Sport Highlights HD
 p:Nova,C:0,f:8
@@ -2466,7 +2466,7 @@ p:Sky Italia,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:25:0:0
-Petra Collection
+Trilogia degli Anelli Collection HD
 p:Sky Italia,C:0,f:8
 10fe:00820000:2260:fbff:1:0:0
 Caccia e Pesca
@@ -2683,9 +2683,6 @@ DW-TV (Deutsche Welle)
 p:Vivacom,C:0,f:8
 008e:00820000:251c:013e:1:0:0
 Peretz International
-p:Vivacom,C:0,f:8
-008f:00820000:251c:013e:1:0:0
-Extreme Sports
 p:Vivacom,C:0,f:8
 0092:00820000:251c:013e:25:0:0
 Nova News HD
@@ -2974,9 +2971,6 @@ VIVACOM Arena HD
 p:Vivacom,C:0,f:8
 1390:00820000:2710:013e:1:0:0
 Mediaset Italia
-p:Vivacom,C:0,f:8
-1391:00820000:2710:013e:1:0:0
-MTV Hits
 p:Vivacom,C:0,f:8
 1392:00820000:2710:013e:1:0:0
 Nick Junior
@@ -3602,6 +3596,9 @@ p:Polsat Box,C:0,f:8
 3e2b:00820000:2ee0:013e:25:0:0
 Polsat Sport Extra 3
 p:Polsat Box,C:0,f:8
+3e2c:00820000:2ee0:013e:25:0:0
+PolsatSport Extra 4
+p:Polsat Box,C:0
 3e30:00820000:2ee0:013e:1:0:0
 Cyfrowy Polsat PPV
 p:Polsat Box,f:8
@@ -3641,9 +3638,6 @@ p:M-Three Satcom,f:8
 4236:00820000:2f44:013e:1:0:0
 DIM TV
 p:COSMONOVA LLC,f:8
-4237:00820000:2f44:013e:1:0:0
-Juwelo TV Italia
-p:SCP2100,f:8
 4238:00820000:2f44:013e:25:0:0
 SAT.TV - Hot Bird
 p:,f:8
@@ -4331,6 +4325,9 @@ p:GLOBECAST,C:0,f:8
 0831:008230bb:22c4:013e:25:0:0
 Equidia PRO2 HD
 p:GLOBECAST,C:0,f:8
+f83e:0082aa47:0001:0001:25:0:0
+RMG Dubai HD
+p:Racing UK
 0009:0082b15b:0000:0000:2:0:0
 RADIO 1
 p:NURTS,f:8
@@ -5117,9 +5114,6 @@ p:GLOBECAST,f:8
 307a:00c00000:03f5:0001:31:0:0
 RTL UHD
 p:HD +,C:0,f:8
-2c24:00c00000:03f6:0001:1:0:0
-La 1 UHD
-p:,C:0,f:8
 2c24:00c00000:03f6:0001:31:0:0
 La 1 UHD
 p:Boobles,C:0,f:8
@@ -5780,6 +5774,39 @@ p:Boobles,C:0,f:8
 10d1:00c00000:0418:0001:1:0:0
 ClipMyHorse.TV
 p:Boobles,C:0,f:8
+2c88:00c00000:041a:0001:31:0:0
+La 1 UHD
+p:Boobles,C:0
+2c89:00c00000:041a:0001:1:0:0
+La 2
+p:Boobles,C:0
+2c8a:00c00000:041a:0001:1:0:0
+Canal 24 Horas
+p:Boobles,C:0
+2c8b:00c00000:041a:0001:1:0:0
+Clan TVE
+p:Boobles,C:0
+2c8c:00c00000:041a:0001:1:0:0
+Teledeporte
+p:Boobles,C:0
+2c8d:00c00000:041a:0001:1:0:0
+Trece
+p:Boobles,C:0
+2c8e:00c00000:041a:0001:1:0:0
+Dkiss
+p:Boobles,C:0
+2c8f:00c00000:041a:0001:1:0:0
+A Punt HD
+p:Boobles,C:0
+2c90:00c00000:041a:0001:25:0:0
+ETB 1 HD
+p:Boobles,C:0
+2c91:00c00000:041a:0001:1:0:0
+TPA Asturias HD
+p:Boobles,C:0
+2c92:00c00000:041a:0001:1:0:0
+Canal Sur Andalucia
+p:Boobles,C:0
 749a:00c00000:041c:0001:25:0:0
 Movistar Plus+ HD
 p:Movistar+,C:0,f:8
@@ -6842,9 +6869,6 @@ p:Canal Digitaal,C:0,f:8
 101c:00c00000:0451:0035:25:0:0
 Canal+ Action Nederland
 p:M7 Group,C:0,f:8
-101e:00c00000:0451:0035:1:0:0
-TVRI World
-p:SES,f:8
 101f:00c00000:0451:0035:25:0:0
 Canal+ Action Nederland
 p:M7 Group,C:0,f:8
@@ -7403,9 +7427,6 @@ p:SkyLink,C:0,f:8
 36f3:00eb0000:0c8c:0003:25:0:0
 Viasat True Crime HD Czech
 p:SkyLink,C:0,f:8
-36f4:00eb0000:0c8c:0003:1:0:0
-Duck TV
-p:Canal Digitaal,C:0,f:8
 36f5:00eb0000:0c8c:0003:1:0:0
 Cartoon Network Czech
 p:SkyLink,C:0,f:8
@@ -7420,9 +7441,6 @@ AMC Central Europe HD
 p:SkyLink,C:0,f:8
 36fc:00eb0000:0c8c:0003:1:0:0
 Disney Channel Hungary & Czechia
-p:SkyLink,C:0,f:8
-36fd:00eb0000:0c8c:0003:1:0:0
-Duck TV
 p:SkyLink,C:0,f:8
 36fe:00eb0000:0c8c:0003:1:0:0
 TV Paprika
@@ -9513,13 +9531,13 @@ p:Sky Digital,C:0,f:8
 Sky Family HD
 p:Sky Digital,C:0,f:8
 1784:011a0000:07ee:0002:25:0:0
-Sky Fear Seekers HD
+Sky Decades HD
 p:Sky Digital,C:0,f:8
 1785:011a0000:07ee:0002:25:0:0
 Sky Movies Premiere HD
 p:Sky Digital,C:0,f:8
 1791:011a0000:07ee:0002:25:0:0
-Sky Men In Black HD
+Sky Fast HD
 p:Sky Digital,C:0,f:8
 17ae:011a0000:07ee:0002:25:0:0
 Sky Thriller HD
@@ -9891,7 +9909,7 @@ c789:011a0000:0815:0002:1:0:0
 Nick Jr Ireland
 p:Sky Digital,C:0,f:8
 c78a:011a0000:0815:0002:1:0:0
-Nick Sponge Bob
+Nick Toons
 p:Sky Digital,C:0,f:8
 c78b:011a0000:0815:0002:1:0:0
 Comedy Central +1 UK
@@ -9915,7 +9933,7 @@ c793:011a0000:0815:0002:1:0:0
 Nickelodeon Europe
 p:Sky Digital,C:0,f:8
 c794:011a0000:0815:0002:1:0:0
-Nick Jr Too
+Nick Jr Peppa
 p:Sky Digital,C:0,f:8
 c795:011a0000:0815:0002:1:0:0
 Comedy Central UK
@@ -9997,9 +10015,6 @@ Sony Max UK
 p:Sky Digital,C:0,f:8
 d748:011a0000:082f:0002:1:0:0
 TV Warehouse
-p:Sky Digital,f:8
-d749:011a0000:082f:0002:1:0:0
-Takbeer TV
 p:Sky Digital,f:8
 d74a:011a0000:082f:0002:1:0:0
 Best Direct
@@ -10286,6 +10301,9 @@ p:Sky Digital,f:8
 cf9b:011a0000:083a:0002:25:0:0
 NHK World HD
 p:Freesat,f:8
+cf9c:011a0000:083a:0002:1:0:0
+Takbeer TV
+p:Sky Digital,f:8
 cf9d:011a0000:083a:0002:1:0:0
 Eman Channel
 p:Sky Digital,f:8
@@ -10359,13 +10377,13 @@ p:Sky Digital,f:8
 5 Action
 p:Sky Digital,f:8
 083e:011a0000:083d:0002:1:0:0
-Nick Jr Too Ireland
+Nick Jr Peppa Ireland
 p:Sky Digital,C:0,f:8
 083f:011a0000:083d:0002:1:0:0
 Nickelodeon Europe
 p:Sky Digital,C:0,f:8
 0840:011a0000:083d:0002:1:0:0
-Nick Sponge Bob Ireland
+Nick Toons Ireland
 p:Sky Digital,C:0,f:8
 d034:011a0000:083e:0002:1:0:0
 Great! Mystery
@@ -10568,9 +10586,9 @@ p:Sky Digital,f:8
 2963:011a0000:090b:003b:2:0:0
 talkSPORT Dist
 p:Arqiva,f:8
-2968:011a0000:090b:003b:25:0:0
+2968:011a0000:090b:003b:1:0:0
 TRP 1 (The Racing Partnership)
-p:,C:0,f:8
+p:,f:8
 04b1:011a0000:23f0:013e:25:0:0
 SBC HD
 p:,f:8
@@ -10578,5 +10596,5 @@ p:,f:8
 AL EKhbaria HD
 p:,f:8
 end
-# 238 transponders and 3287 services.
+# 240 transponders and 3291 services.
 # Created by E-Channelizer v26.0.0.714 - https://www.echannelizer.com

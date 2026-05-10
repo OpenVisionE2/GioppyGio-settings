@@ -148,7 +148,7 @@ transponders
 	s 11334000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:0384:013e
-	s 11373000:27500000:0:3:130:2:0:1:2:0:2
+	s 11372000:27500000:0:3:130:2:0:1:2:0:2
 /
 00820000:03e8:013e
 	s 11393000:27500000:1:3:130:2:0:1:2:2:2
@@ -356,6 +356,9 @@ transponders
 /
 008230bb:22c4:013e
 	s 12475000:29900000:0:3:130:2:0:1:2:0:2
+/
+0082aa47:0001:0001
+	s 10823000:3674000:1:3:130:2:0:1:2:0:2
 /
 0082b15b:0000:0000
 	s 12635000:30000000:1:4:130:2:0:1:2:0:2
@@ -630,6 +633,9 @@ transponders
 00c00000:0418:0001
 	s 11185000:22000000:1:2:192:2:0:1:2:0:2
 /
+00c00000:041a:0001
+	s 10729000:23500000:1:3:192:2:0:1:2:0:2
+/
 00c00000:041c:0001
 	s 10758000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -832,9 +838,6 @@ Ginx HD
 p:Cosmote,C:0,f:8
 045a:005a0000:0001:00aa:1:0:0
 MTV Live HD
-p:Cosmote,C:0,f:8
-045f:005a0000:0001:00aa:1:0:0
-MTV Hits
 p:Cosmote,C:0,f:8
 03e9:005a0000:0002:00aa:1:0:0
 AEK SL Pass
@@ -1252,9 +1255,6 @@ Italia 135
 p:Canale Italia,f:8
 0fa2:005a0000:0107:217c:1:0:0
 Donna Sport TV
-p:In Aria!,f:8
-0fa3:005a0000:0107:217c:1:0:0
-Alma TV - Alice & Marcopolo
 p:In Aria!,f:8
 0fa4:005a0000:0107:217c:25:0:0
 TeleCampione
@@ -1781,9 +1781,6 @@ p:GLOBECAST,f:8
 0162:005a0000:19c8:009e:1:0:0
 ORTM 1
 p:,f:8
-0163:005a0000:19c8:009e:1:0:0
-Télé Sahel
-p:GLOBECAST,f:8
 0164:005a0000:19c8:009e:2:0:0
 La Voix Du Sahel
 p:GLOBECAST,f:8
@@ -1949,6 +1946,12 @@ p:,f:8
 0afb:005a0000:28e1:217c:1:0:0
 Canale Italia
 p:Canale Italia,f:8
+0afc:005a0000:28e1:217c:25:0:0
+ORF 1 HD
+p:ORF Digital
+0afd:005a0000:28e1:217c:25:0:0
+ORF Sport+ HD
+p:ORF Digital
 0fa1:005a0000:40e1:217c:25:0:0
 Primocanale HD
 p:Global,f:8
@@ -2684,6 +2687,9 @@ p:M-Three Satcom Srl,f:8
 0215:00820000:0384:013e:25:0:0
 NHK World HD
 p:,f:8
+0216:00820000:0384:013e:25:0:0
+Bloomberg TV HD Bulgaria
+p:
 10dd:00820000:03e8:013e:1:0:0
 Discovery Poland HD
 p:Orange Polska,C:0,f:8
@@ -2883,7 +2889,7 @@ p:Orange Polska,C:0,f:8
 AMC Poland
 p:Polsat Box,f:8
 3ab9:00820000:0514:013e:1:0:0
-CANAL+ SPORT 5 HD
+Canal+ Sport 5 HD
 p:Orange Polska,f:8
 3abd:00820000:0514:013e:1:0:0
 TVP 1 HD
@@ -3170,9 +3176,6 @@ p:MuxIP,f:8
 02c0:00820000:14b4:013e:25:0:0
 Ayozat TV
 p:MuxIP,f:8
-02c1:00820000:14b4:013e:25:0:0
-One America News
-p:MuxIP,f:8
 02c3:00820000:14b4:013e:25:0:0
 Sports First
 p:MuxIP,f:8
@@ -3181,9 +3184,6 @@ Bare Knuckles Fighting Championship
 p:MuxIP,f:8
 02c5:00820000:14b4:013e:25:0:0
 MVMT Movement of Culture
-p:MuxIP,f:8
-02c6:00820000:14b4:013e:25:0:0
-AWE
 p:MuxIP,f:8
 02c7:00820000:14b4:013e:25:0:0
 Wild TV
@@ -3194,9 +3194,6 @@ p:MuxIP,f:8
 02c9:00820000:14b4:013e:25:0:0
 Wedotv Movies
 p:Amtecco,f:8
-0192:00820000:1518:013e:1:0:0
-MTV Hits
-p:Nova,f:8
 0193:00820000:1518:013e:25:0:0
 Cosmote Sport Highlights HD
 p:Nova,C:0,f:8
@@ -4263,7 +4260,7 @@ p:Sky Italia,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:25:0:0
-Petra Collection
+Trilogia degli Anelli Collection HD
 p:Sky Italia,C:0,f:8
 10fe:00820000:2260:fbff:1:0:0
 Caccia e Pesca
@@ -4480,9 +4477,6 @@ DW-TV (Deutsche Welle)
 p:Vivacom,C:0,f:8
 008e:00820000:251c:013e:1:0:0
 Peretz International
-p:Vivacom,C:0,f:8
-008f:00820000:251c:013e:1:0:0
-Extreme Sports
 p:Vivacom,C:0,f:8
 0092:00820000:251c:013e:25:0:0
 Nova News HD
@@ -4771,9 +4765,6 @@ VIVACOM Arena HD
 p:Vivacom,C:0,f:8
 1390:00820000:2710:013e:1:0:0
 Mediaset Italia
-p:Vivacom,C:0,f:8
-1391:00820000:2710:013e:1:0:0
-MTV Hits
 p:Vivacom,C:0,f:8
 1392:00820000:2710:013e:1:0:0
 Nick Junior
@@ -5399,6 +5390,9 @@ p:Polsat Box,C:0,f:8
 3e2b:00820000:2ee0:013e:25:0:0
 Polsat Sport Extra 3
 p:Polsat Box,C:0,f:8
+3e2c:00820000:2ee0:013e:25:0:0
+PolsatSport Extra 4
+p:Polsat Box,C:0
 3e30:00820000:2ee0:013e:1:0:0
 Cyfrowy Polsat PPV
 p:Polsat Box,f:8
@@ -5438,9 +5432,6 @@ p:M-Three Satcom,f:8
 4236:00820000:2f44:013e:1:0:0
 DIM TV
 p:COSMONOVA LLC,f:8
-4237:00820000:2f44:013e:1:0:0
-Juwelo TV Italia
-p:SCP2100,f:8
 4238:00820000:2f44:013e:25:0:0
 SAT.TV - Hot Bird
 p:,f:8
@@ -6128,6 +6119,9 @@ p:GLOBECAST,C:0,f:8
 0831:008230bb:22c4:013e:25:0:0
 Equidia PRO2 HD
 p:GLOBECAST,C:0,f:8
+f83e:0082aa47:0001:0001:25:0:0
+RMG Dubai HD
+p:Racing UK
 0009:0082b15b:0000:0000:2:0:0
 RADIO 1
 p:NURTS,f:8
@@ -6469,7 +6463,7 @@ Arena 7 HD
 p:Max TV,C:0,f:8
 005d:00a00000:0002:0040:1:0:0
 Extreme Sports
-p:Max TV,C:0,f:8
+p:Max TV,C:0
 0064:00a00000:0002:0040:25:0:0
 HRT 2 HD
 p:Max TV,C:0,f:8
@@ -9218,9 +9212,6 @@ p:GLOBECAST,f:8
 307a:00c00000:03f5:0001:31:0:0
 RTL UHD
 p:HD +,C:0,f:8
-2c24:00c00000:03f6:0001:1:0:0
-La 1 UHD
-p:,C:0,f:8
 2c24:00c00000:03f6:0001:31:0:0
 La 1 UHD
 p:Boobles,C:0,f:8
@@ -9881,6 +9872,39 @@ p:Boobles,C:0,f:8
 10d1:00c00000:0418:0001:1:0:0
 ClipMyHorse.TV
 p:Boobles,C:0,f:8
+2c88:00c00000:041a:0001:31:0:0
+La 1 UHD
+p:Boobles,C:0
+2c89:00c00000:041a:0001:1:0:0
+La 2
+p:Boobles,C:0
+2c8a:00c00000:041a:0001:1:0:0
+Canal 24 Horas
+p:Boobles,C:0
+2c8b:00c00000:041a:0001:1:0:0
+Clan TVE
+p:Boobles,C:0
+2c8c:00c00000:041a:0001:1:0:0
+Teledeporte
+p:Boobles,C:0
+2c8d:00c00000:041a:0001:1:0:0
+Trece
+p:Boobles,C:0
+2c8e:00c00000:041a:0001:1:0:0
+Dkiss
+p:Boobles,C:0
+2c8f:00c00000:041a:0001:1:0:0
+A Punt HD
+p:Boobles,C:0
+2c90:00c00000:041a:0001:25:0:0
+ETB 1 HD
+p:Boobles,C:0
+2c91:00c00000:041a:0001:1:0:0
+TPA Asturias HD
+p:Boobles,C:0
+2c92:00c00000:041a:0001:1:0:0
+Canal Sur Andalucia
+p:Boobles,C:0
 749a:00c00000:041c:0001:25:0:0
 Movistar Plus+ HD
 p:Movistar+,C:0,f:8
@@ -10943,9 +10967,6 @@ p:Canal Digitaal,C:0,f:8
 101c:00c00000:0451:0035:25:0:0
 Canal+ Action Nederland
 p:M7 Group,C:0,f:8
-101e:00c00000:0451:0035:1:0:0
-TVRI World
-p:SES,f:8
 101f:00c00000:0451:0035:25:0:0
 Canal+ Action Nederland
 p:M7 Group,C:0,f:8
@@ -11226,5 +11247,5 @@ p:MEDIA BROADCAST,f:8
 DLFK USI1
 p:MB Satellite,f:8
 end
-# 254 transponders and 3487 services.
+# 256 transponders and 3492 services.
 # Created by E-Channelizer v26.0.0.714 - https://www.echannelizer.com
