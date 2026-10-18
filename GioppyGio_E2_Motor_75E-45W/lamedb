@@ -1029,6 +1029,9 @@ transponders
 00ffabac:0004:0000
 	s 11180000:27500000:1:3:255:2:0:1:2:0:2:48:253312:1
 /
+01040000:0001:0001
+	s 10496000:999000:0:7:260:2:1:1:2:0:2
+/
 01040000:0001:0064
 	s 10496000:999000:0:7:260:2:0:1:2:0:2
 /
@@ -1111,7 +1114,7 @@ transponders
 	s 10850000:27500000:0:2:260:2:0:1:2:0:2
 /
 01040000:0802:00e0
-	s 11310000:30000000:1:2:260:2:0:1:2:0:2
+	s 11309000:30000000:1:2:260:2:0:1:2:0:2
 /
 01040000:0816:00e0
 	s 10730000:27500000:1:2:260:2:0:1:2:0:2
@@ -1327,10 +1330,10 @@ transponders
 	s 11265000:27500000:1:2:282:2:0
 /
 011a0000:083d:0002
-	s 11305000:27500000:0:2:282:2:0
+	s 11305000:27500000:0:2:282:2:0:1:2:0:2
 /
 011a0000:083e:0002
-	s 11306000:27500000:1:4:282:2:0
+	s 11306000:27500000:1:2:282:2:0:1:2:0:2
 /
 011a0000:083f:0002
 	s 11344000:27500000:0:2:282:2:0:1:2:0:2
@@ -1721,6 +1724,9 @@ transponders
 /
 02032c56:0003:ff00
 	s 11350000:45000000:0:3:515:2:0:1:2:0:2
+/
+02080000:0001:28ee
+	s 11420000:27500000:1:3:520:2:0:1:1:0:2
 /
 02080000:0003:0001
 	s 11420000:27500000:1:3:520:2:0
@@ -3010,7 +3016,7 @@ Al Rabiaa Iraq
 p:Service Provider
 0001:001e2d9d:0001:ffff:25:0:0
 Imam Ali
-p:IMAM ALI HD
+p:IMAM ALI HD,f:8
 0001:001e2dad:0001:ffff:25:0:0
 Al Ahad HD
 p:Service Provider,C:0
@@ -7371,7 +7377,7 @@ p:Sky Italia,f:8
 Sky Crime Italia
 p:Sky Italia,C:0,f:8
 106c:00820000:2260:fbff:25:0:0
-Anni 90 Collection HD
+Jack Ryan Collection HD
 p:Sky Italia,C:0,f:8
 10fe:00820000:2260:fbff:1:0:0
 Caccia e Pesca
@@ -8177,15 +8183,6 @@ p:Orange Polska,C:0,f:8
 113e:00820000:2af8:013e:1:0:0
 Canal+ Kuchnia HD
 p:Orange Polska,C:0,f:8
-113f:00820000:2af8:013e:1:0:0
-Hustler HD
-p:Nova,C:0,f:8
-1140:00820000:2af8:013e:1:0:0
-Blue Hustler
-p:Platforma Canal+,C:0,f:8
-1141:00820000:2af8:013e:25:0:0
-Private TV HD
-p:Platforma Canal+,C:0,f:8
 1142:00820000:2af8:013e:1:0:0
 TVP Seriale
 p:Orange Polska,C:0,f:8
@@ -13886,6 +13883,9 @@ p:HD +,C:0,f:8
 0802:00c00000:0449:0001:25:0:0
 HGTV HD
 p:,f:8
+080c:00c00000:0449:0001:1:0:0
+CNN International Europe
+p:,f:8
 21ff:00c00000:044c:0001:1:0:0
 TF1 Séries Films
 p:Canal+ France,C:0,f:8
@@ -14195,9 +14195,6 @@ p:ARD Digital,f:8
 6ee1:00c00000:04b1:0001:1:0:0
 Radio Bremen TV
 p:ARD Digital,f:8
-11fb:00c00000:2b5c:013e:1:0:0
-TravelXP 4K
-p:Polsat Box,C:0,f:8
 11fc:00c00000:2b5c:013e:1:0:0
 Museum 4K
 p:Austriasat,C:0,f:8
@@ -14866,9 +14863,6 @@ Cinemax 2 HD
 p:SkyLink,C:0,f:8
 3cf7:00eb0000:0c95:0003:25:0:0
 Film Europe+ HD
-p:SkyLink,C:0,f:8
-3cf8:00eb0000:0c95:0003:25:0:0
-4! Story TV
 p:SkyLink,C:0,f:8
 3cf9:00eb0000:0c95:0003:1:0:0
 Filmbox+ Love & Crime Czech
@@ -16295,6 +16289,12 @@ p:SNRT,f:8
 023c:00ffabac:0004:0000:2:0:0
 Str Alhouceima
 p:SNRT,f:8
+51a5:01040000:0001:0001:25:0:0
+Alikhbariya.sy
+p:EshailSat,f:8
+51a6:01040000:0001:0001:25:0:0
+Alsouriya Tv
+p:EshailSat,f:8
 0001:01040000:0001:0064:25:0:0
 IZ0AXF
 p:2908_IZ0AXF,f:8
@@ -18795,7 +18795,7 @@ p:Sky Digital,C:0,f:8
 Sky Drama HD
 p:Sky Digital,C:0,f:8
 0ee9:011a0000:07ee:0002:25:0:0
-Sky Scifi/Horror HD
+Sky Sci-Fi HD
 p:Sky Digital,C:0,f:8
 0eeb:011a0000:07ee:0002:25:0:0
 Sky Comedy HD
@@ -18816,7 +18816,7 @@ p:Sky Digital,C:0,f:8
 Sky Movies Premiere HD
 p:Sky Digital,C:0,f:8
 1791:011a0000:07ee:0002:25:0:0
-Sky Transformers HD
+Sky Halloween HD
 p:Sky Digital,C:0,f:8
 17ae:011a0000:07ee:0002:25:0:0
 Sky Thriller HD
@@ -19163,17 +19163,11 @@ p:Sky Digital,C:0,f:8
 c52b:011a0000:0813:0002:25:0:0
 Zee TV HD
 p:Sky Digital,C:0,f:8
-c530:011a0000:0813:0002:25:0:0
-Ideal World HD
-p:Sky Digital,f:8
-c532:011a0000:0813:0002:25:0:0
-Must Have Ideas TV
-p:Sky Digital,f:8
-c536:011a0000:0813:0002:25:0:0
-HobbyMaker
-p:Sky Digital,f:8
 c782:011a0000:0815:0002:25:0:0
 Nick Jr Hungary
+p:Sky Digital,C:0,f:8
+c785:011a0000:0815:0002:1:0:0
+MTV Europe
 p:Sky Digital,C:0,f:8
 c787:011a0000:0815:0002:25:0:0
 Comedy Central HD UK
@@ -19472,9 +19466,6 @@ p:Sky Digital,C:0,f:8
 c441:011a0000:0837:0002:25:0:0
 GB News HD
 p:Sky Digital,f:8
-c44b:011a0000:0837:0002:25:0:0
-Premier Sports 1 HD
-p:Sky Digital,C:0,f:8
 c455:011a0000:0837:0002:25:0:0
 Bloomberg UK HD
 p:Sky Digital,f:8
@@ -19670,6 +19661,9 @@ p:Sky Digital,f:8
 d075:011a0000:083e:0002:1:0:0
 GREAT! Action +1
 p:Sky Digital,f:8
+d07a:011a0000:083e:0002:25:0:0
+Sky Movies Premier HD
+p:Sky Digital,C:0,f:8
 d07f:011a0000:083e:0002:1:0:0
 GREAT! TV
 p:Sky Digital,f:8
@@ -23180,6 +23174,9 @@ p:TURKSAT,f:8
 c612:01a40000:c4e1:042e:25:0:0
 TV 100 HD
 p:TURKSAT,f:8
+c613:01a40000:c4e1:042e:25:0:0
+Meltem TV
+p:TURKSAT,f:8
 c62b:01a40000:c4e1:042e:2:0:0
 TVNET RADYO
 p:TURKSAT,f:8
@@ -23497,7 +23494,7 @@ SES Demo HD
 p:,f:8
 0015:01cc2b40:0001:0001:25:0:0
 Al Wasat TV
-p:SV
+p:SV,f:8
 0001:01cc2b57:0000:0000:1:0:0
 1 Arkhi
 p:Vector A.G,f:8
@@ -23656,6 +23653,9 @@ KHL Prime HD
 p:Belintersat,C:0,f:8
 0860:02032bf2:0001:ff00:1:0:0
 Box TV+
+p:Belintersat,C:0,f:8
+0864:02032bf2:0001:ff00:25:0:0
+Ohotnik i Ribolov
 p:Belintersat,C:0,f:8
 0865:02032bf2:0001:ff00:1:0:0
 V gostyakh u skazki HD
@@ -23825,6 +23825,9 @@ p:Belintersat,f:8
 0c29:02032c56:0003:ff00:25:0:0
 Belintersat Promo
 p:Belintersat,f:8
+0016:02080000:0001:28ee:25:0:0
+Balochistan TV
+p:WNS,f:8
 0003:02080000:0003:0001:25:0:0
 Shabakeh7
 p:WNS,f:8
@@ -23860,7 +23863,7 @@ Mohabat TV
 p:WNS,f:8
 0015:02080000:0003:0001:25:0:0
 316 TV
-p:WNS
+p:WNS,f:8
 0001:02080000:0004:0001:25:0:0
 Persiana Sport
 p:Persiana Cast,f:8
@@ -24116,6 +24119,18 @@ p:Älem TV,C:0,f:8
 027e:02080000:020a:0073:25:0:0
 Amedia Premium HD
 p:AREF,C:0,f:8
+027f:02080000:020a:0073:25:0:0
+Dorama
+p:Älem TV,C:0,f:8
+0280:02080000:020a:0073:25:0:0
+Saga HD
+p:Älem TV,C:0,f:8
+0281:02080000:020a:0073:1:0:0
+Kinoliving HD
+p:Älem TV,C:0,f:8
+0282:02080000:020a:0073:25:0:0
+Big Planet HD
+p:Älem TV,C:0,f:8
 02bd:02080000:020b:0073:1:0:0
 Bollywood HD
 p:Älem TV,C:0,f:8
@@ -24134,6 +24149,9 @@ p:Älem TV,C:0,f:8
 02c3:02080000:020b:0073:25:0:0
 Discovery Channel Eastern Europe
 p:Älem TV,C:0,f:8
+02c4:02080000:020b:0073:1:0:0
+Animal Planet
+p:Älem TV,C:0,f:8
 02c5:02080000:020b:0073:1:0:0
 Nick Jr Russia
 p:Älem TV,C:0,f:8
@@ -24144,7 +24162,7 @@ p:Älem TV,C:0,f:8
 Т24
 p:Älem TV,C:0,f:8
 02c8:02080000:020b:0073:1:0:0
-Dom Kino
+domkino
 p:Älem TV,C:0,f:8
 02c9:02080000:020b:0073:1:0:0
 Om Ino Yemim
@@ -24171,8 +24189,8 @@ p:Älem TV,C:0,f:8
 U-TV
 p:Älem TV,C:0,f:8
 02de:02080000:020b:0073:1:0:0
-TNT Myzicalni
-p:Älem TV,C:0,f:8
+FON MUSIC
+p:AREF,C:000b,f:8
 02df:02080000:020b:0073:1:0:0
 Telekanal Zvezda
 p:Älem TV,C:0,f:8
@@ -24194,18 +24212,12 @@ p:Älem TV,C:0,f:8
 02e6:02080000:020b:0073:1:0:0
 Terra
 p:Älem TV,C:0,f:8
-02e7:02080000:020b:0073:1:0:0
-Big Planet HD
-p:Älem TV,C:0,f:8
+02e7:02080000:020b:0073:25:0:0
+QSPORT HD
+p:AREF,f:8
 02e8:02080000:020b:0073:25:0:0
 Biz TV
 p:AREF,f:8
-02e9:02080000:020b:0073:25:0:0
-Biz Music
-p:Älem TV,C:0,f:8
-02ea:02080000:020b:0073:1:0:0
-Biz Cinema
-p:Älem TV,C:0,f:8
 0321:02080000:020c:0073:1:0:0
 Sport-1
 p:Älem TV,C:0,f:8
@@ -24287,9 +24299,6 @@ p:Älem TV,C:0,f:8
 0341:02080000:020c:0073:1:0:0
 Red India HD
 p:Älem TV,C:0,f:8
-0383:02080000:020d:0073:1:0:0
-MY5 Uzbekistan
-p:Älem TV,C:0,f:8
 0384:02080000:020d:0073:1:0:0
 ZOR TV
 p:Älem TV,C:0,f:8
@@ -24340,18 +24349,6 @@ Kineko HD
 p:Älem TV,C:0,f:8
 03a5:02080000:020d:0073:1:0:0
 Sapfir HD
-p:Älem TV,C:0,f:8
-03a6:02080000:020d:0073:1:0:0
-QSport
-p:Älem TV,C:0,f:8
-03a7:02080000:020d:0073:1:0:0
-Dorama
-p:Älem TV,C:0,f:8
-03a8:02080000:020d:0073:1:0:0
-Saga HD
-p:Älem TV,C:0,f:8
-03a9:02080000:020d:0073:1:0:0
-Kinoliving HD
 p:Älem TV,C:0,f:8
 0001:02080000:117e:117e:1:0:0
 Nahade Azadi
@@ -24914,12 +24911,6 @@ p:MENASAT
 0006:02120000:01f4:03e8:1:0:0
 Alternative Shorai TV
 p:MENASAT
-0007:02120000:01f4:03e8:1:0:0
-DWI TV
-p:MENASAT
-0009:02120000:01f4:03e8:1:0:0
-Tigray TV
-p:MENASAT
 000a:02120000:01f4:03e8:2:0:0
 Tigrai Radio
 p:MENASAT
@@ -25082,9 +25073,6 @@ p:GAZPROM_SS
 0015:02260000:000d:0001:2:0:0
 FWcontrol
 p:GAZPROM_SS
-d8cd:02260000:022b:0070:1:0:0
-Blue Hustler
-p:NTV+ Vostok,C:0
 d8ce:02260000:022b:0070:1:0:0
 Bollywood TV Russia
 p:NTV+ Vostok,C:0
@@ -25132,9 +25120,6 @@ Radnoe Kino
 p:NTV+ Vostok,C:0
 d8e3:02260000:022b:0070:1:0:0
 Mir 24
-p:NTV+ Vostok,C:0
-d8e4:02260000:022b:0070:1:0:0
-Mir Basketbola
 p:NTV+ Vostok,C:0
 d8e5:02260000:022b:0070:1:0:0
 Mir Seriala
@@ -25306,7 +25291,7 @@ ddbc:02260000:07f8:00e0:2:0:0
 p:NTV+ Vostok
 dd91:0230b06f:0000:0000:1:0:0
 Blue Hustler
-p:NTV+ Vostok,C:0
+p:NTV+ Vostok,C:0,f:8
 00ad:026c0000:1234:abcd:1:0:0
 Kerman TV
 p:IRIB,f:8
@@ -27038,9 +27023,6 @@ p:,f:8
 1c3b:0dc00000:0048:0001:2:0:0
 Iraqi interior radio
 p:,f:8
-02c9:0dc00000:0049:0800:25:0:0
-FR HD
-p:SABA World,f:8
 1c85:0dc00000:0049:0800:25:0:0
 Al Mawsleya
 p:Nilesat,f:8
@@ -27362,6 +27344,9 @@ p:MY TV,f:8
 1464:0dc00000:0320:5000:25:0:0
 Al Mahdi
 p:MY TV,f:8
+146e:0dc00000:0320:5000:25:0:0
+Al Taleaa TV
+p:MY TV,f:8
 1482:0dc00000:0320:5000:25:0:0
 Marjaeyat 2
 p:MY TV,f:8
@@ -27371,14 +27356,14 @@ p:MY TV,f:8
 14c8:0dc00000:0320:5000:1:0:0
 Libya G+
 p:MY TV,f:8
+14d2:0dc00000:0320:5000:25:0:0
+AL Mawqef
+p:MY TV,f:8
 154a:0dc00000:0320:5000:25:0:0
 Al Aqila TV
 p:MY TV,f:8
 1630:0dc00000:0320:5000:1:0:0
 Falastini.tv
-p:MY TV,f:8
-1644:0dc00000:0320:5000:1:0:0
-Massaya
 p:MY TV,f:8
 164e:0dc00000:0320:5000:25:0:0
 Marina TV HD
@@ -27631,7 +27616,7 @@ KTV Sport Plus HD
 p:MOI,f:8
 166c:0dc00000:759e:077e:25:0:0
 Imam Ali
-p:MY TV
+p:MY TV,f:8
 1d7e:0dc00000:759e:077e:25:0:0
 Libya Plus TV
 p:
@@ -27656,12 +27641,12 @@ p:Gulfsat,f:8
 1e5a:0dc00000:759e:077e:1:0:0
 AmharaSat TV
 p:Gulfsat,f:8
+1e8c:0dc00000:759e:077e:1:0:0
+EI Jumhuria TV
+p:,f:8
 1e96:0dc00000:759e:077e:25:0:0
 Al-Shahed TV HD
 p:Gulfsat,f:8
-1eaa:0dc00000:759e:077e:25:0:0
-Imam Ali
-p:
 01f5:0dc00000:eac4:077e:25:0:0
 Al Jazeera HD
 p:Al Jazeera,f:8
@@ -27784,9 +27769,6 @@ Al Masirah TV
 p:ViewMedia,f:8
 0023:0dc02b57:0008:ffff:1:0:0
 Iraq Future TV
-p:ViewMedia,f:8
-0028:0dc02b57:0008:ffff:1:0:0
-Alons TV
 p:ViewMedia,f:8
 002c:0dc02b57:0008:ffff:1:0:0
 Lumiere TV
@@ -28701,8 +28683,8 @@ p:Nilesat,f:8
 Al Araby 2
 p:Nilesat,f:8
 0b08:0dca0000:001c:0800:25:0:0
-Syria TV HD
-p:Nilesat,f:8
+Alsouriya TV-HD
+p:Nilesat
 0b09:0dca0000:001c:0800:25:0:0
 DamasRadio FM
 p:Nilesat,f:8
@@ -29216,6 +29198,9 @@ p:,f:8
 0264:0dca0000:0c21:006e:1:0:0
 KTO
 p:KTO,f:8
+0265:0dca0000:0c21:006e:1:0:0
+MESat
+p:,f:8
 012e:0dca0000:0c23:006e:25:0:0
 Etihad TV
 p:,f:8
@@ -33639,5 +33624,5 @@ p:Telly,C:0,f:8
 Prima COOL Slovakia
 p:Telly,C:0,f:8
 end
-# 833 transponders and 10379 services.
+# 835 transponders and 10372 services.
 # Created by E-Channelizer v26.0.0.714 - https://www.echannelizer.com
